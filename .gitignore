@@ -7,3 +7,4 @@ public/episodes/*/audio/
 *.mp4
 *.webm
 _voicetest/*.wav
+__pycache__/
