@@ -1,0 +1,961 @@
+{
+ "id": "airport",
+ "slug": "CAKIR_Airport",
+ "title": "The Man Who Lived in an Airport for 18 Years",
+ "subject": "Mehran Karimi Nasseri",
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 0.95
+ },
+ "ttsReplacements": {
+  "Masjed Soleyman": "Masjed Soleiman",
+  "1945": "nineteen forty-five",
+  "1977": "nineteen seventy-seven",
+  "1981": "nineteen eighty-one",
+  "1988": "nineteen eighty-eight",
+  "1993": "nineteen ninety-three",
+  "1998": "nineteen ninety-eight",
+  "1990s": "nineteen nineties",
+  "1970s": "nineteen seventies",
+  "2004": "two thousand and four",
+  "2006": "two thousand and six",
+  "2022": "twenty twenty-two",
+  "$250,000": "two hundred and fifty thousand dollars",
+  "Terminal 2F": "Terminal Two F",
+  "Terminal 1": "Terminal One",
+  "12 November": "the twelfth of November",
+  "Sir Alfred": "Sir Alfred",
+  "DreamWorks": "Dream Works"
+ },
+ "segments": [
+  {
+   "id": "s01_hook",
+   "chapter": "An extraordinary true story",
+   "sentences": [
+    "Paris, 1988.",
+    "Thousands of passengers arrived at Charles de Gaulle Airport, collected their luggage, and continued their journeys.",
+    "But one man stayed.",
+    "His name was Mehran Karimi Nasseri.",
+    "And for the next eighteen years, this airport would become his home.",
+    "His story would one day inspire a Hollywood film.",
+    "The real one is quieter, sadder, and far less certain."
+   ],
+   "sources": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "media",
+     "asset": "roissy_caravelles_1976",
+     "fit": "framed",
+     "printHeight": 720,
+     "rotate": -1.0,
+     "fallback": {
+      "type": "crowd"
+     }
+    },
+    {
+     "from": 1,
+     "type": "media",
+     "asset": "v_landing_cdg",
+     "fallback": {
+      "type": "crowd"
+     }
+    },
+    {
+     "from": 1,
+     "offset": 3.7,
+     "type": "media",
+     "asset": "t1_interior_1978",
+     "fallback": {
+      "type": "crowd"
+     }
+    },
+    {
+     "from": 2,
+     "type": "media",
+     "asset": "nasseri_walkway_2004",
+     "fallback": {
+      "type": "crowd"
+     }
+    },
+    {
+     "from": 3,
+     "type": "media",
+     "asset": "nasseri_portrait_2005",
+     "fit": "framed",
+     "printHeight": 780,
+     "rotate": 0.8,
+     "fallback": {
+      "type": "nameCard",
+      "name": "Mehran Karimi Nasseri",
+      "sub": "c. 1945 – 2022"
+     },
+     "printOffsetX": 230
+    },
+    {
+     "from": 4,
+     "type": "media",
+     "asset": "t1_exterior_2018",
+     "fallback": {
+      "type": "terminal",
+      "caption": "Terminal 1",
+      "note": "Illustrative diagram"
+     }
+    },
+    {
+     "from": 4,
+     "offset": 2.1,
+     "type": "media",
+     "asset": "t1_lounge_2006",
+     "kenBurns": "out",
+     "fallback": {
+      "type": "crowd"
+     }
+    },
+    {
+     "from": 5,
+     "type": "filmCard",
+     "title": "THE TERMINAL",
+     "year": "2004",
+     "lines": [
+      "A Hollywood film"
+     ],
+     "note": "Loosely inspired by his story"
+    },
+    {
+     "from": 6,
+     "type": "title",
+     "bg": "t1_tubes_2018",
+     "title": "The Man Who Lived\nin an Airport",
+     "kicker": "A CAKIR documentary"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "stamp",
+     "at": 0,
+     "text": "PARIS · ROISSY–CHARLES DE GAULLE"
+    },
+    {
+     "type": "lowerThird",
+     "at": 3,
+     "text": "Mehran Karimi Nasseri",
+     "sub": "Lived at Charles de Gaulle Airport, 1988–2006",
+     "onlyWithAsset": "nasseri_portrait_2005",
+     "duration": 3.0
+    }
+   ]
+  },
+  {
+   "id": "s02_who",
+   "chapter": "Who was Mehran Karimi Nasseri?",
+   "sentences": [
+    "Nasseri was born in Iran, most likely in 1945, in the oil town of Masjed Soleyman.",
+    "Much of what we know about his early life comes from his own telling, and his telling changed over the years.",
+    "He said he had studied in England in the 1970s.",
+    "He said he had been expelled from Iran in 1977, after protesting against the Shah.",
+    "At different times, he said his mother was Scottish, or Swedish. Neither claim was ever confirmed.",
+    "Journalists who later looked into his past questioned parts of that account.",
+    "What is better documented is this: in 1981, he was recognized as a refugee in Belgium.",
+    "For several years, he lived there, and travelled in Europe."
+   ],
+   "sources": [
+    "S4",
+    "S5",
+    "S6",
+    "S7"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "map",
+     "view": "iran",
+     "points": [
+      "masjed"
+     ],
+     "routes": [],
+     "caption": "Masjed Soleyman, Iran"
+    },
+    {
+     "from": 1,
+     "type": "statement",
+     "text": "Much of his early life is known only from his own account.",
+     "note": "Accounts differ"
+    },
+    {
+     "from": 2,
+     "type": "timeline",
+     "start": 1940,
+     "end": 2025,
+     "markers": [
+      {
+       "year": 1945,
+       "label": "Born (reported)"
+      },
+      {
+       "year": 1977,
+       "label": "Says he was expelled",
+       "disputed": true
+      },
+      {
+       "year": 1981,
+       "label": "Refugee status, Belgium"
+      }
+     ],
+     "highlight": [
+      1945,
+      1981
+     ]
+    },
+    {
+     "from": 6,
+     "type": "map",
+     "view": "europe_iran",
+     "points": [
+      "masjed",
+      "brussels"
+     ],
+     "routes": [
+      [
+       "masjed",
+       "brussels"
+      ]
+     ],
+     "caption": "1981 · Refugee status recognized in Belgium"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "disputed",
+     "at": 3,
+     "text": "Claim disputed by later reporting"
+    }
+   ]
+  },
+  {
+   "id": "s03_papers",
+   "chapter": "The missing papers",
+   "sentences": [
+    "Then, in 1988, he set out for Britain.",
+    "What happened next depends on whose account you read.",
+    "In the version most often reported, his passport and his refugee certificate were stolen along the way.",
+    "In other versions, he sent the papers away himself.",
+    "Either way, he arrived in England without them.",
+    "British officials refused him entry and returned him to the airport he had flown from: Charles de Gaulle.",
+    "In France, he now had a problem with no simple solution.",
+    "He could not prove who he was.",
+    "And so, in August 1988, a man without papers sat down in Terminal 1."
+   ],
+   "sources": [
+    "S1",
+    "S4",
+    "S5",
+    "S8"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "map",
+     "view": "channel",
+     "points": [
+      "brussels",
+      "cdg",
+      "lhr"
+     ],
+     "routes": [
+      [
+       "brussels",
+       "cdg"
+      ],
+      [
+       "cdg",
+       "lhr"
+      ]
+     ],
+     "caption": "1988 · Bound for Britain"
+    },
+    {
+     "from": 1,
+     "type": "documents",
+     "items": [
+      [
+       "Passport",
+       "MISSING"
+      ],
+      [
+       "Refugee certificate",
+       "MISSING"
+      ]
+     ],
+     "note": "Accounts differ on how the papers were lost"
+    },
+    {
+     "from": 5,
+     "type": "map",
+     "view": "channel",
+     "points": [
+      "cdg",
+      "lhr"
+     ],
+     "routes": [
+      [
+       "lhr",
+       "cdg"
+      ]
+     ],
+     "refused": "lhr",
+     "caption": "Refused entry · Returned to Paris"
+    },
+    {
+     "from": 7,
+     "type": "media",
+     "asset": "broll_terminal_corridor",
+     "fallback": {
+      "type": "statement",
+      "text": "He could not prove who he was.",
+      "note": ""
+     }
+    },
+    {
+     "from": 8,
+     "type": "terminal",
+     "caption": "Charles de Gaulle · Terminal 1",
+     "note": "Illustrative diagram"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "stamp",
+     "at": 8,
+     "text": "TERMINAL 1 · AUGUST 1988"
+    }
+   ]
+  },
+  {
+   "id": "s04_home",
+   "chapter": "How an airport became his home",
+   "sentences": [
+    "It is often said that he was trapped in a sealed transit zone.",
+    "That is not quite right.",
+    "Reports place him in a public area of the terminal, where travellers, cleaners and police walked past him every day.",
+    "He was not locked in.",
+    "What held him in place was paperwork.",
+    "Weeks became months.",
+    "Months became years.",
+    "His case moved slowly between lawyers, officials and governments.",
+    "And as it did, a bench in Terminal 1 became an address."
+   ],
+   "sources": [
+    "S1",
+    "S2",
+    "S4"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "myth",
+     "myth": "Trapped in a sealed transit zone",
+     "fact": "Lived in a public area of Terminal 1"
+    },
+    {
+     "from": 2,
+     "type": "media",
+     "asset": "broll_terminal_interior",
+     "fallback": {
+      "type": "crowd"
+     }
+    },
+    {
+     "from": 4,
+     "type": "documents",
+     "items": [
+      [
+       "Identity",
+       "UNPROVEN"
+      ],
+      [
+       "Entry to France",
+       "UNRESOLVED"
+      ],
+      [
+       "Return to Belgium",
+       "UNRESOLVED"
+      ]
+     ],
+     "note": "A legal limbo, not a locked room"
+    },
+    {
+     "from": 5,
+     "type": "counter",
+     "fromDate": "1988-08-26",
+     "toDate": "1995-01-01",
+     "label": "Days in the terminal"
+    },
+    {
+     "from": 8,
+     "type": "media",
+     "asset": "broll_empty_bench",
+     "fallback": {
+      "type": "terminal",
+      "caption": "Terminal 1 · Departures level",
+      "note": "Illustrative diagram",
+      "focus": true
+     }
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "s05_daily",
+   "chapter": "Life inside the terminal",
+   "sentences": [
+    "His routine was precise.",
+    "He washed and shaved each day in the public bathrooms.",
+    "He kept his belongings close: a luggage trolley, boxes and bags, stacked carefully beside a red bench.",
+    "He read newspapers and magazines.",
+    "He studied economics.",
+    "And he wrote, every day, in a diary he kept for years.",
+    "Airport workers came to know him well.",
+    "Some brought him food. Some brought him newspapers.",
+    "The airport doctor gave him paper to write on.",
+    "To them, he became a familiar figure, and he took on a new name: Sir Alfred."
+   ],
+   "sources": [
+    "S9",
+    "S10",
+    "S4"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "media",
+     "asset": "nasseri_walkway_2004",
+     "fallback": {
+      "type": "routine",
+      "items": [
+       "Wash",
+       "Shave",
+       "Read",
+       "Study",
+       "Write"
+      ]
+     }
+    },
+    {
+     "from": 2,
+     "type": "media",
+     "asset": "broll_luggage",
+     "fallback": {
+      "type": "statement",
+      "text": "A luggage trolley. Boxes. Bags. A red bench.",
+      "note": ""
+     }
+    },
+    {
+     "from": 3,
+     "type": "routine",
+     "items": [
+      "Newspapers",
+      "Magazines",
+      "Economics",
+      "The diary"
+     ]
+    },
+    {
+     "from": 6,
+     "type": "media",
+     "asset": "broll_terminal_staff",
+     "fallback": {
+      "type": "crowd"
+     }
+    },
+    {
+     "from": 9,
+     "type": "nameCard",
+     "name": "Sir Alfred",
+     "sub": "The name he adopted at the airport"
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "s06_media",
+   "chapter": "The world takes notice",
+   "sentences": [
+    "By the 1990s, the man on the bench had become a story.",
+    "Journalists from around the world came to Terminal 1 to interview him.",
+    "Photographers made his portrait among the passengers and departure boards.",
+    "His life inspired a French film, Lost in Transit, in 1993, and an English opera, Flight, in 1998.",
+    "He answered questions politely, and patiently.",
+    "In 2004, a journalist writing for The Guardian spent time with him, and found that key parts of the story he told could not be confirmed.",
+    "But the more he was asked about his past, the less settled that past became."
+   ],
+   "sources": [
+    "S4",
+    "S11",
+    "S12"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "media",
+     "asset": "broll_departure_board",
+     "fallback": {
+      "type": "board",
+      "mode": "departures",
+      "rows": [
+       [
+        "1990",
+        "LE MONDE",
+        "INTERVIEW"
+       ],
+       [
+        "1992",
+        "TELEVISION",
+        "INTERVIEW"
+       ],
+       [
+        "1995",
+        "WIRE SERVICES",
+        "PROFILE"
+       ],
+       [
+        "1998",
+        "MAGAZINES",
+        "PROFILE"
+       ],
+       [
+        "2003",
+        "FILM CREWS",
+        "VISIT"
+       ],
+       [
+        "2004",
+        "WORLD PRESS",
+        "FEATURE"
+       ]
+      ],
+      "illustrative": true
+     }
+    },
+    {
+     "from": 2,
+     "type": "media",
+     "asset": "nasseri_portrait_2005",
+     "fallback": {
+      "type": "nameCard",
+      "name": "Mehran Karimi Nasseri",
+      "sub": "Terminal 1, Charles de Gaulle"
+     },
+     "fit": "framed"
+    },
+    {
+     "from": 3,
+     "type": "works",
+     "items": [
+      {
+       "year": 1993,
+       "title": "Lost in Transit",
+       "kind": "Film · France (Tombés du ciel)"
+      },
+      {
+       "year": 1998,
+       "title": "Flight",
+       "kind": "Opera · United Kingdom"
+      }
+     ]
+    },
+    {
+     "from": 5,
+     "type": "statement",
+     "text": "Key parts of his story could not be confirmed.",
+     "note": "The Guardian, 2004"
+    },
+    {
+     "from": 6,
+     "type": "statement",
+     "text": "The more he was asked about his past, the less settled it became.",
+     "note": ""
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "s07_terminal",
+   "chapter": "The Hollywood connection",
+   "sentences": [
+    "In 2004, the story reached Hollywood.",
+    "Steven Spielberg's film The Terminal starred Tom Hanks as Viktor Navorski, a traveller stranded at a New York airport.",
+    "The film was not a biography.",
+    "It moved the story to America and invented its own hero.",
+    "But DreamWorks had acquired the rights to Nasseri's story, for a sum widely reported at around $250,000.",
+    "The same year, his memoir, The Terminal Man, was published under the name Sir Alfred Mehran.",
+    "A man who owned almost nothing now had a film deal, a book, and a famous address."
+   ],
+   "sources": [
+    "S1",
+    "S9",
+    "S13",
+    "S14"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "filmCard",
+     "title": "THE TERMINAL",
+     "year": "2004",
+     "lines": [
+      "Directed by Steven Spielberg",
+      "Starring Tom Hanks"
+     ],
+     "note": "Loosely inspired by Nasseri's story"
+    },
+    {
+     "from": 2,
+     "type": "myth",
+     "myth": "A biography of Nasseri",
+     "fact": "A fictional story, loosely inspired"
+    },
+    {
+     "from": 4,
+     "type": "figure",
+     "value": "$250,000",
+     "label": "Reported payment for the rights to his story",
+     "note": "Widely reported; figures vary"
+    },
+    {
+     "from": 5,
+     "type": "works",
+     "items": [
+      {
+       "year": 2004,
+       "title": "The Terminal",
+       "kind": "Film · DreamWorks"
+      },
+      {
+       "year": 2004,
+       "title": "The Terminal Man",
+       "kind": "Memoir · by Sir Alfred Mehran"
+      }
+     ]
+    },
+    {
+     "from": 6,
+     "type": "media",
+     "asset": "broll_terminal_interior",
+     "fallback": {
+      "type": "terminal",
+      "caption": "A famous address",
+      "note": "Illustrative diagram",
+      "focus": true
+     }
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "s08_why",
+   "chapter": "Why did he stay?",
+   "sentences": [
+    "The strangest part of the story is what happened next.",
+    "In the mid-1990s, Belgium indicated he could return there.",
+    "Later, France offered him papers that would have allowed him to stay.",
+    "He refused to sign them.",
+    "According to reports, the documents identified him as Iranian, under his original name.",
+    "He wanted to be recognized differently: as Sir Alfred, and as British.",
+    "So the man who had waited years for papers turned down the ones he was offered.",
+    "What began as a legal problem had become, at least in part, a choice."
+   ],
+   "sources": [
+    "S4",
+    "S5",
+    "S8",
+    "S15"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "media",
+     "asset": "broll_night_airport",
+     "fallback": {
+      "type": "crowd",
+      "night": true
+     }
+    },
+    {
+     "from": 1,
+     "type": "timeline",
+     "start": 1985,
+     "end": 2008,
+     "markers": [
+      {
+       "year": 1988,
+       "label": "Arrives at Terminal 1"
+      },
+      {
+       "year": 1995,
+       "label": "Belgium: may return"
+      },
+      {
+       "year": 1999,
+       "label": "France offers papers"
+      },
+      {
+       "year": 2006,
+       "label": "Leaves, hospitalized"
+      }
+     ],
+     "highlight": [
+      1988,
+      2006
+     ]
+    },
+    {
+     "from": 4,
+     "type": "identity",
+     "offered": [
+      "Mehran Karimi Nasseri",
+      "Nationality: Iranian"
+     ],
+     "wanted": [
+      "Sir Alfred Mehran",
+      "Nationality: British"
+     ],
+     "note": "As described in press reports"
+    },
+    {
+     "from": 7,
+     "type": "statement",
+     "text": "A legal problem had become, at least in part, a choice.",
+     "note": ""
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "s09_leaving",
+   "chapter": "Leaving in 2006",
+   "sentences": [
+    "In July 2006, after nearly eighteen years, he fell ill and was taken to hospital.",
+    "His corner of Terminal 1 was cleared.",
+    "When he was discharged, he did not go back to the airport.",
+    "Reports say he later lived in a shelter in Paris.",
+    "Accounts of the years that followed are sparse, and they do not always agree.",
+    "For the first time since 1988, Sir Alfred was no longer living in the terminal."
+   ],
+   "sources": [
+    "S1",
+    "S4",
+    "S16"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "counter",
+     "fromDate": "1988-08-26",
+     "toDate": "2006-07-31",
+     "label": "Days in the terminal (approximate)",
+     "final": true
+    },
+    {
+     "from": 1,
+     "type": "media",
+     "asset": "broll_empty_bench",
+     "fallback": {
+      "type": "terminal",
+      "caption": "July 2006",
+      "note": "Illustrative diagram",
+      "empty": true
+     }
+    },
+    {
+     "from": 3,
+     "type": "map",
+     "view": "paris",
+     "points": [
+      "cdg",
+      "paris"
+     ],
+     "routes": [
+      [
+       "cdg",
+       "paris"
+      ]
+     ],
+     "caption": "2006 · A shelter in Paris"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "stamp",
+     "at": 0,
+     "text": "JULY 2006"
+    }
+   ]
+  },
+  {
+   "id": "s10_return",
+   "chapter": "Return and death, 2022",
+   "sentences": [
+    "Sixteen years later, he came back.",
+    "In September 2022, according to the airport, he returned to live in a public area of Charles de Gaulle.",
+    "On 12 November, around midday, he suffered a heart attack in Terminal 2F.",
+    "He died there, of natural causes, according to the airport.",
+    "He was in his late seventies."
+   ],
+   "sources": [
+    "S1",
+    "S2",
+    "S3",
+    "S17"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "map",
+     "view": "paris",
+     "points": [
+      "paris",
+      "cdg"
+     ],
+     "routes": [
+      [
+       "paris",
+       "cdg"
+      ]
+     ],
+     "caption": "September 2022 · Back to Charles de Gaulle"
+    },
+    {
+     "from": 2,
+     "type": "media",
+     "asset": "broll_cdg_terminal2",
+     "fallback": {
+      "type": "crowd",
+      "night": true
+     }
+    },
+    {
+     "from": 3,
+     "type": "obituary",
+     "name": "Mehran Karimi Nasseri",
+     "dates": "c. 1945 – 12 November 2022",
+     "line": "Died at Charles de Gaulle Airport, Terminal 2F"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "stamp",
+     "at": 2,
+     "text": "TERMINAL 2F · 12 NOVEMBER 2022"
+    }
+   ]
+  },
+  {
+   "id": "s11_end",
+   "chapter": "Departures",
+   "sentences": [
+    "Airports are built for movement.",
+    "Millions of people pass through them, and almost no one stays.",
+    "Mehran Karimi Nasseri stayed.",
+    "Part of his story was a failure of paperwork, and part of it may always remain his own.",
+    "He came to Charles de Gaulle as a man without documents, and he is remembered as the traveller who never really left."
+   ],
+   "sources": [
+    "S1",
+    "S2"
+   ],
+   "shots": [
+    {
+     "from": 0,
+     "type": "media",
+     "asset": "broll_aircraft_departure",
+     "fallback": {
+      "type": "board",
+      "mode": "departures",
+      "rows": [
+       [
+        "21:05",
+        "NEW YORK",
+        "BOARDING"
+       ],
+       [
+        "21:20",
+        "LONDON",
+        "BOARDING"
+       ],
+       [
+        "21:35",
+        "BRUXELLES",
+        "DEPARTED"
+       ],
+       [
+        "21:50",
+        "TEHRAN",
+        "DEPARTED"
+       ],
+       [
+        "22:05",
+        "ROMA",
+        "DEPARTED"
+       ],
+       [
+        "22:20",
+        "MONTREAL",
+        "BOARDING"
+       ]
+      ]
+     }
+    },
+    {
+     "from": 2,
+     "type": "media",
+     "asset": "nasseri_portrait_2005",
+     "fallback": {
+      "type": "nameCard",
+      "name": "Mehran Karimi Nasseri",
+      "sub": "c. 1945 – 2022"
+     },
+     "fit": "framed"
+    },
+    {
+     "from": 4,
+     "type": "timeline",
+     "start": 1940,
+     "end": 2025,
+     "markers": [
+      {
+       "year": 1945,
+       "label": "Born (reported)"
+      },
+      {
+       "year": 1988,
+       "label": "Terminal 1"
+      },
+      {
+       "year": 2006,
+       "label": "Leaves"
+      },
+      {
+       "year": 2022,
+       "label": "Returns · Dies"
+      }
+     ],
+     "highlight": [
+      1988,
+      2006
+     ]
+    }
+   ],
+   "overlays": []
+  }
+ ],
+ "endCard": {
+  "seconds": 6
+ }
+}

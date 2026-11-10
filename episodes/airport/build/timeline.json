@@ -1,0 +1,582 @@
+{
+ "episode": "airport",
+ "durationSec": 424.114,
+ "endCardSec": 6,
+ "endCardStart": 418.114,
+ "segments": [
+  {
+   "id": "s01_hook",
+   "chapter": "An extraordinary true story",
+   "start": 0.9,
+   "end": 30.644,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Paris, 1988.",
+     "start": 1.8,
+     "end": 3.469
+    },
+    {
+     "i": 1,
+     "text": "Thousands of passengers arrived at Charles de Gaulle Airport, collected their luggage, and continued their journeys.",
+     "start": 4.019,
+     "end": 11.727
+    },
+    {
+     "i": 2,
+     "text": "But one man stayed.",
+     "start": 12.277,
+     "end": 13.629
+    },
+    {
+     "i": 3,
+     "text": "His name was Mehran Karimi Nasseri.",
+     "start": 14.179,
+     "end": 16.577
+    },
+    {
+     "i": 4,
+     "text": "And for the next eighteen years, this airport would become his home.",
+     "start": 17.127,
+     "end": 20.947
+    },
+    {
+     "i": 5,
+     "text": "His story would one day inspire a Hollywood film.",
+     "start": 21.497,
+     "end": 24.486
+    },
+    {
+     "i": 6,
+     "text": "The real one is quieter, sadder, and far less certain.",
+     "start": 25.036,
+     "end": 28.344
+    }
+   ]
+  },
+  {
+   "id": "s02_who",
+   "chapter": "Who was Mehran Karimi Nasseri?",
+   "start": 30.644,
+   "end": 82.858,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Nasseri was born in Iran, most likely in 1945, in the oil town of Masjed Soleyman.",
+     "start": 31.544,
+     "end": 39.031
+    },
+    {
+     "i": 1,
+     "text": "Much of what we know about his early life comes from his own telling, and his telling changed over the years.",
+     "start": 39.581,
+     "end": 46.414
+    },
+    {
+     "i": 2,
+     "text": "He said he had studied in England in the 1970s.",
+     "start": 46.964,
+     "end": 50.676
+    },
+    {
+     "i": 3,
+     "text": "He said he had been expelled from Iran in 1977, after protesting against the Shah.",
+     "start": 51.226,
+     "end": 57.635
+    },
+    {
+     "i": 4,
+     "text": "At different times, he said his mother was Scottish, or Swedish. Neither claim was ever confirmed.",
+     "start": 58.185,
+     "end": 64.48
+    },
+    {
+     "i": 5,
+     "text": "Journalists who later looked into his past questioned parts of that account.",
+     "start": 65.03,
+     "end": 69.279
+    },
+    {
+     "i": 6,
+     "text": "What is better documented is this: in 1981, he was recognized as a refugee in Belgium.",
+     "start": 69.829,
+     "end": 76.905
+    },
+    {
+     "i": 7,
+     "text": "For several years, he lived there, and travelled in Europe.",
+     "start": 77.455,
+     "end": 80.558
+    }
+   ]
+  },
+  {
+   "id": "s03_papers",
+   "chapter": "The missing papers",
+   "start": 82.858,
+   "end": 127.571,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Then, in 1988, he set out for Britain.",
+     "start": 83.758,
+     "end": 86.981
+    },
+    {
+     "i": 1,
+     "text": "What happened next depends on whose account you read.",
+     "start": 87.531,
+     "end": 90.651
+    },
+    {
+     "i": 2,
+     "text": "In the version most often reported, his passport and his refugee certificate were stolen along the way.",
+     "start": 91.201,
+     "end": 98.058
+    },
+    {
+     "i": 3,
+     "text": "In other versions, he sent the papers away himself.",
+     "start": 98.608,
+     "end": 101.942
+    },
+    {
+     "i": 4,
+     "text": "Either way, he arrived in England without them.",
+     "start": 102.492,
+     "end": 105.287
+    },
+    {
+     "i": 5,
+     "text": "British officials refused him entry and returned him to the airport he had flown from: Charles de Gaulle.",
+     "start": 105.837,
+     "end": 112.355
+    },
+    {
+     "i": 6,
+     "text": "In France, he now had a problem with no simple solution.",
+     "start": 112.905,
+     "end": 116.443
+    },
+    {
+     "i": 7,
+     "text": "He could not prove who he was.",
+     "start": 116.993,
+     "end": 118.772
+    },
+    {
+     "i": 8,
+     "text": "And so, in August 1988, a man without papers sat down in Terminal 1.",
+     "start": 119.322,
+     "end": 125.271
+    }
+   ]
+  },
+  {
+   "id": "s04_home",
+   "chapter": "How an airport became his home",
+   "start": 127.571,
+   "end": 162.118,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "It is often said that he was trapped in a sealed transit zone.",
+     "start": 128.471,
+     "end": 132.012
+    },
+    {
+     "i": 1,
+     "text": "That is not quite right.",
+     "start": 132.562,
+     "end": 134.034
+    },
+    {
+     "i": 2,
+     "text": "Reports place him in a public area of the terminal, where travellers, cleaners and police walked past him every day.",
+     "start": 134.584,
+     "end": 142.245
+    },
+    {
+     "i": 3,
+     "text": "He was not locked in.",
+     "start": 142.795,
+     "end": 144.181
+    },
+    {
+     "i": 4,
+     "text": "What held him in place was paperwork.",
+     "start": 144.731,
+     "end": 146.806
+    },
+    {
+     "i": 5,
+     "text": "Weeks became months.",
+     "start": 147.356,
+     "end": 148.722
+    },
+    {
+     "i": 6,
+     "text": "Months became years.",
+     "start": 149.272,
+     "end": 150.722
+    },
+    {
+     "i": 7,
+     "text": "His case moved slowly between lawyers, officials and governments.",
+     "start": 151.272,
+     "end": 155.412
+    },
+    {
+     "i": 8,
+     "text": "And as it did, a bench in Terminal 1 became an address.",
+     "start": 155.962,
+     "end": 159.818
+    }
+   ]
+  },
+  {
+   "id": "s05_daily",
+   "chapter": "Life inside the terminal",
+   "start": 162.118,
+   "end": 203.003,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "His routine was precise.",
+     "start": 163.018,
+     "end": 164.651
+    },
+    {
+     "i": 1,
+     "text": "He washed and shaved each day in the public bathrooms.",
+     "start": 165.201,
+     "end": 168.448
+    },
+    {
+     "i": 2,
+     "text": "He kept his belongings close: a luggage trolley, boxes and bags, stacked carefully beside a red bench.",
+     "start": 168.998,
+     "end": 176.045
+    },
+    {
+     "i": 3,
+     "text": "He read newspapers and magazines.",
+     "start": 176.595,
+     "end": 178.819
+    },
+    {
+     "i": 4,
+     "text": "He studied economics.",
+     "start": 179.369,
+     "end": 180.93
+    },
+    {
+     "i": 5,
+     "text": "And he wrote, every day, in a diary he kept for years.",
+     "start": 181.48,
+     "end": 185.169
+    },
+    {
+     "i": 6,
+     "text": "Airport workers came to know him well.",
+     "start": 185.719,
+     "end": 187.912
+    },
+    {
+     "i": 7,
+     "text": "Some brought him food. Some brought him newspapers.",
+     "start": 188.462,
+     "end": 191.69
+    },
+    {
+     "i": 8,
+     "text": "The airport doctor gave him paper to write on.",
+     "start": 192.24,
+     "end": 195.143
+    },
+    {
+     "i": 9,
+     "text": "To them, he became a familiar figure, and he took on a new name: Sir Alfred.",
+     "start": 195.693,
+     "end": 200.703
+    }
+   ]
+  },
+  {
+   "id": "s06_media",
+   "chapter": "The world takes notice",
+   "start": 203.003,
+   "end": 248.516,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "By the 1990s, the man on the bench had become a story.",
+     "start": 203.903,
+     "end": 207.978
+    },
+    {
+     "i": 1,
+     "text": "Journalists from around the world came to Terminal 1 to interview him.",
+     "start": 208.528,
+     "end": 212.532
+    },
+    {
+     "i": 2,
+     "text": "Photographers made his portrait among the passengers and departure boards.",
+     "start": 213.082,
+     "end": 217.679
+    },
+    {
+     "i": 3,
+     "text": "His life inspired a French film, Lost in Transit, in 1993, and an English opera, Flight, in 1998.",
+     "start": 218.229,
+     "end": 227.23
+    },
+    {
+     "i": 4,
+     "text": "He answered questions politely, and patiently.",
+     "start": 227.78,
+     "end": 230.598
+    },
+    {
+     "i": 5,
+     "text": "In 2004, a journalist writing for The Guardian spent time with him, and found that key parts of the story he told could not be confirmed.",
+     "start": 231.148,
+     "end": 241.042
+    },
+    {
+     "i": 6,
+     "text": "But the more he was asked about his past, the less settled that past became.",
+     "start": 241.592,
+     "end": 246.216
+    }
+   ]
+  },
+  {
+   "id": "s07_terminal",
+   "chapter": "The Hollywood connection",
+   "start": 248.516,
+   "end": 292.406,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "In 2004, the story reached Hollywood.",
+     "start": 249.416,
+     "end": 252.842
+    },
+    {
+     "i": 1,
+     "text": "Steven Spielberg's film The Terminal starred Tom Hanks as Viktor Navorski, a traveller stranded at a New York airport.",
+     "start": 253.392,
+     "end": 261.248
+    },
+    {
+     "i": 2,
+     "text": "The film was not a biography.",
+     "start": 261.798,
+     "end": 263.837
+    },
+    {
+     "i": 3,
+     "text": "It moved the story to America and invented its own hero.",
+     "start": 264.387,
+     "end": 268.202
+    },
+    {
+     "i": 4,
+     "text": "But DreamWorks had acquired the rights to Nasseri's story, for a sum widely reported at around $250,000.",
+     "start": 268.752,
+     "end": 277.536
+    },
+    {
+     "i": 5,
+     "text": "The same year, his memoir, The Terminal Man, was published under the name Sir Alfred Mehran.",
+     "start": 278.086,
+     "end": 283.972
+    },
+    {
+     "i": 6,
+     "text": "A man who owned almost nothing now had a film deal, a book, and a famous address.",
+     "start": 284.522,
+     "end": 290.106
+    }
+   ]
+  },
+  {
+   "id": "s08_why",
+   "chapter": "Why did he stay?",
+   "start": 292.406,
+   "end": 333.066,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "The strangest part of the story is what happened next.",
+     "start": 293.306,
+     "end": 296.566
+    },
+    {
+     "i": 1,
+     "text": "In the mid-1990s, Belgium indicated he could return there.",
+     "start": 297.116,
+     "end": 301.484
+    },
+    {
+     "i": 2,
+     "text": "Later, France offered him papers that would have allowed him to stay.",
+     "start": 302.034,
+     "end": 305.987
+    },
+    {
+     "i": 3,
+     "text": "He refused to sign them.",
+     "start": 306.537,
+     "end": 308.128
+    },
+    {
+     "i": 4,
+     "text": "According to reports, the documents identified him as Iranian, under his original name.",
+     "start": 308.678,
+     "end": 314.916
+    },
+    {
+     "i": 5,
+     "text": "He wanted to be recognized differently: as Sir Alfred, and as British.",
+     "start": 315.466,
+     "end": 320.143
+    },
+    {
+     "i": 6,
+     "text": "So the man who had waited years for papers turned down the ones he was offered.",
+     "start": 320.693,
+     "end": 325.33
+    },
+    {
+     "i": 7,
+     "text": "What began as a legal problem had become, at least in part, a choice.",
+     "start": 325.88,
+     "end": 330.766
+    }
+   ]
+  },
+  {
+   "id": "s09_leaving",
+   "chapter": "Leaving in 2006",
+   "start": 333.066,
+   "end": 365.603,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "In July 2006, after nearly eighteen years, he fell ill and was taken to hospital.",
+     "start": 333.966,
+     "end": 340.817
+    },
+    {
+     "i": 1,
+     "text": "His corner of Terminal 1 was cleared.",
+     "start": 341.367,
+     "end": 343.724
+    },
+    {
+     "i": 2,
+     "text": "When he was discharged, he did not go back to the airport.",
+     "start": 344.274,
+     "end": 347.779
+    },
+    {
+     "i": 3,
+     "text": "Reports say he later lived in a shelter in Paris.",
+     "start": 348.329,
+     "end": 351.58
+    },
+    {
+     "i": 4,
+     "text": "Accounts of the years that followed are sparse, and they do not always agree.",
+     "start": 352.13,
+     "end": 357.004
+    },
+    {
+     "i": 5,
+     "text": "For the first time since 1988, Sir Alfred was no longer living in the terminal.",
+     "start": 357.554,
+     "end": 363.303
+    }
+   ]
+  },
+  {
+   "id": "s10_return",
+   "chapter": "Return and death, 2022",
+   "start": 365.603,
+   "end": 392.026,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Sixteen years later, he came back.",
+     "start": 366.503,
+     "end": 368.702
+    },
+    {
+     "i": 1,
+     "text": "In September 2022, according to the airport, he returned to live in a public area of Charles de Gaulle.",
+     "start": 369.252,
+     "end": 376.785
+    },
+    {
+     "i": 2,
+     "text": "On 12 November, around midday, he suffered a heart attack in Terminal 2F.",
+     "start": 377.335,
+     "end": 383.104
+    },
+    {
+     "i": 3,
+     "text": "He died there, of natural causes, according to the airport.",
+     "start": 383.654,
+     "end": 387.288
+    },
+    {
+     "i": 4,
+     "text": "He was in his late seventies.",
+     "start": 387.838,
+     "end": 389.726
+    }
+   ]
+  },
+  {
+   "id": "s11_end",
+   "chapter": "Departures",
+   "start": 392.026,
+   "end": 418.114,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Airports are built for movement.",
+     "start": 392.926,
+     "end": 394.696
+    },
+    {
+     "i": 1,
+     "text": "Millions of people pass through them, and almost no one stays.",
+     "start": 395.246,
+     "end": 399.191
+    },
+    {
+     "i": 2,
+     "text": "Mehran Karimi Nasseri stayed.",
+     "start": 399.741,
+     "end": 401.871
+    },
+    {
+     "i": 3,
+     "text": "Part of his story was a failure of paperwork, and part of it may always remain his own.",
+     "start": 402.421,
+     "end": 407.892
+    },
+    {
+     "i": 4,
+     "text": "He came to Charles de Gaulle as a man without documents, and he is remembered as the traveller who never really left.",
+     "start": 408.442,
+     "end": 415.814
+    }
+   ]
+  }
+ ]
+}

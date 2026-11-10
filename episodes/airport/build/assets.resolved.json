@@ -1,0 +1,242 @@
+{
+ "nasseri_portrait_2005": {
+  "id": "nasseri_portrait_2005",
+  "kind": "photo",
+  "file": "episodes/airport/media/nasseri_portrait_2005.jpg",
+  "credit": "Saint Martin \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.52,
+   0.25
+  ],
+  "caption": "Mehran Karimi Nasseri at Charles de Gaulle Airport, 2005"
+ },
+ "nasseri_walkway_2004": {
+  "id": "nasseri_walkway_2004",
+  "kind": "photo",
+  "file": "episodes/airport/media/nasseri_walkway_2004.jpg",
+  "credit": "Docpi \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.62,
+   0.5
+  ],
+  "caption": "Nasseri's belongings in Terminal 1, seen from a passenger walkway \u00b7 30 Dec 2004"
+ },
+ "roissy_caravelles_1976": {
+  "id": "roissy_caravelles_1976",
+  "kind": "photo",
+  "file": "episodes/airport/media/roissy_caravelles_1976.jpg",
+  "credit": "Mouliric \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Roissy\u2013Charles de Gaulle, 1976"
+ },
+ "t1_interior_1978": {
+  "id": "t1_interior_1978",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_interior_1978.jpg",
+  "credit": "LBM1948 \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Terminal 1 interior, March 1978"
+ },
+ "t1_checkin_2006": {
+  "id": "t1_checkin_2006",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_checkin_2006.jpg",
+  "credit": "Airlohner \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Terminal 1 check-in hall, January 2006"
+ },
+ "t1_tunnel_2006": {
+  "id": "t1_tunnel_2006",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_tunnel_2006.jpg",
+  "credit": "Airlohner \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Terminal 1 tunnel to satellite 7, January 2006"
+ },
+ "t1_tunnel_end_2006": {
+  "id": "t1_tunnel_end_2006",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_tunnel_end_2006.jpg",
+  "credit": "Airlohner \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Terminal 1, satellite 7 tunnel, January 2006"
+ },
+ "t1_lounge_2006": {
+  "id": "t1_lounge_2006",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_lounge_2006.jpg",
+  "credit": "Airlohner \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Terminal 1 satellite 7 boarding area, January 2006"
+ },
+ "t1_exterior_2005": {
+  "id": "t1_exterior_2005",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_exterior_2005.jpg",
+  "credit": "Dmitry Avdeev \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Terminal 1 from the air, April 2005"
+ },
+ "cdg_2005_dahlstrom": {
+  "id": "cdg_2005_dahlstrom",
+  "kind": "photo",
+  "file": "episodes/airport/media/cdg_2005_dahlstrom.jpg",
+  "credit": "H\u00e5kan Dahlstr\u00f6m from Malm\u00f6, Sweden \u00b7 CC BY 2.0 \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Charles de Gaulle Airport, March 2005"
+ },
+ "t1_inside_2007": {
+  "id": "t1_inside_2007",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_inside_2007.jpg",
+  "credit": "David Monniaux \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Inside Terminal 1, April 2007"
+ },
+ "t1_inside_2002": {
+  "id": "t1_inside_2002",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_inside_2002.jpg",
+  "credit": "Sachabrunel \u00b7 CC BY-SA 2.5 \u00b7 Wikimedia Commons",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Charles de Gaulle Airport, December 2002"
+ },
+ "t1_exterior_2018": {
+  "id": "t1_exterior_2018",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_exterior_2018.jpg",
+  "credit": "Gunnar Klack \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "caption": "Terminal 1, 2018"
+ },
+ "t1_tubes_2018": {
+  "id": "t1_tubes_2018",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_tubes_2018.jpg",
+  "credit": "Gunnar Klack \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "caption": "Terminal 1, 2018"
+ },
+ "t1_tubes2_2018": {
+  "id": "t1_tubes2_2018",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_tubes2_2018.jpg",
+  "credit": "Gunnar Klack \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "caption": "Terminal 1, 2018"
+ },
+ "t1_aerial_2010": {
+  "id": "t1_aerial_2010",
+  "kind": "photo",
+  "file": "episodes/airport/media/t1_aerial_2010.jpg",
+  "credit": "Citizen59 \u00b7 CC BY 3.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Terminal 1 from the air, 2010"
+ },
+ "v_landing_cdg": {
+  "id": "v_landing_cdg",
+  "kind": "video",
+  "file": "episodes/airport/media/v_landing_cdg.mp4",
+  "credit": "Quahadi \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "Landing at Charles de Gaulle \u00b7 modern footage (2023)"
+ },
+ "v_approach_cdg": {
+  "id": "v_approach_cdg",
+  "kind": "video",
+  "file": "episodes/airport/media/v_approach_cdg.mp4",
+  "credit": "Quahadi \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "Approaching Paris \u00b7 modern footage (2023)"
+ },
+ "v_cdg_aerial": {
+  "id": "v_cdg_aerial",
+  "kind": "video",
+  "file": "episodes/airport/media/v_cdg_aerial.mp4",
+  "credit": "Simon Halary \u00b7 CC BY 3.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "Charles de Gaulle Airport \u00b7 modern aerial footage (2019)"
+ },
+ "v_t2f": {
+  "id": "v_t2f",
+  "kind": "video",
+  "file": "episodes/airport/media/v_t2f.mp4",
+  "credit": "ProtoplasmaKid \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "Terminal 2F, Charles de Gaulle \u00b7 modern footage (2015)"
+ },
+ "v_walkway": {
+  "id": "v_walkway",
+  "kind": "video",
+  "file": "episodes/airport/media/v_walkway.mp4",
+  "credit": "Life-Of-Vids \u00b7 CC0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "Airport walkway \u00b7 modern footage, location unspecified"
+ },
+ "v_splitflap": {
+  "id": "v_splitflap",
+  "kind": "video",
+  "file": "episodes/airport/media/v_splitflap.mp4",
+  "credit": "Jun Jie Yam \u00b7 CC BY 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "Split-flap display, Singapore Changi \u00b7 modern footage, illustrative"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "sampleRate": 48000,
+ "narration": {
+  "introPadSec": 0.9,
+  "segmentHeadSec": 0.9,
+  "segmentTailSec": 2.3,
+  "sentenceGapSec": 0.55,
+  "trimThresholdDb": -45
+ },
+ "music": {
+  "key": "D",
+  "bedDbUnderSpeech": -22,
+  "bedDbBetweenSpeech": -13,
+  "duckRampSec": 0.45,
+  "ambienceDb": -34,
+  "chimes": true
+ },
+ "master": {
+  "integratedLufs": -14,
+  "truePeakDb": -1.5,
+  "lra": 9
+ },
+ "subtitles": {
+  "maxCharsPerLine": 42,
+  "maxLines": 2,
+  "minDurationSec": 1.0
+ }
+}

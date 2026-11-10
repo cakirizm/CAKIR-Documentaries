@@ -1,0 +1,9 @@
+node_modules/
+out/
+.cache/
+public/episodes/*/media/
+public/episodes/*/audio/
+*.wav
+*.mp4
+*.webm
+_voicetest/*.wav

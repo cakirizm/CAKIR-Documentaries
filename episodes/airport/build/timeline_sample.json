@@ -1,0 +1,58 @@
+{
+ "episode": "airport",
+ "durationSec": 36.644,
+ "endCardSec": 6,
+ "endCardStart": 30.644,
+ "segments": [
+  {
+   "id": "s01_hook",
+   "chapter": "An extraordinary true story",
+   "start": 0.9,
+   "end": 30.644,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Paris, 1988.",
+     "start": 1.8,
+     "end": 3.469
+    },
+    {
+     "i": 1,
+     "text": "Thousands of passengers arrived at Charles de Gaulle Airport, collected their luggage, and continued their journeys.",
+     "start": 4.019,
+     "end": 11.727
+    },
+    {
+     "i": 2,
+     "text": "But one man stayed.",
+     "start": 12.277,
+     "end": 13.629
+    },
+    {
+     "i": 3,
+     "text": "His name was Mehran Karimi Nasseri.",
+     "start": 14.179,
+     "end": 16.577
+    },
+    {
+     "i": 4,
+     "text": "And for the next eighteen years, this airport would become his home.",
+     "start": 17.127,
+     "end": 20.946
+    },
+    {
+     "i": 5,
+     "text": "His story would one day inspire a Hollywood film.",
+     "start": 21.496,
+     "end": 24.486
+    },
+    {
+     "i": 6,
+     "text": "The real one is quieter, sadder, and far less certain.",
+     "start": 25.036,
+     "end": 28.344
+    }
+   ]
+  }
+ ]
+}

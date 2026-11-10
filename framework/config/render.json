@@ -1,0 +1,17 @@
+{
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "codec": "h264",
+ "crf": 18,
+ "audioCodec": "aac",
+ "audioBitrate": "192k",
+ "pixelFormat": "yuv420p",
+ "draft": {
+  "scale": 0.5,
+  "crf": 28
+ },
+ "browserExecutable": "/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell",
+ "concurrency": 4,
+ "gl": "swiftshader"
+}
