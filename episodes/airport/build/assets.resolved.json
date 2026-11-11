@@ -9,7 +9,8 @@
    0.52,
    0.25
   ],
-  "caption": "Mehran Karimi Nasseri at Charles de Gaulle Airport, 2005"
+  "caption": "Mehran Karimi Nasseri at Charles de Gaulle Airport, 2005",
+  "showCaption": true
  },
  "nasseri_walkway_2004": {
   "id": "nasseri_walkway_2004",
@@ -21,7 +22,8 @@
    0.62,
    0.5
   ],
-  "caption": "Nasseri's belongings in Terminal 1, seen from a passenger walkway \u00b7 30 Dec 2004"
+  "caption": "Nasseri's belongings in Terminal 1, seen from a passenger walkway \u00b7 30 Dec 2004",
+  "showCaption": true
  },
  "roissy_caravelles_1976": {
   "id": "roissy_caravelles_1976",
@@ -33,7 +35,8 @@
    0.5,
    0.5
   ],
-  "caption": "Roissy\u2013Charles de Gaulle, 1976"
+  "caption": "Roissy\u2013Charles de Gaulle, 1976",
+  "showCaption": true
  },
  "t1_interior_1978": {
   "id": "t1_interior_1978",
@@ -45,7 +48,8 @@
    0.5,
    0.5
   ],
-  "caption": "Terminal 1 interior, March 1978"
+  "caption": "Terminal 1 interior, March 1978",
+  "showCaption": true
  },
  "t1_checkin_2006": {
   "id": "t1_checkin_2006",
@@ -57,7 +61,8 @@
    0.5,
    0.5
   ],
-  "caption": "Terminal 1 check-in hall, January 2006"
+  "caption": "Terminal 1 check-in hall, January 2006",
+  "showCaption": true
  },
  "t1_tunnel_2006": {
   "id": "t1_tunnel_2006",
@@ -69,7 +74,8 @@
    0.5,
    0.5
   ],
-  "caption": "Terminal 1 tunnel to satellite 7, January 2006"
+  "caption": "Terminal 1 tunnel to satellite 7, January 2006",
+  "showCaption": true
  },
  "t1_tunnel_end_2006": {
   "id": "t1_tunnel_end_2006",
@@ -81,7 +87,8 @@
    0.5,
    0.5
   ],
-  "caption": "Terminal 1, satellite 7 tunnel, January 2006"
+  "caption": "Terminal 1, satellite 7 tunnel, January 2006",
+  "showCaption": true
  },
  "t1_lounge_2006": {
   "id": "t1_lounge_2006",
@@ -93,7 +100,8 @@
    0.5,
    0.5
   ],
-  "caption": "Terminal 1 satellite 7 boarding area, January 2006"
+  "caption": "Terminal 1 satellite 7 boarding area, January 2006",
+  "showCaption": true
  },
  "t1_exterior_2005": {
   "id": "t1_exterior_2005",
@@ -105,7 +113,8 @@
    0.5,
    0.5
   ],
-  "caption": "Terminal 1 from the air, April 2005"
+  "caption": "Terminal 1 from the air, April 2005",
+  "showCaption": true
  },
  "cdg_2005_dahlstrom": {
   "id": "cdg_2005_dahlstrom",
@@ -117,7 +126,8 @@
    0.5,
    0.5
   ],
-  "caption": "Charles de Gaulle Airport, March 2005"
+  "caption": "Charles de Gaulle Airport, March 2005",
+  "showCaption": true
  },
  "t1_inside_2007": {
   "id": "t1_inside_2007",
@@ -129,7 +139,8 @@
    0.5,
    0.5
   ],
-  "caption": "Inside Terminal 1, April 2007"
+  "caption": "Inside Terminal 1, April 2007",
+  "showCaption": true
  },
  "t1_inside_2002": {
   "id": "t1_inside_2002",
@@ -141,7 +152,8 @@
    0.5,
    0.5
   ],
-  "caption": "Charles de Gaulle Airport, December 2002"
+  "caption": "Charles de Gaulle Airport, December 2002",
+  "showCaption": true
  },
  "t1_exterior_2018": {
   "id": "t1_exterior_2018",
@@ -153,7 +165,8 @@
    0.5,
    0.45
   ],
-  "caption": "Terminal 1, 2018"
+  "caption": "Terminal 1, 2018",
+  "showCaption": false
  },
  "t1_tubes_2018": {
   "id": "t1_tubes_2018",
@@ -165,7 +178,8 @@
    0.5,
    0.4
   ],
-  "caption": "Terminal 1, 2018"
+  "caption": "Terminal 1, 2018",
+  "showCaption": false
  },
  "t1_tubes2_2018": {
   "id": "t1_tubes2_2018",
@@ -177,7 +191,8 @@
    0.5,
    0.4
   ],
-  "caption": "Terminal 1, 2018"
+  "caption": "Terminal 1, 2018",
+  "showCaption": false
  },
  "t1_aerial_2010": {
   "id": "t1_aerial_2010",
@@ -189,7 +204,8 @@
    0.5,
    0.5
   ],
-  "caption": "Terminal 1 from the air, 2010"
+  "caption": "Terminal 1 from the air, 2010",
+  "showCaption": false
  },
  "v_landing_cdg": {
   "id": "v_landing_cdg",
@@ -197,7 +213,8 @@
   "file": "episodes/airport/media/v_landing_cdg.mp4",
   "credit": "Quahadi \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Landing at Charles de Gaulle \u00b7 modern footage (2023)"
+  "caption": "Landing at Charles de Gaulle \u00b7 modern footage (2023)",
+  "showCaption": false
  },
  "v_approach_cdg": {
   "id": "v_approach_cdg",
@@ -205,7 +222,8 @@
   "file": "episodes/airport/media/v_approach_cdg.mp4",
   "credit": "Quahadi \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Approaching Paris\u2013Charles de Gaulle \u00b7 modern footage (2023)"
+  "caption": "Approaching Paris\u2013Charles de Gaulle \u00b7 modern footage (2023)",
+  "showCaption": false
  },
  "v_cdg_aerial": {
   "id": "v_cdg_aerial",
@@ -213,7 +231,8 @@
   "file": "episodes/airport/media/v_cdg_aerial.mp4",
   "credit": "Simon Halary \u00b7 CC BY 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Charles de Gaulle Airport from the air \u00b7 modern footage (2019)"
+  "caption": "Charles de Gaulle Airport from the air \u00b7 modern footage (2019)",
+  "showCaption": false
  },
  "v_t2f": {
   "id": "v_t2f",
@@ -221,7 +240,8 @@
   "file": "episodes/airport/media/v_t2f.mp4",
   "credit": "ProtoplasmaKid \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Terminal 2F, Charles de Gaulle \u00b7 modern footage (2015)"
+  "caption": "Terminal 2F, Charles de Gaulle \u00b7 modern footage (2015)",
+  "showCaption": false
  },
  "v_walkway": {
   "id": "v_walkway",
@@ -229,7 +249,8 @@
   "file": "episodes/airport/media/v_walkway.mp4",
   "credit": "Life-Of-Vids \u00b7 CC0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Airport moving walkway \u00b7 modern footage, illustrative"
+  "caption": "Airport moving walkway \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_splitflap": {
   "id": "v_splitflap",
@@ -237,7 +258,8 @@
   "file": "episodes/airport/media/v_splitflap.mp4",
   "credit": "Jun Jie Yam \u00b7 CC BY 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Split-flap board, Singapore Changi \u00b7 modern footage, illustrative"
+  "caption": "Split-flap board, Singapore Changi \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_empty_airport": {
   "id": "v_empty_airport",
@@ -245,7 +267,8 @@
   "file": "episodes/airport/media/v_empty_airport.mp4",
   "credit": "Timo Newton-Syms \u00b7 CC BY-SA 2.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Empty terminal, Helsinki-Vantaa \u00b7 modern footage (2020), illustrative"
+  "caption": "Empty terminal, Helsinki-Vantaa \u00b7 modern footage (2020), illustrative",
+  "showCaption": false
  },
  "v_af747": {
   "id": "v_af747",
@@ -253,7 +276,8 @@
   "file": "episodes/airport/media/v_af747.mp4",
   "credit": "ProtoplasmaKid \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Air France Boeing 747 in flight \u00b7 modern footage (2015)"
+  "caption": "Air France Boeing 747 in flight \u00b7 modern footage (2015)",
+  "showCaption": false
  },
  "v_dus_hall1": {
   "id": "v_dus_hall1",
@@ -261,7 +285,8 @@
   "file": "episodes/airport/media/v_dus_hall1.mp4",
   "credit": "Quahadi \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Airport apron at dusk, D\u00fcsseldorf \u00b7 modern footage, illustrative"
+  "caption": "Airport apron at dusk, D\u00fcsseldorf \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_dus_hall2": {
   "id": "v_dus_hall2",
@@ -269,7 +294,8 @@
   "file": "episodes/airport/media/v_dus_hall2.mp4",
   "credit": "Quahadi \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Airport apron, D\u00fcsseldorf \u00b7 modern footage, illustrative"
+  "caption": "Airport apron, D\u00fcsseldorf \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_lju_arrival": {
   "id": "v_lju_arrival",
@@ -277,7 +303,8 @@
   "file": "episodes/airport/media/v_lju_arrival.mp4",
   "credit": "Snicel 69 \u00b7 CC BY 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Airport corridor, Ljubljana \u00b7 modern footage, illustrative"
+  "caption": "Airport corridor, Ljubljana \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_dbv_1": {
   "id": "v_dbv_1",
@@ -285,7 +312,8 @@
   "file": "episodes/airport/media/v_dbv_1.mp4",
   "credit": "Quahadi \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Airport window, Dubrovnik \u00b7 modern footage, illustrative"
+  "caption": "Airport window, Dubrovnik \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_str_airport": {
   "id": "v_str_airport",
@@ -293,7 +321,8 @@
   "file": "episodes/airport/media/v_str_airport.mp4",
   "credit": "Quahadi \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Taxiing, Stuttgart \u00b7 modern footage, illustrative"
+  "caption": "Taxiing, Stuttgart \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_boarding_bridges": {
   "id": "v_boarding_bridges",
@@ -301,7 +330,8 @@
   "file": "episodes/airport/media/v_boarding_bridges.mp4",
   "credit": "Project Kei \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Boarding bridge at dusk \u00b7 modern footage, illustrative"
+  "caption": "Boarding bridge at dusk \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_jetbridge_dock": {
   "id": "v_jetbridge_dock",
@@ -309,7 +339,8 @@
   "file": "episodes/airport/media/v_jetbridge_dock.mp4",
   "credit": "NutzerAusBerlin \u00b7 CC0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Jet bridge docking, Berlin \u00b7 modern footage, illustrative"
+  "caption": "Jet bridge docking, Berlin \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_groundhandling": {
   "id": "v_groundhandling",
@@ -317,7 +348,8 @@
   "file": "episodes/airport/media/v_groundhandling.mp4",
   "credit": "Lufthansa Cargo \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Airport ground staff, Frankfurt \u00b7 modern footage, illustrative"
+  "caption": "Airport ground staff, Frankfurt \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_fra_timelapse": {
   "id": "v_fra_timelapse",
@@ -325,7 +357,8 @@
   "file": "episodes/airport/media/v_fra_timelapse.mp4",
   "credit": "TheBlueMaxxx \u00b7 CC BY 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Frankfurt Airport, day into night \u00b7 modern footage timelapse, illustrative"
+  "caption": "Frankfurt Airport, day into night \u00b7 modern footage timelapse, illustrative",
+  "showCaption": false
  },
  "v_yvr_timelapse": {
   "id": "v_yvr_timelapse",
@@ -333,7 +366,8 @@
   "file": "episodes/airport/media/v_yvr_timelapse.mp4",
   "credit": "JawaSpot \u00b7 CC BY 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Airport operations timelapse, Vancouver \u00b7 modern footage, illustrative"
+  "caption": "Airport operations timelapse, Vancouver \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_jfk_timelapse": {
   "id": "v_jfk_timelapse",
@@ -341,7 +375,8 @@
   "file": "episodes/airport/media/v_jfk_timelapse.mp4",
   "credit": "Zach Himsel \u00b7 CC BY 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Night traffic, JFK New York \u00b7 modern footage timelapse, illustrative"
+  "caption": "Night traffic, JFK New York \u00b7 modern footage timelapse, illustrative",
+  "showCaption": false
  },
  "v_night_takeoff": {
   "id": "v_night_takeoff",
@@ -349,7 +384,8 @@
   "file": "episodes/airport/media/v_night_takeoff.mp4",
   "credit": "Miha Lesjak \u00b7 CC BY 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Cockpit at dusk \u00b7 modern footage, illustrative"
+  "caption": "Cockpit at dusk \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_night_landing": {
   "id": "v_night_landing",
@@ -357,7 +393,8 @@
   "file": "episodes/airport/media/v_night_landing.mp4",
   "credit": "Ventriloquist \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Night landing \u00b7 modern footage, illustrative"
+  "caption": "Night landing \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_ber_sunset": {
   "id": "v_ber_sunset",
@@ -365,7 +402,8 @@
   "file": "episodes/airport/media/v_ber_sunset.mp4",
   "credit": "NutzerAusBerlin \u00b7 CC0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Sunset at Berlin Brandenburg Airport \u00b7 modern footage timelapse, illustrative"
+  "caption": "Sunset at Berlin Brandenburg Airport \u00b7 modern footage timelapse, illustrative",
+  "showCaption": false
  },
  "v_takeoff_las": {
   "id": "v_takeoff_las",
@@ -373,7 +411,8 @@
   "file": "episodes/airport/media/v_takeoff_las.mp4",
   "credit": "Thomas Farley \u00b7 CC0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Departure \u00b7 modern footage, illustrative"
+  "caption": "Departure \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_rer_b": {
   "id": "v_rer_b",
@@ -381,7 +420,8 @@
   "file": "episodes/airport/media/v_rer_b.mp4",
   "credit": "Manchesterunited1234 \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "RER B, the line to Charles de Gaulle, at Gare du Nord \u00b7 modern footage (2025)"
+  "caption": "RER B, the line to Charles de Gaulle, at Gare du Nord \u00b7 modern footage (2025)",
+  "showCaption": false
  },
  "v_gare_du_nord": {
   "id": "v_gare_du_nord",
@@ -389,7 +429,8 @@
   "file": "episodes/airport/media/v_gare_du_nord.mp4",
   "credit": "Quahadi \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Gare du Nord, Paris \u00b7 modern footage (2025)"
+  "caption": "Gare du Nord, Paris \u00b7 modern footage (2025)",
+  "showCaption": false
  },
  "v_seine": {
   "id": "v_seine",
@@ -397,7 +438,8 @@
   "file": "episodes/airport/media/v_seine.mp4",
   "credit": "Quahadi \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "The Seine, Paris \u00b7 modern footage (2023)"
+  "caption": "The Seine, Paris \u00b7 modern footage (2023)",
+  "showCaption": false
  },
  "v_brussels_station": {
   "id": "v_brussels_station",
@@ -405,7 +447,8 @@
   "file": "episodes/airport/media/v_brussels_station.mp4",
   "credit": "Quahadi \u00b7 CC0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Leaving Brussels-South station \u00b7 modern footage (2024)"
+  "caption": "Leaving Brussels-South station \u00b7 modern footage (2024)",
+  "showCaption": false
  },
  "v_gatwick_landing": {
   "id": "v_gatwick_landing",
@@ -413,7 +456,8 @@
   "file": "episodes/airport/media/v_gatwick_landing.mp4",
   "credit": "Chris Sampson \u00b7 CC BY 2.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Landing in England, Gatwick \u00b7 modern footage (2016)"
+  "caption": "Landing in England, Gatwick \u00b7 modern footage (2016)",
+  "showCaption": false
  },
  "v_lcy_landing": {
   "id": "v_lcy_landing",
@@ -421,7 +465,8 @@
   "file": "episodes/airport/media/v_lcy_landing.mp4",
   "credit": "TheFrog001 \u00b7 CC0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "London City Airport \u00b7 modern footage (2021)"
+  "caption": "London City Airport \u00b7 modern footage (2021)",
+  "showCaption": false
  },
  "v_iran_newsreel": {
   "id": "v_iran_newsreel",
@@ -429,7 +474,8 @@
   "file": "episodes/airport/media/v_iran_newsreel.mp4",
   "credit": "United States Information Agency \u00b7 Public domain \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Iran, c. 1957 \u00b7 USIA newsreel \u201cNews of Iran\u201d \u00b7 archival context, not Nasseri"
+  "caption": "Iran, c. 1957 \u00b7 USIA newsreel \u201cNews of Iran\u201d \u00b7 archival context, not Nasseri",
+  "showCaption": false
  },
  "v_paris_empty": {
   "id": "v_paris_empty",
@@ -437,7 +483,8 @@
   "file": "episodes/airport/media/v_paris_empty.mp4",
   "credit": "Duclos Alexis \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Paris at dusk \u00b7 modern footage (2020)"
+  "caption": "Paris at dusk \u00b7 modern footage (2020)",
+  "showCaption": false
  },
  "c_bench_airport": {
   "id": "c_bench_airport",
@@ -445,7 +492,8 @@
   "file": "episodes/airport/media/c_bench_airport.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Airport seating \u00b7 modern footage, illustrative"
+  "caption": "Airport seating \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_baggage_claim": {
   "id": "c_baggage_claim",
@@ -453,7 +501,8 @@
   "file": "episodes/airport/media/c_baggage_claim.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Baggage claim \u00b7 modern footage, illustrative"
+  "caption": "Baggage claim \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_baggage_carousel": {
   "id": "c_baggage_carousel",
@@ -461,7 +510,8 @@
   "file": "episodes/airport/media/c_baggage_carousel.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Baggage carousel \u00b7 modern footage, illustrative"
+  "caption": "Baggage carousel \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_planes": {
   "id": "c_planes",
@@ -469,7 +519,8 @@
   "file": "episodes/airport/media/c_planes.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Wide-body aircraft at the gate \u00b7 modern footage, illustrative"
+  "caption": "Wide-body aircraft at the gate \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_planes_runway": {
   "id": "c_planes_runway",
@@ -477,7 +528,8 @@
   "file": "episodes/airport/media/c_planes_runway.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Aircraft heading to the runway \u00b7 modern footage, illustrative"
+  "caption": "Aircraft heading to the runway \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_departure_board": {
   "id": "c_departure_board",
@@ -485,7 +537,8 @@
   "file": "episodes/airport/media/c_departure_board.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Departures board \u00b7 modern footage, illustrative"
+  "caption": "Departures board \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_checkin": {
   "id": "c_checkin",
@@ -493,7 +546,8 @@
   "file": "episodes/airport/media/c_checkin.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Check-in hall \u00b7 modern footage, illustrative"
+  "caption": "Check-in hall \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_suitcases": {
   "id": "c_suitcases",
@@ -501,7 +555,8 @@
   "file": "episodes/airport/media/c_suitcases.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Luggage \u00b7 modern footage, illustrative"
+  "caption": "Luggage \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_window_seat": {
   "id": "c_window_seat",
@@ -509,7 +564,8 @@
   "file": "episodes/airport/media/c_window_seat.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Window seat \u00b7 modern footage, illustrative"
+  "caption": "Window seat \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_seine_eiffel": {
   "id": "c_seine_eiffel",
@@ -517,7 +573,8 @@
   "file": "episodes/airport/media/c_seine_eiffel.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "The Seine and the Eiffel Tower \u00b7 modern footage, illustrative"
+  "caption": "The Seine and the Eiffel Tower \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_paris_street": {
   "id": "c_paris_street",
@@ -525,7 +582,8 @@
   "file": "episodes/airport/media/c_paris_street.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Paris street \u00b7 modern footage, illustrative"
+  "caption": "Paris street \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_paris_hospital": {
   "id": "c_paris_hospital",
@@ -533,7 +591,8 @@
   "file": "episodes/airport/media/c_paris_hospital.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Paris street, hospital entrance \u00b7 modern footage, illustrative"
+  "caption": "Paris street, hospital entrance \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_paris_arch": {
   "id": "c_paris_arch",
@@ -541,7 +600,8 @@
   "file": "episodes/airport/media/c_paris_arch.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Paris \u00b7 modern footage, illustrative"
+  "caption": "Paris \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_paris_traffic": {
   "id": "c_paris_traffic",
@@ -549,7 +609,8 @@
   "file": "episodes/airport/media/c_paris_traffic.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Paris boulevard \u00b7 modern footage, illustrative"
+  "caption": "Paris boulevard \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_escalator": {
   "id": "c_escalator",
@@ -557,7 +618,8 @@
   "file": "episodes/airport/media/c_escalator.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Airport escalator \u00b7 modern footage, illustrative"
+  "caption": "Airport escalator \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_handwriting": {
   "id": "c_handwriting",
@@ -565,7 +627,8 @@
   "file": "episodes/airport/media/c_handwriting.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Pen and paper \u00b7 modern footage, illustrative"
+  "caption": "Pen and paper \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_london_night": {
   "id": "c_london_night",
@@ -573,7 +636,8 @@
   "file": "episodes/airport/media/c_london_night.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "London at night \u00b7 modern footage, illustrative"
+  "caption": "London at night \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_map": {
   "id": "c_map",
@@ -581,7 +645,8 @@
   "file": "episodes/airport/media/c_map.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Map of Europe \u00b7 modern footage, illustrative"
+  "caption": "Map of Europe \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "c_book_pages": {
   "id": "c_book_pages",
@@ -589,7 +654,8 @@
   "file": "episodes/airport/media/c_book_pages.mp4",
   "credit": "Coverr \u00b7 Coverr License",
   "modern": true,
-  "caption": "Writing in a notebook \u00b7 modern footage, illustrative"
+  "caption": "Writing in a notebook \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_iran_newsreel_b": {
   "id": "v_iran_newsreel_b",
@@ -597,7 +663,8 @@
   "file": "episodes/airport/media/v_iran_newsreel_b.mp4",
   "credit": "United States Information Agency \u00b7 Public domain \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Iran, c. 1957 \u00b7 USIA newsreel \u201cNews of Iran\u201d \u00b7 archival context, not Nasseri"
+  "caption": "Iran, c. 1957 \u00b7 USIA newsreel \u201cNews of Iran\u201d \u00b7 archival context, not Nasseri",
+  "showCaption": false
  },
  "v_af747_cabin": {
   "id": "v_af747_cabin",
@@ -605,7 +672,8 @@
   "file": "episodes/airport/media/v_af747_cabin.mp4",
   "credit": "ProtoplasmaKid \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Air France 747 cabin \u00b7 modern footage (2015)"
+  "caption": "Air France 747 cabin \u00b7 modern footage (2015)",
+  "showCaption": false
  },
  "v_lju_passport": {
   "id": "v_lju_passport",
@@ -613,7 +681,8 @@
   "file": "episodes/airport/media/v_lju_passport.mp4",
   "credit": "Snicel 69 \u00b7 CC BY 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Passport control, Ljubljana \u00b7 modern footage, illustrative"
+  "caption": "Passport control, Ljubljana \u00b7 modern footage, illustrative",
+  "showCaption": false
  },
  "v_lju_baggage": {
   "id": "v_lju_baggage",
@@ -621,6 +690,59 @@
   "file": "episodes/airport/media/v_lju_baggage.mp4",
   "credit": "Snicel 69 \u00b7 CC BY 4.0 \u00b7 Wikimedia Commons",
   "modern": true,
-  "caption": "Baggage hall, Ljubljana \u00b7 modern footage, illustrative"
+  "caption": "Baggage hall, Ljubljana \u00b7 modern footage, illustrative",
+  "showCaption": false
+ },
+ "u_writing_table": {
+  "id": "u_writing_table",
+  "kind": "photo",
+  "file": "episodes/airport/media/u_writing_table.jpg",
+  "credit": "Photograph supplied by the channel owner",
+  "modern": false,
+  "focus": [
+   0.52,
+   0.35
+  ],
+  "caption": "Nasseri writing at a table in Terminal 1, beside his luggage trolley",
+  "showCaption": true
+ },
+ "u_travel_document": {
+  "id": "u_travel_document",
+  "kind": "photo",
+  "file": "episodes/airport/media/u_travel_document.jpg",
+  "credit": "Photograph supplied by the channel owner",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.35
+  ],
+  "caption": "Nasseri holding a French travel document (titre d'identit\u00e9 et de voyage)",
+  "showCaption": true
+ },
+ "u_luggage_corner": {
+  "id": "u_luggage_corner",
+  "kind": "photo",
+  "file": "episodes/airport/media/u_luggage_corner.jpg",
+  "credit": "Photograph supplied by the channel owner",
+  "modern": false,
+  "focus": [
+   0.4,
+   0.35
+  ],
+  "caption": "Nasseri among his belongings in Terminal 1",
+  "showCaption": true
+ },
+ "u_red_sofa": {
+  "id": "u_red_sofa",
+  "kind": "photo",
+  "file": "episodes/airport/media/u_red_sofa.jpg",
+  "credit": "Photograph supplied by the channel owner",
+  "modern": false,
+  "focus": [
+   0.38,
+   0.3
+  ],
+  "caption": "Nasseri on his red bench in Terminal 1 as passengers pass",
+  "showCaption": true
  }
 }

@@ -2328,5 +2328,89 @@
   "originalSize": "1920x1080",
   "credit": "Snicel 69 · CC BY 4.0 · Wikimedia Commons",
   "commons": "File:Arival at Ljubljana Airport Slovenia Jože Pučnik.webm"
+ },
+ {
+  "id": "u_writing_table",
+  "kind": "photo",
+  "status": "approved",
+  "source": "user-supplied",
+  "userSupplied": true,
+  "file": "episodes/airport/media/u_writing_table.jpg",
+  "author": "Unknown (supplied by channel owner)",
+  "license": "Unverified — supplied by the channel owner; appears to be press-agency photography (rights holder not identified)",
+  "licenseUrl": "",
+  "attributionRequired": "unknown",
+  "credit": "Photograph supplied by the channel owner",
+  "caption": "Nasseri writing at a table in Terminal 1, beside his luggage trolley",
+  "description": "Nasseri writing at a table in Terminal 1, beside his luggage trolley",
+  "focus": [
+   0.52,
+   0.35
+  ],
+  "modern": false,
+  "notes": "Used on the channel owner's explicit instruction. Licence not verified: confirm rights or remove before monetized publication (set status to 'excluded')."
+ },
+ {
+  "id": "u_travel_document",
+  "kind": "photo",
+  "status": "approved",
+  "source": "user-supplied",
+  "userSupplied": true,
+  "file": "episodes/airport/media/u_travel_document.jpg",
+  "author": "Unknown (supplied by channel owner)",
+  "license": "Unverified — supplied by the channel owner; appears to be press-agency photography (rights holder not identified)",
+  "licenseUrl": "",
+  "attributionRequired": "unknown",
+  "credit": "Photograph supplied by the channel owner",
+  "caption": "Nasseri holding a French travel document (titre d'identité et de voyage)",
+  "description": "Nasseri holding a French travel document (titre d'identité et de voyage)",
+  "focus": [
+   0.5,
+   0.35
+  ],
+  "modern": false,
+  "notes": "Used on the channel owner's explicit instruction. Licence not verified: confirm rights or remove before monetized publication (set status to 'excluded')."
+ },
+ {
+  "id": "u_luggage_corner",
+  "kind": "photo",
+  "status": "approved",
+  "source": "user-supplied",
+  "userSupplied": true,
+  "file": "episodes/airport/media/u_luggage_corner.jpg",
+  "author": "Unknown (supplied by channel owner)",
+  "license": "Unverified — supplied by the channel owner; appears to be press-agency photography (rights holder not identified)",
+  "licenseUrl": "",
+  "attributionRequired": "unknown",
+  "credit": "Photograph supplied by the channel owner",
+  "caption": "Nasseri among his belongings in Terminal 1",
+  "description": "Nasseri among his belongings in Terminal 1",
+  "focus": [
+   0.4,
+   0.35
+  ],
+  "modern": false,
+  "notes": "Used on the channel owner's explicit instruction. Licence not verified: confirm rights or remove before monetized publication (set status to 'excluded')."
+ },
+ {
+  "id": "u_red_sofa",
+  "kind": "photo",
+  "status": "approved",
+  "source": "user-supplied",
+  "userSupplied": true,
+  "file": "episodes/airport/media/u_red_sofa.jpg",
+  "author": "Unknown (supplied by channel owner)",
+  "license": "Unverified — supplied by the channel owner; appears to be press-agency photography (rights holder not identified)",
+  "licenseUrl": "",
+  "attributionRequired": "unknown",
+  "credit": "Photograph supplied by the channel owner",
+  "caption": "Nasseri on his red bench in Terminal 1 as passengers pass",
+  "description": "Nasseri on his red bench in Terminal 1 as passengers pass",
+  "focus": [
+   0.38,
+   0.3
+  ],
+  "modern": false,
+  "notes": "Used on the channel owner's explicit instruction. Licence not verified: confirm rights or remove before monetized publication (set status to 'excluded')."
  }
 ]

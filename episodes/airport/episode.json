@@ -61,28 +61,33 @@
      "asset": "v_t2f",
      "fallback": {
       "type": "crowd"
+     }
+    },
+    {
+     "from": 1,
+     "type": "media",
+     "asset": "u_red_sofa",
+     "fallback": {
+      "type": "crowd"
      },
-     "offset": 3.4
+     "offset": 3.4,
+     "kenBurns": "in"
     },
     {
      "from": 2,
-     "type": "media",
-     "asset": "nasseri_walkway_2004",
-     "fallback": {
-      "type": "crowd"
-     }
+     "type": "reenact",
+     "scene": "arrival",
+     "startAt": 4.0
     },
     {
      "from": 3,
      "type": "media",
-     "asset": "nasseri_portrait_2005",
+     "asset": "u_travel_document",
      "fallback": {
       "type": "crowd"
      },
-     "fit": "framed",
-     "printHeight": 780,
-     "printOffsetX": 230,
-     "rotate": 0.8
+     "kenBurns": "in",
+     "noCaption": true
     },
     {
      "from": 4,
@@ -115,12 +120,19 @@
      "text": "PARIS · ROISSY–CHARLES DE GAULLE"
     },
     {
+     "type": "note",
+     "at": 1,
+     "offset": 0.4,
+     "duration": 3.2,
+     "text": "Contemporary footage is used for illustration. Animated scenes are reconstructions."
+    },
+    {
      "type": "lowerThird",
      "at": 3,
+     "duration": 3.0,
      "text": "Mehran Karimi Nasseri",
      "sub": "Lived at Charles de Gaulle Airport, 1988–2006",
-     "onlyWithAsset": "nasseri_portrait_2005",
-     "duration": 3.0
+     "onlyWithAsset": "u_travel_document"
     }
    ]
   },
@@ -132,7 +144,6 @@
     "Much of what we know about his early life comes from his own telling, and his telling changed over the years.",
     "He said he had studied in England in the 1970s.",
     "He said he had been expelled from Iran in 1977, after protesting against the Shah.",
-    "At different times, he said his mother was Scottish, or Swedish. Neither claim was ever confirmed.",
     "Journalists who later looked into his past questioned parts of that account.",
     "What is better documented is this: in 1981, he was recognized as a refugee in Belgium.",
     "For several years, he lived there, and travelled in Europe."
@@ -154,10 +165,16 @@
     },
     {
      "from": 1,
-     "type": "media",
-     "asset": "v_iran_newsreel_b",
-     "fallback": {
-      "type": "crowd"
+     "type": "split",
+     "left": {
+      "asset": "nasseri_portrait_2005",
+      "focus": [
+       0.55,
+       0.28
+      ]
+     },
+     "right": {
+      "asset": "v_iran_newsreel_b"
      }
     },
     {
@@ -196,34 +213,17 @@
     {
      "from": 4,
      "type": "media",
-     "asset": "c_map",
+     "asset": "v_lju_passport",
      "fallback": {
       "type": "crowd"
      }
     },
     {
      "from": 5,
-     "type": "media",
-     "asset": "c_checkin",
-     "fallback": {
-      "type": "crowd"
-     }
-    },
-    {
-     "from": 6,
-     "type": "map",
-     "view": "europe_iran",
-     "points": [
-      "masjed",
-      "brussels"
-     ],
-     "routes": [
-      [
-       "masjed",
-       "brussels"
-      ]
-     ],
-     "caption": "1981 · Refugee status recognized in Belgium"
+     "type": "reenact",
+     "scene": "journey",
+     "to": "Belgium",
+     "from_": "Iran"
     },
     {
      "from": 6,
@@ -231,28 +231,28 @@
      "asset": "v_brussels_station",
      "fallback": {
       "type": "crowd"
-     },
-     "offset": 3.6
+     }
     },
     {
-     "from": 7,
+     "from": 6,
      "type": "media",
      "asset": "v_af747",
      "fallback": {
       "type": "crowd"
-     }
+     },
+     "offset": 3.0
     }
    ],
    "overlays": [
     {
-     "type": "disputed",
-     "at": 3,
-     "text": "Claim disputed by later reporting"
-    },
-    {
      "type": "stamp",
      "at": 0,
      "text": "IRAN"
+    },
+    {
+     "type": "disputed",
+     "at": 3,
+     "text": "Claim disputed by later reporting"
     }
    ]
   },
@@ -327,34 +327,13 @@
     },
     {
      "from": 5,
-     "type": "map",
-     "view": "channel",
-     "points": [
-      "cdg",
-      "lhr"
-     ],
-     "routes": [
-      [
-       "lhr",
-       "cdg"
-      ]
-     ],
-     "refused": "lhr",
-     "caption": "Refused entry · Returned to Paris"
-    },
-    {
-     "from": 5,
-     "type": "media",
-     "asset": "v_approach_cdg",
-     "fallback": {
-      "type": "crowd"
-     },
-     "offset": 3.4
+     "type": "reenact",
+     "scene": "refused"
     },
     {
      "from": 6,
      "type": "media",
-     "asset": "v_empty_airport",
+     "asset": "v_approach_cdg",
      "fallback": {
       "type": "crowd"
      }
@@ -365,7 +344,8 @@
      "asset": "v_lju_passport",
      "fallback": {
       "type": "crowd"
-     }
+     },
+     "clipStart": 6
     },
     {
      "from": 8,
@@ -377,13 +357,9 @@
     },
     {
      "from": 8,
-     "type": "media",
-     "asset": "t1_checkin_2006",
-     "fallback": {
-      "type": "crowd"
-     },
-     "offset": 3.0,
-     "kenBurns": "out"
+     "type": "reenact",
+     "scene": "arrival",
+     "offset": 3.1
     }
    ],
    "overlays": [
@@ -433,35 +409,20 @@
     {
      "from": 3,
      "type": "media",
-     "asset": "t1_tunnel_2006",
-     "fallback": {
-      "type": "crowd"
-     }
-    },
-    {
-     "from": 4,
-     "type": "media",
-     "asset": "c_checkin",
+     "asset": "u_red_sofa",
      "fallback": {
       "type": "crowd"
      },
-     "clipStart": 6
+     "kenBurns": "out",
+     "focus": [
+      0.6,
+      0.4
+     ]
     },
     {
      "from": 5,
-     "type": "media",
-     "asset": "v_yvr_timelapse",
-     "fallback": {
-      "type": "crowd"
-     }
-    },
-    {
-     "from": 7,
-     "type": "media",
-     "asset": "v_dus_hall1",
-     "fallback": {
-      "type": "crowd"
-     }
+     "type": "reenact",
+     "scene": "years"
     },
     {
      "from": 8,
@@ -469,8 +430,7 @@
      "asset": "nasseri_walkway_2004",
      "fallback": {
       "type": "crowd"
-     },
-     "kenBurns": "out"
+     }
     },
     {
      "from": 9,
@@ -523,11 +483,17 @@
    "shots": [
     {
      "from": 0,
+     "type": "reenact",
+     "scene": "organize"
+    },
+    {
+     "from": 2,
      "type": "media",
-     "asset": "c_escalator",
+     "asset": "u_luggage_corner",
      "fallback": {
       "type": "crowd"
-     }
+     },
+     "kenBurns": "in"
     },
     {
      "from": 2,
@@ -535,27 +501,13 @@
      "asset": "c_suitcases",
      "fallback": {
       "type": "crowd"
-     }
-    },
-    {
-     "from": 2,
-     "type": "media",
-     "asset": "nasseri_portrait_2005",
-     "fallback": {
-      "type": "crowd"
      },
-     "offset": 4.0,
-     "fit": "framed",
-     "printHeight": 800,
-     "rotate": -1.4
+     "offset": 4.4
     },
     {
      "from": 3,
-     "type": "media",
-     "asset": "t1_inside_2002",
-     "fallback": {
-      "type": "crowd"
-     }
+     "type": "reenact",
+     "scene": "read"
     },
     {
      "from": 4,
@@ -564,6 +516,15 @@
      "fallback": {
       "type": "crowd"
      }
+    },
+    {
+     "from": 5,
+     "type": "media",
+     "asset": "u_writing_table",
+     "fallback": {
+      "type": "crowd"
+     },
+     "kenBurns": "in"
     },
     {
      "from": 6,
@@ -575,20 +536,20 @@
     },
     {
      "from": 8,
-     "type": "media",
-     "asset": "c_handwriting",
-     "fallback": {
-      "type": "crowd"
-     }
+     "type": "reenact",
+     "scene": "write"
     },
     {
      "from": 9,
      "type": "media",
-     "asset": "t1_lounge_2006",
+     "asset": "nasseri_portrait_2005",
      "fallback": {
       "type": "crowd"
      },
-     "kenBurns": "out"
+     "fit": "framed",
+     "printHeight": 800,
+     "rotate": -1.4,
+     "noCaption": true
     },
     {
      "from": 9,
@@ -597,7 +558,8 @@
      "fallback": {
       "type": "crowd"
      },
-     "offset": 3.0
+     "offset": 3.6,
+     "noCaption": true
     }
    ],
    "overlays": [
@@ -639,23 +601,21 @@
     },
     {
      "from": 1,
-     "type": "media",
-     "asset": "v_t2f",
-     "fallback": {
-      "type": "crowd"
-     },
-     "clipStart": 4
+     "type": "reenact",
+     "scene": "press"
     },
     {
      "from": 2,
      "type": "media",
-     "asset": "nasseri_portrait_2005",
+     "asset": "u_luggage_corner",
      "fallback": {
       "type": "crowd"
      },
-     "fit": "framed",
-     "printHeight": 900,
-     "rotate": 0.6
+     "kenBurns": "out",
+     "focus": [
+      0.3,
+      0.4
+     ]
     },
     {
      "from": 3,
@@ -675,11 +635,9 @@
     },
     {
      "from": 4,
-     "type": "media",
-     "asset": "v_jetbridge_dock",
-     "fallback": {
-      "type": "crowd"
-     }
+     "type": "reenact",
+     "scene": "press",
+     "startAt": 3.0
     },
     {
      "from": 5,
@@ -701,10 +659,15 @@
     {
      "from": 6,
      "type": "media",
-     "asset": "v_jfk_timelapse",
+     "asset": "nasseri_portrait_2005",
      "fallback": {
       "type": "crowd"
-     }
+     },
+     "kenBurns": "in",
+     "focus": [
+      0.55,
+      0.28
+     ]
     }
    ],
    "overlays": []
@@ -782,10 +745,15 @@
     {
      "from": 5,
      "type": "media",
-     "asset": "t1_exterior_2005",
+     "asset": "u_writing_table",
      "fallback": {
       "type": "crowd"
-     }
+     },
+     "kenBurns": "out",
+     "focus": [
+      0.45,
+      0.5
+     ]
     },
     {
      "from": 6,
@@ -849,10 +817,15 @@
     {
      "from": 2,
      "type": "media",
-     "asset": "c_paris_arch",
+     "asset": "u_travel_document",
      "fallback": {
       "type": "crowd"
-     }
+     },
+     "kenBurns": "out",
+     "focus": [
+      0.45,
+      0.6
+     ]
     },
     {
      "from": 3,
@@ -879,10 +852,14 @@
     {
      "from": 5,
      "type": "media",
-     "asset": "t1_tunnel_end_2006",
+     "asset": "nasseri_portrait_2005",
      "fallback": {
       "type": "crowd"
-     }
+     },
+     "fit": "framed",
+     "printHeight": 820,
+     "rotate": 0.9,
+     "printOffsetX": 0
     },
     {
      "from": 6,
@@ -894,11 +871,17 @@
     },
     {
      "from": 7,
+     "type": "reenact",
+     "scene": "sleep"
+    },
+    {
+     "from": 7,
      "type": "media",
      "asset": "v_boarding_bridges",
      "fallback": {
       "type": "crowd"
      },
+     "offset": 4.6,
      "clipStart": 3
     },
     {
@@ -993,10 +976,20 @@
     {
      "from": 5,
      "type": "media",
+     "asset": "nasseri_walkway_2004",
+     "fallback": {
+      "type": "crowd"
+     },
+     "kenBurns": "out"
+    },
+    {
+     "from": 5,
+     "type": "media",
      "asset": "v_seine",
      "fallback": {
       "type": "crowd"
-     }
+     },
+     "offset": 3.5
     }
    ],
    "overlays": [
@@ -1054,14 +1047,16 @@
     {
      "from": 3,
      "type": "media",
-     "asset": "nasseri_portrait_2005",
+     "asset": "u_red_sofa",
      "fallback": {
       "type": "crowd"
      },
-     "fit": "framed",
-     "printHeight": 700,
-     "rotate": -0.6,
-     "printOffsetX": 380
+     "kenBurns": "in",
+     "focus": [
+      0.36,
+      0.3
+     ],
+     "noCaption": true
     }
    ],
    "overlays": [
@@ -1105,10 +1100,20 @@
     },
     {
      "from": 2,
-     "type": "media",
-     "asset": "nasseri_walkway_2004",
-     "fallback": {
-      "type": "crowd"
+     "type": "split",
+     "left": {
+      "asset": "u_red_sofa",
+      "focus": [
+       0.35,
+       0.3
+      ]
+     },
+     "right": {
+      "asset": "u_travel_document",
+      "focus": [
+       0.45,
+       0.35
+      ]
      }
     },
     {
@@ -1122,17 +1127,24 @@
     },
     {
      "from": 4,
+     "type": "reenact",
+     "scene": "read",
+     "startAt": 2
+    },
+    {
+     "from": 4,
      "type": "media",
      "asset": "v_ber_sunset",
      "fallback": {
       "type": "crowd"
-     }
+     },
+     "offset": 4.0
     }
    ],
    "overlays": []
   }
  ],
  "endCard": {
-  "seconds": 6
+  "seconds": 30
  }
 }

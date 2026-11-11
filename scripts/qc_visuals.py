@@ -21,8 +21,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("episode")
     ap.add_argument("--tag", default="")
-    ap.add_argument("--min-video", type=float, default=0.6)
-    ap.add_argument("--max-graphics", type=float, default=0.15)
+    ap.add_argument("--min-video", type=float, default=0.5)
+    ap.add_argument("--max-graphics", type=float, default=0.27)
     a = ap.parse_args()
     d = ROOT / "episodes" / a.episode
     ep = json.loads((d / "episode.json").read_text())
@@ -33,7 +33,7 @@ def main():
     freeze = []
     tot = {"video": 0.0, "photo": 0.0, "graphic": 0.0}
     missing = []
-    print(f'{"chapter":14s} {"dur":>6s} {"video":>6s} {"photo":>6s} {"graph":>6s}')
+    print(f'{"chapter":14s} {"dur":>6s} {"video":>6s} {"photo":>6s} {"anim/gfx":>9s}')
     for si, ts in enumerate(tl["segments"]):
         seg = segs[ts["id"]]
         nxt = tl["segments"][si + 1]["start"] if si + 1 < len(tl["segments"]) else tl["endCardStart"]
@@ -44,6 +44,11 @@ def main():
         for i, sh in enumerate(seg["shots"]):
             end = starts[i + 1] if i + 1 < len(starts) else nxt
             dur = max(0.0, end - starts[i])
+            if sh["type"] == "split":
+                for side in (sh["left"], sh["right"]):
+                    k = assets[side["asset"]]["kind"] if side["asset"] in assets else "graphic"
+                    acc[k] += dur / 2
+                continue
             if sh["type"] == "media" and sh["asset"] in assets:
                 acc[assets[sh["asset"]]["kind"]] += dur
                 r = reg[sh["asset"]]
@@ -59,7 +64,8 @@ def main():
         print(f'{ts["id"]:14s} {seg_d:6.1f} {acc["video"]/seg_d:6.0%} {acc["photo"]/seg_d:6.0%} {acc["graphic"]/seg_d:6.0%}')
         for k in tot:
             tot[k] += acc[k]
-    tot["graphic"] += tl["endCardSec"]
+    # the end card / credit roll is reported separately, not counted in the edit
+    print(f'(end card + credits: {tl["endCardSec"]:.1f}s, excluded)')
     T = sum(tot.values())
     print(f'{"TOTAL":14s} {T:6.1f} {tot["video"]/T:6.0%} {tot["photo"]/T:6.0%} {tot["graphic"]/T:6.0%}   (end card counted as graphics)')
     if missing:

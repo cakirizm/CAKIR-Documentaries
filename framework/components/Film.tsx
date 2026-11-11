@@ -10,7 +10,8 @@ import {Asset, Media} from './shots/Media';
 import {Terminal} from './shots/Terminal';
 import {Timeline} from './shots/Timeline';
 import {Documents, FilmCard, Figure, Identity, Myth, NameCard, Obituary, Routine, Statement, TitleCard, Works} from './shots/Typography';
-import {ChapterLabel, Disputed, EndCard, FilmLook, LogoBug, LowerThird, Quote, Stamp} from './overlays/Overlays';
+import {ChapterLabel, CreditBlock, Disputed, EndCard, FilmLook, LogoBug, LowerThird, NoteOverlay, Quote, Stamp} from './overlays/Overlays';
+import {Reenactment} from './anim/Reenactment';
 
 /** Registry of graphic shot types. Add new shot types here. */
 export const SHOTS: Record<string, React.FC<{shot: any}>> = {
@@ -31,6 +32,7 @@ export const SHOTS: Record<string, React.FC<{shot: any}>> = {
 	identity: Identity,
 	obituary: Obituary,
 	documents: Documents,
+	reenact: Reenactment,
 };
 
 export type TimelineJson = {
@@ -46,6 +48,7 @@ export type FilmProps = {
 	assets: Record<string, Asset>;
 	audio: string; // path under /public
 	endCardLines: string[];
+	credits?: CreditBlock[];
 	burnSubtitles?: boolean;
 };
 
@@ -56,6 +59,23 @@ const ShotView: React.FC<{shot: any; assets: Record<string, Asset>}> = ({shot, a
 		const a = assets[shot.asset];
 		if (a) return <Media asset={a} shot={shot} />;
 		return <ShotView shot={shot.fallback} assets={assets} />;
+	}
+	if (shot.type === 'split') {
+		// two images side by side, divided by a thin rule
+		const half = (side: any, key: string, left: boolean) => (
+			<div key={key} style={{position: 'absolute', top: 0, bottom: 0, left: left ? 0 : 963, width: 957, overflow: 'hidden'}}>
+				<div style={{position: 'absolute', left: -480, width: 1920, height: 1080}}>
+					<ShotView shot={{type: 'media', fallback: {type: 'crowd'}, noCaption: true, ...side}} assets={assets} />
+				</div>
+			</div>
+		);
+		return (
+			<AbsoluteFill style={{backgroundColor: theme.color.bg}}>
+				{half(shot.left, 'l', true)}
+				{half(shot.right, 'r', false)}
+				<div style={{position: 'absolute', left: 957, width: 6, top: 0, bottom: 0, background: theme.color.bg}} />
+			</AbsoluteFill>
+		);
 	}
 	if (shot.type === 'title' && shot.bg && assets[shot.bg]) {
 		return <TitleCard shot={shot} background={<Media asset={{...assets[shot.bg], credit: '', caption: ''}} shot={{kenBurns: 'out'}} />} />;
@@ -107,7 +127,7 @@ const Captions: React.FC<{timeline: TimelineJson; fps: number}> = ({timeline, fp
 	);
 };
 
-export const Film: React.FC<FilmProps> = ({episode, timeline, assets, audio, endCardLines, burnSubtitles = true}) => {
+export const Film: React.FC<FilmProps> = ({episode, timeline, assets, audio, endCardLines, credits, burnSubtitles = true}) => {
 	const fps = 30;
 	const f = (sec: number) => Math.round(sec * fps);
 	const T = theme.transitionFrames;
@@ -131,7 +151,7 @@ export const Film: React.FC<FilmProps> = ({episode, timeline, assets, audio, end
 		(seg.overlays ?? []).forEach((o: any, i: number) => {
 			if (o.onlyWithAsset && !assets[o.onlyWithAsset]) return;
 			const st = tseg.sentences[o.at].start - LEAD + (o.offset ?? 0);
-			const node = o.type === 'stamp' ? <Stamp text={o.text} /> : o.type === 'lowerThird' ? <LowerThird text={o.text} sub={o.sub} /> : o.type === 'quote' ? <Quote text={o.text} attribution={o.attribution} /> : <Disputed text={o.text} />;
+			const node = o.type === 'stamp' ? <Stamp text={o.text} /> : o.type === 'lowerThird' ? <LowerThird text={o.text} sub={o.sub} /> : o.type === 'quote' ? <Quote text={o.text} attribution={o.attribution} /> : o.type === 'note' ? <NoteOverlay text={o.text} /> : <Disputed text={o.text} />;
 			const dur = o.duration ?? (o.type === 'lowerThird' ? 5.5 : o.type === 'stamp' ? 4.5 : 4.5);
 			overlays.push({key: `${tseg.id}-o${i}`, start: Math.max(0, st), dur, node});
 		});
@@ -158,7 +178,7 @@ export const Film: React.FC<FilmProps> = ({episode, timeline, assets, audio, end
 			{burnSubtitles ? <Captions timeline={timeline} fps={fps} /> : null}
 			{timeline.endCardSec >= 2 ? (
 				<Sequence from={f(timeline.endCardStart)} durationInFrames={f(timeline.endCardSec)} name="end card">
-					<EndCard lines={endCardLines} />
+					<EndCard lines={endCardLines} credits={credits} />
 				</Sequence>
 			) : null}
 			<FilmLook />

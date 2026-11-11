@@ -16,6 +16,8 @@ for a in reg:
     ok = a["status"] == "approved" and (ROOT / "public" / a["file"]).exists() and a.get("license") and a.get("credit")
     if ok:
         out[a["id"]] = {k: a[k] for k in ("id", "kind", "file", "credit")} | {k: a[k] for k in ("modern", "focus", "caption") if k in a}
+        # brief on-screen caption only for genuine historical photographs
+        out[a["id"]]["showCaption"] = a["kind"] == "photo" and not a.get("modern")
     used.append((a["id"], "USED" if ok else "NOT USED (" + a["status"] + ")"))
 b = ROOT / "episodes" / ep / "build"; b.mkdir(exist_ok=True)
 (b / "assets.resolved.json").write_text(json.dumps(out, indent=1))

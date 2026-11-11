@@ -46,6 +46,16 @@ if (chunksArg) {
 	console.log('chunks complete');
 	process.exit(0);
 }
+const stillsArg = flag('stills')?.split('=')[1];
+if (stillsArg) {
+	fs.mkdirSync(out, {recursive: true});
+	for (const f of stillsArg.split(',').map(Number)) {
+		await renderStill({...opts, output: path.join(out, `f${String(f).padStart(5, '0')}.png`), imageFormat: 'png', frame: f, scale: Number(flag('scale')?.split('=')[1] ?? 0.5)});
+	}
+	cleanup();
+	console.log('stills done');
+	process.exit(0);
+}
 if (isStill) {
 	await renderStill({...opts, output: out, imageFormat: 'png', frame: Number(flag('frame')?.split('=')[1] ?? 0), scale: Number(flag('scale')?.split('=')[1] ?? 1)});
 } else {

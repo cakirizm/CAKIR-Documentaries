@@ -107,22 +107,50 @@ export const FilmLook: React.FC = () => {
 	);
 };
 
-export const EndCard: React.FC<{lines: string[]}> = ({lines}) => {
+export type CreditBlock = {heading: string; lines: string[]};
+
+export const EndCard: React.FC<{lines: string[]; credits?: CreditBlock[]}> = ({lines, credits = []}) => {
+	const frame = useCurrentFrame();
+	const {durationInFrames, fps} = useVideoConfig();
+	const logoEnd = credits.length ? Math.min(durationInFrames, 5 * fps) : durationInFrames;
+	const draw = interpolate(frame, [6, 50], [0, 1], clamp);
+	const rollH = credits.reduce((a, c) => a + 90 + c.lines.length * 34, 0) + 1080;
+	const rollY = interpolate(frame, [logoEnd, durationInFrames - 20], [1080, 1080 - rollH], clamp);
+	return (
+		<AbsoluteFill style={{backgroundColor: C.bg, opacity: interpolate(frame, [0, 14, durationInFrames - 20, durationInFrames], [0, 1, 1, 0], clamp)}}>
+			<AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: 50, opacity: interpolate(frame, [logoEnd - 20, logoEnd], [1, 0], clamp)}}>
+				<div style={{opacity: rise(frame, 4, 24)}}>
+					<Logo size={2.2} draw={draw} />
+				</div>
+				<div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10, opacity: rise(frame, 40, 24)}}>
+					{lines.map((l, i) => (
+						<div key={i} style={{fontFamily: theme.font.mono, fontSize: 20, letterSpacing: 3, color: C.inkDim, textTransform: 'uppercase'}}>{l}</div>
+					))}
+				</div>
+			</AbsoluteFill>
+			{credits.length ? (
+				<div style={{position: 'absolute', left: 0, right: 0, top: rollY, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+					{credits.map((c, i) => (
+						<div key={i} style={{marginBottom: 56, textAlign: 'center', maxWidth: 1300}}>
+							<div style={{fontFamily: theme.font.mono, fontSize: 20, letterSpacing: 5, color: C.accent, textTransform: 'uppercase', marginBottom: 14}}>{c.heading}</div>
+							{c.lines.map((l, k) => (
+								<div key={k} style={{fontFamily: theme.font.sans, fontSize: 24, lineHeight: '34px', color: C.ink}}>{l}</div>
+							))}
+						</div>
+					))}
+				</div>
+			) : null}
+		</AbsoluteFill>
+	);
+};
+
+/** Small, temporary explanatory note (e.g. footage disclaimer). */
+export const NoteOverlay: React.FC<{text: string}> = ({text}) => {
 	const frame = useCurrentFrame();
 	const {durationInFrames} = useVideoConfig();
-	const draw = interpolate(frame, [6, 50], [0, 1], clamp);
 	return (
-		<AbsoluteFill style={{backgroundColor: C.bg, justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: 50, opacity: interpolate(frame, [0, 14, durationInFrames - 20, durationInFrames], [0, 1, 1, 0], clamp)}}>
-			<div style={{opacity: rise(frame, 4, 24)}}>
-				<Logo size={2.2} draw={draw} />
-			</div>
-			<div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10, opacity: rise(frame, 40, 24)}}>
-				{lines.map((l, i) => (
-					<div key={i} style={{fontFamily: theme.font.mono, fontSize: 20, letterSpacing: 3, color: C.inkDim, textTransform: 'uppercase'}}>
-						{l}
-					</div>
-				))}
-			</div>
+		<AbsoluteFill style={{opacity: envelope(frame, durationInFrames, 12, 16)}}>
+			<div style={{position: 'absolute', right: theme.safe.x, top: theme.safe.y + 40, fontFamily: theme.font.mono, fontSize: 18, letterSpacing: 2, color: 'rgba(236,229,216,0.85)', textShadow: '0 1px 8px rgba(0,0,0,0.9)', maxWidth: 640, textAlign: 'right'}}>{text}</div>
 		</AbsoluteFill>
 	);
 };

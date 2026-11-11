@@ -9,7 +9,8 @@ export type Asset = {
 	file: string; // path under /public
 	credit: string; // on-screen attribution line
 	modern?: boolean; // modern footage — caption must say so
-	caption?: string; // e.g. "Terminal 1, January 2006" or "Modern footage · illustrative"
+	caption?: string; // e.g. "Terminal 1, January 2006"
+	showCaption?: boolean; // historical photos only: brief on-screen caption
 	focus?: [number, number]; // Ken Burns focal point (0..1)
 	trimStartSec?: number;
 };
@@ -45,7 +46,7 @@ export const Media: React.FC<{asset: Asset; shot: any}> = ({asset, shot}) => {
 						<Img src={staticFile(asset.file)} style={{display: 'block', height: shot.printHeight ?? 760, filter: theme.grade}} />
 					</div>
 				</AbsoluteFill>
-				<Credit asset={asset} frame={frame} />
+				{shot.noCaption ? null : <Credit asset={asset} frame={frame} />}
 			</AbsoluteFill>
 		);
 	}
@@ -61,28 +62,19 @@ export const Media: React.FC<{asset: Asset; shot: any}> = ({asset, shot}) => {
 				<OffthreadVideo src={staticFile(asset.file)} muted startFrom={Math.round((shot.clipStart ?? 0) * fps)} style={style} />
 			)}
 			<AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.5) 100%)'}} />
-			<Credit asset={asset} frame={frame} />
+			{shot.noCaption ? null : <Credit asset={asset} frame={frame} />}
 		</AbsoluteFill>
 	);
 };
 
-/** On-screen attribution: caption (what/when) + author · licence · source. */
-const Credit: React.FC<{asset: Asset; frame: number}> = ({asset, frame}) => (
-	<div
-		style={{
-			position: 'absolute',
-			right: 60,
-			top: 112,
-			fontFamily: theme.font.mono,
-			fontSize: 16,
-			letterSpacing: 1,
-			color: 'rgba(236,229,216,0.72)',
-			opacity: rise(frame, 10, 15),
-			textAlign: 'right',
-			textShadow: '0 1px 6px rgba(0,0,0,0.9)',
-		}}
-	>
-		{asset.caption ? <div style={{color: 'rgba(236,229,216,0.92)', marginBottom: 4}}>{asset.caption}</div> : null}
-		{asset.credit}
-	</div>
-);
+/** Brief caption for historical photographs only (no source labels on the picture;
+ *  attributions are in the end credits and the description). */
+const Credit: React.FC<{asset: Asset; frame: number}> = ({asset, frame}) => {
+	if (!asset.showCaption || !asset.caption) return null;
+	const o = interpolate(frame, [8, 22, 95, 115], [0, 1, 1, 0], clamp);
+	return (
+		<div style={{position: 'absolute', left: theme.safe.x, bottom: 190, fontFamily: theme.font.mono, fontSize: 19, letterSpacing: 2, color: 'rgba(236,229,216,0.88)', textShadow: '0 1px 8px rgba(0,0,0,0.9)', opacity: o, maxWidth: 900}}>
+			{asset.caption}
+		</div>
+	);
+};
