@@ -41,6 +41,7 @@ if (isStill) {
 		imageFormat: 'jpeg',
 		jpegQuality: 92,
 		frameRange: framesArg ? framesArg.split('-').map(Number) : null,
+		muted: !!flag('muted'),
 		x264Preset: draft ? 'veryfast' : 'slow',
 		onProgress: ({progress}) => {
 			const p = Math.floor(progress * 100);
