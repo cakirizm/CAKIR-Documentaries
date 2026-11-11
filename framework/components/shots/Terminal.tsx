@@ -50,7 +50,7 @@ export const Terminal: React.FC<{shot: any}> = ({shot}) => {
 					</g>
 				</svg>
 			</AbsoluteFill>
-			<AbsoluteFill style={{justifyContent: 'flex-end', padding: `0 ${theme.safe.x}px ${theme.safe.y + 40}px`, flexDirection: 'column', gap: 12}}>
+			<AbsoluteFill style={{justifyContent: 'flex-end', padding: `0 ${theme.safe.x}px ${theme.lowerThirdBottom}px`, flexDirection: 'column', gap: 12}}>
 				<div style={{fontFamily: theme.font.serif, fontSize: 52, color: C.ink, opacity: rise(frame, 16, 20)}}>{shot.caption}</div>
 				<Note text={shot.note} style={{fontSize: 18, opacity: rise(frame, 24, 20)}} />
 			</AbsoluteFill>

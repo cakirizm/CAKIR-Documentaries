@@ -98,13 +98,13 @@ export const MapScene: React.FC<{shot: any; places?: Record<string, Place>; view
 					})}
 				</svg>
 			</AbsoluteFill>
-			<AbsoluteFill style={{justifyContent: 'flex-end', padding: `0 ${theme.safe.x}px ${theme.safe.y + 40}px`}}>
+			<AbsoluteFill style={{justifyContent: 'flex-end', padding: `0 ${theme.safe.x}px ${theme.lowerThirdBottom}px`}}>
 				<div style={{display: 'flex', alignItems: 'center', gap: 22, opacity: rise(frame, 20, 20)}}>
 					<div style={{width: 60, height: 2, background: C.accent}} />
 					<div style={{fontFamily: theme.font.serif, fontSize: 46, color: C.ink}}>{shot.caption}</div>
 				</div>
 			</AbsoluteFill>
-			<Note text="Map data: Natural Earth" style={{position: 'absolute', right: 60, bottom: 40, fontSize: 14, opacity: 0.6}} />
+			<Note text="Map data: Natural Earth" style={{position: 'absolute', right: 60, top: 112, fontSize: 14, opacity: 0.6}} />
 		</Stage>
 	);
 };

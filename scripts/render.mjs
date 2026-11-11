@@ -24,6 +24,27 @@ const composition = await selectComposition({serveUrl, id, inputProps, browserEx
 const opts = {serveUrl, composition, inputProps, browserExecutable, chromiumOptions};
 
 fs.mkdirSync(path.dirname(path.resolve(out)), {recursive: true});
+const cleanup = () => fs.rmSync(serveUrl, {recursive: true, force: true}); // bundles copy public/ (~1 GB)
+const chunksArg = flag('chunks')?.split('=')[1];
+if (chunksArg) {
+	// restart-safe: render N silent chunks into <out>/part_i.mp4, skipping finished ones
+	const n = Number(chunksArg), total = composition.durationInFrames, step = Math.ceil(total / n);
+	fs.mkdirSync(out, {recursive: true});
+	for (let i = 0; i < n; i++) {
+		const f = path.join(out, `part_${i}.mp4`);
+		if (fs.existsSync(f + '.done')) { console.log(`chunk ${i} already done`); continue; }
+		const range = [i * step, Math.min(total - 1, (i + 1) * step - 1)];
+		console.log(`chunk ${i}: frames ${range[0]}-${range[1]}`);
+		await renderMedia({...opts, codec: cfg.codec, outputLocation: f, crf: cfg.crf, pixelFormat: cfg.pixelFormat, muted: true,
+			concurrency: cfg.concurrency, imageFormat: 'jpeg', jpegQuality: 92, frameRange: range, x264Preset: 'slow'});
+		fs.writeFileSync(f + '.done', '');
+		console.log(`chunk ${i} done`);
+	}
+	fs.writeFileSync(path.join(out, 'list.txt'), Array.from({length: n}, (_, i) => `file 'part_${i}.mp4'`).join('\n') + '\n');
+	cleanup();
+	console.log('chunks complete');
+	process.exit(0);
+}
 if (isStill) {
 	await renderStill({...opts, output: out, imageFormat: 'png', frame: Number(flag('frame')?.split('=')[1] ?? 0), scale: Number(flag('scale')?.split('=')[1] ?? 1)});
 } else {
@@ -49,4 +70,5 @@ if (isStill) {
 		},
 	});
 }
+cleanup();
 console.log('wrote', out);

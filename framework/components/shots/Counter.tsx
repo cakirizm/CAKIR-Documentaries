@@ -17,7 +17,7 @@ export const Counter: React.FC<{shot: any}> = ({shot}) => {
 	const p = interpolate(frame, [8, end], [0, 1], {...clamp, easing: ease});
 	const days = Math.round(p * totalDays);
 	const d = new Date(a + days * 86400000);
-	const dateStr = `${String(d.getUTCDate()).padStart(2, '0')} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
+	const dateStr = shot.yearOnly ? `${d.getUTCFullYear()}` : `${String(d.getUTCDate()).padStart(2, '0')} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
 	return (
 		<Stage>
 			<AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: 18}}>

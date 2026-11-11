@@ -945,7 +945,8 @@
      "fromDate": "1988-08-26",
      "toDate": "2006-07-31",
      "label": "Days in the terminal (approximate)",
-     "final": true
+     "final": true,
+     "yearOnly": true
     },
     {
      "from": 0,
@@ -1058,9 +1059,9 @@
       "type": "crowd"
      },
      "fit": "framed",
-     "printHeight": 760,
+     "printHeight": 700,
      "rotate": -0.6,
-     "printOffsetX": 230
+     "printOffsetX": 380
     }
    ],
    "overlays": [
