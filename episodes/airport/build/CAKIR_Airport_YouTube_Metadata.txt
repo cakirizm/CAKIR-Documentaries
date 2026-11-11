@@ -10,20 +10,20 @@ In August 1988, a man without papers sat down in Terminal 1 of Paris–Charles d
 
 This CAKIR documentary follows what is verified, what is disputed, and what may never be known: the missing refugee papers, the legal limbo, the red bench in Terminal 1, the name "Sir Alfred", the Hollywood deal, the papers he refused to sign, and his return to the airport where he died on 12 November 2022.
 
-A note on accuracy: Nasseri was not locked in a sealed transit zone. He lived in a public area of Terminal 1. Parts of his own account of his early life were disputed by later reporting, and the film marks them as such. Only the two photographs of Nasseri (2004, 2005) and the period photographs of Terminal 1 are historical. All moving footage is modern and is captioned on screen as illustrative or with its date and location.
+A note on accuracy: Nasseri was not locked in a sealed transit zone. He lived in a public area of Terminal 1. Parts of his own account of his early life were disputed by later reporting, and the film marks them as such. The photographs of Nasseri and the period photographs of Terminal 1 are historical. All moving footage is contemporary and used for illustration. The animated scenes are illustrative reconstructions based on published reporting, not historical footage.
 
 CHAPTERS
 00:00 An extraordinary true story
 00:31 Who was Mehran Karimi Nasseri?
-01:23 The missing papers
-02:09 How an airport became his home
-02:55 Life inside the terminal
-03:35 The world takes notice
-04:18 The Hollywood connection
-05:02 Why did he stay?
-05:54 Leaving in 2006
-06:27 Return and death, 2022
-06:54 Departures
+01:17 The missing papers
+02:02 How an airport became his home
+02:48 Life inside the terminal
+03:29 The world takes notice
+04:11 The Hollywood connection
+04:56 Why did he stay?
+05:47 Leaving in 2006
+06:20 Return and death, 2022
+06:47 Departures
 
 SOURCES (full list with claim-by-claim notes: CAKIR_Airport_Sources.md)
 - CBS News / Associated Press, 12 Nov 2022: https://www.cbsnews.com/news/iranian-man-inspired-spielberg-movie-the-terminal-dies-paris-airport-mehran-nasseri/
@@ -37,10 +37,11 @@ SOURCES (full list with claim-by-claim notes: CAKIR_Airport_Sources.md)
 
 PHOTO & FOOTAGE CREDITS
 Photographs of Mehran Karimi Nasseri:
+- Four photographs supplied by the channel owner (rights holder not identified; see the licence register).
 - "MKNasseri.jpg" by Saint Martin, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons. Also used, cropped with added text, in this video's thumbnail, which is itself licensed CC BY-SA 3.0.
 - "Merhan Karimi Nasseri Walkway Look 2004-12-30 01.jpg" by Docpi, CC BY-SA 3.0, via Wikimedia Commons.
 
-Other photographs and footage from Wikimedia Commons, by licence (each is credited on screen when it appears; graded, cropped and trimmed for this film):
+Other photographs and footage from Wikimedia Commons, by licence (credited in the end titles; graded, cropped and trimmed for this film):
 - CC BY 2.0: Chris Sampson
 - CC BY 3.0: JawaSpot, Miha Lesjak, Simon Halary, TheBlueMaxxx, Zach Himsel
 - CC BY 4.0: Jun Jie Yam, Snicel 69
