@@ -96,6 +96,7 @@ def main():
     ap.add_argument("episode")
     ap.add_argument("--only", default="", help="comma-separated segment ids (sample builds)")
     ap.add_argument("--tag", default="", help="suffix for outputs, e.g. _sample")
+    ap.add_argument("--endcard", type=float, default=None, help="override end-card seconds (samples)")
     args = ap.parse_args()
 
     ep_dir = ROOT / "episodes" / args.episode
@@ -148,7 +149,7 @@ def main():
         segments_out.append({"id": seg["id"], "chapter": seg["chapter"], "start": round(seg_start, 3),
                              "end": round(cursor, 3), "sentences": sents})
 
-    end_card = ep.get("endCard", {}).get("seconds", 5)
+    end_card = args.endcard if args.endcard is not None else ep.get("endCard", {}).get("seconds", 5)
     pieces.append(np.zeros(int(SR * end_card), dtype=np.float32))
     total = cursor + end_card
     narration = np.concatenate(pieces)
@@ -165,18 +166,22 @@ def main():
                 "endCardStart": round(cursor, 3), "segments": segments_out}
     (build / f"timeline{args.tag}.json").write_text(json.dumps(timeline, indent=1))
 
-    # subtitles — each sentence split into cues, time shared by character count
+    # subtitles — each sentence split into 1–2 line cues, time shared by character
+    # count; the same cues drive the burned-in captions and the .srt file
     cues, n = [], 1
     for seg in segments_out:
+        seg["cues"] = []
         for s in seg["sentences"]:
             parts = chunk_sentence(s["text"], scfg["maxCharsPerLine"], scfg["maxLines"])
             total_chars = sum(len(p) for p in parts)
             t = s["start"]
             for p in parts:
                 d = (s["end"] - s["start"]) * len(p) / total_chars
+                seg["cues"].append({"start": round(t, 3), "end": round(t + d, 3), "text": p})
                 cues.append(f"{n}\n{fmt_ts(t)} --> {fmt_ts(t + d)}\n{p}\n")
                 n += 1
                 t += d
+    (build / f"timeline{args.tag}.json").write_text(json.dumps(timeline, indent=1))
     (build / f'{ep["slug"]}_English{args.tag}.srt').write_text("\n".join(cues))
     print(f"total {total:.2f}s  ({total/60:.2f} min), {n-1} subtitle cues")
 

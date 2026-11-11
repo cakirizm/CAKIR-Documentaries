@@ -1,0 +1,67 @@
+TITLE (primary)
+The Man Who Lived in an Airport for 18 Years | The True Story Behind The Terminal
+
+TITLE (alternatives)
+- 18 Years in an Airport: The Real Story of Mehran Karimi Nasseri
+- He Lived in Paris Airport for 18 Years. This Is What Really Happened.
+
+DESCRIPTION
+In August 1988, a man without papers sat down in Terminal 1 of Paris–Charles de Gaulle Airport. Mehran Karimi Nasseri would live there for almost eighteen years. His story loosely inspired Steven Spielberg's The Terminal (2004), but the real one is quieter, sadder and far less certain.
+
+This CAKIR documentary follows what is verified, what is disputed, and what may never be known: the missing refugee papers, the legal limbo, the red bench in Terminal 1, the name "Sir Alfred", the Hollywood deal, the papers he refused to sign, and his return to the airport where he died on 12 November 2022.
+
+A note on accuracy: Nasseri was not locked in a sealed transit zone. He lived in a public area of Terminal 1. Parts of his own account of his early life were disputed by later reporting, and the film marks them as such. Only the two photographs of Nasseri (2004, 2005) and the period photographs of Terminal 1 are historical. All moving footage is modern and is captioned on screen as illustrative or with its date and location.
+
+CHAPTERS
+00:00 An extraordinary true story
+00:31 Who was Mehran Karimi Nasseri?
+01:23 The missing papers
+02:09 How an airport became his home
+02:55 Life inside the terminal
+03:35 The world takes notice
+04:18 The Hollywood connection
+05:02 Why did he stay?
+05:54 Leaving in 2006
+06:27 Return and death, 2022
+06:54 Departures
+
+SOURCES (full list with claim-by-claim notes: CAKIR_Airport_Sources.md)
+- CBS News / Associated Press, 12 Nov 2022: https://www.cbsnews.com/news/iranian-man-inspired-spielberg-movie-the-terminal-dies-paris-airport-mehran-nasseri/
+- ABC News (Australia), 13 Nov 2022: https://www.abc.net.au/news/2022-11-13/the-terminal-man-dies-in-paris-airport/101647742
+- RFE/RL, Nov 2022: https://www.rferl.org/a/iran-france-airport-nasseri-death/32128078.html
+- NPR, 14 Nov 2022: https://www.npr.org/2022/11/14/1136604970/
+- Al Jazeera / AFP, 13 Nov 2022: https://www.aljazeera.com/news/2022/11/13/iranian-who-inspired-the-terminal-dies-at-paris-airport
+- Mail & Guardian / AFP, 31 Aug 2004: https://mg.co.za/article/2004-08-31-iranians-16year-wait-at-airport-terminal
+- Paul Berczeller, "The man who lost his past", The Guardian, 6 Sep 2004
+- Sir Alfred Mehran, The Terminal Man (2004)
+
+PHOTO & FOOTAGE CREDITS
+Photographs of Mehran Karimi Nasseri:
+- "MKNasseri.jpg" by Saint Martin, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons. Also used, cropped with added text, in this video's thumbnail, which is itself licensed CC BY-SA 3.0.
+- "Merhan Karimi Nasseri Walkway Look 2004-12-30 01.jpg" by Docpi, CC BY-SA 3.0, via Wikimedia Commons.
+
+Other photographs and footage from Wikimedia Commons, by licence (each is credited on screen when it appears; graded, cropped and trimmed for this film):
+- CC BY 2.0: Chris Sampson
+- CC BY 3.0: JawaSpot, Miha Lesjak, Simon Halary, TheBlueMaxxx, Zach Himsel
+- CC BY 4.0: Jun Jie Yam, Snicel 69
+- CC BY-SA 2.0: Timo Newton-Syms
+- CC BY-SA 2.5: Sachabrunel
+- CC BY-SA 3.0: David Monniaux, Dmitry Avdeev, Lufthansa Cargo, Quahadi
+- CC BY-SA 4.0: Gunnar Klack, Manchesterunited1234, Project Kei, ProtoplasmaKid, Quahadi, Ventriloquist
+- CC0: NutzerAusBerlin, Quahadi, Thomas Farley
+- Public domain: Airlohner, United States Information Agency
+Stock footage: Coverr (Coverr License, https://coverr.co/license). Full list with source URLs: CAKIR_Airport_Asset_Licenses.csv
+
+Map data: Natural Earth (public domain).
+Music: original score composed for CAKIR. Narration: synthetic voice (Kokoro TTS, Apache-2.0).
+Licences: CC BY 2.0 https://creativecommons.org/licenses/by/2.0/ · CC BY 3.0 https://creativecommons.org/licenses/by/3.0/ · CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ · CC BY-SA 2.0/2.5/3.0/4.0 https://creativecommons.org/licenses/by-sa/4.0/ · CC0 https://creativecommons.org/publicdomain/zero/1.0/
+
+This video is an independent documentary. It is not affiliated with DreamWorks or the makers of The Terminal.
+
+ALTERED/SYNTHETIC CONTENT DISCLOSURE (YouTube Studio)
+Narration uses a synthetic (text-to-speech) voice. No person's likeness or voice is simulated, and no footage is AI-generated. Set "Altered or synthetic content" according to YouTube's current guidance; a synthetic narrator voice reading a script is generally not required to be disclosed.
+
+TAGS
+Mehran Karimi Nasseri, The Terminal true story, man who lived in an airport, Sir Alfred, Charles de Gaulle Airport, Terminal 1, Paris airport, Tom Hanks The Terminal, Steven Spielberg, refugee, stateless, documentary, true story, airport documentary, Lost in Transit, CAKIR
+
+CATEGORY: Education (or Film & Animation) · LANGUAGE: English · CAPTIONS: upload CAKIR_Airport_English.srt (English)

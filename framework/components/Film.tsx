@@ -10,7 +10,7 @@ import {Asset, Media} from './shots/Media';
 import {Terminal} from './shots/Terminal';
 import {Timeline} from './shots/Timeline';
 import {Documents, FilmCard, Figure, Identity, Myth, NameCard, Obituary, Routine, Statement, TitleCard, Works} from './shots/Typography';
-import {ChapterLabel, Disputed, EndCard, FilmLook, LogoBug, LowerThird, Stamp} from './overlays/Overlays';
+import {ChapterLabel, Disputed, EndCard, FilmLook, LogoBug, LowerThird, Quote, Stamp} from './overlays/Overlays';
 
 /** Registry of graphic shot types. Add new shot types here. */
 export const SHOTS: Record<string, React.FC<{shot: any}>> = {
@@ -37,7 +37,7 @@ export type TimelineJson = {
 	durationSec: number;
 	endCardStart: number;
 	endCardSec: number;
-	segments: {id: string; chapter: string; start: number; end: number; sentences: {i: number; text: string; start: number; end: number}[]}[];
+	segments: {id: string; chapter: string; start: number; end: number; sentences: {i: number; text: string; start: number; end: number}[]; cues?: {start: number; end: number; text: string}[]}[];
 };
 
 export type FilmProps = {
@@ -79,19 +79,35 @@ const FontGate: React.FC = () => {
 	return null;
 };
 
+/** Burned-in English subtitles: white, soft shadow, 1–2 lines, bottom-centre.
+ *  Uses the same cues as the exported .srt. */
 const Captions: React.FC<{timeline: TimelineJson; fps: number}> = ({timeline, fps}) => {
 	const frame = useCurrentFrame();
 	const t = frame / fps;
-	const s = timeline.segments.flatMap((g) => g.sentences).find((x) => t >= x.start && t <= x.end);
-	if (!s) return null;
+	const cue = timeline.segments.flatMap((g: any) => g.cues ?? []).find((x: any) => t >= x.start && t < x.end + 0.12);
+	if (!cue) return null;
 	return (
-		<AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'center', paddingBottom: 70}}>
-			<div style={{maxWidth: 1400, textAlign: 'center', fontFamily: theme.font.sans, fontSize: 40, color: '#fff', background: 'rgba(0,0,0,0.55)', padding: '8px 18px', borderRadius: 4}}>{s.text}</div>
+		<AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'center', paddingBottom: theme.subtitles.bottom}}>
+			<div
+				style={{
+					maxWidth: 1500,
+					textAlign: 'center',
+					whiteSpace: 'pre-line',
+					fontFamily: theme.font.sans,
+					fontWeight: 600,
+					fontSize: theme.subtitles.size,
+					lineHeight: 1.28,
+					color: '#ffffff',
+					textShadow: '0 0 2px rgba(0,0,0,0.95), 0 2px 6px rgba(0,0,0,0.85), 0 0 18px rgba(0,0,0,0.55)',
+				}}
+			>
+				{cue.text}
+			</div>
 		</AbsoluteFill>
 	);
 };
 
-export const Film: React.FC<FilmProps> = ({episode, timeline, assets, audio, endCardLines, burnSubtitles}) => {
+export const Film: React.FC<FilmProps> = ({episode, timeline, assets, audio, endCardLines, burnSubtitles = true}) => {
 	const fps = 30;
 	const f = (sec: number) => Math.round(sec * fps);
 	const T = theme.transitionFrames;
@@ -114,8 +130,8 @@ export const Film: React.FC<FilmProps> = ({episode, timeline, assets, audio, end
 		}
 		(seg.overlays ?? []).forEach((o: any, i: number) => {
 			if (o.onlyWithAsset && !assets[o.onlyWithAsset]) return;
-			const st = tseg.sentences[o.at].start - LEAD;
-			const node = o.type === 'stamp' ? <Stamp text={o.text} /> : o.type === 'lowerThird' ? <LowerThird text={o.text} sub={o.sub} /> : <Disputed text={o.text} />;
+			const st = tseg.sentences[o.at].start - LEAD + (o.offset ?? 0);
+			const node = o.type === 'stamp' ? <Stamp text={o.text} /> : o.type === 'lowerThird' ? <LowerThird text={o.text} sub={o.sub} /> : o.type === 'quote' ? <Quote text={o.text} attribution={o.attribution} /> : <Disputed text={o.text} />;
 			const dur = o.duration ?? (o.type === 'lowerThird' ? 5.5 : o.type === 'stamp' ? 4.5 : 4.5);
 			overlays.push({key: `${tseg.id}-o${i}`, start: Math.max(0, st), dur, node});
 		});
@@ -140,9 +156,11 @@ export const Film: React.FC<FilmProps> = ({episode, timeline, assets, audio, end
 				</Sequence>
 			))}
 			{burnSubtitles ? <Captions timeline={timeline} fps={fps} /> : null}
-			<Sequence from={f(timeline.endCardStart)} durationInFrames={f(timeline.endCardSec)} name="end card">
-				<EndCard lines={endCardLines} />
-			</Sequence>
+			{timeline.endCardSec >= 2 ? (
+				<Sequence from={f(timeline.endCardStart)} durationInFrames={f(timeline.endCardSec)} name="end card">
+					<EndCard lines={endCardLines} />
+				</Sequence>
+			) : null}
 			<FilmLook />
 			<Audio src={staticFile(audio)} />
 		</AbsoluteFill>

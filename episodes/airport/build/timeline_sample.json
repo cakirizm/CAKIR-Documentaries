@@ -1,14 +1,14 @@
 {
  "episode": "airport",
- "durationSec": 36.644,
- "endCardSec": 6,
- "endCardStart": 30.644,
+ "durationSec": 31.644,
+ "endCardSec": 0.5,
+ "endCardStart": 31.144,
  "segments": [
   {
    "id": "s01_hook",
    "chapter": "An extraordinary true story",
    "start": 0.9,
-   "end": 30.644,
+   "end": 31.144,
    "sentences": [
     {
      "i": 0,
@@ -51,6 +51,48 @@
      "text": "The real one is quieter, sadder, and far less certain.",
      "start": 25.036,
      "end": 28.344
+    }
+   ],
+   "cues": [
+    {
+     "start": 1.8,
+     "end": 3.469,
+     "text": "Paris, 1988."
+    },
+    {
+     "start": 4.019,
+     "end": 9.18,
+     "text": "Thousands of passengers arrived at Charles\nde Gaulle Airport, collected their"
+    },
+    {
+     "start": 9.18,
+     "end": 11.727,
+     "text": "luggage, and continued their journeys."
+    },
+    {
+     "start": 12.277,
+     "end": 13.629,
+     "text": "But one man stayed."
+    },
+    {
+     "start": 14.179,
+     "end": 16.577,
+     "text": "His name was Mehran Karimi Nasseri."
+    },
+    {
+     "start": 17.127,
+     "end": 20.946,
+     "text": "And for the next eighteen years, this\nairport would become his home."
+    },
+    {
+     "start": 21.496,
+     "end": 24.486,
+     "text": "His story would one day inspire a\nHollywood film."
+    },
+    {
+     "start": 25.036,
+     "end": 28.344,
+     "text": "The real one is quieter, sadder, and far\nless certain."
     }
    ]
   }

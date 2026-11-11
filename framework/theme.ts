@@ -36,6 +36,8 @@ export const theme = {
 	transitionFrames: 14,
 	chapterLabelSec: 4.2,
 	logoBugOpacity: 0.42,
+	subtitles: {size: 44, bottom: 64},
+	lowerThirdBottom: 250,
 } as const;
 
 export type Theme = typeof theme;

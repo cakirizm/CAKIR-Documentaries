@@ -3,16 +3,16 @@
  "narration": {
   "introPadSec": 0.9,
   "segmentHeadSec": 0.9,
-  "segmentTailSec": 2.3,
+  "segmentTailSec": 2.8,
   "sentenceGapSec": 0.55,
   "trimThresholdDb": -45
  },
  "music": {
   "key": "D",
-  "bedDbUnderSpeech": -22,
-  "bedDbBetweenSpeech": -13,
+  "bedDbUnderSpeech": -27,
+  "bedDbBetweenSpeech": -16,
   "duckRampSec": 0.45,
-  "ambienceDb": -34,
+  "ambienceDb": -36,
   "chimes": true
  },
  "master": {

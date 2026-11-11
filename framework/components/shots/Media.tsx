@@ -58,9 +58,9 @@ export const Media: React.FC<{asset: Asset; shot: any}> = ({asset, shot}) => {
 			{asset.kind === 'photo' ? (
 				<Img src={staticFile(asset.file)} style={{...style, position: 'absolute'}} />
 			) : (
-				<OffthreadVideo src={staticFile(asset.file)} muted startFrom={Math.round((asset.trimStartSec ?? 0) * fps)} style={style} />
+				<OffthreadVideo src={staticFile(asset.file)} muted startFrom={Math.round((shot.clipStart ?? 0) * fps)} style={style} />
 			)}
-			<AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0) 65%, rgba(0,0,0,0.55) 100%)'}} />
+			<AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.5) 100%)'}} />
 			<Credit asset={asset} frame={frame} />
 		</AbsoluteFill>
 	);
@@ -72,7 +72,7 @@ const Credit: React.FC<{asset: Asset; frame: number}> = ({asset, frame}) => (
 		style={{
 			position: 'absolute',
 			right: 60,
-			bottom: 40,
+			top: 112,
 			fontFamily: theme.font.mono,
 			fontSize: 16,
 			letterSpacing: 1,
