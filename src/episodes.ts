@@ -10,15 +10,15 @@ import {buildCredits} from './credits';
 const airportCredits = buildCredits(airportEpisode, airportRegister as any[], [
 	{heading: 'Animated reconstructions', lines: ['Illustrative 2D reconstructions created for CAKIR. They are not historical footage.']},
 	{heading: 'Maps', lines: ['Natural Earth (public domain)']},
-	{heading: 'Narration · Music', lines: ['Synthetic narration: Kokoro TTS (Apache-2.0)', 'Original score composed for CAKIR']},
+	{heading: 'Narration', lines: ['AI narration voice generated with ElevenLabs']},
 	{heading: 'Principal sources', lines: ['CBS News / Associated Press (2022)', 'ABC News Australia (2022) · RFE/RL (2022) · NPR (2022)', 'The Guardian (2004) · Mail & Guardian / AFP (2004)', 'Full source list in the video description']},
 	{heading: 'Licences', lines: ['CC BY / CC BY-SA 2.0–4.0: creativecommons.org/licenses · CC0 · Public domain', 'Contemporary airport footage is used for illustration and does not depict Nasseri or the events of 1988–2006']},
 ]);
 
 const endCard = (extra: string[]) => [
 	...extra,
-	'Narration: synthetic voice (Kokoro TTS)',
-	'Original score: CAKIR',
+	'Narration: ElevenLabs AI voice',
+	'Music: Kevin MacLeod (incompetech.com), CC BY 4.0',
 	'Sources & licences in the description',
 ];
 

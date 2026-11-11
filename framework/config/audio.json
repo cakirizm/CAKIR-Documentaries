@@ -9,9 +9,9 @@
  },
  "music": {
   "key": "D",
-  "bedDbUnderSpeech": -21,
-  "bedDbBetweenSpeech": -11,
-  "duckRampSec": 0.45,
+  "bedDbUnderSpeech": -27,
+  "bedDbBetweenSpeech": -22.5,
+  "duckRampSec": 0.7,
   "ambienceDb": -38,
   "chimes": true
  },

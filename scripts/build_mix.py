@@ -198,7 +198,7 @@ def speech_mask(timeline, total, sr, ramp):
         for s in seg["sentences"]:
             m[int(s["start"] * sr): int(s["end"] * sr)] = 1
     # close short gaps between sentences so the bed doesn't pump
-    k = int(sr * 0.9)
+    k = int(sr * 1.3)  # bridge short pauses so the bed doesn't pump
     m = np.convolve(m, np.ones(k) / k, mode="same") > 0.001
     r = int(ramp * sr)
     return np.convolve(m.astype(float), np.ones(r) / r, mode="same")
@@ -251,7 +251,7 @@ def main():
         a0, a1 = int(st * sr), int((st + 1.6) * sr)
         sw = np.ones(n)
         k = np.linspace(0, np.pi, max(1, a1 - a0))
-        sw[a0:a1] = 1 + 0.5 * np.sin(k)
+        sw[a0:a1] = 1 + 0.3 * np.sin(k)
         bed_gain *= sw[: len(bed_gain)]
     # fade music in at start and out under the end card
     fin = int(sr * 2.5)
@@ -266,6 +266,11 @@ def main():
     n = min(len(nar), len(music), len(amb), len(bed_gain))
     nar, music, amb, bed_gain = nar[:n], music[:n], amb[:n], bed_gain[:n]
     mix = np.stack([nar, nar], 1) + widen(music * bed_gain, 0.012) + widen(amb * db(mcfg["ambienceDb"]) * (bed_gain / db(mcfg["bedDbBetweenSpeech"])), 0.02)
+    # BALANCE report: voice vs music bed, under speech and in pauses
+    r = lambda v: 20 * np.log10(np.sqrt(np.mean(v ** 2)) + 1e-12)
+    sp = mask > 0.5
+    bed = music * bed_gain
+    print(f"BALANCE voice {r(nar[sp]):.1f} dB | music under voice {r(bed[sp]):.1f} dB (voice-to-music {r(nar[sp]) - r(bed[sp]):.1f} dB) | music in pauses {r(bed[~sp]):.1f} dB")
     mix /= max(1.0, np.max(np.abs(mix)) / 0.89)
     pre = adir / f"premix{args.tag}.wav"
     sf.write(pre, mix, sr, subtype="PCM_24")

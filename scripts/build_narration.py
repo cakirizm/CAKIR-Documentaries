@@ -96,6 +96,34 @@ def trim(x, sr, thr_db):
     return y
 
 
+def cap_pauses(x, sr, max_gap=0.6, thr_db=-42):
+    """Shorten silences inside a sentence that are longer than max_gap
+    (TTS engines sometimes over-pause at commas/colons)."""
+    thr = 10 ** (thr_db / 20)
+    win = int(sr * 0.02)
+    env = np.convolve(np.abs(x), np.ones(win) / win, mode="same")
+    quiet = env < thr
+    out, i, n = [], 0, len(x)
+    keep = int(max_gap * sr)
+    while i < n:
+        if quiet[i]:
+            j = i
+            while j < n and quiet[j]:
+                j += 1
+            if j - i > keep and i > 0 and j < n:
+                h = keep // 2
+                out.append(x[i:i + h]); out.append(x[j - (keep - h):j])
+            else:
+                out.append(x[i:j])
+            i = j
+        else:
+            j = i
+            while j < n and not quiet[j]:
+                j += 1
+            out.append(x[i:j]); i = j
+    return np.concatenate(out) if out else x
+
+
 def wrap_lines(text, max_chars):
     words, lines, cur = text.split(), [], ""
     for w in words:
@@ -176,6 +204,7 @@ def main():
                     audio, sr = engine.say(t, voice["voice"], sp)
                 sf.write(cpath, audio, sr)
             audio = trim(audio, sr, ncfg["trimThresholdDb"])
+            audio = cap_pauses(audio, sr, ncfg.get("maxInternalPauseSec", 0.6))
             if sr != SR:
                 audio = resample_poly(audio, SR, sr).astype(np.float32)
             dur = len(audio) / SR

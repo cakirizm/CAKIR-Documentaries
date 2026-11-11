@@ -33,6 +33,7 @@ export const buildCredits = (episode: any, register: any[], extra: CreditBlock[]
 		{heading: 'Photographs · Wikimedia Commons', lines: uniq(photos.map(fmt))},
 		{heading: 'Footage · Wikimedia Commons', lines: uniq(commonsVideo.map(fmt))},
 		{heading: 'Stock footage · Coverr (Coverr License)', lines: uniq(coverr.map((a) => a.title || a.id))},
+		{heading: 'Music', lines: uniq(register.filter((a) => a.kind === 'music' && a.status === 'approved').map((a) => `"${a.title}" Kevin MacLeod (incompetech.com)`)).concat(['Licensed under Creative Commons: By Attribution 4.0 License', 'creativecommons.org/licenses/by/4.0/'])},
 		...extra,
 	].filter((b) => b.lines.length);
 };

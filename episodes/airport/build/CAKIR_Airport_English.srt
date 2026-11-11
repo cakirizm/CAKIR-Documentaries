@@ -1,461 +1,461 @@
 1
-00:00:01,800 --> 00:00:03,469
+00:00:01,800 --> 00:00:04,472
 Paris, 1988.
 
 2
-00:00:04,019 --> 00:00:09,180
+00:00:05,272 --> 00:00:09,322
 Thousands of passengers arrived at Charles
 de Gaulle Airport, collected their
 
 3
-00:00:09,180 --> 00:00:11,727
+00:00:09,322 --> 00:00:12,058
 luggage, and continued their journeys.
 
 4
-00:00:12,277 --> 00:00:13,629
+00:00:12,708 --> 00:00:14,219
 But one man stayed.
 
 5
-00:00:14,179 --> 00:00:16,577
+00:00:15,019 --> 00:00:17,664
 His name was Mehran Karimi Nasseri.
 
 6
-00:00:17,127 --> 00:00:20,946
+00:00:18,114 --> 00:00:22,371
 And for the next eighteen years, this
 airport would become his home.
 
 7
-00:00:21,496 --> 00:00:24,486
+00:00:22,821 --> 00:00:25,821
 His story would one day inspire a
 Hollywood film.
 
 8
-00:00:25,036 --> 00:00:28,344
+00:00:26,271 --> 00:00:31,150
 The real one is quieter, sadder, and far
 less certain.
 
 9
-00:00:32,044 --> 00:00:39,531
+00:00:34,850 --> 00:00:42,143
 Nasseri was born in Iran, most likely in
 1945, in the oil town of Masjed Soleyman.
 
 10
-00:00:40,081 --> 00:00:44,953
+00:00:42,593 --> 00:00:46,663
 Much of what we know about his early life
 comes from his own telling, and his
 
 11
-00:00:44,953 --> 00:00:46,914
+00:00:46,663 --> 00:00:48,622
 telling changed over the years.
 
 12
-00:00:47,464 --> 00:00:51,176
+00:00:49,072 --> 00:00:52,350
 He said he had studied in England in the
 1970s.
 
 13
-00:00:51,726 --> 00:00:58,135
+00:00:52,800 --> 00:00:59,503
 He said he had been expelled from Iran in
 1977, after protesting against the Shah.
 
 14
-00:00:58,685 --> 00:01:02,934
+00:00:59,953 --> 00:01:04,300
 Journalists who later looked into his past
 questioned parts of that account.
 
 15
-00:01:03,484 --> 00:01:09,894
+00:01:04,750 --> 00:01:10,940
 What is better documented is this: in
 1981, he was recognized as a refugee in
 
 16
-00:01:09,894 --> 00:01:10,560
+00:01:10,940 --> 00:01:11,579
 Belgium.
 
 17
-00:01:11,110 --> 00:01:14,214
+00:01:12,029 --> 00:01:15,025
 For several years, he lived there, and
 travelled in Europe.
 
 18
-00:01:17,914 --> 00:01:21,137
+00:01:18,725 --> 00:01:22,018
 Then, in 1988, he set out for Britain.
 
 19
-00:01:21,687 --> 00:01:24,806
+00:01:22,468 --> 00:01:25,616
 What happened next depends on whose
 account you read.
 
 20
-00:01:25,356 --> 00:01:30,802
+00:01:26,066 --> 00:01:31,116
 In the version most often reported, his
 passport and his refugee certificate were
 
 21
-00:01:30,802 --> 00:01:32,214
+00:01:31,116 --> 00:01:32,377
 stolen along the way.
 
 22
-00:01:32,764 --> 00:01:36,098
+00:01:32,827 --> 00:01:35,862
 In other versions, he sent the papers away
 himself.
 
 23
-00:01:36,648 --> 00:01:39,442
+00:01:36,312 --> 00:01:39,365
 Either way, he arrived in England without
 them.
 
 24
-00:01:39,992 --> 00:01:45,006
+00:01:39,815 --> 00:01:42,185
 British officials refused him entry and
 returned him to the airport he had flown
 
 25
-00:01:45,006 --> 00:01:46,510
+00:01:42,185 --> 00:01:46,175
 from: Charles de Gaulle.
 
 26
-00:01:47,060 --> 00:01:50,599
+00:01:46,625 --> 00:01:49,928
 In France, he now had a problem with no
 simple solution.
 
 27
-00:01:51,149 --> 00:01:52,927
+00:01:50,378 --> 00:01:52,315
 He could not prove who he was.
 
 28
-00:01:53,477 --> 00:01:59,426
+00:01:53,215 --> 00:01:58,779
 And so, in August 1988, a man without
 papers sat down in Terminal 1.
 
 29
-00:02:03,126 --> 00:02:06,668
+00:02:02,479 --> 00:02:06,588
 It is often said that he was trapped in a
 sealed transit zone.
 
 30
-00:02:07,218 --> 00:02:08,689
+00:02:07,238 --> 00:02:09,120
 That is not quite right.
 
 31
-00:02:09,239 --> 00:02:14,702
+00:02:09,970 --> 00:02:14,560
 Reports place him in a public area of the
 terminal, where travellers, cleaners and
 
 32
-00:02:14,702 --> 00:02:16,901
+00:02:14,560 --> 00:02:17,077
 police walked past him every day.
 
 33
-00:02:17,451 --> 00:02:18,837
+00:02:17,727 --> 00:02:18,969
 He was not locked in.
 
 34
-00:02:19,387 --> 00:02:21,462
+00:02:19,869 --> 00:02:21,801
 What held him in place was paperwork.
 
 35
-00:02:22,012 --> 00:02:23,377
+00:02:22,451 --> 00:02:24,176
 Weeks became months.
 
 36
-00:02:23,927 --> 00:02:25,378
+00:02:24,976 --> 00:02:26,526
 Months became years.
 
 37
-00:02:25,928 --> 00:02:30,068
+00:02:27,326 --> 00:02:31,194
 His case moved slowly between lawyers,
 officials and governments.
 
 38
-00:02:30,618 --> 00:02:34,474
+00:02:31,644 --> 00:02:35,224
 And as it did, a bench in Terminal 1
 became an address.
 
 39
-00:02:35,024 --> 00:02:41,632
+00:02:35,674 --> 00:02:41,764
 “Eventually, I will leave the airport,” he
 told The Associated Press in 1999. “But I
 
 40
-00:02:41,632 --> 00:02:45,486
+00:02:41,764 --> 00:02:44,632
 am still waiting for a passport or transit
 visa.”
 
 41
-00:02:49,186 --> 00:02:50,819
+00:02:48,332 --> 00:02:49,876
 His routine was precise.
 
 42
-00:02:51,369 --> 00:02:53,287
+00:02:50,676 --> 00:02:52,731
 He washed and shaved every day.
 
 43
-00:02:53,837 --> 00:02:59,732
+00:02:53,181 --> 00:02:58,431
 He kept his belongings close: a luggage
 trolley, boxes and bags, stacked carefully
 
 44
-00:02:59,732 --> 00:03:01,673
+00:02:58,431 --> 00:03:00,438
 beside a red plastic bench.
 
 45
-00:03:02,223 --> 00:03:04,447
+00:03:01,088 --> 00:03:03,227
 He read newspapers and magazines.
 
 46
-00:03:04,997 --> 00:03:06,558
+00:03:04,027 --> 00:03:05,326
 He studied economics.
 
 47
-00:03:07,108 --> 00:03:10,797
+00:03:06,126 --> 00:03:09,760
 And he wrote, every day, in a diary he
 kept for years.
 
 48
-00:03:11,347 --> 00:03:13,540
+00:03:10,210 --> 00:03:12,600
 Airport workers came to know him well.
 
 49
-00:03:14,090 --> 00:03:17,318
+00:03:13,050 --> 00:03:16,218
 Some brought him food. Some brought him
 newspapers.
 
 50
-00:03:17,868 --> 00:03:20,771
+00:03:16,668 --> 00:03:19,526
 The airport doctor gave him paper to write
 on.
 
 51
-00:03:21,321 --> 00:03:26,331
+00:03:19,976 --> 00:03:25,004
 To them, he became a familiar figure, and
 he took on a new name: Sir Alfred.
 
 52
-00:03:30,031 --> 00:03:34,106
+00:03:28,704 --> 00:03:32,787
 By the 1990s, the man on the bench had
 become a story.
 
 53
-00:03:34,656 --> 00:03:38,660
+00:03:33,237 --> 00:03:37,141
 Journalists from around the world came to
 Terminal 1 to interview him.
 
 54
-00:03:39,210 --> 00:03:43,807
+00:03:37,591 --> 00:03:41,498
 Photographers made his portrait among the
 passengers and departure boards.
 
 55
-00:03:44,357 --> 00:03:49,924
+00:03:41,948 --> 00:03:47,361
 His story inspired a French film, Lost in
 Transit, and an English opera, Flight.
 
 56
-00:03:50,474 --> 00:03:53,292
+00:03:47,811 --> 00:03:50,601
 He answered questions politely, and
 patiently.
 
 57
-00:03:53,842 --> 00:03:59,444
+00:03:51,051 --> 00:03:56,581
 In 2004, a journalist writing for The
 Guardian spent time with him, and found
 
 58
-00:03:59,444 --> 00:04:03,736
+00:03:56,581 --> 00:04:00,211
 that key parts of the story he told could
 not be confirmed.
 
 59
-00:04:04,286 --> 00:04:08,910
+00:04:00,661 --> 00:04:05,053
 But the more he was asked about his past,
 the less settled that past became.
 
 60
-00:04:12,610 --> 00:04:16,036
+00:04:08,753 --> 00:04:12,521
 In 2004, the story reached Hollywood.
 
 61
-00:04:16,586 --> 00:04:21,689
+00:04:12,971 --> 00:04:18,621
 Steven Spielberg's film The Terminal
 starred Tom Hanks as Viktor Navorski, a
 
 62
-00:04:21,689 --> 00:04:24,442
+00:04:18,621 --> 00:04:21,067
 traveller stranded at a New York airport.
 
 63
-00:04:24,992 --> 00:04:27,031
+00:04:21,517 --> 00:04:23,498
 The film was not a biography.
 
 64
-00:04:27,581 --> 00:04:31,396
+00:04:23,948 --> 00:04:27,900
 It moved the story to America and invented
 its own hero.
 
 65
-00:04:31,946 --> 00:04:39,110
+00:04:28,350 --> 00:04:33,180
 But DreamWorks had acquired the rights to
 Nasseri's story, for a sum widely reported
 
 66
-00:04:39,110 --> 00:04:40,730
+00:04:33,180 --> 00:04:37,147
 at around $250,000.
 
 67
-00:04:41,280 --> 00:04:46,260
+00:04:37,597 --> 00:04:42,287
 The same year, his memoir, The Terminal
 Man, was published under the name Sir
 
 68
-00:04:46,260 --> 00:04:47,166
+00:04:42,287 --> 00:04:43,566
 Alfred Mehran.
 
 69
-00:04:47,716 --> 00:04:53,300
+00:04:44,016 --> 00:04:49,244
 A man who owned almost nothing now had a
 film deal, a book, and a famous address.
 
 70
-00:04:57,000 --> 00:05:00,260
+00:04:52,944 --> 00:04:56,075
 The strangest part of the story is what
 happened next.
 
 71
-00:05:00,810 --> 00:05:05,178
+00:04:56,525 --> 00:05:00,647
 In the mid-1990s, Belgium indicated he
 could return there.
 
 72
-00:05:05,728 --> 00:05:09,681
+00:05:01,097 --> 00:05:04,688
 Later, France offered him papers that
 would have allowed him to stay.
 
 73
-00:05:10,231 --> 00:05:11,822
+00:05:05,338 --> 00:05:06,982
 He refused to sign them.
 
 74
-00:05:12,372 --> 00:05:17,595
+00:05:07,932 --> 00:05:12,482
 According to reports, the documents
 identified him as Iranian, under his
 
 75
-00:05:17,595 --> 00:05:18,610
+00:05:12,482 --> 00:05:13,519
 original name.
 
 76
-00:05:19,160 --> 00:05:23,837
+00:05:13,969 --> 00:05:18,864
 He wanted to be recognized differently: as
 Sir Alfred, and as British.
 
 77
-00:05:24,387 --> 00:05:29,024
+00:05:19,314 --> 00:05:23,465
 So the man who had waited years for papers
 turned down the ones he was offered.
 
 78
-00:05:29,574 --> 00:05:35,472
+00:05:24,265 --> 00:05:29,955
 Those who befriended him said the years in
 the terminal took a toll. In the 1990s,
 
 79
-00:05:35,472 --> 00:05:39,356
+00:05:29,955 --> 00:05:33,509
 the airport doctor described him as
 “fossilized here.”
 
 80
-00:05:39,906 --> 00:05:44,792
+00:05:34,109 --> 00:05:38,746
 What began as a legal problem had become,
 at least in part, a choice.
 
 81
-00:05:48,492 --> 00:05:54,635
+00:05:42,446 --> 00:05:48,356
 In the summer of 2006, after nearly
 eighteen years, he fell ill and was taken
 
 82
-00:05:54,635 --> 00:05:55,592
+00:05:48,356 --> 00:05:49,253
 to hospital.
 
 83
-00:05:56,142 --> 00:05:58,499
+00:05:49,703 --> 00:05:51,862
 His corner of Terminal 1 was cleared.
 
 84
-00:05:59,049 --> 00:06:02,555
+00:05:52,612 --> 00:05:56,563
 When he was discharged, he did not go back
 to the airport.
 
 85
-00:06:03,105 --> 00:06:06,356
+00:05:57,013 --> 00:06:00,084
 Reports say he later lived in a shelter in
 Paris.
 
 86
-00:06:06,906 --> 00:06:11,780
+00:06:00,534 --> 00:06:05,643
 Accounts of the years that followed are
 sparse, and they do not always agree.
 
 87
-00:06:12,330 --> 00:06:18,078
+00:06:06,093 --> 00:06:11,283
 For the first time since 1988, Sir Alfred
 was no longer living in the terminal.
 
 88
-00:06:21,778 --> 00:06:23,978
+00:06:14,983 --> 00:06:17,612
 Sixteen years later, he came back.
 
 89
-00:06:24,528 --> 00:06:30,140
+00:06:18,512 --> 00:06:23,502
 In September 2022, according to the
 airport, he returned to live in a public
 
 90
-00:06:30,140 --> 00:06:32,060
+00:06:23,502 --> 00:06:25,387
 area of Charles de Gaulle.
 
 91
-00:06:32,610 --> 00:06:38,380
+00:06:25,837 --> 00:06:31,290
 On 12 November, around midday, he suffered
 a heart attack in Terminal 2F.
 
 92
-00:06:38,930 --> 00:06:42,564
+00:06:31,740 --> 00:06:35,126
 He died there, of natural causes,
 according to the airport.
 
 93
-00:06:43,114 --> 00:06:45,001
+00:06:36,026 --> 00:06:37,844
 He was in his late seventies.
 
 94
-00:06:48,701 --> 00:06:50,471
+00:06:41,544 --> 00:06:43,975
 Airports are built for movement.
 
 95
-00:06:51,021 --> 00:06:54,967
+00:06:44,775 --> 00:06:48,929
 Millions of people pass through them, and
 almost no one stays.
 
 96
-00:06:55,517 --> 00:06:57,646
+00:06:49,579 --> 00:06:52,946
 Mehran Karimi Nasseri stayed.
 
 97
-00:06:58,196 --> 00:07:02,714
+00:06:53,946 --> 00:06:58,616
 Part of his story was a failure of
 paperwork, and part of it may always
 
 98
-00:07:02,714 --> 00:07:03,668
+00:06:58,616 --> 00:06:59,824
 remain his own.
 
 99
-00:07:04,218 --> 00:07:09,302
+00:07:00,274 --> 00:07:05,204
 He came to Charles de Gaulle as a man
 without documents, and he is remembered as
 
 100
-00:07:09,302 --> 00:07:11,590
+00:07:05,204 --> 00:07:07,680
 the traveller who never really left.
