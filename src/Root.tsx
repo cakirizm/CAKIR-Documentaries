@@ -4,7 +4,7 @@ import render from '../framework/config/render.json';
 import {Film} from '../framework/components/Film';
 import {Thumbnail} from '../framework/components/Thumbnail';
 import {EPISODES} from './episodes';
-import {ANIM_QC, ANIM_SCENES, AnimTest} from './AnimTest';
+import {ANIM_QC, ANIM_SCENES, AnimTest, SEA_SCENES, SeaTest, DriftTest} from './AnimTest';
 
 export const Root: React.FC = () => (
 	<>
@@ -22,6 +22,8 @@ export const Root: React.FC = () => (
 		))}
 		<Composition id="CAKIR-AnimTest" component={AnimTest as any} width={1920} height={1080} fps={30} durationInFrames={ANIM_SCENES.length * 7 * 30} defaultProps={{}} />
 		<Composition id="CAKIR-AnimQC" component={AnimTest as any} width={1920} height={1080} fps={30} durationInFrames={ANIM_QC.length * 7 * 30} defaultProps={{scenes: ANIM_QC, sec: 7}} />
+		<Composition id="CAKIR-SeaTest" component={SeaTest} width={1920} height={1080} fps={30} durationInFrames={SEA_SCENES.length * 6 * 30} defaultProps={{}} />
+		<Composition id="CAKIR-DriftTest" component={DriftTest} width={1920} height={1080} fps={30} durationInFrames={360} defaultProps={{}} />
 		<Still id="CAKIR-Airport-Thumbnail" component={Thumbnail as any} width={1280} height={720} defaultProps={{headline: '18 YEARS', subline: 'IN AN AIRPORT', photo: null}} />
 	</>
 );

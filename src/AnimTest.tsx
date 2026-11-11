@@ -15,3 +15,19 @@ export const AnimTest: React.FC<{scenes?: string[]; sec?: number}> = ({scenes = 
 		<FilmLook />
 	</AbsoluteFill>
 );
+
+import {SeaScene} from '../framework/components/anim/Sea';
+export const SEA_SCENES = ['prepare', 'depart', 'storm', 'engine', 'rain', 'catch', 'shelter', 'alone', 'moons', 'ship', 'island'];
+export const SeaTest: React.FC = () => (
+	<AbsoluteFill style={{background: '#000'}}>
+		{SEA_SCENES.map((s, i) => (
+			<Sequence key={s} from={i * 6 * 30} durationInFrames={6 * 30} name={s}>
+				<SeaScene shot={{scene: s, beard: s === 'island' || s === 'alone' || s === 'moons' || s === 'ship' ? 0.9 : 0.3}} />
+			</Sequence>
+		))}
+		<FilmLook />
+	</AbsoluteFill>
+);
+
+import {DriftMap} from '../framework/components/shots/DriftMap';
+export const DriftTest: React.FC = () => <DriftMap shot={{showDays: true}} />;

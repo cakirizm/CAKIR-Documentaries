@@ -1,0 +1,1320 @@
+{
+ "episode": "alvarenga",
+ "durationSec": 589.299,
+ "endCardSec": 30,
+ "endCardStart": 559.299,
+ "segments": [
+  {
+   "id": "s01_open",
+   "chapter": "The impossible survivor",
+   "start": 0.9,
+   "end": 38.627,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "He went fishing in November 2012.",
+     "start": 1.8,
+     "end": 4.649
+    },
+    {
+     "i": 1,
+     "text": "He would not see land again for 438 days.",
+     "start": 5.099,
+     "end": 9.82
+    },
+    {
+     "i": 2,
+     "text": "No working engine. No way to call for help.",
+     "start": 10.72,
+     "end": 13.881
+    },
+    {
+     "i": 3,
+     "text": "Just a small fishing boat, and the largest ocean on Earth.",
+     "start": 14.331,
+     "end": 18.154
+    },
+    {
+     "i": 4,
+     "text": "When he finally reached a remote island on the other side of the Pacific, the story he told seemed almost impossible to believe.",
+     "start": 19.054,
+     "end": 26.367
+    },
+    {
+     "i": 5,
+     "text": "His name is Jos\u00e9 Salvador Alvarenga.",
+     "start": 26.817,
+     "end": 30.03
+    },
+    {
+     "i": 6,
+     "text": "This is what we know about his journey, what can be checked, and what rests on his word alone.",
+     "start": 30.88,
+     "end": 35.827
+    }
+   ],
+   "cues": [
+    {
+     "start": 1.8,
+     "end": 4.649,
+     "text": "He went fishing in November 2012."
+    },
+    {
+     "start": 5.099,
+     "end": 9.82,
+     "text": "He would not see land again for 438 days."
+    },
+    {
+     "start": 10.72,
+     "end": 13.881,
+     "text": "No working engine. No way to call for\nhelp."
+    },
+    {
+     "start": 14.331,
+     "end": 18.154,
+     "text": "Just a small fishing boat, and the largest\nocean on Earth."
+    },
+    {
+     "start": 19.054,
+     "end": 23.833,
+     "text": "When he finally reached a remote island on\nthe other side of the Pacific, the story"
+    },
+    {
+     "start": 23.833,
+     "end": 26.367,
+     "text": "he told seemed almost impossible to\nbelieve."
+    },
+    {
+     "start": 26.817,
+     "end": 30.03,
+     "text": "His name is Jos\u00e9 Salvador Alvarenga."
+    },
+    {
+     "start": 30.88,
+     "end": 35.242,
+     "text": "This is what we know about his journey,\nwhat can be checked, and what rests on his"
+    },
+    {
+     "start": 35.242,
+     "end": 35.827,
+     "text": "word alone."
+    }
+   ]
+  },
+  {
+   "id": "s02_trip",
+   "chapter": "An ordinary fishing trip",
+   "start": 38.627,
+   "end": 99.293,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Alvarenga was born in El Salvador, in the coastal village of Garita Palmera.",
+     "start": 39.527,
+     "end": 44.334
+    },
+    {
+     "i": 1,
+     "text": "In the early 2000s he moved to Mexico, and found work on the Pacific coast of Chiapas, fishing for sharks and other large fish from small open boats.",
+     "start": 44.784,
+     "end": 54.797
+    },
+    {
+     "i": 2,
+     "text": "He had not been in touch with his family back home for years.",
+     "start": 55.247,
+     "end": 58.51
+    },
+    {
+     "i": 3,
+     "text": "On November 17, 2012, he set out from the fishing village of Costa Azul, near Pijijiapan.",
+     "start": 58.96,
+     "end": 65.716
+    },
+    {
+     "i": 4,
+     "text": "The plan was ordinary: a long shift at sea, perhaps thirty hours, and then home.",
+     "start": 66.166,
+     "end": 71.888
+    },
+    {
+     "i": 5,
+     "text": "His usual partner could not come.",
+     "start": 72.338,
+     "end": 74.319
+    },
+    {
+     "i": 6,
+     "text": "In his place came a younger man, Ezequiel C\u00f3rdoba, whom Alvarenga barely knew.",
+     "start": 74.769,
+     "end": 80.504
+    },
+    {
+     "i": 7,
+     "text": "Alvarenga was a seasoned fisherman. C\u00f3rdoba, by most accounts, had very little experience at sea.",
+     "start": 80.954,
+     "end": 87.773
+    },
+    {
+     "i": 8,
+     "text": "Their boat was a seven-meter fiberglass skiff, open to the sky, with a single outboard motor and a large icebox for the catch.",
+     "start": 88.223,
+     "end": 96.493
+    }
+   ],
+   "cues": [
+    {
+     "start": 39.527,
+     "end": 44.334,
+     "text": "Alvarenga was born in El Salvador, in the\ncoastal village of Garita Palmera."
+    },
+    {
+     "start": 44.784,
+     "end": 49.993,
+     "text": "In the early 2000s he moved to Mexico, and\nfound work on the Pacific coast of"
+    },
+    {
+     "start": 49.993,
+     "end": 54.797,
+     "text": "Chiapas, fishing for sharks and other\nlarge fish from small open boats."
+    },
+    {
+     "start": 55.247,
+     "end": 58.51,
+     "text": "He had not been in touch with his family\nback home for years."
+    },
+    {
+     "start": 58.96,
+     "end": 64.871,
+     "text": "On November 17, 2012, he set out from the\nfishing village of Costa Azul, near"
+    },
+    {
+     "start": 64.871,
+     "end": 65.716,
+     "text": "Pijijiapan."
+    },
+    {
+     "start": 66.166,
+     "end": 71.888,
+     "text": "The plan was ordinary: a long shift at\nsea, perhaps thirty hours, and then home."
+    },
+    {
+     "start": 72.338,
+     "end": 74.319,
+     "text": "His usual partner could not come."
+    },
+    {
+     "start": 74.769,
+     "end": 80.504,
+     "text": "In his place came a younger man, Ezequiel\nC\u00f3rdoba, whom Alvarenga barely knew."
+    },
+    {
+     "start": 80.954,
+     "end": 86.494,
+     "text": "Alvarenga was a seasoned fisherman.\nC\u00f3rdoba, by most accounts, had very little"
+    },
+    {
+     "start": 86.494,
+     "end": 87.773,
+     "text": "experience at sea."
+    },
+    {
+     "start": 88.223,
+     "end": 93.317,
+     "text": "Their boat was a seven-meter fiberglass\nskiff, open to the sky, with a single"
+    },
+    {
+     "start": 93.317,
+     "end": 96.493,
+     "text": "outboard motor and a large icebox for the\ncatch."
+    }
+   ]
+  },
+  {
+   "id": "s03_storm",
+   "chapter": "The storm",
+   "start": 99.293,
+   "end": 156.741,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Not long after they left, the weather turned.",
+     "start": 100.193,
+     "end": 102.688
+    },
+    {
+     "i": 1,
+     "text": "According to Alvarenga, a storm pushed them far from the coast and battered the boat for days.",
+     "start": 103.138,
+     "end": 108.684
+    },
+    {
+     "i": 2,
+     "text": "The engine failed. Much of their equipment was damaged or lost.",
+     "start": 109.134,
+     "end": 112.987
+    },
+    {
+     "i": 3,
+     "text": "Without its engine, the open skiff was at the mercy of the waves.",
+     "start": 113.687,
+     "end": 117.058
+    },
+    {
+     "i": 4,
+     "text": "To keep the boat stable, they threw their catch, hundreds of kilograms of fish, back into the sea.",
+     "start": 117.508,
+     "end": 123.546
+    },
+    {
+     "i": 5,
+     "text": "Alvarenga later said he managed one radio call to his boss before the battery died.",
+     "start": 123.996,
+     "end": 129.859
+    },
+    {
+     "i": 6,
+     "text": "Mexican rescue officials confirmed that a fishing boat was reported missing from Costa Azul two days after it sailed.",
+     "start": 130.309,
+     "end": 136.99
+    },
+    {
+     "i": 7,
+     "text": "A search began. It was called off after two days, in poor visibility.",
+     "start": 137.44,
+     "end": 142.274
+    },
+    {
+     "i": 8,
+     "text": "By then, the skiff was already being carried into the open Pacific.",
+     "start": 142.724,
+     "end": 147.122
+    },
+    {
+     "i": 9,
+     "text": "No sail. No oars. No anchor. Nothing to steer with but the wind and the current.",
+     "start": 147.922,
+     "end": 153.941
+    }
+   ],
+   "cues": [
+    {
+     "start": 100.193,
+     "end": 102.688,
+     "text": "Not long after they left, the weather\nturned."
+    },
+    {
+     "start": 103.138,
+     "end": 107.849,
+     "text": "According to Alvarenga, a storm pushed\nthem far from the coast and battered the"
+    },
+    {
+     "start": 107.849,
+     "end": 108.684,
+     "text": "boat for days."
+    },
+    {
+     "start": 109.134,
+     "end": 112.987,
+     "text": "The engine failed. Much of their equipment\nwas damaged or lost."
+    },
+    {
+     "start": 113.687,
+     "end": 117.058,
+     "text": "Without its engine, the open skiff was at\nthe mercy of the waves."
+    },
+    {
+     "start": 117.508,
+     "end": 122.737,
+     "text": "To keep the boat stable, they threw their\ncatch, hundreds of kilograms of fish, back"
+    },
+    {
+     "start": 122.737,
+     "end": 123.546,
+     "text": "into the sea."
+    },
+    {
+     "start": 123.996,
+     "end": 129.859,
+     "text": "Alvarenga later said he managed one radio\ncall to his boss before the battery died."
+    },
+    {
+     "start": 130.309,
+     "end": 134.917,
+     "text": "Mexican rescue officials confirmed that a\nfishing boat was reported missing from"
+    },
+    {
+     "start": 134.917,
+     "end": 136.99,
+     "text": "Costa Azul two days after it sailed."
+    },
+    {
+     "start": 137.44,
+     "end": 142.274,
+     "text": "A search began. It was called off after\ntwo days, in poor visibility."
+    },
+    {
+     "start": 142.724,
+     "end": 147.122,
+     "text": "By then, the skiff was already being\ncarried into the open Pacific."
+    },
+    {
+     "start": 147.922,
+     "end": 153.941,
+     "text": "No sail. No oars. No anchor. Nothing to\nsteer with but the wind and the current."
+    }
+   ]
+  },
+  {
+   "id": "s04_survive",
+   "chapter": "Fighting to survive",
+   "start": 156.741,
+   "end": 215.121,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Within days, the danger was no longer the storm. It was food, and water.",
+     "start": 157.641,
+     "end": 162.536
+    },
+    {
+     "i": 1,
+     "text": "Alvarenga, the experienced fisherman, learned to catch fish with his bare hands as they swam beside the boat.",
+     "start": 162.986,
+     "end": 169.282
+    },
+    {
+     "i": 2,
+     "text": "He caught seabirds that landed to rest. He caught sea turtles.",
+     "start": 169.732,
+     "end": 173.528
+    },
+    {
+     "i": 3,
+     "text": "They pulled plastic bottles and other debris from the water, and turned them into tools and containers.",
+     "start": 173.978,
+     "end": 180.28
+    },
+    {
+     "i": 4,
+     "text": "Sometimes, he later said, they found scraps of food floating past.",
+     "start": 180.73,
+     "end": 185.126
+    },
+    {
+     "i": 5,
+     "text": "When rain came, the two men collected it in anything that would hold water.",
+     "start": 185.576,
+     "end": 189.836
+    },
+    {
+     "i": 6,
+     "text": "When it did not, they drank what they could, including, he later said, turtle blood.",
+     "start": 190.286,
+     "end": 196.235
+    },
+    {
+     "i": 7,
+     "text": "Every rainstorm mattered. Every catch was measured against the next empty day.",
+     "start": 196.685,
+     "end": 201.903
+    },
+    {
+     "i": 8,
+     "text": "The icebox, built to keep fish cold, became their shelter from the sun and the waves.",
+     "start": 202.353,
+     "end": 207.627
+    },
+    {
+     "i": 9,
+     "text": "On a boat with almost nothing, it was the closest thing they had to a roof.",
+     "start": 208.077,
+     "end": 212.321
+    }
+   ],
+   "cues": [
+    {
+     "start": 157.641,
+     "end": 162.536,
+     "text": "Within days, the danger was no longer the\nstorm. It was food, and water."
+    },
+    {
+     "start": 162.986,
+     "end": 167.591,
+     "text": "Alvarenga, the experienced fisherman,\nlearned to catch fish with his bare hands"
+    },
+    {
+     "start": 167.591,
+     "end": 169.282,
+     "text": "as they swam beside the boat."
+    },
+    {
+     "start": 169.732,
+     "end": 173.528,
+     "text": "He caught seabirds that landed to rest. He\ncaught sea turtles."
+    },
+    {
+     "start": 173.978,
+     "end": 178.674,
+     "text": "They pulled plastic bottles and other\ndebris from the water, and turned them"
+    },
+    {
+     "start": 178.674,
+     "end": 180.28,
+     "text": "into tools and containers."
+    },
+    {
+     "start": 180.73,
+     "end": 185.126,
+     "text": "Sometimes, he later said, they found\nscraps of food floating past."
+    },
+    {
+     "start": 185.576,
+     "end": 189.836,
+     "text": "When rain came, the two men collected it\nin anything that would hold water."
+    },
+    {
+     "start": 190.286,
+     "end": 195.805,
+     "text": "When it did not, they drank what they\ncould, including, he later said, turtle"
+    },
+    {
+     "start": 195.805,
+     "end": 196.235,
+     "text": "blood."
+    },
+    {
+     "start": 196.685,
+     "end": 201.903,
+     "text": "Every rainstorm mattered. Every catch was\nmeasured against the next empty day."
+    },
+    {
+     "start": 202.353,
+     "end": 207.25,
+     "text": "The icebox, built to keep fish cold,\nbecame their shelter from the sun and the"
+    },
+    {
+     "start": 207.25,
+     "end": 207.627,
+     "text": "waves."
+    },
+    {
+     "start": 208.077,
+     "end": 212.321,
+     "text": "On a boat with almost nothing, it was the\nclosest thing they had to a roof."
+    }
+   ]
+  },
+  {
+   "id": "s05_loss",
+   "chapter": "Losing his companion",
+   "start": 215.121,
+   "end": 260.706,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "The ordeal affected the two men differently.",
+     "start": 216.021,
+     "end": 218.503
+    },
+    {
+     "i": 1,
+     "text": "According to Alvarenga, C\u00f3rdoba struggled with the raw food from the beginning, and became ill.",
+     "start": 218.953,
+     "end": 224.873
+    },
+    {
+     "i": 2,
+     "text": "As the weeks became months, he lost hope.",
+     "start": 225.323,
+     "end": 228.031
+    },
+    {
+     "i": 3,
+     "text": "About four months into the drift, by Alvarenga's account, C\u00f3rdoba stopped eating.",
+     "start": 228.481,
+     "end": 233.375
+    },
+    {
+     "i": 4,
+     "text": "And then he died.",
+     "start": 234.275,
+     "end": 235.875
+    },
+    {
+     "i": 5,
+     "text": "There were no witnesses. Everything we know about those weeks comes from the man who survived them.",
+     "start": 236.975,
+     "end": 242.855
+    },
+    {
+     "i": 6,
+     "text": "Alvarenga has said he kept talking to his companion for days, before he finally let his body go into the sea.",
+     "start": 243.305,
+     "end": 249.841
+    },
+    {
+     "i": 7,
+     "text": "He later said that he, too, thought about ending his life, and that his faith held him back.",
+     "start": 250.291,
+     "end": 255.471
+    },
+    {
+     "i": 8,
+     "text": "From that day on, he was alone.",
+     "start": 255.921,
+     "end": 257.906
+    }
+   ],
+   "cues": [
+    {
+     "start": 216.021,
+     "end": 218.503,
+     "text": "The ordeal affected the two men\ndifferently."
+    },
+    {
+     "start": 218.953,
+     "end": 224.18,
+     "text": "According to Alvarenga, C\u00f3rdoba struggled\nwith the raw food from the beginning, and"
+    },
+    {
+     "start": 224.18,
+     "end": 224.873,
+     "text": "became ill."
+    },
+    {
+     "start": 225.323,
+     "end": 228.031,
+     "text": "As the weeks became months, he lost hope."
+    },
+    {
+     "start": 228.481,
+     "end": 232.947,
+     "text": "About four months into the drift, by\nAlvarenga's account, C\u00f3rdoba stopped"
+    },
+    {
+     "start": 232.947,
+     "end": 233.375,
+     "text": "eating."
+    },
+    {
+     "start": 234.275,
+     "end": 235.875,
+     "text": "And then he died."
+    },
+    {
+     "start": 236.975,
+     "end": 241.775,
+     "text": "There were no witnesses. Everything we\nknow about those weeks comes from the man"
+    },
+    {
+     "start": 241.775,
+     "end": 242.855,
+     "text": "who survived them."
+    },
+    {
+     "start": 243.305,
+     "end": 248.328,
+     "text": "Alvarenga has said he kept talking to his\ncompanion for days, before he finally let"
+    },
+    {
+     "start": 248.328,
+     "end": 249.841,
+     "text": "his body go into the sea."
+    },
+    {
+     "start": 250.291,
+     "end": 254.959,
+     "text": "He later said that he, too, thought about\nending his life, and that his faith held"
+    },
+    {
+     "start": 254.959,
+     "end": 255.471,
+     "text": "him back."
+    },
+    {
+     "start": 255.921,
+     "end": 257.906,
+     "text": "From that day on, he was alone."
+    }
+   ]
+  },
+  {
+   "id": "s06_alone",
+   "chapter": "Alone in the Pacific",
+   "start": 260.706,
+   "end": 315.833,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Alone, Alvarenga built routines.",
+     "start": 261.606,
+     "end": 264.077
+    },
+    {
+     "i": 1,
+     "text": "He fished. He collected rain. He slept in the icebox.",
+     "start": 264.877,
+     "end": 268.695
+    },
+    {
+     "i": 2,
+     "text": "He kept track of time not with a calendar, but with the moon, counting its cycles, one after another.",
+     "start": 269.395,
+     "end": 276.536
+    },
+    {
+     "i": 3,
+     "text": "He said he saw large container ships pass in the distance. He waved and shouted. None of them stopped.",
+     "start": 276.986,
+     "end": 283.673
+    },
+    {
+     "i": 4,
+     "text": "He dreamed of food, and of his family. He talked to himself, and he prayed.",
+     "start": 284.123,
+     "end": 289.825
+    },
+    {
+     "i": 5,
+     "text": "Days of flat calm were followed by squalls. The sun burned by day.",
+     "start": 290.275,
+     "end": 296.015
+    },
+    {
+     "i": 6,
+     "text": "Thousands of kilometers from any coast, he was far beyond the reach of any search.",
+     "start": 296.465,
+     "end": 301.208
+    },
+    {
+     "i": 7,
+     "text": "At night, the sky was full of stars, and there was nothing between him and them.",
+     "start": 301.658,
+     "end": 306.988
+    },
+    {
+     "i": 8,
+     "text": "Week after week, the current carried the skiff farther west, across the widest part of the Pacific.",
+     "start": 307.438,
+     "end": 313.033
+    }
+   ],
+   "cues": [
+    {
+     "start": 261.606,
+     "end": 264.077,
+     "text": "Alone, Alvarenga built routines."
+    },
+    {
+     "start": 264.877,
+     "end": 268.695,
+     "text": "He fished. He collected rain. He slept in\nthe icebox."
+    },
+    {
+     "start": 269.395,
+     "end": 275.251,
+     "text": "He kept track of time not with a calendar,\nbut with the moon, counting its cycles,"
+    },
+    {
+     "start": 275.251,
+     "end": 276.536,
+     "text": "one after another."
+    },
+    {
+     "start": 276.986,
+     "end": 282.283,
+     "text": "He said he saw large container ships pass\nin the distance. He waved and shouted."
+    },
+    {
+     "start": 282.283,
+     "end": 283.673,
+     "text": "None of them stopped."
+    },
+    {
+     "start": 284.123,
+     "end": 289.825,
+     "text": "He dreamed of food, and of his family. He\ntalked to himself, and he prayed."
+    },
+    {
+     "start": 290.275,
+     "end": 296.015,
+     "text": "Days of flat calm were followed by\nsqualls. The sun burned by day."
+    },
+    {
+     "start": 296.465,
+     "end": 301.208,
+     "text": "Thousands of kilometers from any coast, he\nwas far beyond the reach of any search."
+    },
+    {
+     "start": 301.658,
+     "end": 306.988,
+     "text": "At night, the sky was full of stars, and\nthere was nothing between him and them."
+    },
+    {
+     "start": 307.438,
+     "end": 312.177,
+     "text": "Week after week, the current carried the\nskiff farther west, across the widest part"
+    },
+    {
+     "start": 312.177,
+     "end": 313.033,
+     "text": "of the Pacific."
+    }
+   ]
+  },
+  {
+   "id": "s07_science",
+   "chapter": "Was the journey possible?",
+   "start": 315.833,
+   "end": 412.052,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "When the story became public, many people doubted it.",
+     "start": 316.733,
+     "end": 319.81
+    },
+    {
+     "i": 1,
+     "text": "Could a man really survive more than a year in an open boat?",
+     "start": 320.26,
+     "end": 324.698
+    },
+    {
+     "i": 2,
+     "text": "Skeptics asked how anyone could avoid scurvy for so long, without fruit or vegetables.",
+     "start": 325.498,
+     "end": 331.047
+    },
+    {
+     "i": 3,
+     "text": "A physiologist at Duke University, Claude Piantadosi, explained that fresh meat from birds and turtles contains vitamin C, enough to prevent the disease if eaten in quantity.",
+     "start": 331.497,
+     "end": 343.861
+    },
+    {
+     "i": 4,
+     "text": "Some details were hard to check, and a Mexican report from 2012 even listed the fishermen under different names.",
+     "start": 344.311,
+     "end": 351.562
+    },
+    {
+     "i": 5,
+     "text": "His parents explained that in Mexico he was known by another name: Cirilo.",
+     "start": 352.012,
+     "end": 357.748
+    },
+    {
+     "i": 6,
+     "text": "Scientists approached the question differently.",
+     "start": 358.398,
+     "end": 360.863
+    },
+    {
+     "i": 7,
+     "text": "At the University of Hawai\u02bbi, oceanographers Nikolai Maximenko and Jan Hafner used a computer model of winds and ocean currents.",
+     "start": 361.663,
+     "end": 370.351
+    },
+    {
+     "i": 8,
+     "text": "They released virtual drifters off the coast of Chiapas, and followed them for more than a year.",
+     "start": 370.801,
+     "end": 376.026
+    },
+    {
+     "i": 9,
+     "text": "The drifters moved west in a remarkably narrow path, toward the Marshall Islands.",
+     "start": 376.476,
+     "end": 381.351
+    },
+    {
+     "i": 10,
+     "text": "The researchers said Alvarenga's account fell well within the model's limits.",
+     "start": 381.801,
+     "end": 385.931
+    },
+    {
+     "i": 11,
+     "text": "An oceanographer in Australia, Erik van Sebille, also said it was entirely possible for currents to carry a boat from Mexico to the Marshall Islands.",
+     "start": 386.381,
+     "end": 396.328
+    },
+    {
+     "i": 12,
+     "text": "In April 2014, Alvarenga's lawyer said he had passed a polygraph test about the voyage.",
+     "start": 396.778,
+     "end": 402.347
+    },
+    {
+     "i": 13,
+     "text": "None of this proves every detail of his story. But it shows that a journey like his was physically possible.",
+     "start": 402.797,
+     "end": 409.252
+    }
+   ],
+   "cues": [
+    {
+     "start": 316.733,
+     "end": 319.81,
+     "text": "When the story became public, many people\ndoubted it."
+    },
+    {
+     "start": 320.26,
+     "end": 324.698,
+     "text": "Could a man really survive more than a\nyear in an open boat?"
+    },
+    {
+     "start": 325.498,
+     "end": 330.329,
+     "text": "Skeptics asked how anyone could avoid\nscurvy for so long, without fruit or"
+    },
+    {
+     "start": 330.329,
+     "end": 331.047,
+     "text": "vegetables."
+    },
+    {
+     "start": 331.497,
+     "end": 337.535,
+     "text": "A physiologist at Duke University, Claude\nPiantadosi, explained that fresh meat from"
+    },
+    {
+     "start": 337.535,
+     "end": 343.214,
+     "text": "birds and turtles contains vitamin C,\nenough to prevent the disease if eaten in"
+    },
+    {
+     "start": 343.214,
+     "end": 343.861,
+     "text": "quantity."
+    },
+    {
+     "start": 344.311,
+     "end": 349.472,
+     "text": "Some details were hard to check, and a\nMexican report from 2012 even listed the"
+    },
+    {
+     "start": 349.472,
+     "end": 351.562,
+     "text": "fishermen under different names."
+    },
+    {
+     "start": 352.012,
+     "end": 357.748,
+     "text": "His parents explained that in Mexico he\nwas known by another name: Cirilo."
+    },
+    {
+     "start": 358.398,
+     "end": 360.863,
+     "text": "Scientists approached the question\ndifferently."
+    },
+    {
+     "start": 361.663,
+     "end": 366.452,
+     "text": "At the University of Hawai\u02bbi,\noceanographers Nikolai Maximenko and Jan"
+    },
+    {
+     "start": 366.452,
+     "end": 370.351,
+     "text": "Hafner used a computer model of winds and\nocean currents."
+    },
+    {
+     "start": 370.801,
+     "end": 375.091,
+     "text": "They released virtual drifters off the\ncoast of Chiapas, and followed them for"
+    },
+    {
+     "start": 375.091,
+     "end": 376.026,
+     "text": "more than a year."
+    },
+    {
+     "start": 376.476,
+     "end": 381.351,
+     "text": "The drifters moved west in a remarkably\nnarrow path, toward the Marshall Islands."
+    },
+    {
+     "start": 381.801,
+     "end": 385.931,
+     "text": "The researchers said Alvarenga's account\nfell well within the model's limits."
+    },
+    {
+     "start": 386.381,
+     "end": 391.354,
+     "text": "An oceanographer in Australia, Erik van\nSebille, also said it was entirely"
+    },
+    {
+     "start": 391.354,
+     "end": 396.328,
+     "text": "possible for currents to carry a boat from\nMexico to the Marshall Islands."
+    },
+    {
+     "start": 396.778,
+     "end": 401.894,
+     "text": "In April 2014, Alvarenga's lawyer said he\nhad passed a polygraph test about the"
+    },
+    {
+     "start": 401.894,
+     "end": 402.347,
+     "text": "voyage."
+    },
+    {
+     "start": 402.797,
+     "end": 407.563,
+     "text": "None of this proves every detail of his\nstory. But it shows that a journey like"
+    },
+    {
+     "start": 407.563,
+     "end": 409.252,
+     "text": "his was physically possible."
+    }
+   ]
+  },
+  {
+   "id": "s08_land",
+   "chapter": "Land at last",
+   "start": 412.052,
+   "end": 462.486,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "On January 30, 2014, after counting more than fifteen moons, Alvarenga saw land.",
+     "start": 412.952,
+     "end": 419.377
+    },
+    {
+     "i": 1,
+     "text": "It was a tiny islet called Tile, at the edge of Ebon Atoll in the Marshall Islands, around ten thousand kilometers from where he had started.",
+     "start": 420.277,
+     "end": 428.623
+    },
+    {
+     "i": 2,
+     "text": "He left the boat and swam to shore.",
+     "start": 429.073,
+     "end": 431.141
+    },
+    {
+     "i": 3,
+     "text": "He came ashore near a small house belonging to a local couple.",
+     "start": 431.941,
+     "end": 435.736
+    },
+    {
+     "i": 4,
+     "text": "Two local residents, Emi Libokmeto and Russel Laikidrik, found him exhausted and barely able to walk.",
+     "start": 436.186,
+     "end": 443.066
+    },
+    {
+     "i": 5,
+     "text": "They took care of him, and the news reached the authorities.",
+     "start": 443.516,
+     "end": 447.082
+    },
+    {
+     "i": 6,
+     "text": "Days later he was brought to the capital, Majuro, for medical care.",
+     "start": 447.532,
+     "end": 451.831
+    },
+    {
+     "i": 7,
+     "text": "438 days after leaving Mexico, Jos\u00e9 Salvador Alvarenga was back among people.",
+     "start": 452.281,
+     "end": 459.686
+    }
+   ],
+   "cues": [
+    {
+     "start": 412.952,
+     "end": 419.377,
+     "text": "On January 30, 2014, after counting more\nthan fifteen moons, Alvarenga saw land."
+    },
+    {
+     "start": 420.277,
+     "end": 424.688,
+     "text": "It was a tiny islet called Tile, at the\nedge of Ebon Atoll in the Marshall"
+    },
+    {
+     "start": 424.688,
+     "end": 428.623,
+     "text": "Islands, around ten thousand kilometers\nfrom where he had started."
+    },
+    {
+     "start": 429.073,
+     "end": 431.141,
+     "text": "He left the boat and swam to shore."
+    },
+    {
+     "start": 431.941,
+     "end": 435.736,
+     "text": "He came ashore near a small house\nbelonging to a local couple."
+    },
+    {
+     "start": 436.186,
+     "end": 441.69,
+     "text": "Two local residents, Emi Libokmeto and\nRussel Laikidrik, found him exhausted and"
+    },
+    {
+     "start": 441.69,
+     "end": 443.066,
+     "text": "barely able to walk."
+    },
+    {
+     "start": 443.516,
+     "end": 447.082,
+     "text": "They took care of him, and the news\nreached the authorities."
+    },
+    {
+     "start": 447.532,
+     "end": 451.831,
+     "text": "Days later he was brought to the capital,\nMajuro, for medical care."
+    },
+    {
+     "start": 452.281,
+     "end": 459.686,
+     "text": "438 days after leaving Mexico, Jos\u00e9\nSalvador Alvarenga was back among people."
+    }
+   ]
+  },
+  {
+   "id": "s09_world",
+   "chapter": "The world meets him",
+   "start": 462.486,
+   "end": 517.181,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Within hours, his story was spreading around the world.",
+     "start": 463.386,
+     "end": 466.548
+    },
+    {
+     "i": 1,
+     "text": "Doctors found him dehydrated, with low blood pressure and swollen ankles, but in better condition than many expected.",
+     "start": 466.998,
+     "end": 473.933
+    },
+    {
+     "i": 2,
+     "text": "An American embassy official who questioned him said he found him truthful.",
+     "start": 474.383,
+     "end": 478.489
+    },
+    {
+     "i": 3,
+     "text": "On February 10, 2014, he flew home to El Salvador, to a family that had not heard from him in years.",
+     "start": 478.939,
+     "end": 485.549
+    },
+    {
+     "i": 4,
+     "text": "In Garita Palmera, his parents had long feared he was dead.",
+     "start": 485.999,
+     "end": 489.937
+    },
+    {
+     "i": 5,
+     "text": "His daughter told reporters that the first thing she would do was hug him and kiss him.",
+     "start": 490.387,
+     "end": 496.063
+    },
+    {
+     "i": 6,
+     "text": "In the months that followed, he struggled with sleep, and with a new fear of the sea.",
+     "start": 496.513,
+     "end": 501.297
+    },
+    {
+     "i": 7,
+     "text": "In 2015, the journalist Jonathan Franklin told his story in detail in the book 438 Days.",
+     "start": 501.747,
+     "end": 509.504
+    },
+    {
+     "i": 8,
+     "text": "Some questions about the voyage can only ever be answered by Alvarenga himself.",
+     "start": 509.954,
+     "end": 514.381
+    }
+   ],
+   "cues": [
+    {
+     "start": 463.386,
+     "end": 466.548,
+     "text": "Within hours, his story was spreading\naround the world."
+    },
+    {
+     "start": 466.998,
+     "end": 471.781,
+     "text": "Doctors found him dehydrated, with low\nblood pressure and swollen ankles, but in"
+    },
+    {
+     "start": 471.781,
+     "end": 473.933,
+     "text": "better condition than many expected."
+    },
+    {
+     "start": 474.383,
+     "end": 478.489,
+     "text": "An American embassy official who\nquestioned him said he found him truthful."
+    },
+    {
+     "start": 478.939,
+     "end": 484.347,
+     "text": "On February 10, 2014, he flew home to El\nSalvador, to a family that had not heard"
+    },
+    {
+     "start": 484.347,
+     "end": 485.549,
+     "text": "from him in years."
+    },
+    {
+     "start": 485.999,
+     "end": 489.937,
+     "text": "In Garita Palmera, his parents had long\nfeared he was dead."
+    },
+    {
+     "start": 490.387,
+     "end": 495.799,
+     "text": "His daughter told reporters that the first\nthing she would do was hug him and kiss"
+    },
+    {
+     "start": 495.799,
+     "end": 496.063,
+     "text": "him."
+    },
+    {
+     "start": 496.513,
+     "end": 501.069,
+     "text": "In the months that followed, he struggled\nwith sleep, and with a new fear of the"
+    },
+    {
+     "start": 501.069,
+     "end": 501.297,
+     "text": "sea."
+    },
+    {
+     "start": 501.747,
+     "end": 509.058,
+     "text": "In 2015, the journalist Jonathan Franklin\ntold his story in detail in the book 438"
+    },
+    {
+     "start": 509.058,
+     "end": 509.504,
+     "text": "Days."
+    },
+    {
+     "start": 509.954,
+     "end": 514.381,
+     "text": "Some questions about the voyage can only\never be answered by Alvarenga himself."
+    }
+   ]
+  },
+  {
+   "id": "s10_cost",
+   "chapter": "The cost of survival",
+   "start": 517.181,
+   "end": 559.299,
+   "sentences": [
+    {
+     "i": 0,
+     "text": "Jos\u00e9 Salvador Alvarenga survived because he kept doing small things, again and again.",
+     "start": 518.081,
+     "end": 524.474
+    },
+    {
+     "i": 1,
+     "text": "Catch the fish. Collect the rain. Count the moons.",
+     "start": 524.924,
+     "end": 528.549
+    },
+    {
+     "i": 2,
+     "text": "But survival had a cost.",
+     "start": 529.449,
+     "end": 531.345
+    },
+    {
+     "i": 3,
+     "text": "He lost his companion. He lost more than a year of his life.",
+     "start": 532.145,
+     "end": 535.992
+    },
+    {
+     "i": 4,
+     "text": "And he came home a different man, from an ocean that had tried, for 438 days, to keep him.",
+     "start": 536.442,
+     "end": 544.166
+    },
+    {
+     "i": 5,
+     "text": "Some parts of his story can be checked. Some never will be.",
+     "start": 544.616,
+     "end": 548.845
+    },
+    {
+     "i": 6,
+     "text": "What remains is a man, a small boat, and an ocean that is still, for most of us, unimaginably large.",
+     "start": 549.745,
+     "end": 556.499
+    }
+   ],
+   "cues": [
+    {
+     "start": 518.081,
+     "end": 524.017,
+     "text": "Jos\u00e9 Salvador Alvarenga survived because\nhe kept doing small things, again and"
+    },
+    {
+     "start": 524.017,
+     "end": 524.474,
+     "text": "again."
+    },
+    {
+     "start": 524.924,
+     "end": 528.549,
+     "text": "Catch the fish. Collect the rain. Count\nthe moons."
+    },
+    {
+     "start": 529.449,
+     "end": 531.345,
+     "text": "But survival had a cost."
+    },
+    {
+     "start": 532.145,
+     "end": 535.992,
+     "text": "He lost his companion. He lost more than a\nyear of his life."
+    },
+    {
+     "start": 536.442,
+     "end": 543.385,
+     "text": "And he came home a different man, from an\nocean that had tried, for 438 days, to"
+    },
+    {
+     "start": 543.385,
+     "end": 544.166,
+     "text": "keep him."
+    },
+    {
+     "start": 544.616,
+     "end": 548.845,
+     "text": "Some parts of his story can be checked.\nSome never will be."
+    },
+    {
+     "start": 549.745,
+     "end": 555.203,
+     "text": "What remains is a man, a small boat, and\nan ocean that is still, for most of us,"
+    },
+    {
+     "start": 555.203,
+     "end": 556.499,
+     "text": "unimaginably large."
+    }
+   ]
+  }
+ ]
+}

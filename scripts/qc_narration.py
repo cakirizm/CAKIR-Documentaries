@@ -70,7 +70,7 @@ def main():
             lines.append(line)
             if flag:
                 issues.append(line + "  <-- " + "; ".join(flag))
-    out = ROOT / "out" / "CAKIR_Narration_QC.md"
+    out = ROOT / "out" / f"{ep['slug']}_Narration_QC.md"
     out.write_text("# Narration QC (speech recognition)\n\n" + f"Mean text match {np.mean(scores):.3f}, min {np.min(scores):.2f}\n\n## Issues\n" +
                    ("\n".join(issues) if issues else "none") + "\n\n## All sentences\n" + "\n".join(lines))
     print(f"sentences {len(scores)}, mean match {np.mean(scores):.3f}, min {np.min(scores):.2f}, issues {len(issues)}")

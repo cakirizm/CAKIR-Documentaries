@@ -12,6 +12,8 @@ import {Timeline} from './shots/Timeline';
 import {Documents, FilmCard, Figure, Identity, Myth, NameCard, Obituary, Routine, Statement, TitleCard, Works} from './shots/Typography';
 import {ChapterLabel, CreditBlock, Disputed, EndCard, FilmLook, LogoBug, LowerThird, NoteOverlay, Quote, Stamp} from './overlays/Overlays';
 import {Reenactment} from './anim/Reenactment';
+import {SeaScene} from './anim/Sea';
+import {DriftMap} from './shots/DriftMap';
 
 /** Registry of graphic shot types. Add new shot types here. */
 export const SHOTS: Record<string, React.FC<{shot: any}>> = {
@@ -33,6 +35,8 @@ export const SHOTS: Record<string, React.FC<{shot: any}>> = {
 	obituary: Obituary,
 	documents: Documents,
 	reenact: Reenactment,
+	sea: SeaScene,
+	drift: DriftMap,
 };
 
 export type TimelineJson = {

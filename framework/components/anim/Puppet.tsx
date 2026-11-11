@@ -16,7 +16,7 @@ export type Pose = {
 export type Look = {
 	skin: string; hair: string; jacket: string; jacketShade: string; shirt: string;
 	trousers: string; trousersShade: string; shoes: string;
-	bald?: boolean; mustache?: boolean; longHair?: boolean; build?: number;
+	bald?: boolean; mustache?: boolean; longHair?: boolean; build?: number; beard?: number; cap?: string; shortSleeves?: boolean;
 };
 
 // Nasseri as seen in the press photographs: light beige jacket, blue shirt,
@@ -136,6 +136,8 @@ export const Puppet: React.FC<{
 			<ellipse cx={-hs * 0.04} cy={-hs * 0.5} rx={hs * 0.06} ry={hs * 0.09} fill={L.skin} stroke="rgba(0,0,0,0.18)" strokeWidth={hs * 0.02} />
 			<circle cx={hs * 0.27} cy={-hs * 0.6} r={hs * 0.03} fill="#1b1714" />
 			<path d={`M ${hs * 0.2} ${-hs * 0.69} L ${hs * 0.34} ${-hs * 0.7}`} stroke={L.hair} strokeWidth={hs * 0.035} strokeLinecap="round" />
+			{L.beard ? <path d={`M ${hs * 0.42} ${-hs * 0.4} C ${hs * 0.44} ${-hs * (0.2 - 0.12 * L.beard)} ${hs * 0.2} ${-hs * (0.02 - 0.12 * L.beard)} ${-hs * 0.02} ${-hs * 0.12} C ${-hs * 0.12} ${-hs * 0.2} ${-hs * 0.08} ${-hs * 0.36} ${-hs * 0.04} ${-hs * 0.44} C ${hs * 0.1} ${-hs * 0.34} ${hs * 0.3} ${-hs * 0.36} ${hs * 0.42} ${-hs * 0.4} Z`} fill={L.hair} opacity={0.92} /> : null}
+			{L.cap ? <path d={`M ${-hs * 0.36} ${-hs * 0.66} C ${-hs * 0.36} ${-hs * 1.08} ${hs * 0.34} ${-hs * 1.1} ${hs * 0.36} ${-hs * 0.72} L ${hs * 0.66} ${-hs * 0.68} L ${hs * 0.64} ${-hs * 0.62} L ${-hs * 0.36} ${-hs * 0.62} Z`} fill={L.cap} /> : null}
 			{L.mustache ? <path d={`M ${hs * 0.27} ${-hs * 0.39} Q ${hs * 0.38} ${-hs * 0.42} ${hs * 0.42} ${-hs * 0.36} Q ${hs * 0.34} ${-hs * 0.32} ${hs * 0.25} ${-hs * 0.34} Z`} fill={L.hair} /> : null}
 		</g>
 	);
