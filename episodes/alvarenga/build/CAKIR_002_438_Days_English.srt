@@ -17,12 +17,12 @@ Just a small fishing boat, and the largest
 ocean on Earth.
 
 5
-00:00:19,054 --> 00:00:23,833
+00:00:19,054 --> 00:00:23,524
 When he finally reached a remote island on
 the other side of the Pacific, the story
 
 6
-00:00:23,833 --> 00:00:26,367
+00:00:23,524 --> 00:00:26,367
 he told seemed almost impossible to
 believe.
 
@@ -31,12 +31,12 @@ believe.
 His name is José Salvador Alvarenga.
 
 8
-00:00:30,880 --> 00:00:35,242
+00:00:30,880 --> 00:00:35,030
 This is what we know about his journey,
 what can be checked, and what rests on his
 
 9
-00:00:35,242 --> 00:00:35,827
+00:00:35,030 --> 00:00:35,827
 word alone.
 
 10
@@ -45,12 +45,12 @@ Alvarenga was born in El Salvador, in the
 coastal village of Garita Palmera.
 
 11
-00:00:44,784 --> 00:00:49,993
+00:00:44,784 --> 00:00:49,714
 In the early 2000s he moved to Mexico, and
 found work on the Pacific coast of
 
 12
-00:00:49,993 --> 00:00:54,797
+00:00:49,714 --> 00:00:54,797
 Chiapas, fishing for sharks and other
 large fish from small open boats.
 
@@ -60,12 +60,12 @@ He had not been in touch with his family
 back home for years.
 
 14
-00:00:58,960 --> 00:01:04,872
+00:00:58,960 --> 00:01:04,530
 On November 17, 2012, he set out from the
 fishing village of Costa Azul, near
 
 15
-00:01:04,872 --> 00:01:05,716
+00:01:04,530 --> 00:01:05,716
 Pijijiapan.
 
 16
@@ -83,21 +83,21 @@ In his place came a younger man, Ezequiel
 Córdoba, whom Alvarenga barely knew.
 
 19
-00:01:20,954 --> 00:01:26,494
+00:01:20,954 --> 00:01:26,444
 Alvarenga was a seasoned fisherman.
 Córdoba, by most accounts, had very little
 
 20
-00:01:26,494 --> 00:01:27,773
+00:01:26,444 --> 00:01:27,773
 experience at sea.
 
 21
-00:01:28,223 --> 00:01:33,317
+00:01:28,223 --> 00:01:33,033
 Their boat was a seven-meter fiberglass
 skiff, open to the sky, with a single
 
 22
-00:01:33,317 --> 00:01:36,493
+00:01:33,033 --> 00:01:36,493
 outboard motor and a large icebox for the
 catch.
 
@@ -107,12 +107,12 @@ Not long after they left, the weather
 turned.
 
 24
-00:01:43,138 --> 00:01:47,849
+00:01:43,138 --> 00:01:47,548
 According to Alvarenga, a storm pushed
 them far from the coast and battered the
 
 25
-00:01:47,849 --> 00:01:48,684
+00:01:47,548 --> 00:01:48,684
 boat for days.
 
 26
@@ -126,12 +126,12 @@ Without its engine, the open skiff was at
 the mercy of the waves.
 
 28
-00:01:57,508 --> 00:02:02,737
+00:01:57,508 --> 00:02:02,638
 To keep the boat stable, they threw their
 catch, hundreds of kilograms of fish, back
 
 29
-00:02:02,737 --> 00:02:03,546
+00:02:02,638 --> 00:02:03,546
 into the sea.
 
 30
@@ -140,12 +140,12 @@ Alvarenga later said he managed one radio
 call to his boss before the battery died.
 
 31
-00:02:10,309 --> 00:02:14,917
+00:02:10,309 --> 00:02:14,179
 Mexican rescue officials confirmed that a
 fishing boat was reported missing from
 
 32
-00:02:14,917 --> 00:02:16,990
+00:02:14,179 --> 00:02:16,990
 Costa Azul two days after it sailed.
 
 33
@@ -169,12 +169,12 @@ Within days, the danger was no longer the
 storm. It was food, and water.
 
 37
-00:02:42,986 --> 00:02:47,591
+00:02:42,986 --> 00:02:47,396
 Alvarenga, the experienced fisherman,
 learned to catch fish with his bare hands
 
 38
-00:02:47,591 --> 00:02:49,282
+00:02:47,396 --> 00:02:49,282
 as they swam beside the boat.
 
 39
@@ -183,12 +183,12 @@ He caught seabirds that landed to rest. He
 caught sea turtles.
 
 40
-00:02:53,978 --> 00:02:58,674
+00:02:53,978 --> 00:02:58,008
 They pulled plastic bottles and other
 debris from the water, and turned them
 
 41
-00:02:58,674 --> 00:03:00,280
+00:02:58,008 --> 00:03:00,280
 into tools and containers.
 
 42
@@ -202,12 +202,12 @@ When rain came, the two men collected it
 in anything that would hold water.
 
 44
-00:03:10,286 --> 00:03:15,805
+00:03:10,286 --> 00:03:15,536
 When it did not, they drank what they
 could, including, he later said, turtle
 
 45
-00:03:15,805 --> 00:03:16,235
+00:03:15,536 --> 00:03:16,235
 blood.
 
 46
@@ -216,12 +216,12 @@ Every rainstorm mattered. Every catch was
 measured against the next empty day.
 
 47
-00:03:22,353 --> 00:03:27,250
+00:03:22,353 --> 00:03:26,983
 The icebox, built to keep fish cold,
 became their shelter from the sun and the
 
 48
-00:03:27,250 --> 00:03:27,627
+00:03:26,983 --> 00:03:27,627
 waves.
 
 49
@@ -235,12 +235,12 @@ The ordeal affected the two men
 differently.
 
 51
-00:03:38,953 --> 00:03:44,180
+00:03:38,953 --> 00:03:43,883
 According to Alvarenga, Córdoba struggled
 with the raw food from the beginning, and
 
 52
-00:03:44,180 --> 00:03:44,873
+00:03:43,883 --> 00:03:44,873
 became ill.
 
 53
@@ -248,12 +248,12 @@ became ill.
 As the weeks became months, he lost hope.
 
 54
-00:03:48,481 --> 00:03:52,947
+00:03:48,481 --> 00:03:52,791
 About four months into the drift, by
 Alvarenga's account, Córdoba stopped
 
 55
-00:03:52,947 --> 00:03:53,375
+00:03:52,791 --> 00:03:53,391
 eating.
 
 56
@@ -261,30 +261,30 @@ eating.
 And then he died.
 
 57
-00:03:56,975 --> 00:04:01,775
+00:03:56,975 --> 00:04:01,425
 There were no witnesses. Everything we
 know about those weeks comes from the man
 
 58
-00:04:01,775 --> 00:04:02,855
+00:04:01,425 --> 00:04:02,855
 who survived them.
 
 59
-00:04:03,305 --> 00:04:08,328
+00:04:03,305 --> 00:04:08,215
 Alvarenga has said he kept talking to his
 companion for days, before he finally let
 
 60
-00:04:08,328 --> 00:04:09,841
+00:04:08,215 --> 00:04:09,841
 his body go into the sea.
 
 61
-00:04:10,291 --> 00:04:14,959
+00:04:10,291 --> 00:04:14,701
 He later said that he, too, thought about
 ending his life, and that his faith held
 
 62
-00:04:14,959 --> 00:04:15,471
+00:04:14,701 --> 00:04:15,471
 him back.
 
 63
@@ -301,21 +301,21 @@ He fished. He collected rain. He slept in
 the icebox.
 
 66
-00:04:29,395 --> 00:04:35,251
+00:04:29,395 --> 00:04:34,225
 He kept track of time not with a calendar,
 but with the moon, counting its cycles,
 
 67
-00:04:35,251 --> 00:04:36,536
+00:04:34,645 --> 00:04:36,536
 one after another.
 
 68
-00:04:36,986 --> 00:04:42,283
+00:04:36,986 --> 00:04:41,776
 He said he saw large container ships pass
 in the distance. He waved and shouted.
 
 69
-00:04:42,283 --> 00:04:43,673
+00:04:42,496 --> 00:04:43,673
 None of them stopped.
 
 70
@@ -339,12 +339,12 @@ At night, the sky was full of stars, and
 there was nothing between him and them.
 
 74
-00:05:07,438 --> 00:05:12,177
+00:05:07,438 --> 00:05:12,088
 Week after week, the current carried the
 skiff farther west, across the widest part
 
 75
-00:05:12,177 --> 00:05:13,033
+00:05:12,088 --> 00:05:13,033
 of the Pacific.
 
 76
@@ -358,35 +358,35 @@ Could a man really survive more than a
 year in an open boat?
 
 78
-00:05:25,498 --> 00:05:30,329
+00:05:25,498 --> 00:05:30,208
 Skeptics asked how anyone could avoid
 scurvy for so long, without fruit or
 
 79
-00:05:30,329 --> 00:05:31,047
+00:05:30,208 --> 00:05:31,047
 vegetables.
 
 80
-00:05:31,497 --> 00:05:37,535
+00:05:31,497 --> 00:05:37,147
 A physiologist at Duke University, Claude
 Piantadosi, explained that fresh meat from
 
 81
-00:05:37,535 --> 00:05:43,214
+00:05:37,147 --> 00:05:42,587
 birds and turtles contains vitamin C,
 enough to prevent the disease if eaten in
 
 82
-00:05:43,214 --> 00:05:43,861
+00:05:42,587 --> 00:05:43,861
 quantity.
 
 83
-00:05:44,311 --> 00:05:49,472
+00:05:44,311 --> 00:05:49,621
 Some details were hard to check, and a
 Mexican report from 2012 even listed the
 
 84
-00:05:49,472 --> 00:05:51,562
+00:05:49,621 --> 00:05:51,562
 fishermen under different names.
 
 85
@@ -400,22 +400,22 @@ Scientists approached the question
 differently.
 
 87
-00:06:01,663 --> 00:06:06,452
+00:06:01,663 --> 00:06:06,473
 At the University of Hawaiʻi,
 oceanographers Nikolai Maximenko and Jan
 
 88
-00:06:06,452 --> 00:06:10,351
+00:06:06,473 --> 00:06:10,351
 Hafner used a computer model of winds and
 ocean currents.
 
 89
-00:06:10,801 --> 00:06:15,091
+00:06:10,801 --> 00:06:14,931
 They released virtual drifters off the
 coast of Chiapas, and followed them for
 
 90
-00:06:15,091 --> 00:06:16,026
+00:06:14,931 --> 00:06:16,026
 more than a year.
 
 91
@@ -429,31 +429,31 @@ The researchers said Alvarenga's account
 fell well within the model's limits.
 
 93
-00:06:26,381 --> 00:06:31,354
+00:06:26,381 --> 00:06:31,331
 An oceanographer in Australia, Erik van
 Sebille, also said it was entirely
 
 94
-00:06:31,354 --> 00:06:36,328
+00:06:31,331 --> 00:06:36,328
 possible for currents to carry a boat from
 Mexico to the Marshall Islands.
 
 95
-00:06:36,778 --> 00:06:41,894
+00:06:36,778 --> 00:06:41,768
 In April 2014, Alvarenga's lawyer said he
 had passed a polygraph test about the
 
 96
-00:06:41,894 --> 00:06:42,347
+00:06:41,768 --> 00:06:42,368
 voyage.
 
 97
-00:06:42,797 --> 00:06:47,563
+00:06:42,797 --> 00:06:47,367
 None of this proves every detail of his
 story. But it shows that a journey like
 
 98
-00:06:47,563 --> 00:06:49,252
+00:06:47,367 --> 00:06:49,252
 his was physically possible.
 
 99
@@ -462,12 +462,12 @@ On January 30, 2014, after counting more
 than fifteen moons, Alvarenga saw land.
 
 100
-00:07:00,277 --> 00:07:04,688
+00:07:00,277 --> 00:07:04,667
 It was a tiny islet called Tile, at the
 edge of Ebon Atoll in the Marshall
 
 101
-00:07:04,688 --> 00:07:08,623
+00:07:04,667 --> 00:07:08,623
 Islands, around ten thousand kilometers
 from where he had started.
 
@@ -481,12 +481,12 @@ He came ashore near a small house
 belonging to a local couple.
 
 104
-00:07:16,186 --> 00:07:21,690
+00:07:16,186 --> 00:07:21,556
 Two local residents, Emi Libokmeto and
 Russel Laikidrik, found him exhausted and
 
 105
-00:07:21,690 --> 00:07:23,066
+00:07:21,556 --> 00:07:23,066
 barely able to walk.
 
 106
@@ -510,12 +510,12 @@ Within hours, his story was spreading
 around the world.
 
 110
-00:07:46,998 --> 00:07:51,781
+00:07:46,998 --> 00:07:51,988
 Doctors found him dehydrated, with low
 blood pressure and swollen ankles, but in
 
 111
-00:07:51,781 --> 00:07:53,933
+00:07:51,988 --> 00:07:53,933
 better condition than many expected.
 
 112
@@ -524,12 +524,12 @@ An American embassy official who
 questioned him said he found him truthful.
 
 113
-00:07:58,939 --> 00:08:04,347
+00:07:58,939 --> 00:08:04,349
 On February 10, 2014, he flew home to El
 Salvador, to a family that had not heard
 
 114
-00:08:04,347 --> 00:08:05,549
+00:08:04,349 --> 00:08:05,549
 from him in years.
 
 115
@@ -538,30 +538,30 @@ In Garita Palmera, his parents had long
 feared he was dead.
 
 116
-00:08:10,387 --> 00:08:15,799
+00:08:10,387 --> 00:08:15,017
 His daughter told reporters that the first
 thing she would do was hug him and kiss
 
 117
-00:08:15,799 --> 00:08:16,063
+00:08:15,017 --> 00:08:16,063
 him.
 
 118
-00:08:16,513 --> 00:08:21,069
+00:08:16,513 --> 00:08:20,783
 In the months that followed, he struggled
 with sleep, and with a new fear of the
 
 119
-00:08:21,069 --> 00:08:21,297
+00:08:20,783 --> 00:08:21,383
 sea.
 
 120
-00:08:21,747 --> 00:08:29,058
+00:08:21,747 --> 00:08:28,197
 In 2015, the journalist Jonathan Franklin
 told his story in detail in the book 438
 
 121
-00:08:29,058 --> 00:08:29,504
+00:08:28,197 --> 00:08:29,504
 Days.
 
 122
@@ -570,12 +570,12 @@ Some questions about the voyage can only
 ever be answered by Alvarenga himself.
 
 123
-00:08:38,081 --> 00:08:44,017
+00:08:38,081 --> 00:08:43,731
 José Salvador Alvarenga survived because
 he kept doing small things, again and
 
 124
-00:08:44,017 --> 00:08:44,474
+00:08:43,731 --> 00:08:44,474
 again.
 
 125
@@ -593,12 +593,12 @@ He lost his companion. He lost more than a
 year of his life.
 
 128
-00:08:56,442 --> 00:09:03,385
+00:08:56,442 --> 00:09:02,972
 And he came home a different man, from an
 ocean that had tried, for 438 days, to
 
 129
-00:09:03,385 --> 00:09:04,166
+00:09:02,972 --> 00:09:04,166
 keep him.
 
 130
@@ -607,10 +607,10 @@ Some parts of his story can be checked.
 Some never will be.
 
 131
-00:09:09,745 --> 00:09:15,203
+00:09:09,745 --> 00:09:14,615
 What remains is a man, a small boat, and
 an ocean that is still, for most of us,
 
 132
-00:09:15,203 --> 00:09:16,499
+00:09:15,295 --> 00:09:16,499
 unimaginably large.

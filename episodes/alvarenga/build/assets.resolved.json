@@ -1,0 +1,633 @@
+{
+ "v_moonphases": {
+  "id": "v_moonphases",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_moonphases.mp4",
+  "credit": "NASA/Goddard Space Flight Center \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_tropicbird": {
+  "id": "v_tropicbird",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_tropicbird.mp4",
+  "credit": "Dan Rapp/USFWS \u2013 USFWS - Pacific Region \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_turtle_hawaii": {
+  "id": "v_turtle_hawaii",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_turtle_hawaii.mp4",
+  "credit": "Piyush Kumar \u00b7 CC BY 2.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_thresher": {
+  "id": "v_thresher",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_thresher.mp4",
+  "credit": "Bo Mancao \u00b7 CC0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_sardines": {
+  "id": "v_sardines",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_sardines.mp4",
+  "credit": "Eric Polk \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_stormy_salish": {
+  "id": "v_stormy_salish",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_stormy_salish.mp4",
+  "credit": "BLM Oregon &amp; Washington \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_irminger_bow": {
+  "id": "v_irminger_bow",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_irminger_bow.mp4",
+  "credit": "Ocean Observatories Initiative \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_aruba_rough": {
+  "id": "v_aruba_rough",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_aruba_rough.mp4",
+  "credit": "Ginelly.Q \u00b7 CC0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_pacific_sunset": {
+  "id": "v_pacific_sunset",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_pacific_sunset.mp4",
+  "credit": "Steven Pavlov \u00b7 CC BY 3.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_sunset_tl": {
+  "id": "v_sunset_tl",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_sunset_tl.mp4",
+  "credit": "Cure3013 \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_milkyway": {
+  "id": "v_milkyway",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_milkyway.mp4",
+  "credit": "S3 Channel \u00b7 CC BY 3.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_container_ship": {
+  "id": "v_container_ship",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_container_ship.mp4",
+  "credit": "Jan Ainali \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_jellyfish": {
+  "id": "v_jellyfish",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_jellyfish.mp4",
+  "credit": "FASTILY \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_fisher_net": {
+  "id": "v_fisher_net",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_fisher_net.mp4",
+  "credit": "Pratishkhedekar \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_whaleshark_boat": {
+  "id": "v_whaleshark_boat",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_whaleshark_boat.mp4",
+  "credit": "WIDTTF [1] \u00b7 CC BY-SA 2.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_thunder_tl": {
+  "id": "v_thunder_tl",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_thunder_tl.mp4",
+  "credit": "Colin Kranz \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "v_dingle_boat": {
+  "id": "v_dingle_boat",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/v_dingle_boat.mp4",
+  "credit": "[[User:|Maoileann|Maoileann]] \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "p_paredon_lanchas": {
+  "id": "p_paredon_lanchas",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_paredon_lanchas.jpg",
+  "credit": "N\u00e9stor Fernando Hern\u00e1ndez Candelaria \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Fishing skiffs on the beach at Pared\u00f3n, Chiapas coast",
+  "showCaption": false
+ },
+ "p_pijijiapan_estero": {
+  "id": "p_pijijiapan_estero",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_pijijiapan_estero.jpg",
+  "credit": "Lameirasb \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Estuary at Pijijiapan, Chiapas",
+  "showCaption": false
+ },
+ "p_puerto_madero_fishers": {
+  "id": "p_puerto_madero_fishers",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_puerto_madero_fishers.jpg",
+  "credit": "Peque\u00f1o mar \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Fishermen, Puerto Madero, Chiapas",
+  "showCaption": false
+ },
+ "p_ebon_atoll": {
+  "id": "p_ebon_atoll",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_ebon_atoll.jpg",
+  "credit": "NASA \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Ebon Atoll, Marshall Islands",
+  "showCaption": false
+ },
+ "p_majuro_landscape": {
+  "id": "p_majuro_landscape",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_majuro_landscape.jpg",
+  "credit": "Department of Foreign Affairs and Trade \u00b7 CC BY 2.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Majuro, Marshall Islands",
+  "showCaption": false
+ },
+ "p_majuro_street": {
+  "id": "p_majuro_street",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_majuro_street.jpg",
+  "credit": "Department of Foreign Affairs and Trade \u00b7 CC BY 2.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Majuro, Marshall Islands, 2012",
+  "showCaption": false
+ },
+ "p_laura_beach": {
+  "id": "p_laura_beach",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_laura_beach.jpg",
+  "credit": "mrlins \u00b7 CC BY 2.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Laura Beach, Majuro",
+  "showCaption": false
+ },
+ "p_sal_airport": {
+  "id": "p_sal_airport",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_sal_airport.jpg",
+  "credit": "Arne M\u00fcseler \u00b7 CC BY-SA 3.0 de \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "El Salvador International Airport",
+  "showCaption": false
+ },
+ "p_pacific_iss": {
+  "id": "p_pacific_iss",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_pacific_iss.jpg",
+  "credit": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "The Pacific Ocean seen from the ISS",
+  "showCaption": false
+ },
+ "p_cloudscape": {
+  "id": "p_cloudscape",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_cloudscape.jpg",
+  "credit": "NASA \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Clouds over the western Pacific",
+  "showCaption": false
+ },
+ "c_man_fishing_boat": {
+  "id": "c_man_fishing_boat",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_man_fishing_boat.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_fisher_small_boat": {
+  "id": "c_fisher_small_boat",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_fisher_small_boat.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_fisher_village": {
+  "id": "c_fisher_village",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_fisher_village.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_lonely_boat": {
+  "id": "c_lonely_boat",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_lonely_boat.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_boat_in_sea": {
+  "id": "c_boat_in_sea",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_boat_in_sea.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_side_of_boat": {
+  "id": "c_side_of_boat",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_side_of_boat.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_large_wave": {
+  "id": "c_large_wave",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_large_wave.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_waves_ocean": {
+  "id": "c_waves_ocean",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_waves_ocean.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_night_waves": {
+  "id": "c_night_waves",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_night_waves.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_ocean_evening": {
+  "id": "c_ocean_evening",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_ocean_evening.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_sun_seawater": {
+  "id": "c_sun_seawater",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_sun_seawater.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_sunset_sea": {
+  "id": "c_sunset_sea",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_sunset_sea.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_rain_hand": {
+  "id": "c_rain_hand",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_rain_hand.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_palms_wind": {
+  "id": "c_palms_wind",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_palms_wind.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_island_sea": {
+  "id": "c_island_sea",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_island_sea.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_small_island": {
+  "id": "c_small_island",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_small_island.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_sand_island": {
+  "id": "c_sand_island",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_sand_island.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_hand_water": {
+  "id": "c_hand_water",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_hand_water.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_shore_from_boat": {
+  "id": "c_shore_from_boat",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_shore_from_boat.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_clear_water": {
+  "id": "c_clear_water",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_clear_water.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_stormy_pier": {
+  "id": "c_stormy_pier",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_stormy_pier.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_plane_clouds": {
+  "id": "c_plane_clouds",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_plane_clouds.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_sun_ocean": {
+  "id": "c_sun_ocean",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_sun_ocean.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "c_waves_rocks_sea": {
+  "id": "c_waves_rocks_sea",
+  "kind": "video",
+  "file": "episodes/alvarenga/media/c_waves_rocks_sea.mp4",
+  "credit": "Coverr \u00b7 Coverr License",
+  "modern": true,
+  "caption": "",
+  "showCaption": false
+ },
+ "p_libertad_sunset": {
+  "id": "p_libertad_sunset",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_libertad_sunset.jpg",
+  "credit": "ElmerGuevara \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Sunset at Puerto de La Libertad, El Salvador",
+  "showCaption": false
+ },
+ "p_libertad_pier": {
+  "id": "p_libertad_pier",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_libertad_pier.jpg",
+  "credit": "Efeg\u00e9 \u00b7 CC BY-SA 3.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Fishing pier at Puerto de La Libertad, El Salvador",
+  "showCaption": false
+ },
+ "p_boat_golden": {
+  "id": "p_boat_golden",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_boat_golden.jpg",
+  "credit": "Ahn001 \u00b7 CC BY-SA 4.0 \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "A small fishing boat at sea",
+  "showCaption": false
+ },
+ "p_turtle_hihwnms": {
+  "id": "p_turtle_hihwnms",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/p_turtle_hihwnms.jpg",
+  "credit": "National Marine Sanctuaries \u00b7 Public domain \u00b7 Wikimedia Commons",
+  "modern": true,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "caption": "Green sea turtle, Pacific",
+  "showCaption": false
+ },
+ "m_lightless_dawn": {
+  "id": "m_lightless_dawn",
+  "kind": "music",
+  "file": "episodes/alvarenga/music/Lightless_Dawn.mp3",
+  "credit": "\"Lightless Dawn\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
+  "modern": false,
+  "showCaption": false
+ },
+ "m_healing": {
+  "id": "m_healing",
+  "kind": "music",
+  "file": "episodes/alvarenga/music/Healing.mp3",
+  "credit": "\"Healing\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
+  "modern": false,
+  "showCaption": false
+ },
+ "m_darkest_child": {
+  "id": "m_darkest_child",
+  "kind": "music",
+  "file": "episodes/alvarenga/music/Darkest_Child.mp3",
+  "credit": "\"Darkest Child\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
+  "modern": false,
+  "showCaption": false
+ },
+ "m_hiding_your_reality": {
+  "id": "m_hiding_your_reality",
+  "kind": "music",
+  "file": "episodes/alvarenga/music/Hiding_Your_Reality.mp3",
+  "credit": "\"Hiding Your Reality\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
+  "modern": false,
+  "showCaption": false
+ },
+ "m_at_rest": {
+  "id": "m_at_rest",
+  "kind": "music",
+  "file": "episodes/alvarenga/music/At_Rest.mp3",
+  "credit": "\"At Rest\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
+  "modern": false,
+  "showCaption": false
+ },
+ "m_long_note_four": {
+  "id": "m_long_note_four",
+  "kind": "music",
+  "file": "episodes/alvarenga/music/Long_Note_Four.mp3",
+  "credit": "\"Long Note Four\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
+  "modern": false,
+  "showCaption": false
+ },
+ "m_ice_flow": {
+  "id": "m_ice_flow",
+  "kind": "music",
+  "file": "episodes/alvarenga/music/Ice_Flow.mp3",
+  "credit": "\"Ice Flow\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
+  "modern": false,
+  "showCaption": false
+ },
+ "m_rising": {
+  "id": "m_rising",
+  "kind": "music",
+  "file": "episodes/alvarenga/music/Rising.mp3",
+  "credit": "\"Rising\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
+  "modern": false,
+  "showCaption": false
+ },
+ "m_lasting_hope": {
+  "id": "m_lasting_hope",
+  "kind": "music",
+  "file": "episodes/alvarenga/music/Lasting_Hope.mp3",
+  "credit": "\"Lasting Hope\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
+  "modern": false,
+  "showCaption": false
+ },
+ "m_despair_and_triumph": {
+  "id": "m_despair_and_triumph",
+  "kind": "music",
+  "file": "episodes/alvarenga/music/Despair_and_Triumph.mp3",
+  "credit": "\"Despair and Triumph\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
+  "modern": false,
+  "showCaption": false
+ }
+}
