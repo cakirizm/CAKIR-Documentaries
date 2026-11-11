@@ -1,121 +1,121 @@
 THE MAN WHO LIVED IN AN AIRPORT FOR 18 YEARS
-A CAKIR documentary · Narration script · runtime 07:44
+A CAKIR documentary · Narration script · runtime 07:40
 
 Narration: synthetic voice (Kokoro TTS, voice am_michael). Source references [S#] point to CAKIR_Airport_Sources.md.
 
 [00:00]  CHAPTER 1 — AN EXTRAORDINARY TRUE STORY   sources: S1, S2, S3
 
   00:01  Paris, 1988.
-  00:04  Thousands of passengers arrived at Charles de Gaulle Airport, collected their luggage, and continued their journeys.
+  00:05  Thousands of passengers arrived at Charles de Gaulle Airport, collected their luggage, and continued their journeys.
   00:12  But one man stayed.
-  00:14  His name was Mehran Karimi Nasseri.
-  00:17  And for the next eighteen years, this airport would become his home.
-  00:21  His story would one day inspire a Hollywood film.
-  00:25  The real one is quieter, sadder, and far less certain.
+  00:15  His name was Mehran Karimi Nasseri.
+  00:18  And for the next eighteen years, this airport would become his home.
+  00:22  His story would one day inspire a Hollywood film.
+  00:26  The real one is quieter, sadder, and far less certain.
 
-[00:31]  CHAPTER 2 — WHO WAS MEHRAN KARIMI NASSERI?   sources: S4, S5, S6, S7
+[00:33]  CHAPTER 2 — WHO WAS MEHRAN KARIMI NASSERI?   sources: S4, S5, S6, S7
 
-  00:32  Nasseri was born in Iran, most likely in 1945, in the oil town of Masjed Soleyman.
-  00:40  Much of what we know about his early life comes from his own telling, and his telling changed over the years.
-  00:47  He said he had studied in England in the 1970s.
-  00:51  He said he had been expelled from Iran in 1977, after protesting against the Shah.
-  00:58  Journalists who later looked into his past questioned parts of that account.
-  01:03  What is better documented is this: in 1981, he was recognized as a refugee in Belgium.
-  01:11  For several years, he lived there, and travelled in Europe.
+  00:34  Nasseri was born in Iran, most likely in 1945, in the oil town of Masjed Soleyman.
+  00:42  Much of what we know about his early life comes from his own telling, and his telling changed over the years.
+  00:49  He said he had studied in England in the 1970s.
+  00:52  He said he had been expelled from Iran in 1977, after protesting against the Shah.
+  00:59  Journalists who later looked into his past questioned parts of that account.
+  01:04  What is better documented is this: in 1981, he was recognized as a refugee in Belgium.
+  01:12  For several years, he lived there, and travelled in Europe.
 
 [01:17]  CHAPTER 3 — THE MISSING PAPERS   sources: S1, S4, S5, S8
 
-  01:17  Then, in 1988, he set out for Britain.
-  01:21  What happened next depends on whose account you read.
-  01:25  In the version most often reported, his passport and his refugee certificate were stolen along the way.
+  01:18  Then, in 1988, he set out for Britain.
+  01:22  What happened next depends on whose account you read.
+  01:26  In the version most often reported, his passport and his refugee certificate were stolen along the way.
   01:32  In other versions, he sent the papers away himself.
   01:36  Either way, he arrived in England without them.
   01:39  British officials refused him entry and returned him to the airport he had flown from: Charles de Gaulle.
-  01:47  In France, he now had a problem with no simple solution.
-  01:51  He could not prove who he was.
+  01:46  In France, he now had a problem with no simple solution.
+  01:50  He could not prove who he was.
   01:53  And so, in August 1988, a man without papers sat down in Terminal 1.
 
-[02:02]  CHAPTER 4 — HOW AN AIRPORT BECAME HIS HOME   sources: S1, S2, S4
+[02:01]  CHAPTER 4 — HOW AN AIRPORT BECAME HIS HOME   sources: S1, S2, S4
 
-  02:03  It is often said that he was trapped in a sealed transit zone.
+  02:02  It is often said that he was trapped in a sealed transit zone.
   02:07  That is not quite right.
   02:09  Reports place him in a public area of the terminal, where travellers, cleaners and police walked past him every day.
   02:17  He was not locked in.
   02:19  What held him in place was paperwork.
   02:22  Weeks became months.
-  02:23  Months became years.
-  02:25  His case moved slowly between lawyers, officials and governments.
-  02:30  And as it did, a bench in Terminal 1 became an address.
+  02:24  Months became years.
+  02:27  His case moved slowly between lawyers, officials and governments.
+  02:31  And as it did, a bench in Terminal 1 became an address.
   02:35  “Eventually, I will leave the airport,” he told The Associated Press in 1999. “But I am still waiting for a passport or transit visa.”
 
-[02:48]  CHAPTER 5 — LIFE INSIDE THE TERMINAL   sources: S9, S10, S4
+[02:47]  CHAPTER 5 — LIFE INSIDE THE TERMINAL   sources: S9, S10, S4
 
-  02:49  His routine was precise.
-  02:51  He washed and shaved every day.
+  02:48  His routine was precise.
+  02:50  He washed and shaved every day.
   02:53  He kept his belongings close: a luggage trolley, boxes and bags, stacked carefully beside a red plastic bench.
-  03:02  He read newspapers and magazines.
+  03:01  He read newspapers and magazines.
   03:04  He studied economics.
-  03:07  And he wrote, every day, in a diary he kept for years.
-  03:11  Airport workers came to know him well.
-  03:14  Some brought him food. Some brought him newspapers.
-  03:17  The airport doctor gave him paper to write on.
-  03:21  To them, he became a familiar figure, and he took on a new name: Sir Alfred.
+  03:06  And he wrote, every day, in a diary he kept for years.
+  03:10  Airport workers came to know him well.
+  03:13  Some brought him food. Some brought him newspapers.
+  03:16  The airport doctor gave him paper to write on.
+  03:19  To them, he became a familiar figure, and he took on a new name: Sir Alfred.
 
-[03:29]  CHAPTER 6 — THE WORLD TAKES NOTICE   sources: S4, S11, S12
+[03:27]  CHAPTER 6 — THE WORLD TAKES NOTICE   sources: S4, S11, S12
 
-  03:30  By the 1990s, the man on the bench had become a story.
-  03:34  Journalists from around the world came to Terminal 1 to interview him.
-  03:39  Photographers made his portrait among the passengers and departure boards.
-  03:44  His story inspired a French film, Lost in Transit, and an English opera, Flight.
-  03:50  He answered questions politely, and patiently.
-  03:53  In 2004, a journalist writing for The Guardian spent time with him, and found that key parts of the story he told could not be confirmed.
-  04:04  But the more he was asked about his past, the less settled that past became.
+  03:28  By the 1990s, the man on the bench had become a story.
+  03:33  Journalists from around the world came to Terminal 1 to interview him.
+  03:37  Photographers made his portrait among the passengers and departure boards.
+  03:41  His story inspired a French film, Lost in Transit, and an English opera, Flight.
+  03:47  He answered questions politely, and patiently.
+  03:51  In 2004, a journalist writing for The Guardian spent time with him, and found that key parts of the story he told could not be confirmed.
+  04:00  But the more he was asked about his past, the less settled that past became.
 
-[04:11]  CHAPTER 7 — THE HOLLYWOOD CONNECTION   sources: S1, S9, S13, S14
+[04:07]  CHAPTER 7 — THE HOLLYWOOD CONNECTION   sources: S1, S9, S13, S14
 
-  04:12  In 2004, the story reached Hollywood.
-  04:16  Steven Spielberg's film The Terminal starred Tom Hanks as Viktor Navorski, a traveller stranded at a New York airport.
-  04:24  The film was not a biography.
-  04:27  It moved the story to America and invented its own hero.
-  04:31  But DreamWorks had acquired the rights to Nasseri's story, for a sum widely reported at around $250,000.
-  04:41  The same year, his memoir, The Terminal Man, was published under the name Sir Alfred Mehran.
-  04:47  A man who owned almost nothing now had a film deal, a book, and a famous address.
+  04:08  In 2004, the story reached Hollywood.
+  04:12  Steven Spielberg's film The Terminal starred Tom Hanks as Viktor Navorski, a traveller stranded at a New York airport.
+  04:21  The film was not a biography.
+  04:23  It moved the story to America and invented its own hero.
+  04:28  But DreamWorks had acquired the rights to Nasseri's story, for a sum widely reported at around $250,000.
+  04:37  The same year, his memoir, The Terminal Man, was published under the name Sir Alfred Mehran.
+  04:44  A man who owned almost nothing now had a film deal, a book, and a famous address.
 
-[04:56]  CHAPTER 8 — WHY DID HE STAY?   sources: S4, S5, S8, S15
+[04:52]  CHAPTER 8 — WHY DID HE STAY?   sources: S4, S5, S8, S15
 
-  04:57  The strangest part of the story is what happened next.
-  05:00  In the mid-1990s, Belgium indicated he could return there.
-  05:05  Later, France offered him papers that would have allowed him to stay.
-  05:10  He refused to sign them.
-  05:12  According to reports, the documents identified him as Iranian, under his original name.
-  05:19  He wanted to be recognized differently: as Sir Alfred, and as British.
-  05:24  So the man who had waited years for papers turned down the ones he was offered.
-  05:29  Those who befriended him said the years in the terminal took a toll. In the 1990s, the airport doctor described him as “fossilized here.”
-  05:39  What began as a legal problem had become, at least in part, a choice.
+  04:52  The strangest part of the story is what happened next.
+  04:56  In the mid-1990s, Belgium indicated he could return there.
+  05:01  Later, France offered him papers that would have allowed him to stay.
+  05:05  He refused to sign them.
+  05:07  According to reports, the documents identified him as Iranian, under his original name.
+  05:13  He wanted to be recognized differently: as Sir Alfred, and as British.
+  05:19  So the man who had waited years for papers turned down the ones he was offered.
+  05:24  Those who befriended him said the years in the terminal took a toll. In the 1990s, the airport doctor described him as “fossilized here.”
+  05:34  What began as a legal problem had become, at least in part, a choice.
 
-[05:47]  CHAPTER 9 — LEAVING IN 2006   sources: S1, S4, S16
+[05:41]  CHAPTER 9 — LEAVING IN 2006   sources: S1, S4, S16
 
-  05:48  In the summer of 2006, after nearly eighteen years, he fell ill and was taken to hospital.
-  05:56  His corner of Terminal 1 was cleared.
-  05:59  When he was discharged, he did not go back to the airport.
-  06:03  Reports say he later lived in a shelter in Paris.
-  06:06  Accounts of the years that followed are sparse, and they do not always agree.
-  06:12  For the first time since 1988, Sir Alfred was no longer living in the terminal.
+  05:42  In the summer of 2006, after nearly eighteen years, he fell ill and was taken to hospital.
+  05:49  His corner of Terminal 1 was cleared.
+  05:52  When he was discharged, he did not go back to the airport.
+  05:57  Reports say he later lived in a shelter in Paris.
+  06:00  Accounts of the years that followed are sparse, and they do not always agree.
+  06:06  For the first time since 1988, Sir Alfred was no longer living in the terminal.
 
-[06:20]  CHAPTER 10 — RETURN AND DEATH, 2022   sources: S1, S2, S3, S17
+[06:14]  CHAPTER 10 — RETURN AND DEATH, 2022   sources: S1, S2, S3, S17
 
-  06:21  Sixteen years later, he came back.
-  06:24  In September 2022, according to the airport, he returned to live in a public area of Charles de Gaulle.
-  06:32  On 12 November, around midday, he suffered a heart attack in Terminal 2F.
-  06:38  He died there, of natural causes, according to the airport.
-  06:43  He was in his late seventies.
+  06:14  Sixteen years later, he came back.
+  06:18  In September 2022, according to the airport, he returned to live in a public area of Charles de Gaulle.
+  06:25  On 12 November, around midday, he suffered a heart attack in Terminal 2F.
+  06:31  He died there, of natural causes, according to the airport.
+  06:36  He was in his late seventies.
 
-[06:47]  CHAPTER 11 — DEPARTURES   sources: S1, S2
+[06:40]  CHAPTER 11 — DEPARTURES   sources: S1, S2
 
-  06:48  Airports are built for movement.
-  06:51  Millions of people pass through them, and almost no one stays.
-  06:55  Mehran Karimi Nasseri stayed.
-  06:58  Part of his story was a failure of paperwork, and part of it may always remain his own.
-  07:04  He came to Charles de Gaulle as a man without documents, and he is remembered as the traveller who never really left.
+  06:41  Airports are built for movement.
+  06:44  Millions of people pass through them, and almost no one stays.
+  06:49  Mehran Karimi Nasseri stayed.
+  06:53  Part of his story was a failure of paperwork, and part of it may always remain his own.
+  07:00  He came to Charles de Gaulle as a man without documents, and he is remembered as the traveller who never really left.
 
-[07:14]  END CARD — CAKIR
+[07:10]  END CARD — CAKIR
