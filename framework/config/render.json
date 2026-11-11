@@ -13,5 +13,6 @@
  },
  "browserExecutable": "/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell",
  "concurrency": 4,
- "gl": "swiftshader"
+ "gl": "swiftshader",
+ "colorSpace": "bt709"
 }

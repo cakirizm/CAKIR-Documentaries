@@ -22,6 +22,7 @@ const browserExecutable = fs.existsSync(cfg.browserExecutable) ? cfg.browserExec
 const chromiumOptions = {gl: process.env.CAKIR_GL || cfg.gl};
 const composition = await selectComposition({serveUrl, id, inputProps, browserExecutable, chromiumOptions});
 const opts = {serveUrl, composition, inputProps, browserExecutable, chromiumOptions};
+const colorSpace = cfg.colorSpace ?? 'default';
 
 fs.mkdirSync(path.dirname(path.resolve(out)), {recursive: true});
 const cleanup = () => fs.rmSync(serveUrl, {recursive: true, force: true}); // bundles copy public/ (~1 GB)
@@ -35,7 +36,7 @@ if (chunksArg) {
 		if (fs.existsSync(f + '.done')) { console.log(`chunk ${i} already done`); continue; }
 		const range = [i * step, Math.min(total - 1, (i + 1) * step - 1)];
 		console.log(`chunk ${i}: frames ${range[0]}-${range[1]}`);
-		await renderMedia({...opts, codec: cfg.codec, outputLocation: f, crf: cfg.crf, pixelFormat: cfg.pixelFormat, muted: true,
+		await renderMedia({...opts, codec: cfg.codec, outputLocation: f, crf: cfg.crf, pixelFormat: cfg.pixelFormat, muted: true, colorSpace,
 			concurrency: cfg.concurrency, imageFormat: 'jpeg', jpegQuality: 92, frameRange: range, x264Preset: 'slow'});
 		fs.writeFileSync(f + '.done', '');
 		console.log(`chunk ${i} done`);
@@ -63,6 +64,7 @@ if (isStill) {
 		jpegQuality: 92,
 		frameRange: framesArg ? framesArg.split('-').map(Number) : null,
 		muted: !!flag('muted'),
+		colorSpace,
 		x264Preset: draft ? 'veryfast' : 'slow',
 		onProgress: ({progress}) => {
 			const p = Math.floor(progress * 100);

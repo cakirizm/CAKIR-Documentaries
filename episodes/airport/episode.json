@@ -832,7 +832,7 @@
     {
      "from": 0,
      "type": "media",
-     "asset": "v_night_landing",
+     "asset": "v_af747_cabin",
      "fallback": {
       "type": "crowd"
      }
