@@ -36,6 +36,42 @@ class Kokoro:
         return np.asarray(samples, dtype=np.float32), sr
 
 
+class ElevenLabs:
+    """ElevenLabs TTS. The API key is never stored in the project: in the cloud
+    session it is injected by the network proxy; locally set ELEVENLABS_API_KEY."""
+    def __init__(self, voice):
+        self.voice = voice
+
+    def say(self, text, voice_id, speed, prev_text="", next_text=""):
+        import io, urllib.request
+        body = {"text": text, "model_id": self.voice.get("model", "eleven_multilingual_v2"),
+                "voice_settings": {"stability": self.voice.get("stability", 0.45), "similarity_boost": self.voice.get("similarity", 0.8),
+                                   "style": self.voice.get("style", 0.25), "use_speaker_boost": True, "speed": speed},
+                "previous_text": prev_text, "next_text": next_text}
+        headers = {"Content-Type": "application/json"}
+        if os.environ.get("ELEVENLABS_API_KEY"):
+            headers["xi-api-key"] = os.environ["ELEVENLABS_API_KEY"]
+        req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format={self.voice.get('format', 'mp3_44100_128')}",
+                                     data=json.dumps(body).encode(), headers=headers)
+        mp3 = urllib.request.urlopen(req, timeout=180).read()
+        import subprocess
+        pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", "pipe:0", "-ac", "1", "-ar", "44100", "-f", "f32le", "-"], input=mp3, capture_output=True).stdout
+        return np.frombuffer(pcm, dtype=np.float32).copy(), 44100
+
+
+def pause_after(sentence, nxt, base):
+    """Variable pacing: let short, dramatic lines breathe; keep lists moving."""
+    words = len(sentence.split())
+    g = base
+    if words <= 5:
+        g = base + 0.35
+    if nxt is not None and len(nxt.split()) <= 5:
+        g = max(g, base + 0.2)
+    if sentence.rstrip().endswith(("?", "\u201d", '"')):
+        g += 0.15
+    return g
+
+
 def tts_text(sentence, repl):
     out = sentence
     # longest keys first so "Terminal 2F" wins over "2F"
@@ -123,14 +159,21 @@ def main():
         sents = []
         for i, s in enumerate(seg["sentences"]):
             t = tts_text(s, ep.get("ttsReplacements", {}))
-            key = hashlib.sha1(f'{voice["engine"]}|{voice["voice"]}|{voice["speed"]}|{t}'.encode()).hexdigest()[:16]
+            prev_t = tts_text(seg["sentences"][i - 1], ep.get("ttsReplacements", {})) if i > 0 else ""
+            next_t = tts_text(seg["sentences"][i + 1], ep.get("ttsReplacements", {})) if i + 1 < len(seg["sentences"]) else ""
+            sp = voice.get("speeds", {}).get(f'{seg["id"]}:{i}', voice["speed"])
+            ctx = f"|{prev_t}|{next_t}" if voice["engine"] == "elevenlabs" else ""
+            key = hashlib.sha1(f'{voice["engine"]}|{voice["voice"]}|{sp}|{voice.get("stability")}|{voice.get("style")}|{t}{ctx}'.encode()).hexdigest()[:16]
             cpath = cache / f"{key}.wav"
             if cpath.exists():
                 audio, sr = sf.read(cpath, dtype="float32")
             else:
                 if engine is None:
-                    engine = Kokoro()
-                audio, sr = engine.say(t, voice["voice"], voice["speed"])
+                    engine = ElevenLabs(voice) if voice["engine"] == "elevenlabs" else Kokoro()
+                if voice["engine"] == "elevenlabs":
+                    audio, sr = engine.say(t, voice["voice"], sp, prev_t, next_t)
+                else:
+                    audio, sr = engine.say(t, voice["voice"], sp)
                 sf.write(cpath, audio, sr)
             audio = trim(audio, sr, ncfg["trimThresholdDb"])
             if sr != SR:
@@ -139,7 +182,8 @@ def main():
             sents.append({"i": i, "text": s, "start": round(cursor, 3), "end": round(cursor + dur, 3)})
             pieces.append(audio)
             cursor += dur
-            gap = ncfg["sentenceGapSec"] if i < len(seg["sentences"]) - 1 else 0
+            nxt = seg["sentences"][i + 1] if i + 1 < len(seg["sentences"]) else None
+            gap = ep.get("pauses", {}).get(f'{seg["id"]}:{i}', pause_after(s, nxt, ncfg["sentenceGapSec"])) if nxt is not None else 0
             if gap:
                 pieces.append(np.zeros(int(SR * gap), dtype=np.float32))
                 cursor += gap

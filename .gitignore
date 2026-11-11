@@ -8,3 +8,4 @@ public/episodes/*/audio/
 *.webm
 _voicetest/*.wav
 __pycache__/
+public/episodes/*/music/

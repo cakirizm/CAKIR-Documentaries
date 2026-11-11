@@ -4,9 +4,24 @@
  "title": "The Man Who Lived in an Airport for 18 Years",
  "subject": "Mehran Karimi Nasseri",
  "voice": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 0.95
+  "engine": "elevenlabs",
+  "voice": "J2FGlQG8Gd7x8uEDt2H8",
+  "model": "eleven_multilingual_v2",
+  "speed": 1.0,
+  "stability": 0.45,
+  "similarity": 0.8,
+  "style": 0.25,
+  "format": "mp3_44100_128",
+  "speeds": {
+   "s01_hook:0": 0.92,
+   "s01_hook:2": 0.9,
+   "s01_hook:6": 0.94,
+   "s04_home:3": 0.92,
+   "s04_home:5": 0.92,
+   "s04_home:6": 0.92,
+   "s10_return:3": 0.92,
+   "s11_end:2": 0.9
+  }
  },
  "ttsReplacements": {
   "Masjed Soleyman": "Masjed Soleiman",
@@ -1146,5 +1161,54 @@
  ],
  "endCard": {
   "seconds": 30
+ },
+ "music": [
+  {
+   "segmentId": "s01_hook",
+   "file": "public/episodes/airport/music/Lightless_Dawn.mp3",
+   "offset": 5
+  },
+  {
+   "segmentId": "s02_who",
+   "file": "public/episodes/airport/music/Unanswered_Questions.mp3",
+   "offset": 0,
+   "gainDb": -1
+  },
+  {
+   "segmentId": "s03_papers",
+   "file": "public/episodes/airport/music/Interloper.mp3",
+   "offset": 15
+  },
+  {
+   "segmentId": "s04_home",
+   "file": "public/episodes/airport/music/Bittersweet.mp3",
+   "offset": 5
+  },
+  {
+   "segmentId": "s06_media",
+   "file": "public/episodes/airport/music/Echoes_of_Time_v2.mp3",
+   "offset": 10,
+   "gainDb": -1
+  },
+  {
+   "segmentId": "s08_why",
+   "file": "public/episodes/airport/music/Sad_Trio.mp3",
+   "offset": 15
+  },
+  {
+   "segmentId": "s09_leaving",
+   "file": "public/episodes/airport/music/Heartbreaking.mp3",
+   "offset": 0
+  },
+  {
+   "segmentId": "s11_end",
+   "file": "public/episodes/airport/music/Lightless_Dawn.mp3",
+   "offset": 170
+  }
+ ],
+ "voiceKokoro": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 0.95
  }
 }

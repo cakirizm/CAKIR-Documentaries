@@ -148,6 +148,45 @@ def build_ambience(total, seg_starts, sr, chimes=True):
     return amb / (np.max(np.abs(amb)) + 1e-9)
 
 
+def build_tracks(plan, total, seg_starts, sr, xfade=3.0, target_db=-20.0):
+    """Licensed music tracks placed at chapter starts, each loudness-matched and
+    crossfaded. plan: [{"segment": index, "file": path, "offset": seconds}]."""
+    n = int(total * sr)
+    out = np.zeros(n)
+    marks = [seg_starts[p["segment"]] if p["segment"] < len(seg_starts) else total for p in plan] + [total]
+    for i, p in enumerate(plan):
+        a, b = marks[i], marks[i + 1]
+        if b <= a:
+            continue
+        dur = (b - a) + xfade
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", str(p.get("offset", 0)), "-t", str(dur + 1), "-i", str(ROOT / p["file"]),
+                              "-ac", "1", "-ar", str(sr), "-f", "f32le", "-"], capture_output=True).stdout
+        x = np.frombuffer(raw, dtype=np.float32).astype(np.float64)
+        if len(x) < int(dur * sr):  # loop if the track is shorter than the section
+            reps = int(np.ceil(dur * sr / max(1, len(x))))
+            x = np.tile(x, reps)
+        x = x[: int(dur * sr)]
+        rms = np.sqrt(np.mean(x ** 2)) + 1e-9
+        x *= 10 ** (target_db / 20) / rms * (10 ** (p.get("gainDb", 0) / 20))
+        f = int(xfade * sr)
+        env = np.ones(len(x))
+        if i > 0:
+            env[:f] = np.sin(np.linspace(0, np.pi / 2, f)) ** 2
+        env[-f:] = np.cos(np.linspace(0, np.pi / 2, f)) ** 2
+        st = int(a * sr)
+        e = min(n, st + len(x))
+        out[st:e] += (x * env)[: e - st]
+    return out / (10 ** (target_db / 20))  # back to ~0 dB reference for the bed gains
+
+
+def process_voice(path, sr):
+    """Broadcast-style narration: low-cut, presence lift, gentle compression."""
+    af = ("highpass=f=75,equalizer=f=200:t=q:w=1:g=-1.5,equalizer=f=3200:t=q:w=1.2:g=2.5,"
+          "acompressor=threshold=-20dB:ratio=3:attack=6:release=120:makeup=2.5")
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-af", af, "-ac", "1", "-ar", str(sr), "-f", "f32le", "-"], capture_output=True).stdout
+    return np.frombuffer(raw, dtype=np.float32).astype(np.float64)
+
+
 def db(x):
     return 10 ** (x / 20)
 
@@ -190,13 +229,30 @@ def main():
     adir = ROOT / "public" / "episodes" / args.episode / "audio"
     nar, nsr = sf.read(adir / f"narration{args.tag}.wav", dtype="float64")
     assert nsr == sr
+    if cfg["narration"].get("broadcast", True):
+        nar = process_voice(adir / f"narration{args.tag}.wav", sr)[: len(nar)]
+        nar *= 10 ** (-3 / 20) / (np.max(np.abs(nar)) + 1e-9)
     n = len(nar)
 
     mcfg = cfg["music"]
-    music = build_music(total, seg_starts, sr)[:n]
+    ep = json.loads((ROOT / "episodes" / args.episode / "episode.json").read_text())
+    plan = ep.get("music")
+    if plan:
+        ids = [s["id"] for s in tl["segments"]]
+        plan = [dict(p, segment=ids.index(p["segmentId"])) for p in plan if p["segmentId"] in ids]
+        music = build_tracks(sorted(plan, key=lambda p: p["segment"]), total, seg_starts, sr)[:n]
+    else:
+        music = build_music(total, seg_starts, sr)[:n]
     amb = build_ambience(total, seg_starts, sr, mcfg.get("chimes", True))[:n]
     mask = speech_mask(tl, total, sr, mcfg["duckRampSec"])[:n]
     bed_gain = db(mcfg["bedDbBetweenSpeech"]) + (db(mcfg["bedDbUnderSpeech"]) - db(mcfg["bedDbBetweenSpeech"])) * mask
+    # musical swell at each chapter opening (before the first line)
+    for st in seg_starts[1:]:
+        a0, a1 = int(st * sr), int((st + 1.6) * sr)
+        sw = np.ones(n)
+        k = np.linspace(0, np.pi, max(1, a1 - a0))
+        sw[a0:a1] = 1 + 0.5 * np.sin(k)
+        bed_gain *= sw[: len(bed_gain)]
     # fade music in at start and out under the end card
     fin = int(sr * 2.5)
     bed_gain[:fin] *= np.linspace(0, 1, fin)
