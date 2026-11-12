@@ -13,7 +13,17 @@ This documentary separates what can be checked from what rests on his word alone
 Footage of the open sea, boats and wildlife is illustrative and does not show Alvarenga unless stated. Animated scenes are labelled reconstructions. The drift map is based on ocean-current modelling, not a GPS track.
 
 CHAPTERS
-{CHAPTERS}
+0:00 The impossible survivor
+0:38 An ordinary fishing trip
+1:39 The storm
+2:36 Fighting to survive
+3:35 Losing his companion
+4:20 Alone in the Pacific
+5:15 Was the journey possible?
+6:52 Land at last
+7:42 The world meets him
+8:37 The cost of survival
+9:19 Credits
 
 PRINCIPAL SOURCES
 - University of Hawaiʻi / IPRC — N. Maximenko & J. Hafner, drift modelling (2014)
@@ -25,9 +35,21 @@ PRINCIPAL SOURCES
 CREDITS
 Narration: AI voice generated with ElevenLabs
 Music: Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 — creativecommons.org/licenses/by/4.0/
-{MUSIC}
+"Lightless Dawn"
+"Healing"
+"Darkest Child"
+"Hiding Your Reality"
+"At Rest"
+"Long Note Four"
+"Ice Flow"
+"Rising"
+"Lasting Hope"
+"Despair and Triumph"
 Footage & photos:
-{MEDIA}
+- Photographs of José Salvador Alvarenga (2014): news agency photographs supplied by CAKIR
+- Wikimedia Commons footage & photos by: Public domain: NASA/Goddard Space Flight Center, Dan Rapp/USFWS, BLM Oregon &amp; Washington, Ocean Observatories Initiative, NASA, Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center, National Marine Sanctuaries | CC BY 2.0: Piyush Kumar, Department of Foreign Affairs and Trade, mrlins | CC0: Bo Mancao, Ginelly.Q | CC BY-SA 4.0: Eric Polk, Cure3013, Jan Ainali, FASTILY, Pratishkhedekar, Colin Kranz, [[User:|Maoileann|Maoileann]], Néstor Fernando Hernández Candelaria, Lameirasb, Pequeño mar, Ahn001 | CC BY 3.0: Steven Pavlov, S3 Channel | CC BY-SA 2.0: WIDTTF [1] | CC BY-SA 3.0 de: Arne Müseler | CC BY-SA 3.0: ElmerGuevara, Efegé
+- 24 stock clips from Coverr (Coverr License)
+- Full per-file list with links: asset licence sheet available on request
 
 #Documentary #LostAtSea #Survival #PacificOcean #TrueStory #CAKIR
 

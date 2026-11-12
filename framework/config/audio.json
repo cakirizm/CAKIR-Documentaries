@@ -13,7 +13,10 @@
   "bedDbBetweenSpeech": -22.5,
   "duckRampSec": 0.7,
   "ambienceDb": -38,
-  "chimes": true
+  "chimes": true,
+  "minVoiceOverMusicDb": 7,
+  "swell": 0.3,
+  "maxSafetyCutDb": 6
  },
  "master": {
   "integratedLufs": -14,

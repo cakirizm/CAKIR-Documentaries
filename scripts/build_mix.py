@@ -187,6 +187,13 @@ def process_voice(path, sr):
     return np.frombuffer(raw, dtype=np.float32).astype(np.float64)
 
 
+def movavg(x, w):
+    """Centred moving average via cumulative sums (O(n))."""
+    w = max(1, int(w)); c = np.cumsum(np.concatenate([[0.0], x]))
+    h = w // 2; i = np.arange(len(x)); lo = np.clip(i - h, 0, len(x)); hi = np.clip(i - h + w, 0, len(x))
+    return (c[hi] - c[lo]) / np.maximum(1, hi - lo)
+
+
 def db(x):
     return 10 ** (x / 20)
 
@@ -245,14 +252,44 @@ def main():
         music = build_music(total, seg_starts, sr)[:n]
     amb = build_ambience(total, seg_starts, sr, mcfg.get("chimes", True))[:n]
     mask = speech_mask(tl, total, sr, mcfg["duckRampSec"])[:n]
-    bed_gain = db(mcfg["bedDbBetweenSpeech"]) + (db(mcfg["bedDbUnderSpeech"]) - db(mcfg["bedDbBetweenSpeech"])) * mask
+    # per-chapter dynamics: plan entries may carry "pauseDb" (music level between
+    # lines, + = louder) and "underDb" (offset under speech), smoothed over 2 s
+    pause_off, under_off = np.zeros(len(mask)), np.zeros(len(mask))
+    if plan:
+        ids = [s["id"] for s in tl["segments"]]
+        for p in plan:
+            if p["segmentId"] not in ids:
+                continue
+            k = ids.index(p["segmentId"])
+            a = int(seg_starts[k] * sr); b = int((seg_starts[k + 1] if k + 1 < len(seg_starts) else total) * sr)
+            pause_off[a:b] = p.get("pauseDb", 0); under_off[a:b] = p.get("underDb", 0)
+        pause_off = movavg(pause_off, int(2 * sr)); under_off = movavg(under_off, int(2 * sr))
+    g_pause = db(mcfg["bedDbBetweenSpeech"] + pause_off)
+    g_under = db(mcfg["bedDbUnderSpeech"] + under_off)
+    bed_gain = g_pause + (g_under - g_pause) * mask
     # musical swell at each chapter opening (before the first line)
     for st in seg_starts[1:]:
         a0, a1 = int(st * sr), int((st + 1.6) * sr)
         sw = np.ones(n)
         k = np.linspace(0, np.pi, max(1, a1 - a0))
-        sw[a0:a1] = 1 + 0.3 * np.sin(k)
+        sw[a0:a1] = 1 + mcfg.get("swell", 0.3) * np.sin(k)
         bed_gain *= sw[: len(bed_gain)]
+    # speech-safety limiter: while the narrator speaks, the music bed is kept at
+    # least minVoiceOverMusicDb below the voice (1.5 s RMS windows, cut capped)
+    margin = mcfg.get("minVoiceOverMusicDb")
+    if margin:
+        m = min(len(nar), len(music), len(bed_gain))
+        win = int(1.5 * sr)
+        vr = np.sqrt(np.maximum(movavg(nar[:m] ** 2, win), 0)) + 1e-9
+        mr = np.sqrt(np.maximum(movavg((music[:m] * bed_gain[:m]) ** 2, win), 0)) + 1e-9
+        over = 20 * np.log10(mr / vr) + margin
+        vfloor = np.percentile(vr[mask[:m] > 0.5], 20)
+        vr = np.maximum(vr, vfloor)
+        over = 20 * np.log10(mr / vr) + margin
+        red = np.where((mask[:m] > 0.3) & (over > 0), np.minimum(over, mcfg.get('maxSafetyCutDb', 6)) * np.clip(mask[:m], 0, 1), 0)
+        red = movavg(red, int(0.6 * sr))
+        bed_gain[:m] *= 10 ** (-red / 20)
+        print(f"speech-safety: reduced music on {np.mean(red > 0.5) * 100:.1f}% of samples (max {red.max():.1f} dB)")
     # fade music in at start and out under the end card
     fin = int(sr * 2.5)
     bed_gain[:fin] *= np.linspace(0, 1, fin)

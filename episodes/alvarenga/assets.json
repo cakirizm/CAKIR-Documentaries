@@ -1931,62 +1931,82 @@
  {
   "id": "alv_photo_1",
   "kind": "photo",
-  "status": "requested",
-  "source": "licensed",
+  "status": "approved",
+  "source": "supplied",
   "file": "episodes/alvarenga/media/alv_photo_1.jpg",
   "modern": false,
   "scenes": "",
-  "notes": "LICENCE REQUIRED - see docs/CAKIR_002_438_Days_Asset_Requests.md. Alvarenga on arrival in Majuro, 3 Feb 2014 (AP / Marshall Islands Foreign Affairs, Gee Bing) - opening + thumbnail",
+  "notes": "Genuine photograph of Alvarenga supplied by the channel owner, who is responsible for usage rights. Alvarenga brought ashore in Majuro, 3 Feb 2014",
   "focus": [
    0.5,
    0.3
   ],
-  "caption": ""
+  "caption": "Alvarenga brought ashore in Majuro, 3 Feb 2014",
+  "author": "News agency photograph (2014)",
+  "license": "Supplied by the channel owner (CAKIR) for this film",
+  "licenseUrl": "",
+  "attributionRequired": "true",
+  "credit": "News agency photograph, 2014 · supplied by CAKIR"
  },
  {
   "id": "alv_photo_2",
   "kind": "photo",
-  "status": "requested",
-  "source": "licensed",
+  "status": "approved",
+  "source": "supplied",
   "file": "episodes/alvarenga/media/alv_photo_2.jpg",
   "modern": false,
   "scenes": "",
-  "notes": "LICENCE REQUIRED - see docs/CAKIR_002_438_Days_Asset_Requests.md. Alvarenga helped ashore at Majuro dock (AFP / Marshall Islands Sea Patrol, Willing Kajidrik)",
+  "notes": "Genuine photograph of Alvarenga supplied by the channel owner, who is responsible for usage rights. Alvarenga helped from the patrol boat in Majuro, Feb 2014",
   "focus": [
    0.5,
    0.3
   ],
-  "caption": ""
+  "caption": "Alvarenga helped from the patrol boat in Majuro, Feb 2014",
+  "author": "News agency photograph (2014)",
+  "license": "Supplied by the channel owner (CAKIR) for this film",
+  "licenseUrl": "",
+  "attributionRequired": "true",
+  "credit": "News agency photograph, 2014 · supplied by CAKIR"
  },
  {
   "id": "alv_photo_3",
   "kind": "photo",
-  "status": "requested",
-  "source": "licensed",
+  "status": "approved",
+  "source": "supplied",
   "file": "episodes/alvarenga/media/alv_photo_3.jpg",
   "modern": false,
   "scenes": "",
-  "notes": "LICENCE REQUIRED - see docs/CAKIR_002_438_Days_Asset_Requests.md. Alvarenga in Majuro, Feb 2014 (Reuters/AP)",
+  "notes": "Genuine photograph of Alvarenga supplied by the channel owner, who is responsible for usage rights. Alvarenga at a press conference in Majuro, Feb 2014",
   "focus": [
    0.5,
    0.3
   ],
-  "caption": ""
+  "caption": "Alvarenga at a press conference in Majuro, Feb 2014",
+  "author": "News agency photograph (2014)",
+  "license": "Supplied by the channel owner (CAKIR) for this film",
+  "licenseUrl": "",
+  "attributionRequired": "true",
+  "credit": "News agency photograph, 2014 · supplied by CAKIR"
  },
  {
   "id": "alv_photo_4",
   "kind": "photo",
-  "status": "requested",
-  "source": "licensed",
+  "status": "approved",
+  "source": "supplied",
   "file": "episodes/alvarenga/media/alv_photo_4.jpg",
   "modern": false,
   "scenes": "",
-  "notes": "LICENCE REQUIRED - see docs/CAKIR_002_438_Days_Asset_Requests.md. Alvarenga after returning to El Salvador, Feb 2014 (Reuters/AFP/Getty)",
+  "notes": "Genuine photograph of Alvarenga supplied by the channel owner, who is responsible for usage rights. Alvarenga reunited with his parents, El Salvador, Feb 2014",
   "focus": [
    0.5,
    0.3
   ],
-  "caption": ""
+  "caption": "Alvarenga reunited with his parents, El Salvador, Feb 2014",
+  "author": "News agency photograph (2014)",
+  "license": "Supplied by the channel owner (CAKIR) for this film",
+  "licenseUrl": "",
+  "attributionRequired": "true",
+  "credit": "News agency photograph, 2014 · supplied by CAKIR"
  },
  {
   "id": "p_sunzal_pelicans",
@@ -2362,5 +2382,25 @@
   "scenes": "s10_cost",
   "modern": false,
   "notes": "Background score"
+ },
+ {
+  "id": "alv_photo_5",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/alv_photo_5.jpg",
+  "scenes": "",
+  "focus": [
+   0.5,
+   0.3
+  ],
+  "status": "approved",
+  "source": "supplied",
+  "modern": false,
+  "caption": "Alvarenga with his family in Garita Palmera, El Salvador, Feb 2014",
+  "author": "News agency photograph (2014)",
+  "license": "Supplied by the channel owner (CAKIR) for this film",
+  "licenseUrl": "",
+  "attributionRequired": "true",
+  "credit": "News agency photograph, 2014 · supplied by CAKIR",
+  "notes": "Genuine photograph of Alvarenga supplied by the channel owner, who is responsible for usage rights. Alvarenga with his family in Garita Palmera, El Salvador, Feb 2014"
  }
 ]

@@ -14,6 +14,7 @@ import {ChapterLabel, CreditBlock, Disputed, EndCard, FilmLook, LogoBug, LowerTh
 import {Reenactment} from './anim/Reenactment';
 import {SeaScene} from './anim/Sea';
 import {DriftMap} from './shots/DriftMap';
+import {NewsClip} from './shots/NewsClip';
 
 /** Registry of graphic shot types. Add new shot types here. */
 export const SHOTS: Record<string, React.FC<{shot: any}>> = {
@@ -37,6 +38,7 @@ export const SHOTS: Record<string, React.FC<{shot: any}>> = {
 	reenact: Reenactment,
 	sea: SeaScene,
 	drift: DriftMap,
+	news: NewsClip,
 };
 
 export type TimelineJson = {
@@ -83,6 +85,9 @@ const ShotView: React.FC<{shot: any; assets: Record<string, Asset>}> = ({shot, a
 	}
 	if (shot.type === 'title' && shot.bg && assets[shot.bg]) {
 		return <TitleCard shot={shot} background={<Media asset={{...assets[shot.bg], credit: '', caption: ''}} shot={{kenBurns: 'out'}} />} />;
+	}
+	if (shot.type === 'news' && shot.bg && assets[shot.bg]) {
+		return <NewsClip shot={shot} background={<Media asset={{...assets[shot.bg], credit: '', caption: ''}} shot={{noCaption: true}} />} />;
 	}
 	const C = SHOTS[shot.type];
 	if (!C) throw new Error(`Unknown shot type: ${shot.type}`);

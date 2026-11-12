@@ -498,6 +498,58 @@
   "caption": "",
   "showCaption": false
  },
+ "alv_photo_1": {
+  "id": "alv_photo_1",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/alv_photo_1.jpg",
+  "credit": "News agency photograph, 2014 \u00b7 supplied by CAKIR",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.3
+  ],
+  "caption": "Alvarenga brought ashore in Majuro, 3 Feb 2014",
+  "showCaption": true
+ },
+ "alv_photo_2": {
+  "id": "alv_photo_2",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/alv_photo_2.jpg",
+  "credit": "News agency photograph, 2014 \u00b7 supplied by CAKIR",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.3
+  ],
+  "caption": "Alvarenga helped from the patrol boat in Majuro, Feb 2014",
+  "showCaption": true
+ },
+ "alv_photo_3": {
+  "id": "alv_photo_3",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/alv_photo_3.jpg",
+  "credit": "News agency photograph, 2014 \u00b7 supplied by CAKIR",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.3
+  ],
+  "caption": "Alvarenga at a press conference in Majuro, Feb 2014",
+  "showCaption": true
+ },
+ "alv_photo_4": {
+  "id": "alv_photo_4",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/alv_photo_4.jpg",
+  "credit": "News agency photograph, 2014 \u00b7 supplied by CAKIR",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.3
+  ],
+  "caption": "Alvarenga reunited with his parents, El Salvador, Feb 2014",
+  "showCaption": true
+ },
  "p_libertad_sunset": {
   "id": "p_libertad_sunset",
   "kind": "photo",
@@ -629,5 +681,18 @@
   "credit": "\"Despair and Triumph\" Kevin MacLeod (incompetech.com) \u00b7 Licensed under Creative Commons: By Attribution 4.0 License",
   "modern": false,
   "showCaption": false
+ },
+ "alv_photo_5": {
+  "id": "alv_photo_5",
+  "kind": "photo",
+  "file": "episodes/alvarenga/media/alv_photo_5.jpg",
+  "credit": "News agency photograph, 2014 \u00b7 supplied by CAKIR",
+  "modern": false,
+  "focus": [
+   0.5,
+   0.3
+  ],
+  "caption": "Alvarenga with his family in Garita Palmera, El Salvador, Feb 2014",
+  "showCaption": true
  }
 }

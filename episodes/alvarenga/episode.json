@@ -96,6 +96,9 @@
     {
      "type": "media",
      "asset": "alv_photo_1",
+     "fit": "framed",
+     "printHeight": 620,
+     "rotate": -1.2,
      "fallback": {
       "type": "media",
       "asset": "c_lonely_boat",
@@ -104,7 +107,7 @@
       }
      },
      "from": 0,
-     "kenBurns": "in"
+     "noCaption": true
     },
     {
      "type": "media",
@@ -140,16 +143,18 @@
     {
      "type": "media",
      "asset": "alv_photo_3",
+     "fit": "framed",
+     "printHeight": 620,
+     "rotate": 1.0,
      "fallback": {
       "type": "media",
       "asset": "p_ebon_atoll",
       "fallback": {
        "type": "crowd"
-      },
-      "kenBurns": "in"
+      }
      },
      "from": 5,
-     "kenBurns": "in"
+     "noCaption": true
     },
     {
      "type": "media",
@@ -352,13 +357,18 @@
      "clipStart": 4
     },
     {
-     "type": "media",
-     "asset": "p_pijijiapan_estero",
-     "fallback": {
-      "type": "crowd"
-     },
-     "from": 6,
-     "kenBurns": "in"
+     "type": "news",
+     "items": [
+      {
+       "source": "Chiapas civil protection · via AP",
+       "date": "Nov 2012",
+       "headline": "Fishing boat with two men reported missing off Chiapas",
+       "body": "Officials said the skiff left Costa Azul and failed to return. The search was called off after two days because of poor visibility.",
+       "highlight": "called off after two days"
+      }
+     ],
+     "bg": "p_pijijiapan_estero",
+     "from": 6
     },
     {
      "type": "media",
@@ -726,11 +736,22 @@
    "sources": [],
    "shots": [
     {
-     "type": "media",
-     "asset": "c_waves_ocean",
-     "fallback": {
-      "type": "crowd"
-     },
+     "type": "news",
+     "items": [
+      {
+       "source": "International press",
+       "date": "Feb 2014",
+       "headline": "Doubts raised over castaway's 13-month survival story",
+       "highlight": "Doubts raised"
+      },
+      {
+       "source": "Medical experts",
+       "date": "Feb 2014",
+       "headline": "How could anyone avoid scurvy for over a year at sea?",
+       "highlight": "avoid scurvy"
+      }
+     ],
+     "bg": "c_waves_ocean",
      "from": 0
     },
     {
@@ -803,11 +824,16 @@
      "from": 11
     },
     {
-     "type": "media",
-     "asset": "v_dingle_boat",
-     "fallback": {
-      "type": "crowd"
-     },
+     "type": "news",
+     "items": [
+      {
+       "source": "Associated Press",
+       "date": "Apr 2014",
+       "headline": "Castaway's lawyer says he passed a lie-detector test",
+       "highlight": "passed a lie-detector test"
+      }
+     ],
+     "bg": "v_dingle_boat",
      "from": 12
     },
     {
@@ -904,6 +930,9 @@
     {
      "type": "media",
      "asset": "alv_photo_2",
+     "fit": "framed",
+     "printHeight": 620,
+     "rotate": -1.2,
      "fallback": {
       "type": "media",
       "asset": "v_whaleshark_boat",
@@ -912,7 +941,7 @@
       }
      },
      "from": 7,
-     "kenBurns": "in"
+     "noCaption": true
     }
    ],
    "overlays": [
@@ -945,36 +974,60 @@
    "sources": [],
    "shots": [
     {
-     "type": "media",
-     "asset": "p_majuro_street",
-     "fallback": {
-      "type": "crowd"
-     },
-     "from": 0,
-     "kenBurns": "in"
+     "type": "news",
+     "items": [
+      {
+       "source": "Majuro · Marshall Islands",
+       "date": "3 Feb 2014",
+       "headline": "Fisherman says he drifted from Mexico to the Marshall Islands",
+       "body": "The man, found on remote Ebon Atoll, told officials he survived on fish, birds and turtles and drank rainwater.",
+       "highlight": "survived on fish, birds and turtles"
+      },
+      {
+       "source": "Wire reports",
+       "date": "4 Feb 2014",
+       "headline": "Castaway's story makes headlines around the world",
+       "highlight": "around the world"
+      },
+      {
+       "source": "San Salvador",
+       "date": "Feb 2014",
+       "headline": "Family in El Salvador had thought he was dead",
+       "highlight": "thought he was dead"
+      }
+     ],
+     "bg": "p_majuro_street",
+     "from": 0
     },
     {
      "type": "media",
      "asset": "alv_photo_3",
+     "fit": "framed",
+     "printHeight": 620,
+     "rotate": -0.8,
      "fallback": {
       "type": "media",
       "asset": "v_whaleshark_boat",
       "fallback": {
        "type": "crowd"
-      },
-      "clipStart": 8
+      }
      },
      "from": 1,
-     "kenBurns": "out"
+     "noCaption": true
     },
     {
-     "type": "media",
-     "asset": "c_sun_seawater",
-     "fallback": {
-      "type": "crowd"
-     },
-     "from": 2,
-     "clipStart": 3
+     "type": "news",
+     "items": [
+      {
+       "source": "Majuro",
+       "date": "Feb 2014",
+       "headline": "US embassy official finds castaway's account credible",
+       "body": "Norman Barth, who questioned Alvarenga, told reporters he found him truthful.",
+       "highlight": "found him truthful"
+      }
+     ],
+     "bg": "c_sun_seawater",
+     "from": 2
     },
     {
      "type": "media",
@@ -996,26 +1049,35 @@
     },
     {
      "type": "media",
-     "asset": "alv_photo_4",
+     "asset": "alv_photo_5",
+     "fit": "framed",
+     "printHeight": 620,
+     "rotate": 1.2,
      "fallback": {
       "type": "media",
       "asset": "p_libertad_sunset",
       "fallback": {
        "type": "crowd"
-      },
-      "kenBurns": "in"
+      }
      },
      "from": 4,
-     "kenBurns": "in"
+     "noCaption": true
     },
     {
      "type": "media",
-     "asset": "v_pacific_sunset",
+     "asset": "alv_photo_4",
+     "fit": "framed",
+     "printHeight": 620,
+     "rotate": -1.4,
      "fallback": {
-      "type": "crowd"
+      "type": "media",
+      "asset": "v_pacific_sunset",
+      "fallback": {
+       "type": "crowd"
+      }
      },
      "from": 5,
-     "clipStart": 8
+     "noCaption": true
     },
     {
      "type": "media",
@@ -1042,26 +1104,21 @@
     {
      "type": "media",
      "asset": "alv_photo_1",
+     "fit": "framed",
+     "printHeight": 620,
+     "rotate": 0.8,
      "fallback": {
       "type": "media",
       "asset": "c_lonely_boat",
       "fallback": {
        "type": "crowd"
-      },
-      "clipStart": 8
+      }
      },
      "from": 8,
-     "kenBurns": "out"
+     "noCaption": true
     }
    ],
    "overlays": [
-    {
-     "type": "note",
-     "at": 2,
-     "offset": 0.5,
-     "duration": 4.0,
-     "text": "US Embassy official Norman Barth told reporters he found Alvarenga's account credible (AP, 2014)."
-    },
     {
      "type": "stamp",
      "at": 3,
@@ -1086,10 +1143,12 @@
    "shots": [
     {
      "from": 0,
-     "type": "sea",
-     "scene": "alone",
-     "mood": "day",
-     "beard": 0.8
+     "type": "media",
+     "asset": "c_fisher_small_boat",
+     "clipStart": 2,
+     "fallback": {
+      "type": "crowd"
+     }
     },
     {
      "type": "media",
@@ -1140,17 +1199,19 @@
     },
     {
      "type": "media",
-     "asset": "alv_photo_4",
+     "asset": "alv_photo_3",
+     "fit": "framed",
+     "printHeight": 620,
+     "rotate": -1.0,
      "fallback": {
       "type": "media",
       "asset": "v_pacific_sunset",
       "fallback": {
        "type": "crowd"
-      },
-      "clipStart": 4
+      }
      },
      "from": 4,
-     "kenBurns": "out"
+     "noCaption": true
     },
     {
      "type": "media",
@@ -1185,55 +1246,76 @@
   {
    "segmentId": "s01_open",
    "file": "public/episodes/alvarenga/music/Lightless_Dawn.mp3",
-   "offset": 5
+   "offset": 5,
+   "pauseDb": 2,
+   "underDb": 0
   },
   {
    "segmentId": "s02_trip",
    "file": "public/episodes/alvarenga/music/Healing.mp3",
    "offset": 20,
-   "gainDb": -1
+   "gainDb": -1,
+   "pauseDb": 0,
+   "underDb": -1
   },
   {
    "segmentId": "s03_storm",
    "file": "public/episodes/alvarenga/music/Darkest_Child.mp3",
-   "offset": 0
+   "offset": 0,
+   "pauseDb": 5,
+   "underDb": 1
   },
   {
    "segmentId": "s04_survive",
    "file": "public/episodes/alvarenga/music/Hiding_Your_Reality.mp3",
-   "offset": 0
+   "offset": 0,
+   "pauseDb": 2,
+   "underDb": 0
   },
   {
    "segmentId": "s05_loss",
    "file": "public/episodes/alvarenga/music/At_Rest.mp3",
-   "offset": 0
+   "offset": 0,
+   "pauseDb": -2,
+   "underDb": -2
   },
   {
    "segmentId": "s06_alone",
    "file": "public/episodes/alvarenga/music/Long_Note_Four.mp3",
-   "offset": 30
+   "offset": 30,
+   "pauseDb": 0,
+   "underDb": -1.5
   },
   {
    "segmentId": "s07_science",
    "file": "public/episodes/alvarenga/music/Ice_Flow.mp3",
    "offset": 0,
-   "gainDb": -1
+   "gainDb": -1,
+   "pauseDb": -1,
+   "underDb": -2
   },
   {
    "segmentId": "s08_land",
    "file": "public/episodes/alvarenga/music/Rising.mp3",
-   "offset": 0
+   "offset": 0,
+   "pauseDb": 4,
+   "underDb": 0
   },
   {
    "segmentId": "s09_world",
    "file": "public/episodes/alvarenga/music/Lasting_Hope.mp3",
    "offset": 0,
-   "gainDb": -1
+   "gainDb": -1,
+   "pauseDb": 1,
+   "underDb": -1
   },
   {
    "segmentId": "s10_cost",
    "file": "public/episodes/alvarenga/music/Despair_and_Triumph.mp3",
-   "offset": 0
+   "offset": 0,
+   "pauseDb": 2,
+   "underDb": -1
   }
- ]
+ ],
+ "mixOverrides": {}
 }
