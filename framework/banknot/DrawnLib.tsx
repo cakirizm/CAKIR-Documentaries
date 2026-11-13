@@ -140,11 +140,11 @@ export const DRAWN: Record<string, React.FC<P>> = {
 	),
 	ghost: ({t}) => (
 		<S bg="#020406">
-			{Array.from({length: 26}, (_, c) => (
+			{Array.from({length: 16}, (_, c) => (
 				<g key={c}>
-					{Array.from({length: 30}, (_, r2) => {
-						const y = ((r2 * 64 + t * (80 + random(`gv${c}`) * 120)) % 1980) - 40;
-						return <text key={r2} x={c * 42 + 10} y={y} fontFamily="monospace" fontSize="30" fill="#6dd3a8" opacity={0.08 + random(`go${c}-${r2}`) * 0.3}>{random(`gc${c}-${r2}`) > 0.5 ? '1' : '0'}</text>;
+					{Array.from({length: 22}, (_, r2) => {
+						const y = ((r2 * 90 + t * (80 + random(`gv${c}`) * 120)) % 1980) - 40;
+						return <text key={r2} x={c * 68 + 14} y={y} fontFamily="monospace" fontSize="30" fill="#6dd3a8" opacity={0.08 + random(`go${c}-${r2}`) * 0.3}>{random(`gc${c}-${r2}`) > 0.5 ? '1' : '0'}</text>;
 					})}
 				</g>
 			))}
