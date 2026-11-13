@@ -1,0 +1,170 @@
+{
+ "durationSec": 90.445,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 7.805
+  },
+  {
+   "id": "date",
+   "start": 7.805,
+   "end": 12.218
+  },
+  {
+   "id": "ticket",
+   "start": 12.218,
+   "end": 17.872
+  },
+  {
+   "id": "news",
+   "start": 17.872,
+   "end": 26.841
+  },
+  {
+   "id": "cash",
+   "start": 26.841,
+   "end": 35.29
+  },
+  {
+   "id": "good",
+   "start": 35.29,
+   "end": 40.009
+  },
+  {
+   "id": "turn",
+   "start": 40.009,
+   "end": 43.123
+  },
+  {
+   "id": "robbery",
+   "start": 43.123,
+   "end": 48.518
+  },
+  {
+   "id": "fall",
+   "start": 48.518,
+   "end": 58.405
+  },
+  {
+   "id": "quote",
+   "start": 58.405,
+   "end": 64.614
+  },
+  {
+   "id": "casino",
+   "start": 64.614,
+   "end": 75.721
+  },
+  {
+   "id": "next",
+   "start": 75.721,
+   "end": 84.315
+  },
+  {
+   "id": "end",
+   "start": 84.315,
+   "end": 90.44514739229025
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "role": "N",
+   "start": 0.6,
+   "end": 7.355,
+   "sub": "Ben bir banknotum. Ve şimdiye kadar beni taşıyan herkes… bir şey kaybetti."
+  },
+  {
+   "scene": "date",
+   "role": "N",
+   "start": 8.055,
+   "end": 12.218,
+   "sub": "25 Aralık 2002. Noel sabahı. Batı Virginia."
+  },
+  {
+   "scene": "ticket",
+   "role": "N",
+   "start": 12.468,
+   "end": 17.772,
+   "sub": "Jack Whittaker adında bir müteahhit, bir benzin istasyonundan piyango bileti alıyor."
+  },
+  {
+   "scene": "news",
+   "role": "A",
+   "start": 18.122,
+   "end": 26.691,
+   "sub": "“Son dakika! Batı Virginia'da tek bir bilet 314,9 milyon dolarlık ikramiyeyi kazandı!”"
+  },
+  {
+   "scene": "cash",
+   "role": "N",
+   "start": 27.091,
+   "end": 35.19,
+   "sub": "O güne kadar tek bilete çıkan en büyük ikramiye. Vergilerden sonra elinde 113 milyon dolar nakit."
+  },
+  {
+   "scene": "good",
+   "role": "N",
+   "start": 35.54,
+   "end": 40.059,
+   "sub": "Kiliselere bağış yapıyor. Vakıf kuruyor. Herkes onu seviyor."
+  },
+  {
+   "scene": "turn",
+   "role": "N",
+   "start": 40.259,
+   "end": 42.873,
+   "sub": "Ama para… kendi kurallarını koyar."
+  },
+  {
+   "scene": "robbery",
+   "role": "N",
+   "start": 43.373,
+   "end": 48.468,
+   "sub": "Bir gece arabası soyuluyor. Çantasında 545 bin dolar."
+  },
+  {
+   "scene": "fall",
+   "role": "N",
+   "start": 48.768,
+   "end": 58.055,
+   "sub": "Sonra davalar. Skandallar. Ve en ağırı… çok sevdiği torunu Brandi, iki yıl sonra hayatını kaybediyor."
+  },
+  {
+   "scene": "quote",
+   "role": "N",
+   "start": 58.655,
+   "end": 61.531,
+   "sub": "Karısı Jewell yıllar sonra şunu söyleyecekti:"
+  },
+  {
+   "scene": "quote",
+   "role": "J",
+   "start": 61.881,
+   "end": 63.964,
+   "sub": "“Keşke o bileti yırtıp atsaydım.”"
+  },
+  {
+   "scene": "casino",
+   "role": "N",
+   "start": 64.864,
+   "end": 75.471,
+   "sub": "Ben mi? Atlantic City'de bir kumarhane masasında elinden çıktım. O kumarhane sonra ona 1,5 milyon dolarlık karşılıksız çek için dava açacaktı."
+  },
+  {
+   "scene": "next",
+   "role": "N",
+   "start": 75.971,
+   "end": 83.965,
+   "sub": "Yeni sahibim 158 yıllık bir bankada çalışıyordu… ve o banka yakında yok olacaktı."
+  },
+  {
+   "scene": "end",
+   "role": "N",
+   "start": 84.565,
+   "end": 88.245,
+   "sub": ""
+  }
+ ]
+}
