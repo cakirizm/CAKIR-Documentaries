@@ -1,0 +1,55 @@
+1
+00:00:00,600 --> 00:00:06,792
+Dünyanın en zengin insanlarından biri olabilir. Ama kimse yüzünü görmedi.
+
+2
+00:00:07,392 --> 00:00:16,451
+Satoshi Nakamoto. Bitcoin'in yaratıcısı. Gerçek isim mi, takma ad mı? Bir kişi mi, bir grup mu? Bilinmiyor.
+
+3
+00:00:16,801 --> 00:00:23,166
+3 Ocak 2009. Bitcoin'in ilk bloğu oluşturuluyor. İçine bir gazete manşeti gizlenmiş:
+
+4
+00:00:23,466 --> 00:00:27,696
+“Maliye Bakanı, bankalar için ikinci kurtarma paketinin eşiğinde.”
+
+5
+00:00:28,096 --> 00:00:31,155
+Bir imza gibi. Bir mesaj gibi.
+
+6
+00:00:31,505 --> 00:00:38,951
+Tahminlere göre ilk yıllarda yaklaşık 1 milyon bitcoin kazandı. Bilindiği kadarıyla… hiçbirini harcamadı.
+
+7
+00:00:39,351 --> 00:00:44,344
+Nisan 2011. Bir geliştiriciye son mesajlarından birini yazıyor:
+
+8
+00:00:44,644 --> 00:00:47,480
+“Başka işlere geçtim. Proje emin ellerde.”
+
+9
+00:00:47,980 --> 00:00:51,548
+Ve sonra… sessizlik. Bir daha ortaya çıkmadı.
+
+10
+00:00:51,948 --> 00:00:57,155
+Yıllar içinde birçok kişi “Satoshi benim” dedi. Biri mahkemeye bile gitti.
+
+11
+00:00:57,455 --> 00:01:03,072
+2024'te Londra'da bir yargıç kararını verdi: Bu adam Satoshi değil.
+
+12
+00:01:03,472 --> 00:01:08,238
+Bugün Budapeşte'de onun bir heykeli var. Yüzü… bir ayna.
+
+13
+00:01:08,638 --> 00:01:17,050
+Ben mi? Okyanusu geçtim. Galler'de bir adamın cüzdanına girdim. O adamın da bir sırrı vardı: eski bir sabit disk.
+
+14
+00:01:17,550 --> 00:01:20,895
+Ve o disk… çöpe gitmek üzereydi.

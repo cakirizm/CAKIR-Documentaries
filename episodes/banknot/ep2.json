@@ -1,0 +1,617 @@
+{
+ "ep": 2,
+ "title": "158 Yıl",
+ "music": [
+  [
+   "Lightless_Dawn.mp3",
+   "hook"
+  ],
+  [
+   "Dark_Times.mp3",
+   "weekend"
+  ],
+  [
+   "Lightless_Dawn.mp3",
+   "twist"
+  ]
+ ],
+ "lines": [
+  [
+   "hook",
+   "N",
+   "[whispers] Yüz elli sekiz yıl ayakta kalan bir banka... [pause] tek bir hafta sonunda çöktü. Ben oradaydım.",
+   "158 yıl ayakta kalan bir banka… tek bir hafta sonunda çöktü. Ben oradaydım.",
+   0.6
+  ],
+  [
+   "history",
+   "N",
+   "Lehman Brothers. Bin sekiz yüz ellide, Alabama'da küçük bir dükkân olarak kuruldu.",
+   "Lehman Brothers. 1850'de Alabama'da küçük bir dükkân olarak kuruldu.",
+   0.25
+  ],
+  [
+   "survive",
+   "N",
+   "İç Savaş'ı, Büyük Buhran'ı, iki dünya savaşını atlattı.",
+   "İç Savaş'ı, Büyük Buhran'ı, iki dünya savaşını atlattı.",
+   0.3
+  ],
+  [
+   "peak",
+   "N",
+   "İki bin sekizde Amerika'nın en büyük yatırım bankalarından biriydi. Yaklaşık yirmi beş bin çalışan.",
+   "2008'de Amerika'nın en büyük yatırım bankalarından biriydi. Yaklaşık 25 bin çalışan.",
+   0.3
+  ],
+  [
+   "bomb",
+   "N",
+   "[serious] Ama kasasında saatli bir bomba vardı: Geri ödenemeyen konut kredilerine bağlı milyarlarca dolarlık yatırım.",
+   "Ama kasasında saatli bir bomba vardı: geri ödenemeyen konut kredilerine bağlı milyarlarca dolarlık yatırım.",
+   0.4
+  ],
+  [
+   "weekend",
+   "N",
+   "Eylül iki bin sekiz. Bütün hafta sonu kurtarma görüşmeleri. Alıcı yok. Devlet kurtarmayı reddediyor.",
+   "Eylül 2008. Bütün hafta sonu kurtarma görüşmeleri. Alıcı yok. Devlet kurtarmayı reddediyor.",
+   0.35
+  ],
+  [
+   "news",
+   "A",
+   "[urgent] Son dakika! Lehman Brothers iflas başvurusu yaptı. Bu, Amerikan tarihinin en büyük iflası!",
+   "“Son dakika! Lehman Brothers iflas başvurusu yaptı. Amerikan tarihinin en büyük iflası!”",
+   0.4
+  ],
+  [
+   "number",
+   "N",
+   "Altı yüz milyar doları aşan varlıklar. Tek bir gecede.",
+   "600 milyar doları aşan varlıklar. Tek bir gecede.",
+   0.35
+  ],
+  [
+   "boxes",
+   "N",
+   "O pazartesi sabahı çalışanlar masalarını karton kutulara doldurup binadan çıkıyordu.",
+   "O pazartesi sabahı çalışanlar masalarını karton kutulara doldurup binadan çıkıyordu.",
+   0.3
+  ],
+  [
+   "world",
+   "N",
+   "Dünya borsaları çakıldı. Milyonlarca insan işini, evini kaybetti.",
+   "Dünya borsaları çakıldı. Milyonlarca insan işini, evini kaybetti.",
+   0.4
+  ],
+  [
+   "me",
+   "N",
+   "Beni taşıyan adam da o kutulardan birini taşıyordu. Cebinde ben... elinde koca bir kariyer.",
+   "Beni taşıyan adam da o kutulardan birini taşıyordu. Cebinde ben… elinde koca bir kariyer.",
+   0.5
+  ],
+  [
+   "twist",
+   "N",
+   "Birkaç hafta sonra, internette kimsenin tanımadığı biri dokuz sayfalık bir yazı yayınladı. Konusu: Bankasız para.",
+   "Birkaç hafta sonra, kimsenin tanımadığı biri 9 sayfalık bir yazı yayınladı. Konusu: bankasız para.",
+   0.5
+  ],
+  [
+   "next",
+   "N",
+   "[whispers] Benim gibi kâğıt paraların bir rakibi doğmuştu. [pause] Ve iki yıl sonra biri onunla ilk kez yemek alacaktı.",
+   "Benim gibi kâğıt paraların bir rakibi doğmuştu. Ve iki yıl sonra biri onunla ilk kez yemek alacaktı.",
+   0.6
+  ],
+  [
+   "end",
+   "N",
+   "Tek Bir Banknot. Bölüm üç: En pahalı pizza.",
+   "",
+   1.8
+  ]
+ ],
+ "scenes": {
+  "hook": {
+   "bg": {
+    "type": "drawn",
+    "name": "tower",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT · BÖLÜM 2",
+     "top": 300,
+     "at": 0.4
+    },
+    {
+     "k": "kicker",
+     "text": "158 YIL",
+     "top": 350,
+     "size": 130,
+     "color": "gold",
+     "at": 1.0
+    }
+   ]
+  },
+  "history": {
+   "bg": {
+    "type": "photo",
+    "src": "lehman_ts.jpg",
+    "grade": "cold",
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "x": [
+     20,
+     -20
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "LEHMAN\nBROTHERS",
+     "top": 300,
+     "size": 96
+    },
+    {
+     "k": "small",
+     "text": "KURULUŞ: 1850 · ALABAMA",
+     "top": 520,
+     "at": 0.9
+    }
+   ]
+  },
+  "survive": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "chips",
+     "items": [
+      "İÇ SAVAŞ",
+      "BÜYÜK BUHRAN",
+      "İKİ DÜNYA SAVAŞI"
+     ],
+     "top": 600,
+     "step": 0.75
+    },
+    {
+     "k": "stamp",
+     "text": "AYAKTA",
+     "top": 1100,
+     "color": "gold",
+     "at": 2.6,
+     "size": 80
+    }
+   ]
+  },
+  "peak": {
+   "bg": {
+    "type": "photo",
+    "src": "wallst.jpg",
+    "grade": "cold",
+    "zoom": [
+     1.08,
+     1.22
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 25000,
+     "prefix": "~",
+     "label": "ÇALIŞAN",
+     "top": 700,
+     "at": 1.4,
+     "dur": 2.0,
+     "color": "white"
+    }
+   ]
+  },
+  "bomb": {
+   "bg": {
+    "type": "drawn",
+    "name": "crash",
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "KONUT KREDİSİ BAĞLANTILI YATIRIMLAR",
+     "top": 300,
+     "color": "red",
+     "at": 2.0
+    }
+   ]
+  },
+  "weekend": {
+   "bg": {
+    "type": "photo",
+    "src": "nyfed.jpg",
+    "grade": "night",
+    "zoom": [
+     1.1,
+     1.3
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     20,
+     -20
+    ]
+   },
+   "layers": [
+    {
+     "k": "date",
+     "d": "13–14",
+     "m": "EYLÜL",
+     "y": "2008",
+     "top": 520
+    },
+    {
+     "k": "stamp",
+     "text": "ALICI YOK",
+     "top": 1080,
+     "at": 2.6,
+     "size": 80
+    },
+    {
+     "k": "tag",
+     "text": "NEW YORK FED"
+    }
+   ]
+  },
+  "news": {
+   "bg": {
+    "type": "photo",
+    "src": "lehman_0915.jpg",
+    "grade": "doc",
+    "zoom": [
+     1.05,
+     1.18
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "flash"
+    },
+    {
+     "k": "ticker",
+     "text": "LEHMAN BROTHERS İFLAS BAŞVURUSU YAPTI · ABD TARİHİNİN EN BÜYÜK İFLASI",
+     "top": 1220
+    },
+    {
+     "k": "small",
+     "text": "15 EYLÜL 2008 · LEHMAN GENEL MERKEZİ",
+     "top": 300,
+     "color": "white",
+     "at": 0.3
+    }
+   ]
+  },
+  "number": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 600000000000,
+     "suffix": "+",
+     "top": 700,
+     "size": 86,
+     "at": 0.3,
+     "dur": 2.4
+    },
+    {
+     "k": "small",
+     "text": "VARLIK · TEK GECEDE",
+     "top": 860,
+     "color": "white",
+     "at": 2.4
+    }
+   ]
+  },
+  "boxes": {
+   "bg": {
+    "type": "drawn",
+    "name": "boxes",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "PAZARTESİ SABAHI",
+     "top": 300,
+     "color": "white"
+    }
+   ]
+  },
+  "world": {
+   "bg": {
+    "type": "photo",
+    "src": "nyse.jpg",
+    "grade": "bw",
+    "zoom": [
+     1.12,
+     1.3
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "stamp",
+     "text": "ÇÖKÜŞ",
+     "top": 720,
+     "at": 0.6
+    },
+    {
+     "k": "tag",
+     "text": "ARŞİV · TEMSİLÎ"
+    }
+   ]
+  },
+  "me": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "motion": "dark",
+     "y": -80
+    }
+   ]
+  },
+  "twist": {
+   "bg": {
+    "type": "photo",
+    "src": "whitepaper.jpg",
+    "grade": "doc",
+    "zoom": [
+     1.3,
+     1.6
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     60,
+     0
+    ],
+    "pos": "50% 10%"
+   },
+   "layers": [
+    {
+     "k": "stamp",
+     "text": "BANKASIZ PARA",
+     "top": 1060,
+     "color": "gold",
+     "at": 3.4,
+     "size": 76
+    },
+    {
+     "k": "small",
+     "text": "31 EKİM 2008 · 9 SAYFA",
+     "top": 300,
+     "color": "white",
+     "at": 0.8
+    }
+   ]
+  },
+  "next": {
+   "bg": {
+    "type": "photo",
+    "src": "btc_coin.png",
+    "grade": "doc",
+    "zoom": [
+     1.0,
+     1.15
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ],
+    "fit": "contain",
+    "blurFill": true
+   },
+   "layers": []
+  },
+  "end": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "w": 560,
+     "y": -300
+    },
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT",
+     "top": 920,
+     "at": 0.2
+    },
+    {
+     "k": "kicker",
+     "text": "BÖLÜM 3\nEN PAHALI PİZZA",
+     "top": 980,
+     "size": 84,
+     "at": 1.0
+    },
+    {
+     "k": "small",
+     "text": "Banknotun yolculuğu kurgudur · Hikâye gerçektir",
+     "top": 1250,
+     "size": 24,
+     "color": "white",
+     "at": 1.8
+    }
+   ]
+  }
+ },
+ "sfx": [
+  [
+   "hook",
+   0,
+   "boom",
+   -20
+  ],
+  [
+   "hook",
+   0.1,
+   "paper",
+   -26
+  ],
+  [
+   "history",
+   -0.3,
+   "whoosh",
+   -27
+  ],
+  [
+   "survive",
+   2.6,
+   "stamp",
+   -20
+  ],
+  [
+   "peak",
+   -0.3,
+   "whoosh",
+   -28
+  ],
+  [
+   "bomb",
+   0.2,
+   "heartbeat",
+   -24
+  ],
+  [
+   "weekend",
+   2.6,
+   "stamp",
+   -20
+  ],
+  [
+   "news",
+   -0.1,
+   "static",
+   -24
+  ],
+  [
+   "news",
+   0,
+   "boom",
+   -18
+  ],
+  [
+   "number",
+   0.3,
+   "coins",
+   -28
+  ],
+  [
+   "boxes",
+   -0.3,
+   "whoosh",
+   -27
+  ],
+  [
+   "world",
+   0.6,
+   "stamp",
+   -19
+  ],
+  [
+   "world",
+   0.0,
+   "siren",
+   -32
+  ],
+  [
+   "me",
+   0,
+   "boom",
+   -20
+  ],
+  [
+   "twist",
+   0.6,
+   "typing",
+   -26
+  ],
+  [
+   "twist",
+   3.4,
+   "stamp",
+   -22
+  ],
+  [
+   "next",
+   0.2,
+   "riser",
+   -24
+  ],
+  [
+   "end",
+   0.2,
+   "boom",
+   -18
+  ]
+ ]
+}

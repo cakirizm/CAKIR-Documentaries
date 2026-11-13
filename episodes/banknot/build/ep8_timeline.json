@@ -1,0 +1,163 @@
+{
+ "durationSec": 87.169,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 7.206
+  },
+  {
+   "id": "who",
+   "start": 7.206,
+   "end": 13.817
+  },
+  {
+   "id": "trip",
+   "start": 13.817,
+   "end": 18.741
+  },
+  {
+   "id": "death",
+   "start": 18.741,
+   "end": 23.992
+  },
+  {
+   "id": "keys",
+   "start": 23.992,
+   "end": 33.545
+  },
+  {
+   "id": "locked",
+   "start": 33.545,
+   "end": 37.549
+  },
+  {
+   "id": "open",
+   "start": 37.549,
+   "end": 42.788
+  },
+  {
+   "id": "report",
+   "start": 42.788,
+   "end": 51.08
+  },
+  {
+   "id": "grave",
+   "start": 51.08,
+   "end": 59.123
+  },
+  {
+   "id": "nofact",
+   "start": 59.123,
+   "end": 65.633
+  },
+  {
+   "id": "me",
+   "start": 65.633,
+   "end": 73.997
+  },
+  {
+   "id": "next",
+   "start": 73.997,
+   "end": 81.191
+  },
+  {
+   "id": "end",
+   "start": 81.191,
+   "end": 87.169
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "role": "N",
+   "start": 0.6,
+   "end": 6.856,
+   "sub": "Bir adam öldü. Ve binlerce insanın parası onunla birlikte kilitlendi."
+  },
+  {
+   "scene": "who",
+   "role": "N",
+   "start": 7.456,
+   "end": 13.767,
+   "sub": "Gerald Cotten. Kanada'nın en büyük kripto borsalarından QuadrigaCX'in kurucusu."
+  },
+  {
+   "scene": "trip",
+   "role": "N",
+   "start": 14.067,
+   "end": 18.691,
+   "sub": "Aralık 2018. Eşiyle birlikte Hindistan'da bir seyahatte."
+  },
+  {
+   "scene": "death",
+   "role": "N",
+   "start": 18.991,
+   "end": 23.842,
+   "sub": "Jaipur'da bir hastanede, 30 yaşında hayatını kaybettiği açıklanıyor."
+  },
+  {
+   "scene": "keys",
+   "role": "N",
+   "start": 24.242,
+   "end": 33.395,
+   "sub": "Ölümü haftalar sonra duyuruluyor. Ve bir gerçek ortaya çıkıyor: Şirketin kripto cüzdanlarının şifrelerini yalnızca o biliyormuş."
+  },
+  {
+   "scene": "locked",
+   "role": "N",
+   "start": 33.795,
+   "end": 37.399,
+   "sub": "Müşterilerin yüz milyonlarca dolarlık parası kilitli kalıyor."
+  },
+  {
+   "scene": "open",
+   "role": "N",
+   "start": 37.799,
+   "end": 42.638,
+   "sub": "Uzmanlar sonunda cüzdanlara ulaşıyor. Ve neredeyse boş buluyor."
+  },
+  {
+   "scene": "report",
+   "role": "N",
+   "start": 43.038,
+   "end": 50.93,
+   "sub": "2020'de Ontario Menkul Kıymetler Komisyonu raporunu açıklıyor: Çöküşün sebebi Cotten'ın kendi dolandırıcılığıydı."
+  },
+  {
+   "scene": "grave",
+   "role": "N",
+   "start": 51.33,
+   "end": 58.973,
+   "sub": "Yatırımcıların avukatları bir şey daha istedi: mezarın açılmasını. Kimliğin ve ölüm sebebinin doğrulanmasını."
+  },
+  {
+   "scene": "nofact",
+   "role": "N",
+   "start": 59.373,
+   "end": 65.383,
+   "sub": "Ölümünün sahte olduğuna dair hiçbir kanıt bulunamadı. Ama soru hâlâ soruluyor."
+  },
+  {
+   "scene": "me",
+   "role": "N",
+   "start": 65.883,
+   "end": 73.747,
+   "sub": "Ben mi? Halifax'ta bir bankamatikten çekildim. Sonra Bahamalar'a giden genç bir milyarderin cebine girdim."
+  },
+  {
+   "scene": "next",
+   "role": "N",
+   "start": 74.247,
+   "end": 80.841,
+   "sub": "Dünya onu kriptonun dâhisi sanıyordu. Bir hafta içinde her şey çöktü."
+  },
+  {
+   "scene": "end",
+   "role": "N",
+   "start": 81.441,
+   "end": 84.969,
+   "sub": ""
+  }
+ ]
+}

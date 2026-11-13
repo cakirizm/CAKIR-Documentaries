@@ -1,0 +1,567 @@
+{
+ "ep": 5,
+ "title": "Çöplükteki Servet",
+ "music": [
+  [
+   "Lightless_Dawn.mp3",
+   "hook"
+  ],
+  [
+   "Dark_Times.mp3",
+   "realize"
+  ]
+ ],
+ "lines": [
+  [
+   "hook",
+   "N",
+   "[whispers] Bir adam, yüz milyonlarca dolarlık serveti... [pause] çöpe attı.",
+   "Bir adam, yüz milyonlarca dolarlık serveti… çöpe attı.",
+   0.6
+  ],
+  [
+   "who",
+   "N",
+   "James Howells. Galler, Newport. Bir bilişim mühendisi.",
+   "James Howells. Galler, Newport. Bir bilişim mühendisi.",
+   0.3
+  ],
+  [
+   "mine",
+   "N",
+   "İki bin dokuz. Bitcoin henüz neredeyse değersizken, kendi bilgisayarında sekiz bin bitcoin üretiyor.",
+   "2009. Bitcoin henüz neredeyse değersizken, kendi bilgisayarında 8.000 bitcoin üretiyor.",
+   0.3
+  ],
+  [
+   "drive",
+   "N",
+   "Sonra eski sabit diski bir çekmeceye kaldırıyor. Ve unutuyor.",
+   "Sonra eski sabit diski bir çekmeceye kaldırıyor. Ve unutuyor.",
+   0.4
+  ],
+  [
+   "toss",
+   "N",
+   "İki bin on üç. Evde temizlik. Siyah bir çöp poşeti. Ve disk... poşetin içinde.",
+   "2013. Evde temizlik. Siyah bir çöp poşeti. Ve disk… poşetin içinde.",
+   0.4
+  ],
+  [
+   "landfill",
+   "N",
+   "Poşet şehrin çöplüğüne gidiyor. Tonlarca atığın altına gömülüyor.",
+   "Poşet şehrin çöplüğüne gidiyor. Tonlarca atığın altına gömülüyor.",
+   0.4
+  ],
+  [
+   "realize",
+   "N",
+   "[serious] Bitcoin yükseldikçe ne kaybettiğini anlıyor. Sekiz bin bitcoin. Bugün yüz milyonlarca dolar.",
+   "Bitcoin yükseldikçe ne kaybettiğini anlıyor. 8.000 bitcoin. Bugün yüz milyonlarca dolar.",
+   0.4
+  ],
+  [
+   "offer",
+   "N",
+   "Belediyeye defalarca teklif götürüyor: Kazıyı ben finanse edeyim, bulursam bir payını şehre vereyim.",
+   "Belediyeye defalarca teklif götürüyor: Kazıyı ben finanse edeyim, bulursam bir payını şehre vereyim.",
+   0.3
+  ],
+  [
+   "no",
+   "N",
+   "Belediyenin cevabı hep aynı: Hayır.",
+   "Belediyenin cevabı hep aynı: Hayır.",
+   0.4
+  ],
+  [
+   "court",
+   "N",
+   "Dava mahkemeye gidiyor. Ocak iki bin yirmi beşte mahkeme davayı reddediyor. Mart'ta temyiz izni de reddediliyor.",
+   "Dava mahkemeye gidiyor. Ocak 2025'te mahkeme davayı reddediyor. Mart'ta temyiz izni de reddediliyor.",
+   0.4
+  ],
+  [
+   "still",
+   "N",
+   "Disk hâlâ orada. Bir yerde, çöplerin altında.",
+   "Disk hâlâ orada. Bir yerde, çöplerin altında.",
+   0.5
+  ],
+  [
+   "me",
+   "N",
+   "Ben mi? O gün o evdeki bir cüzdandaydım. Sonra bir havalimanından Asya'ya uçtum.",
+   "Ben mi? O gün o evdeki bir cüzdandaydım. Sonra bir havalimanından Asya'ya uçtum.",
+   0.5
+  ],
+  [
+   "next",
+   "N",
+   "[whispers] Gittiğim yerde birileri bir merkez bankasını soymak üzereydi. [pause] Hem de bilgisayarla.",
+   "Gittiğim yerde birileri bir merkez bankasını soymak üzereydi. Hem de bilgisayarla.",
+   0.6
+  ],
+  [
+   "end",
+   "N",
+   "Tek Bir Banknot. Bölüm altı: Yazım hatası.",
+   "",
+   1.8
+  ]
+ ],
+ "scenes": {
+  "hook": {
+   "bg": {
+    "type": "drawn",
+    "name": "landfill",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT · BÖLÜM 5",
+     "top": 300,
+     "at": 0.4
+    },
+    {
+     "k": "kicker",
+     "text": "ÇÖPLÜKTEKİ\nSERVET",
+     "top": 350,
+     "size": 104,
+     "color": "gold",
+     "at": 1.2
+    }
+   ]
+  },
+  "who": {
+   "bg": {
+    "type": "photo",
+    "src": "newport.jpg",
+    "grade": "cold",
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "x": [
+     -20,
+     20
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "JAMES HOWELLS",
+     "top": 320,
+     "size": 84
+    },
+    {
+     "k": "small",
+     "text": "NEWPORT · GALLER",
+     "top": 430,
+     "at": 0.9
+    }
+   ]
+  },
+  "mine": {
+   "bg": {
+    "type": "drawn",
+    "name": "desk",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 8000,
+     "prefix": "",
+     "suffix": " BTC",
+     "top": 330,
+     "size": 120,
+     "at": 1.6,
+     "dur": 2.4
+    }
+   ]
+  },
+  "drive": {
+   "bg": {
+    "type": "photo",
+    "src": "hdd.jpg",
+    "grade": "warm",
+    "zoom": [
+     1.15,
+     1.35
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "tag"
+    }
+   ]
+  },
+  "toss": {
+   "bg": {
+    "type": "drawn",
+    "name": "bag",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "date",
+     "d": "?",
+     "m": "2013",
+     "y": "TEMİZLİK",
+     "top": 340
+    }
+   ]
+  },
+  "landfill": {
+   "bg": {
+    "type": "photo",
+    "src": "landfill.jpg",
+    "grade": "cold",
+    "zoom": [
+     1.1,
+     1.3
+    ],
+    "x": [
+     30,
+     -30
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "tag"
+    },
+    {
+     "k": "small",
+     "text": "TONLARCA ATIK",
+     "top": 300,
+     "color": "white",
+     "at": 1.6
+    }
+   ]
+  },
+  "realize": {
+   "bg": {
+    "type": "photo",
+    "src": "btc_coin.png",
+    "grade": "doc",
+    "zoom": [
+     1.0,
+     1.25
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ],
+    "fit": "contain",
+    "blurFill": true
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "8.000 BTC",
+     "top": 330,
+     "size": 120,
+     "color": "gold",
+     "at": 2.0
+    },
+    {
+     "k": "stamp",
+     "text": "YÜZ MİLYONLARCA $",
+     "top": 1080,
+     "at": 4.0,
+     "size": 66,
+     "color": "gold"
+    }
+   ]
+  },
+  "offer": {
+   "bg": {
+    "type": "drawn",
+    "name": "landfill",
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   },
+   "layers": [
+    {
+     "k": "doc",
+     "size": 38,
+     "top": 520,
+     "at": 1.0,
+     "type": 3.0,
+     "lines": [
+      "TEKLİF",
+      "",
+      "• Kazı masrafı benden",
+      "• Çevre güvenliği benden",
+      "• Bulursam bir pay şehre"
+     ]
+    }
+   ]
+  },
+  "no": {
+   "bg": {
+    "type": "drawn",
+    "name": "landfill",
+    "zoom": [
+     1.25,
+     1.3
+    ]
+   },
+   "layers": [
+    {
+     "k": "stamp",
+     "text": "RED",
+     "top": 760,
+     "at": 1.4,
+     "size": 160
+    }
+   ]
+  },
+  "court": {
+   "bg": {
+    "type": "drawn",
+    "name": "court",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "chips",
+     "items": [
+      "OCAK 2025 · DAVA RED",
+      "MART 2025 · TEMYİZ İZNİ RED"
+     ],
+     "top": 300,
+     "step": 2.6,
+     "at": 2.0,
+     "color": "red",
+     "size": 42
+    }
+   ]
+  },
+  "still": {
+   "bg": {
+    "type": "drawn",
+    "name": "landfill",
+    "zoom": [
+     1.3,
+     1.45
+    ]
+   },
+   "layers": []
+  },
+  "me": {
+   "bg": {
+    "type": "drawn",
+    "name": "plane",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": []
+  },
+  "next": {
+   "bg": {
+    "type": "photo",
+    "src": "bb_entrance.jpg",
+    "grade": "night",
+    "zoom": [
+     1.1,
+     1.3
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "DAKKA · BANGLADEŞ",
+     "top": 300,
+     "color": "white",
+     "at": 0.4
+    }
+   ]
+  },
+  "end": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "w": 560,
+     "y": -300
+    },
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT",
+     "top": 920,
+     "at": 0.2
+    },
+    {
+     "k": "kicker",
+     "text": "BÖLÜM 6\nYAZIM HATASI",
+     "top": 980,
+     "size": 84,
+     "at": 1.0
+    },
+    {
+     "k": "small",
+     "text": "Banknotun yolculuğu kurgudur · Hikâye gerçektir",
+     "top": 1250,
+     "size": 24,
+     "color": "white",
+     "at": 1.8
+    }
+   ]
+  }
+ },
+ "sfx": [
+  [
+   "hook",
+   0,
+   "boom",
+   -20
+  ],
+  [
+   "hook",
+   0.3,
+   "gulls",
+   -28
+  ],
+  [
+   "who",
+   -0.3,
+   "whoosh",
+   -27
+  ],
+  [
+   "mine",
+   1.6,
+   "coins",
+   -27
+  ],
+  [
+   "drive",
+   0.1,
+   "paper",
+   -26
+  ],
+  [
+   "toss",
+   0.1,
+   "trashbag",
+   -22
+  ],
+  [
+   "landfill",
+   0.1,
+   "truck",
+   -26
+  ],
+  [
+   "realize",
+   0.1,
+   "heartbeat",
+   -23
+  ],
+  [
+   "realize",
+   4.0,
+   "boom",
+   -19
+  ],
+  [
+   "offer",
+   1.0,
+   "typing",
+   -27
+  ],
+  [
+   "no",
+   1.4,
+   "stamp",
+   -18
+  ],
+  [
+   "court",
+   0.1,
+   "gavel",
+   -18
+  ],
+  [
+   "court",
+   2.0,
+   "stamp",
+   -22
+  ],
+  [
+   "still",
+   0.1,
+   "gulls",
+   -30
+  ],
+  [
+   "me",
+   0.2,
+   "jet",
+   -24
+  ],
+  [
+   "next",
+   0.2,
+   "riser",
+   -24
+  ],
+  [
+   "end",
+   0.2,
+   "boom",
+   -18
+  ]
+ ]
+}

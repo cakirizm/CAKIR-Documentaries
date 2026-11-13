@@ -4,7 +4,7 @@ import {AbsoluteFill} from 'remotion';
 /* Noir graphic-novel illustrations drawn in SVG (1080x1920). Silhouettes only,
  * hard rim light, limited palette. t = seconds into the scene (for motion). */
 
-const Defs: React.FC = () => (
+export const Defs: React.FC = () => (
 	<defs>
 		<filter id="rough"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="4" /><feDisplacementMap in="SourceGraphic" scale="4" /></filter>
 		<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22" /></filter>
@@ -22,7 +22,7 @@ const Defs: React.FC = () => (
 );
 
 /** Man silhouette (side/back), ~ 600px tall at s=1, origin at feet centre */
-const Man: React.FC<{x: number; y: number; s?: number; flip?: boolean; rim?: string; armUp?: number; briefcase?: boolean; hat?: boolean}> = ({x, y, s = 1, flip, rim = '#ffcf7a', armUp = 0, briefcase, hat = true}) => (
+export const Man: React.FC<{x: number; y: number; s?: number; flip?: boolean; rim?: string; armUp?: number; briefcase?: boolean; hat?: boolean}> = ({x, y, s = 1, flip, rim = '#ffcf7a', armUp = 0, briefcase, hat = true}) => (
 	<g transform={`translate(${x} ${y}) scale(${flip ? -s : s} ${s})`}>
 		{/* legs */}
 		<path d="M-40 0 L-30 -260 L5 -260 L-5 0 Z" fill="#030304" />

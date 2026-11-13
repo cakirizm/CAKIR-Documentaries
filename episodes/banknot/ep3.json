@@ -1,0 +1,470 @@
+{
+ "ep": 3,
+ "title": "En Pahalı Pizza",
+ "music": [
+  [
+   "Lightless_Dawn.mp3",
+   "hook"
+  ],
+  [
+   "Rising.mp3",
+   "deal"
+  ],
+  [
+   "Dark_Times.mp3",
+   "me"
+  ]
+ ],
+ "lines": [
+  [
+   "hook",
+   "N",
+   "[whispers] Tarihin en pahalı yemeği... [pause] iki pizzaydı.",
+   "Tarihin en pahalı yemeği… iki pizzaydı.",
+   0.6
+  ],
+  [
+   "date",
+   "N",
+   "Mayıs iki bin on. Florida, Jacksonville. Laszlo Hanyecz adında bir programcı.",
+   "Mayıs 2010. Florida, Jacksonville. Laszlo Hanyecz adında bir programcı.",
+   0.3
+  ],
+  [
+   "forum",
+   "N",
+   "Bir internet forumuna şu mesajı yazıyor:",
+   "Bir internet forumuna şu mesajı yazıyor:",
+   0.3
+  ],
+  [
+   "forum",
+   "Q",
+   "On bin bitcoin ödeyeceğim, birkaç pizza için. Belki iki büyük boy... ertesi güne de kalsın.",
+   "“On bin bitcoin ödeyeceğim, birkaç pizza için. Belki iki büyük boy… ertesi güne de kalsın.”",
+   0.5
+  ],
+  [
+   "wait",
+   "N",
+   "Günler geçiyor. Kimse ciddiye almıyor. Bitcoin o zaman neredeyse değersiz.",
+   "Günler geçiyor. Kimse ciddiye almıyor. Bitcoin o zaman neredeyse değersiz.",
+   0.3
+  ],
+  [
+   "deal",
+   "N",
+   "Sonra on dokuz yaşında bir genç teklifi kabul ediyor. İki pizza sipariş ediyor, parasını kendisi ödüyor.",
+   "Sonra 19 yaşında bir genç teklifi kabul ediyor. İki pizza sipariş ediyor, parasını kendisi ödüyor.",
+   0.3
+  ],
+  [
+   "value",
+   "N",
+   "O gün on bin bitcoinin değeri... yaklaşık kırk bir dolar.",
+   "O gün 10.000 bitcoinin değeri… yaklaşık 41 dolar.",
+   0.4
+  ],
+  [
+   "first",
+   "N",
+   "Yirmi iki Mayıs. Bitcoin'le yapılan ilk gerçek alışveriş. Bugün bu gün, Bitcoin Pizza Günü olarak kutlanıyor.",
+   "22 Mayıs. Bitcoin'le yapılan ilk gerçek alışveriş. Bugün bu gün Bitcoin Pizza Günü olarak kutlanıyor.",
+   0.4
+  ],
+  [
+   "today",
+   "N",
+   "[serious] Peki bugün? O on bin bitcoin... yüz milyonlarca dolar ediyor.",
+   "Peki bugün? O 10.000 bitcoin… yüz milyonlarca dolar ediyor.",
+   0.5
+  ],
+  [
+   "me",
+   "N",
+   "Ben o gece o pizzacının kasasındaydım. Ama ilk kez para... ben olmadan el değiştirdi.",
+   "Ben o gece o pizzacının kasasındaydım. Ama ilk kez para… ben olmadan el değiştirdi.",
+   0.5
+  ],
+  [
+   "next",
+   "N",
+   "[whispers] Peki bu parayı icat eden kişi kim? [pause] Bugün bile kimse bilmiyor.",
+   "Peki bu parayı icat eden kişi kim? Bugün bile kimse bilmiyor.",
+   0.6
+  ],
+  [
+   "end",
+   "N",
+   "Tek Bir Banknot. Bölüm dört: Hayalet.",
+   "",
+   1.8
+  ]
+ ],
+ "scenes": {
+  "hook": {
+   "bg": {
+    "type": "drawn",
+    "name": "pizza",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT · BÖLÜM 3",
+     "top": 300,
+     "at": 0.4
+    },
+    {
+     "k": "kicker",
+     "text": "EN PAHALI\nPİZZA",
+     "top": 350,
+     "size": 110,
+     "color": "gold",
+     "at": 1.2
+    }
+   ]
+  },
+  "date": {
+   "bg": {
+    "type": "drawn",
+    "name": "desk",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "date",
+     "d": "18",
+     "m": "MAYIS",
+     "y": "2010",
+     "top": 360
+    },
+    {
+     "k": "small",
+     "text": "JACKSONVILLE · FLORIDA",
+     "top": 830,
+     "color": "white",
+     "at": 1.6
+    }
+   ]
+  },
+  "forum": {
+   "bg": {
+    "type": "drawn",
+    "name": "desk",
+    "zoom": [
+     1.12,
+     1.2
+    ]
+   },
+   "layers": [
+    {
+     "k": "doc",
+     "dark": true,
+     "mono": true,
+     "size": 34,
+     "top": 520,
+     "at": 2.3,
+     "type": 3.0,
+     "lines": [
+      "Pizza for bitcoins?",
+      "",
+      "I'll pay 10,000 bitcoins for a",
+      "couple of pizzas.. like maybe",
+      "2 large ones so I have some",
+      "left over for the next day."
+     ],
+     "hl": "10,000 bitcoins",
+     "hlAt": 4.5
+    },
+    {
+     "k": "small",
+     "text": "BITCOINTALK FORUMU · 18 MAYIS 2010",
+     "top": 400,
+     "color": "white",
+     "at": 0.5
+    }
+   ]
+  },
+  "wait": {
+   "bg": {
+    "type": "drawn",
+    "name": "desk",
+    "zoom": [
+     1.2,
+     1.25
+    ]
+   },
+   "layers": [
+    {
+     "k": "chips",
+     "items": [
+      "1. GÜN · CEVAP YOK",
+      "2. GÜN · CEVAP YOK",
+      "3. GÜN · CEVAP YOK"
+     ],
+     "top": 560,
+     "step": 0.9,
+     "color": "red"
+    }
+   ]
+  },
+  "deal": {
+   "bg": {
+    "type": "photo",
+    "src": "pizza_boxes.jpg",
+    "grade": "warm",
+    "zoom": [
+     1.1,
+     1.3
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "tag"
+    },
+    {
+     "k": "kicker",
+     "text": "19 YAŞINDA\nBİR GENÇ",
+     "top": 330,
+     "size": 88,
+     "at": 0.8
+    }
+   ]
+  },
+  "value": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "10.000 BITCOIN =",
+     "top": 640,
+     "color": "white",
+     "at": 0.2
+    },
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 41,
+     "top": 700,
+     "size": 200,
+     "at": 1.4,
+     "dur": 1.6
+    }
+   ]
+  },
+  "first": {
+   "bg": {
+    "type": "drawn",
+    "name": "pizza",
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   },
+   "layers": [
+    {
+     "k": "date",
+     "d": "22",
+     "m": "MAYIS",
+     "y": "2010",
+     "top": 380
+    },
+    {
+     "k": "stamp",
+     "text": "BITCOIN\nPIZZA GÜNÜ",
+     "top": 900,
+     "color": "gold",
+     "at": 2.8,
+     "size": 72
+    }
+   ]
+  },
+  "today": {
+   "bg": {
+    "type": "photo",
+    "src": "btc_coin.png",
+    "grade": "doc",
+    "zoom": [
+     1.0,
+     1.3
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ],
+    "fit": "contain",
+    "blurFill": true
+   },
+   "layers": [
+    {
+     "k": "stamp",
+     "text": "YÜZ MİLYONLARCA $",
+     "top": 1080,
+     "color": "gold",
+     "at": 2.4,
+     "size": 70,
+     "rot": -4
+    }
+   ]
+  },
+  "me": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "motion": "dark"
+    }
+   ]
+  },
+  "next": {
+   "bg": {
+    "type": "drawn",
+    "name": "ghost",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "?",
+     "top": 600,
+     "size": 260,
+     "color": "gold",
+     "at": 2.4
+    }
+   ]
+  },
+  "end": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "w": 560,
+     "y": -300
+    },
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT",
+     "top": 920,
+     "at": 0.2
+    },
+    {
+     "k": "kicker",
+     "text": "BÖLÜM 4\nHAYALET",
+     "top": 980,
+     "size": 84,
+     "at": 1.0
+    },
+    {
+     "k": "small",
+     "text": "Banknotun yolculuğu kurgudur · Hikâye gerçektir",
+     "top": 1250,
+     "size": 24,
+     "color": "white",
+     "at": 1.8
+    }
+   ]
+  }
+ },
+ "sfx": [
+  [
+   "hook",
+   0,
+   "boom",
+   -20
+  ],
+  [
+   "date",
+   -0.3,
+   "whoosh",
+   -27
+  ],
+  [
+   "forum",
+   2.3,
+   "typing",
+   -24
+  ],
+  [
+   "wait",
+   0.2,
+   "clock",
+   -26
+  ],
+  [
+   "deal",
+   0.2,
+   "phone",
+   -26
+  ],
+  [
+   "value",
+   1.4,
+   "coins",
+   -26
+  ],
+  [
+   "first",
+   2.8,
+   "stamp",
+   -21
+  ],
+  [
+   "today",
+   0.2,
+   "riser",
+   -24
+  ],
+  [
+   "today",
+   2.4,
+   "boom",
+   -19
+  ],
+  [
+   "me",
+   0,
+   "paper",
+   -26
+  ],
+  [
+   "next",
+   0.2,
+   "glitch",
+   -24
+  ],
+  [
+   "end",
+   0.2,
+   "boom",
+   -18
+  ]
+ ]
+}

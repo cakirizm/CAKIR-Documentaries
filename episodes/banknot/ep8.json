@@ -1,0 +1,494 @@
+{
+ "ep": 8,
+ "title": "Şifre",
+ "music": [
+  [
+   "Hiding_Your_Reality.mp3",
+   "hook"
+  ],
+  [
+   "Dark_Times.mp3",
+   "keys"
+  ],
+  [
+   "Lightless_Dawn.mp3",
+   "grave"
+  ]
+ ],
+ "lines": [
+  [
+   "hook",
+   "N",
+   "[whispers] Bir adam öldü. [pause] Ve binlerce insanın parası onunla birlikte kilitlendi.",
+   "Bir adam öldü. Ve binlerce insanın parası onunla birlikte kilitlendi.",
+   0.6
+  ],
+  [
+   "who",
+   "N",
+   "Gerald Cotten. Kanada'nın en büyük kripto borsalarından QuadrigaCX'in kurucusu.",
+   "Gerald Cotten. Kanada'nın en büyük kripto borsalarından QuadrigaCX'in kurucusu.",
+   0.3
+  ],
+  [
+   "trip",
+   "N",
+   "Aralık iki bin on sekiz. Eşiyle birlikte Hindistan'da bir seyahatte.",
+   "Aralık 2018. Eşiyle birlikte Hindistan'da bir seyahatte.",
+   0.3
+  ],
+  [
+   "death",
+   "N",
+   "Jaipur'da bir hastanede, otuz yaşında hayatını kaybettiği açıklanıyor.",
+   "Jaipur'da bir hastanede, 30 yaşında hayatını kaybettiği açıklanıyor.",
+   0.4
+  ],
+  [
+   "keys",
+   "N",
+   "[serious] Ölümü haftalar sonra duyuruluyor. Ve bir gerçek ortaya çıkıyor: Şirketin kripto cüzdanlarının şifrelerini yalnızca o biliyormuş.",
+   "Ölümü haftalar sonra duyuruluyor. Ve bir gerçek ortaya çıkıyor: Şirketin kripto cüzdanlarının şifrelerini yalnızca o biliyormuş.",
+   0.4
+  ],
+  [
+   "locked",
+   "N",
+   "Müşterilerin yüz milyonlarca dolarlık parası kilitli kalıyor.",
+   "Müşterilerin yüz milyonlarca dolarlık parası kilitli kalıyor.",
+   0.4
+  ],
+  [
+   "open",
+   "N",
+   "Uzmanlar sonunda cüzdanlara ulaşıyor. Ve neredeyse boş buluyor.",
+   "Uzmanlar sonunda cüzdanlara ulaşıyor. Ve neredeyse boş buluyor.",
+   0.4
+  ],
+  [
+   "report",
+   "N",
+   "İki bin yirmide Ontario Menkul Kıymetler Komisyonu raporunu açıklıyor: Çöküşün sebebi, Cotten'ın kendi dolandırıcılığıydı.",
+   "2020'de Ontario Menkul Kıymetler Komisyonu raporunu açıklıyor: Çöküşün sebebi Cotten'ın kendi dolandırıcılığıydı.",
+   0.4
+  ],
+  [
+   "grave",
+   "N",
+   "Yatırımcıların avukatları bir şey daha istedi: Mezarın açılmasını. Kimliğin ve ölüm sebebinin doğrulanmasını.",
+   "Yatırımcıların avukatları bir şey daha istedi: mezarın açılmasını. Kimliğin ve ölüm sebebinin doğrulanmasını.",
+   0.4
+  ],
+  [
+   "nofact",
+   "N",
+   "Ölümünün sahte olduğuna dair hiçbir kanıt bulunamadı. Ama soru hâlâ soruluyor.",
+   "Ölümünün sahte olduğuna dair hiçbir kanıt bulunamadı. Ama soru hâlâ soruluyor.",
+   0.5
+  ],
+  [
+   "me",
+   "N",
+   "Ben mi? Halifax'ta bir bankamatikten çekildim. Sonra Bahamalar'a giden genç bir milyarderin cebine girdim.",
+   "Ben mi? Halifax'ta bir bankamatikten çekildim. Sonra Bahamalar'a giden genç bir milyarderin cebine girdim.",
+   0.5
+  ],
+  [
+   "next",
+   "N",
+   "[whispers] Dünya onu kriptonun dâhisi sanıyordu. [pause] Bir hafta içinde her şey çöktü.",
+   "Dünya onu kriptonun dâhisi sanıyordu. Bir hafta içinde her şey çöktü.",
+   0.6
+  ],
+  [
+   "end",
+   "N",
+   "Tek Bir Banknot. Bölüm dokuz: Bir hafta.",
+   "",
+   1.8
+  ]
+ ],
+ "scenes": {
+  "hook": {
+   "bg": {
+    "type": "drawn",
+    "name": "laptop",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT · BÖLÜM 8",
+     "top": 300,
+     "at": 0.4
+    },
+    {
+     "k": "kicker",
+     "text": "ŞİFRE",
+     "top": 350,
+     "size": 140,
+     "color": "gold",
+     "at": 1.2
+    }
+   ]
+  },
+  "who": {
+   "bg": {
+    "type": "photo",
+    "src": "halifax.jpg",
+    "grade": "cold",
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "GERALD COTTEN",
+     "top": 320,
+     "size": 82
+    },
+    {
+     "k": "small",
+     "text": "QUADRIGACX · KANADA",
+     "top": 430,
+     "at": 0.9
+    }
+   ]
+  },
+  "trip": {
+   "bg": {
+    "type": "drawn",
+    "name": "plane",
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   },
+   "layers": [
+    {
+     "k": "date",
+     "d": "9",
+     "m": "ARALIK",
+     "y": "2018",
+     "top": 520,
+     "at": 1.4
+    },
+    {
+     "k": "small",
+     "text": "JAİPUR · HİNDİSTAN",
+     "top": 300,
+     "color": "white"
+    }
+   ]
+  },
+  "death": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "30 YAŞINDA",
+     "top": 760,
+     "color": "white",
+     "at": 1.6,
+     "size": 40
+    }
+   ]
+  },
+  "keys": {
+   "bg": {
+    "type": "drawn",
+    "name": "laptop",
+    "zoom": [
+     1.05,
+     1.18
+    ]
+   },
+   "layers": [
+    {
+     "k": "stamp",
+     "text": "ŞİFRE: TEK KİŞİ",
+     "top": 330,
+     "at": 5.0,
+     "size": 66
+    }
+   ]
+  },
+  "locked": {
+   "bg": {
+    "type": "drawn",
+    "name": "laptop",
+    "zoom": [
+     1.18,
+     1.3
+    ]
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "YÜZ MİLYONLARCA $\nKİLİTLİ",
+     "top": 330,
+     "size": 72,
+     "color": "gold",
+     "at": 0.6
+    }
+   ]
+  },
+  "open": {
+   "bg": {
+    "type": "drawn",
+    "name": "vault",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": []
+  },
+  "report": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "doc",
+     "size": 36,
+     "top": 520,
+     "at": 0.4,
+     "type": 3.2,
+     "lines": [
+      "ONTARIO SECURITIES COMMISSION",
+      "QuadrigaCX Raporu · Haziran 2020",
+      "",
+      "Kayıp: en az 169 milyon dolar",
+      "Sebep: kurucunun dolandırıcılığı"
+     ],
+     "hl": "dolandırıcılığı",
+     "hlAt": 4.4
+    }
+   ]
+  },
+  "grave": {
+   "bg": {
+    "type": "drawn",
+    "name": "grave",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "ARALIK 2019 · TALEP",
+     "top": 300,
+     "color": "white"
+    }
+   ]
+  },
+  "nofact": {
+   "bg": {
+    "type": "drawn",
+    "name": "grave",
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   },
+   "layers": [
+    {
+     "k": "stamp",
+     "text": "KANIT YOK",
+     "top": 460,
+     "at": 1.2,
+     "color": "gold",
+     "size": 80
+    }
+   ]
+  },
+  "me": {
+   "bg": {
+    "type": "photo",
+    "src": "halifax.jpg",
+    "grade": "night",
+    "zoom": [
+     1.15,
+     1.3
+    ],
+    "x": [
+     -20,
+     20
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "HALİFAX",
+     "top": 300,
+     "color": "white"
+    },
+    {
+     "k": "note",
+     "motion": "slide",
+     "y": 260,
+     "w": 420,
+     "at": 2.6
+    }
+   ]
+  },
+  "next": {
+   "bg": {
+    "type": "drawn",
+    "name": "penthouse",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": []
+  },
+  "end": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "w": 560,
+     "y": -300
+    },
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT",
+     "top": 920,
+     "at": 0.2
+    },
+    {
+     "k": "kicker",
+     "text": "BÖLÜM 9\nBİR HAFTA",
+     "top": 980,
+     "size": 84,
+     "at": 1.0
+    },
+    {
+     "k": "small",
+     "text": "Banknotun yolculuğu kurgudur · Hikâye gerçektir",
+     "top": 1250,
+     "size": 24,
+     "color": "white",
+     "at": 1.8
+    }
+   ]
+  }
+ },
+ "sfx": [
+  [
+   "hook",
+   0,
+   "heartbeat",
+   -22
+  ],
+  [
+   "hook",
+   0.2,
+   "boom",
+   -20
+  ],
+  [
+   "who",
+   -0.3,
+   "whoosh",
+   -27
+  ],
+  [
+   "trip",
+   0.2,
+   "jet",
+   -28
+  ],
+  [
+   "death",
+   0.2,
+   "flatline",
+   -26
+  ],
+  [
+   "keys",
+   0.2,
+   "typing",
+   -28
+  ],
+  [
+   "keys",
+   5.0,
+   "stamp",
+   -20
+  ],
+  [
+   "locked",
+   0.2,
+   "lock",
+   -20
+  ],
+  [
+   "open",
+   0.2,
+   "vaultdoor",
+   -20
+  ],
+  [
+   "report",
+   0.4,
+   "typing",
+   -27
+  ],
+  [
+   "grave",
+   0.1,
+   "wind",
+   -24
+  ],
+  [
+   "nofact",
+   1.2,
+   "stamp",
+   -20
+  ],
+  [
+   "me",
+   0.2,
+   "paper",
+   -26
+  ],
+  [
+   "next",
+   0.2,
+   "riser",
+   -24
+  ],
+  [
+   "end",
+   0.2,
+   "boom",
+   -18
+  ]
+ ]
+}

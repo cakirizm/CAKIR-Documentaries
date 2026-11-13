@@ -1,0 +1,548 @@
+{
+ "ep": 6,
+ "title": "Yazım Hatası",
+ "music": [
+  [
+   "Hiding_Your_Reality.mp3",
+   "hook"
+  ],
+  [
+   "Dark_Times.mp3",
+   "fed"
+  ]
+ ],
+ "lines": [
+  [
+   "hook",
+   "N",
+   "[whispers] Neredeyse bir milyar dolarlık bir soygun... [pause] tek bir yazım hatası yüzünden durdu.",
+   "Neredeyse bir milyar dolarlık soygun… tek bir yazım hatası yüzünden durdu.",
+   0.6
+  ],
+  [
+   "setup",
+   "N",
+   "Şubat iki bin on altı. Bangladeş Merkez Bankası. Bankanın dolar rezervleri New York'taki Federal Rezerv'de duruyor.",
+   "Şubat 2016. Bangladeş Merkez Bankası. Bankanın dolar rezervleri New York'taki Federal Rezerv'de duruyor.",
+   0.3
+  ],
+  [
+   "hack",
+   "N",
+   "Bilgisayar korsanları bankanın sistemine sızıyor. Uluslararası para transfer ağı üzerinden talimatlar gönderiyorlar.",
+   "Bilgisayar korsanları bankanın sistemine sızıyor. Uluslararası para transfer ağı üzerinden talimatlar gönderiyorlar.",
+   0.3
+  ],
+  [
+   "num",
+   "N",
+   "Otuz beş ödeme talimatı. Toplamı yaklaşık dokuz yüz elli bir milyon dolar.",
+   "35 ödeme talimatı. Toplamı yaklaşık 951 milyon dolar.",
+   0.4
+  ],
+  [
+   "printer",
+   "N",
+   "O sabah bankanın, transferleri kâğıda döken yazıcısı çalışmıyordu. Kimse bir şey fark etmedi.",
+   "O sabah bankanın, transferleri kâğıda döken yazıcısı çalışmıyordu. Kimse bir şey fark etmedi.",
+   0.4
+  ],
+  [
+   "fed",
+   "N",
+   "New York'ta talimatların çoğu durduruluyor. Ama dördü geçiyor. Seksen bir milyon dolar, Filipinler'e.",
+   "New York'ta talimatların çoğu durduruluyor. Ama dördü geçiyor. 81 milyon dolar, Filipinler'e.",
+   0.4
+  ],
+  [
+   "typo",
+   "N",
+   "Bir transfer de Sri Lanka'ya gidiyordu. Yirmi milyon dolar. Alıcının adı şöyle yazılmıştı:",
+   "Bir transfer de Sri Lanka'ya gidiyordu. 20 milyon dolar. Alıcının adı şöyle yazılmıştı:",
+   0.3
+  ],
+  [
+   "typo2",
+   "N",
+   "Foundation değil... [pause] Fandation. O harfi yerine, A harfi. Bu hata bankanın dikkatini çekti. Transfer durduruldu.",
+   "“Foundation” değil… “Fandation”. O yerine A. Bu hata bankanın dikkatini çekti. Transfer durduruldu.",
+   0.4
+  ],
+  [
+   "casino",
+   "N",
+   "Filipinler'e giden paranın büyük kısmı kumarhanelerden geçirildi. Ve izi kayboldu.",
+   "Filipinler'e giden paranın büyük kısmı kumarhanelerden geçirildi. Ve izi kayboldu.",
+   0.4
+  ],
+  [
+   "who",
+   "N",
+   "İki bin on sekizde ABD, saldırıyla Kuzey Kore bağlantılı bir hacker grubunu suçladı.",
+   "2018'de ABD, saldırıyla Kuzey Kore bağlantılı bir hacker grubunu suçladı.",
+   0.4
+  ],
+  [
+   "me",
+   "N",
+   "Ben mi? Manila'da bir kumarhane masasında el değiştirdim. Yeni sahibim, sahneye çıkmaya hazırlanan bir kadındı.",
+   "Ben mi? Manila'da bir kumarhane masasında el değiştirdim. Yeni sahibim, sahneye çıkmaya hazırlanan bir kadındı.",
+   0.5
+  ],
+  [
+   "next",
+   "N",
+   "[whispers] Binlerce insan onu alkışlayacaktı. [pause] Sonra... ortadan kaybolacaktı.",
+   "Binlerce insan onu alkışlayacaktı. Sonra… ortadan kaybolacaktı.",
+   0.6
+  ],
+  [
+   "end",
+   "N",
+   "Tek Bir Banknot. Bölüm yedi: Kripto Kraliçesi.",
+   "",
+   1.8
+  ]
+ ],
+ "scenes": {
+  "hook": {
+   "bg": {
+    "type": "drawn",
+    "name": "hacker",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT · BÖLÜM 6",
+     "top": 300,
+     "at": 0.4
+    },
+    {
+     "k": "kicker",
+     "text": "YAZIM\nHATASI",
+     "top": 350,
+     "size": 120,
+     "color": "gold",
+     "at": 1.2
+    }
+   ]
+  },
+  "setup": {
+   "bg": {
+    "type": "photo",
+    "src": "bb_entrance.jpg",
+    "grade": "doc",
+    "zoom": [
+     1.08,
+     1.22
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "BANGLADEŞ MERKEZ BANKASI",
+     "top": 300,
+     "color": "white"
+    },
+    {
+     "k": "photo",
+     "src": "nyfed.jpg",
+     "w": 560,
+     "h": 380,
+     "top": 900,
+     "at": 4.0,
+     "caption": "Federal Rezerv · New York"
+    }
+   ]
+  },
+  "hack": {
+   "bg": {
+    "type": "drawn",
+    "name": "hacker",
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   },
+   "layers": [
+    {
+     "k": "date",
+     "d": "4",
+     "m": "ŞUBAT",
+     "y": "2016",
+     "top": 330
+    }
+   ]
+  },
+  "num": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 35,
+     "prefix": "",
+     "label": "ÖDEME TALİMATI",
+     "top": 520,
+     "size": 170,
+     "at": 0.3,
+     "dur": 1.4,
+     "color": "white"
+    },
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 951000000,
+     "top": 860,
+     "size": 100,
+     "at": 2.2,
+     "dur": 2.0
+    }
+   ]
+  },
+  "printer": {
+   "bg": {
+    "type": "drawn",
+    "name": "printer",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": []
+  },
+  "fed": {
+   "bg": {
+    "type": "photo",
+    "src": "nyfed.jpg",
+    "grade": "night",
+    "zoom": [
+     1.1,
+     1.3
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     30,
+     -30
+    ]
+   },
+   "layers": [
+    {
+     "k": "stamp",
+     "text": "DURDURULDU",
+     "top": 600,
+     "at": 1.4,
+     "size": 80
+    },
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 81000000,
+     "top": 980,
+     "size": 104,
+     "at": 3.4,
+     "label": "→ FİLİPİNLER",
+     "color": "red"
+    }
+   ]
+  },
+  "typo": {
+   "bg": {
+    "type": "drawn",
+    "name": "hacker",
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "→ SRİ LANKA · 20.000.000 $",
+     "top": 330,
+     "color": "white"
+    },
+    {
+     "k": "doc",
+     "mono": true,
+     "size": 40,
+     "top": 640,
+     "at": 2.6,
+     "type": 1.4,
+     "lines": [
+      "BENEFICIARY:",
+      "SHALIKA FANDATION"
+     ],
+     "hl": "FANDATION",
+     "hlAt": 4.0
+    }
+   ]
+  },
+  "typo2": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "FOUNDATION",
+     "top": 560,
+     "size": 96,
+     "color": "#3ddc84",
+     "at": 0.1
+    },
+    {
+     "k": "kicker",
+     "text": "FANDATION",
+     "top": 700,
+     "size": 96,
+     "color": "red",
+     "at": 1.4
+    },
+    {
+     "k": "stamp",
+     "text": "TRANSFER DURDU",
+     "top": 980,
+     "at": 3.6,
+     "size": 74,
+     "color": "gold"
+    }
+   ]
+  },
+  "casino": {
+   "bg": {
+    "type": "drawn",
+    "name": "casinoTable",
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "MANİLA · KUMARHANELER",
+     "top": 300,
+     "color": "white"
+    },
+    {
+     "k": "stamp",
+     "text": "İZ KAYBOLDU",
+     "top": 900,
+     "at": 3.2,
+     "size": 76
+    }
+   ]
+  },
+  "who": {
+   "bg": {
+    "type": "drawn",
+    "name": "hacker",
+    "zoom": [
+     1.3,
+     1.4
+    ]
+   },
+   "layers": [
+    {
+     "k": "headline",
+     "paper": "ABD ADALET BAKANLIĞI · 2018",
+     "text": "Kuzey Kore bağlantılı hacker grubu suçlandı",
+     "top": 560,
+     "size": 54,
+     "at": 0.8
+    }
+   ]
+  },
+  "me": {
+   "bg": {
+    "type": "drawn",
+    "name": "casinoTable",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "note",
+     "motion": "slide",
+     "y": -380,
+     "w": 440,
+     "at": 0.4
+    }
+   ]
+  },
+  "next": {
+   "bg": {
+    "type": "drawn",
+    "name": "stage",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": []
+  },
+  "end": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "w": 560,
+     "y": -300
+    },
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT",
+     "top": 920,
+     "at": 0.2
+    },
+    {
+     "k": "kicker",
+     "text": "BÖLÜM 7\nKRİPTO\nKRALİÇESİ",
+     "top": 980,
+     "size": 84,
+     "at": 1.0
+    },
+    {
+     "k": "small",
+     "text": "Banknotun yolculuğu kurgudur · Hikâye gerçektir",
+     "top": 1250,
+     "size": 24,
+     "color": "white",
+     "at": 1.8
+    }
+   ]
+  }
+ },
+ "sfx": [
+  [
+   "hook",
+   0,
+   "glitch",
+   -21
+  ],
+  [
+   "hook",
+   0.2,
+   "boom",
+   -20
+  ],
+  [
+   "setup",
+   -0.3,
+   "whoosh",
+   -27
+  ],
+  [
+   "hack",
+   0.1,
+   "typing",
+   -25
+  ],
+  [
+   "num",
+   0.3,
+   "ticks",
+   -26
+  ],
+  [
+   "num",
+   2.2,
+   "coins",
+   -28
+  ],
+  [
+   "printer",
+   0.2,
+   "beep",
+   -24
+  ],
+  [
+   "fed",
+   1.4,
+   "stamp",
+   -20
+  ],
+  [
+   "fed",
+   3.4,
+   "whoosh",
+   -26
+  ],
+  [
+   "typo",
+   2.6,
+   "typing",
+   -25
+  ],
+  [
+   "typo2",
+   1.4,
+   "glitch",
+   -22
+  ],
+  [
+   "typo2",
+   3.6,
+   "stamp",
+   -19
+  ],
+  [
+   "casino",
+   0.1,
+   "casino",
+   -30
+  ],
+  [
+   "casino",
+   3.2,
+   "stamp",
+   -21
+  ],
+  [
+   "who",
+   0.8,
+   "paper",
+   -24
+  ],
+  [
+   "me",
+   0.4,
+   "coins",
+   -28
+  ],
+  [
+   "next",
+   0.1,
+   "crowd",
+   -26
+  ],
+  [
+   "end",
+   0.2,
+   "boom",
+   -18
+  ]
+ ]
+}

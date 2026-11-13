@@ -1,0 +1,175 @@
+{
+ "durationSec": 83.846,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 5.968
+  },
+  {
+   "id": "who",
+   "start": 5.968,
+   "end": 10.429
+  },
+  {
+   "id": "mine",
+   "start": 10.429,
+   "end": 17.484
+  },
+  {
+   "id": "drive",
+   "start": 17.484,
+   "end": 22.601
+  },
+  {
+   "id": "toss",
+   "start": 22.601,
+   "end": 29.507
+  },
+  {
+   "id": "landfill",
+   "start": 29.507,
+   "end": 34.636
+  },
+  {
+   "id": "realize",
+   "start": 34.636,
+   "end": 42.456
+  },
+  {
+   "id": "offer",
+   "start": 42.456,
+   "end": 49.423
+  },
+  {
+   "id": "no",
+   "start": 49.423,
+   "end": 52.717
+  },
+  {
+   "id": "court",
+   "start": 52.717,
+   "end": 60.432
+  },
+  {
+   "id": "still",
+   "start": 60.432,
+   "end": 64.268
+  },
+  {
+   "id": "me",
+   "start": 64.268,
+   "end": 71.642
+  },
+  {
+   "id": "next",
+   "start": 71.642,
+   "end": 77.79
+  },
+  {
+   "id": "end",
+   "start": 77.79,
+   "end": 83.846
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "role": "N",
+   "start": 0.6,
+   "end": 5.618,
+   "sub": "Bir adam, yüz milyonlarca dolarlık serveti… çöpe attı."
+  },
+  {
+   "scene": "who",
+   "role": "N",
+   "start": 6.218,
+   "end": 10.379,
+   "sub": "James Howells. Galler, Newport. Bir bilişim mühendisi."
+  },
+  {
+   "scene": "mine",
+   "role": "N",
+   "start": 10.679,
+   "end": 17.434,
+   "sub": "2009. Bitcoin henüz neredeyse değersizken, kendi bilgisayarında 8.000 bitcoin üretiyor."
+  },
+  {
+   "scene": "drive",
+   "role": "N",
+   "start": 17.734,
+   "end": 22.451,
+   "sub": "Sonra eski sabit diski bir çekmeceye kaldırıyor. Ve unutuyor."
+  },
+  {
+   "scene": "toss",
+   "role": "N",
+   "start": 22.851,
+   "end": 29.357,
+   "sub": "2013. Evde temizlik. Siyah bir çöp poşeti. Ve disk… poşetin içinde."
+  },
+  {
+   "scene": "landfill",
+   "role": "N",
+   "start": 29.757,
+   "end": 34.486,
+   "sub": "Poşet şehrin çöplüğüne gidiyor. Tonlarca atığın altına gömülüyor."
+  },
+  {
+   "scene": "realize",
+   "role": "N",
+   "start": 34.886,
+   "end": 42.306,
+   "sub": "Bitcoin yükseldikçe ne kaybettiğini anlıyor. 8.000 bitcoin. Bugün yüz milyonlarca dolar."
+  },
+  {
+   "scene": "offer",
+   "role": "N",
+   "start": 42.706,
+   "end": 49.373,
+   "sub": "Belediyeye defalarca teklif götürüyor: Kazıyı ben finanse edeyim, bulursam bir payını şehre vereyim."
+  },
+  {
+   "scene": "no",
+   "role": "N",
+   "start": 49.673,
+   "end": 52.567,
+   "sub": "Belediyenin cevabı hep aynı: Hayır."
+  },
+  {
+   "scene": "court",
+   "role": "N",
+   "start": 52.967,
+   "end": 60.282,
+   "sub": "Dava mahkemeye gidiyor. Ocak 2025'te mahkeme davayı reddediyor. Mart'ta temyiz izni de reddediliyor."
+  },
+  {
+   "scene": "still",
+   "role": "N",
+   "start": 60.682,
+   "end": 64.018,
+   "sub": "Disk hâlâ orada. Bir yerde, çöplerin altında."
+  },
+  {
+   "scene": "me",
+   "role": "N",
+   "start": 64.518,
+   "end": 71.392,
+   "sub": "Ben mi? O gün o evdeki bir cüzdandaydım. Sonra bir havalimanından Asya'ya uçtum."
+  },
+  {
+   "scene": "next",
+   "role": "N",
+   "start": 71.892,
+   "end": 77.44,
+   "sub": "Gittiğim yerde birileri bir merkez bankasını soymak üzereydi. Hem de bilgisayarla."
+  },
+  {
+   "scene": "end",
+   "role": "N",
+   "start": 78.04,
+   "end": 81.646,
+   "sub": ""
+  }
+ ]
+}

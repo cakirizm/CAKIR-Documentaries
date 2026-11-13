@@ -1,0 +1,584 @@
+{
+ "ep": 4,
+ "title": "Hayalet",
+ "music": [
+  [
+   "Lightless_Dawn.mp3",
+   "hook"
+  ],
+  [
+   "Hiding_Your_Reality.mp3",
+   "genesis"
+  ],
+  [
+   "Dark_Times.mp3",
+   "gone"
+  ]
+ ],
+ "lines": [
+  [
+   "hook",
+   "N",
+   "[whispers] Dünyanın en zengin insanlarından biri olabilir. [pause] Ama kimse yüzünü görmedi.",
+   "Dünyanın en zengin insanlarından biri olabilir. Ama kimse yüzünü görmedi.",
+   0.6
+  ],
+  [
+   "name",
+   "N",
+   "Satoshi Nakamoto. Bitcoin'in yaratıcısı. Gerçek bir isim mi, takma ad mı? Bir kişi mi, bir grup mu? Bilinmiyor.",
+   "Satoshi Nakamoto. Bitcoin'in yaratıcısı. Gerçek isim mi, takma ad mı? Bir kişi mi, bir grup mu? Bilinmiyor.",
+   0.35
+  ],
+  [
+   "genesis",
+   "N",
+   "Üç Ocak iki bin dokuz. Bitcoin'in ilk bloğu oluşturuluyor. İçine bir gazete manşeti gizlenmiş:",
+   "3 Ocak 2009. Bitcoin'in ilk bloğu oluşturuluyor. İçine bir gazete manşeti gizlenmiş:",
+   0.3
+  ],
+  [
+   "headline",
+   "N",
+   "Maliye Bakanı, bankalar için ikinci kurtarma paketinin eşiğinde.",
+   "“Maliye Bakanı, bankalar için ikinci kurtarma paketinin eşiğinde.”",
+   0.4
+  ],
+  [
+   "meaning",
+   "N",
+   "Bir imza gibi. Bir mesaj gibi.",
+   "Bir imza gibi. Bir mesaj gibi.",
+   0.35
+  ],
+  [
+   "coins",
+   "N",
+   "Tahminlere göre ilk yıllarda yaklaşık bir milyon bitcoin kazandı. Bilindiği kadarıyla... hiçbirini harcamadı.",
+   "Tahminlere göre ilk yıllarda yaklaşık 1 milyon bitcoin kazandı. Bilindiği kadarıyla… hiçbirini harcamadı.",
+   0.4
+  ],
+  [
+   "leave",
+   "N",
+   "Nisan iki bin on bir. Bir geliştiriciye son mesajlarından birini yazıyor:",
+   "Nisan 2011. Bir geliştiriciye son mesajlarından birini yazıyor:",
+   0.3
+  ],
+  [
+   "leave",
+   "Q",
+   "[whispers] Başka işlere geçtim. Proje emin ellerde.",
+   "“Başka işlere geçtim. Proje emin ellerde.”",
+   0.5
+  ],
+  [
+   "gone",
+   "N",
+   "Ve sonra... sessizlik. Bir daha ortaya çıkmadı.",
+   "Ve sonra… sessizlik. Bir daha ortaya çıkmadı.",
+   0.4
+  ],
+  [
+   "claims",
+   "N",
+   "Yıllar içinde birçok kişi 'Satoshi benim' dedi. Biri mahkemeye bile gitti.",
+   "Yıllar içinde birçok kişi “Satoshi benim” dedi. Biri mahkemeye bile gitti.",
+   0.3
+  ],
+  [
+   "ruling",
+   "N",
+   "İki bin yirmi dörtte Londra'da bir yargıç kararını verdi: Bu adam, Satoshi değil.",
+   "2024'te Londra'da bir yargıç kararını verdi: Bu adam Satoshi değil.",
+   0.4
+  ],
+  [
+   "statue",
+   "N",
+   "Bugün Budapeşte'de onun bir heykeli var. Yüzü... bir ayna.",
+   "Bugün Budapeşte'de onun bir heykeli var. Yüzü… bir ayna.",
+   0.4
+  ],
+  [
+   "me",
+   "N",
+   "Ben mi? Okyanusu geçtim. Galler'de bir adamın cüzdanına girdim. O adamın da bir sırrı vardı: eski bir sabit disk.",
+   "Ben mi? Okyanusu geçtim. Galler'de bir adamın cüzdanına girdim. O adamın da bir sırrı vardı: eski bir sabit disk.",
+   0.5
+  ],
+  [
+   "next",
+   "N",
+   "[whispers] Ve o disk... [pause] çöpe gitmek üzereydi.",
+   "Ve o disk… çöpe gitmek üzereydi.",
+   0.6
+  ],
+  [
+   "end",
+   "N",
+   "Tek Bir Banknot. Bölüm beş: Çöplükteki servet.",
+   "",
+   1.8
+  ]
+ ],
+ "scenes": {
+  "hook": {
+   "bg": {
+    "type": "drawn",
+    "name": "ghost",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT · BÖLÜM 4",
+     "top": 300,
+     "at": 0.4
+    },
+    {
+     "k": "kicker",
+     "text": "HAYALET",
+     "top": 350,
+     "size": 130,
+     "color": "gold",
+     "at": 1.2
+    }
+   ]
+  },
+  "name": {
+   "bg": {
+    "type": "drawn",
+    "name": "ghost",
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "SATOSHI\nNAKAMOTO",
+     "top": 330,
+     "size": 100
+    },
+    {
+     "k": "chips",
+     "items": [
+      "GERÇEK İSİM?",
+      "TAKMA AD?",
+      "BİR GRUP?"
+     ],
+     "top": 1060,
+     "step": 0.7,
+     "at": 2.6,
+     "size": 40
+    }
+   ]
+  },
+  "genesis": {
+   "bg": {
+    "type": "drawn",
+    "name": "desk",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "date",
+     "d": "3",
+     "m": "OCAK",
+     "y": "2009",
+     "top": 360
+    },
+    {
+     "k": "small",
+     "text": "İLK BLOK · “GENESIS”",
+     "top": 830,
+     "color": "white",
+     "at": 1.6
+    }
+   ]
+  },
+  "headline": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "headline",
+     "paper": "THE TIMES · 3 OCAK 2009",
+     "text": "Chancellor on brink of second bailout for banks",
+     "sub": "Maliye Bakanı, bankalar için ikinci kurtarma paketinin eşiğinde",
+     "top": 600
+    }
+   ]
+  },
+  "meaning": {
+   "bg": {
+    "type": "drawn",
+    "name": "ghost",
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   },
+   "layers": [
+    {
+     "k": "stamp",
+     "text": "MESAJ",
+     "top": 760,
+     "color": "gold",
+     "at": 1.0
+    }
+   ]
+  },
+  "coins": {
+   "bg": {
+    "type": "photo",
+    "src": "btc_coin.png",
+    "grade": "doc",
+    "zoom": [
+     1.0,
+     1.25
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ],
+    "fit": "contain",
+    "blurFill": true
+   },
+   "layers": [
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 1000000,
+     "prefix": "~",
+     "suffix": " BTC",
+     "top": 1060,
+     "size": 96,
+     "at": 1.4
+    },
+    {
+     "k": "stamp",
+     "text": "HİÇ HARCANMADI",
+     "top": 1240,
+     "at": 4.2,
+     "size": 64,
+     "color": "red"
+    }
+   ]
+  },
+  "leave": {
+   "bg": {
+    "type": "drawn",
+    "name": "desk",
+    "zoom": [
+     1.15,
+     1.22
+    ]
+   },
+   "layers": [
+    {
+     "k": "doc",
+     "dark": true,
+     "mono": true,
+     "size": 36,
+     "top": 560,
+     "at": 2.6,
+     "type": 2.2,
+     "lines": [
+      "From: Satoshi",
+      "Nisan 2011",
+      "",
+      "I've moved on to other things.",
+      "It's in good hands..."
+     ]
+    }
+   ]
+  },
+  "gone": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "SESSİZLİK",
+     "top": 820,
+     "size": 90,
+     "color": "#777",
+     "at": 1.0
+    }
+   ]
+  },
+  "claims": {
+   "bg": {
+    "type": "drawn",
+    "name": "court",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "chips",
+     "items": [
+      "“SATOSHİ BENİM”",
+      "“HAYIR, BENİM”",
+      "“ASIL BENİM”"
+     ],
+     "top": 360,
+     "step": 0.6,
+     "size": 42
+    }
+   ]
+  },
+  "ruling": {
+   "bg": {
+    "type": "drawn",
+    "name": "court",
+    "zoom": [
+     1.12,
+     1.2
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "İNGİLTERE YÜKSEK MAHKEMESİ · 2024",
+     "top": 300,
+     "color": "white"
+    },
+    {
+     "k": "stamp",
+     "text": "SATOSHİ DEĞİL",
+     "top": 600,
+     "at": 3.4
+    }
+   ]
+  },
+  "statue": {
+   "bg": {
+    "type": "photo",
+    "src": "satoshi_bust.jpg",
+    "grade": "doc",
+    "zoom": [
+     1.1,
+     1.3
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ],
+    "pos": "50% 35%"
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "BUDAPEŞTE",
+     "top": 300,
+     "color": "white"
+    }
+   ]
+  },
+  "me": {
+   "bg": {
+    "type": "photo",
+    "src": "newport.jpg",
+    "grade": "cold",
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "x": [
+     20,
+     -20
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "NEWPORT · GALLER",
+     "top": 300,
+     "color": "white",
+     "at": 2.0
+    },
+    {
+     "k": "note",
+     "motion": "slide",
+     "at": 0,
+     "y": 200,
+     "w": 420
+    }
+   ]
+  },
+  "next": {
+   "bg": {
+    "type": "drawn",
+    "name": "drawer",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": []
+  },
+  "end": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "w": 560,
+     "y": -300
+    },
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT",
+     "top": 920,
+     "at": 0.2
+    },
+    {
+     "k": "kicker",
+     "text": "BÖLÜM 5\nÇÖPLÜKTEKİ\nSERVET",
+     "top": 980,
+     "size": 84,
+     "at": 1.0
+    },
+    {
+     "k": "small",
+     "text": "Banknotun yolculuğu kurgudur · Hikâye gerçektir",
+     "top": 1250,
+     "size": 24,
+     "color": "white",
+     "at": 1.8
+    }
+   ]
+  }
+ },
+ "sfx": [
+  [
+   "hook",
+   0,
+   "glitch",
+   -22
+  ],
+  [
+   "hook",
+   0.2,
+   "boom",
+   -20
+  ],
+  [
+   "name",
+   2.6,
+   "whoosh",
+   -28
+  ],
+  [
+   "genesis",
+   0.2,
+   "typing",
+   -27
+  ],
+  [
+   "headline",
+   0.1,
+   "paper",
+   -22
+  ],
+  [
+   "meaning",
+   1.0,
+   "stamp",
+   -21
+  ],
+  [
+   "coins",
+   1.4,
+   "coins",
+   -27
+  ],
+  [
+   "coins",
+   4.2,
+   "stamp",
+   -21
+  ],
+  [
+   "leave",
+   2.6,
+   "typing",
+   -25
+  ],
+  [
+   "gone",
+   0.0,
+   "boom",
+   -19
+  ],
+  [
+   "claims",
+   0.2,
+   "whoosh",
+   -27
+  ],
+  [
+   "ruling",
+   0.2,
+   "gavel",
+   -18
+  ],
+  [
+   "ruling",
+   3.4,
+   "stamp",
+   -20
+  ],
+  [
+   "statue",
+   -0.3,
+   "whoosh",
+   -27
+  ],
+  [
+   "me",
+   0.2,
+   "paper",
+   -26
+  ],
+  [
+   "next",
+   0.2,
+   "riser",
+   -24
+  ],
+  [
+   "end",
+   0.2,
+   "boom",
+   -18
+  ]
+ ]
+}

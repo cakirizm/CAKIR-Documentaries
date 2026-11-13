@@ -1,0 +1,498 @@
+{
+ "ep": 7,
+ "title": "Kripto Kraliçesi",
+ "music": [
+  [
+   "Rising.mp3",
+   "hook"
+  ],
+  [
+   "Hiding_Your_Reality.mp3",
+   "truth"
+  ],
+  [
+   "Dark_Times.mp3",
+   "flight"
+  ]
+ ],
+ "lines": [
+  [
+   "hook",
+   "N",
+   "[whispers] FBI'ın en çok arananlar listesinde bir kadın var. [pause] Son izi: bir uçak.",
+   "FBI'ın en çok arananlar listesinde bir kadın var. Son izi: bir uçak.",
+   0.6
+  ],
+  [
+   "stage",
+   "N",
+   "Haziran iki bin on altı. Londra, Wembley Arena. Binlerce kişi bir kadını alkışlıyor: Ruja Ignatova.",
+   "Haziran 2016. Londra, Wembley Arena. Binlerce kişi bir kadını alkışlıyor: Ruja Ignatova.",
+   0.3
+  ],
+  [
+   "pitch",
+   "N",
+   "Yeni bir kripto para tanıtıyor: OneCoin. Ona 'Bitcoin'in katili' diyor.",
+   "Yeni bir kripto para tanıtıyor: OneCoin. Ona “Bitcoin'in katili” diyor.",
+   0.3
+  ],
+  [
+   "sell",
+   "N",
+   "Dünyanın dört bir yanında insanlar yatırım yapıyor. Eğitim paketleri, sahneler, büyük vaatler.",
+   "Dünyanın dört bir yanında insanlar yatırım yapıyor. Eğitim paketleri, sahneler, büyük vaatler.",
+   0.4
+  ],
+  [
+   "truth",
+   "N",
+   "[serious] Ama savcılara göre bir sorun vardı: OneCoin'in gerçek bir blok zinciri yoktu. Ekrandaki rakamlar uydurmaydı.",
+   "Ama savcılara göre bir sorun vardı: OneCoin'in gerçek bir blok zinciri yoktu. Ekrandaki rakamlar uydurmaydı.",
+   0.4
+  ],
+  [
+   "amount",
+   "N",
+   "Toplanan para... dört milyar dolardan fazla.",
+   "Toplanan para… 4 milyar dolardan fazla.",
+   0.4
+  ],
+  [
+   "flight",
+   "N",
+   "Yirmi beş Ekim iki bin on yedi. Sofya'dan Atina'ya bir uçağa biniyor.",
+   "25 Ekim 2017. Sofya'dan Atina'ya bir uçağa biniyor.",
+   0.3
+  ],
+  [
+   "gone",
+   "N",
+   "[whispers] Ve sonra... ortadan kayboluyor.",
+   "Ve sonra… ortadan kayboluyor.",
+   0.5
+  ],
+  [
+   "fbi",
+   "N",
+   "İki bin yirmi ikide FBI onu en çok aranan on kaçak listesine ekliyor. Ödül: yüz bin dolar.",
+   "2022'de FBI onu en çok aranan on kaçak listesine ekliyor. Ödül: 100.000 dolar.",
+   0.4
+  ],
+  [
+   "rumor",
+   "N",
+   "Öldüğüne dair iddialar var. Saklandığına dair iddialar var. Kanıt... yok.",
+   "Öldüğüne dair iddialar var. Saklandığına dair iddialar var. Kanıt… yok.",
+   0.5
+  ],
+  [
+   "me",
+   "N",
+   "Ben mi? Atina'da bir taksicinin bahşişi oldum. Sonra bir yolcunun cüzdanında Kanada'ya uçtum.",
+   "Ben mi? Atina'da bir taksicinin bahşişi oldum. Sonra bir yolcunun cüzdanında Kanada'ya uçtum.",
+   0.5
+  ],
+  [
+   "next",
+   "N",
+   "[whispers] Orada genç bir milyoner vardı. Bütün şifreleri... [pause] sadece o biliyordu.",
+   "Orada genç bir milyoner vardı. Bütün şifreleri… sadece o biliyordu.",
+   0.6
+  ],
+  [
+   "end",
+   "N",
+   "Tek Bir Banknot. Bölüm sekiz: Şifre.",
+   "",
+   1.8
+  ]
+ ],
+ "scenes": {
+  "hook": {
+   "bg": {
+    "type": "drawn",
+    "name": "plane",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT · BÖLÜM 7",
+     "top": 300,
+     "at": 0.4
+    },
+    {
+     "k": "kicker",
+     "text": "KRİPTO\nKRALİÇESİ",
+     "top": 350,
+     "size": 110,
+     "color": "gold",
+     "at": 1.2
+    }
+   ]
+  },
+  "stage": {
+   "bg": {
+    "type": "drawn",
+    "name": "stage",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "WEMBLEY ARENA · HAZİRAN 2016",
+     "top": 300,
+     "color": "white"
+    },
+    {
+     "k": "kicker",
+     "text": "RUJA IGNATOVA",
+     "top": 360,
+     "size": 80,
+     "at": 3.6
+    }
+   ]
+  },
+  "pitch": {
+   "bg": {
+    "type": "drawn",
+    "name": "stage",
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "ONECOIN",
+     "top": 330,
+     "size": 120,
+     "color": "gold",
+     "at": 0.8
+    },
+    {
+     "k": "quote",
+     "text": "Bitcoin'in katili",
+     "top": 1080,
+     "size": 64,
+     "at": 2.6,
+     "type": 0.9
+    }
+   ]
+  },
+  "sell": {
+   "bg": {
+    "type": "drawn",
+    "name": "stage",
+    "zoom": [
+     1.25,
+     1.35
+    ]
+   },
+   "layers": [
+    {
+     "k": "chips",
+     "items": [
+      "EĞİTİM PAKETLERİ",
+      "SAHNELER",
+      "BÜYÜK VAATLER"
+     ],
+     "top": 380,
+     "step": 0.8
+    }
+   ]
+  },
+  "truth": {
+   "bg": {
+    "type": "drawn",
+    "name": "crash",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "stamp",
+     "text": "BLOK ZİNCİRİ YOK",
+     "top": 330,
+     "at": 3.6,
+     "size": 66
+    }
+   ]
+  },
+  "amount": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 4000000000,
+     "suffix": "+",
+     "top": 760,
+     "size": 100,
+     "at": 1.0,
+     "dur": 2.0
+    }
+   ]
+  },
+  "flight": {
+   "bg": {
+    "type": "drawn",
+    "name": "plane",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "date",
+     "d": "25",
+     "m": "EKİM",
+     "y": "2017",
+     "top": 330
+    },
+    {
+     "k": "small",
+     "text": "SOFYA → ATİNA",
+     "top": 800,
+     "color": "white",
+     "at": 1.4
+    }
+   ]
+  },
+  "gone": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "KAYIP",
+     "top": 820,
+     "size": 130,
+     "color": "#777",
+     "at": 1.0
+    }
+   ]
+  },
+  "fbi": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "wanted",
+     "src": "ruja_fbi.jpg",
+     "name": "RUJA IGNATOVA",
+     "sub": "ÖDÜL: 100.000 $",
+     "title": "FBI · ARANIYOR",
+     "top": 330,
+     "h": 620,
+     "pos": "50% 20%"
+    }
+   ]
+  },
+  "rumor": {
+   "bg": {
+    "type": "drawn",
+    "name": "plane",
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   },
+   "layers": [
+    {
+     "k": "chips",
+     "items": [
+      "ÖLDÜ MÜ?",
+      "SAKLANIYOR MU?",
+      "KANIT YOK"
+     ],
+     "top": 420,
+     "step": 1.1,
+     "color": "red"
+    }
+   ]
+  },
+  "me": {
+   "bg": {
+    "type": "drawn",
+    "name": "plane",
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "ATİNA → KANADA",
+     "top": 300,
+     "color": "white"
+    },
+    {
+     "k": "note",
+     "motion": "slide",
+     "y": 260,
+     "w": 420,
+     "at": 2.5
+    }
+   ]
+  },
+  "next": {
+   "bg": {
+    "type": "drawn",
+    "name": "laptop",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": []
+  },
+  "end": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "w": 560,
+     "y": -300
+    },
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT",
+     "top": 920,
+     "at": 0.2
+    },
+    {
+     "k": "kicker",
+     "text": "BÖLÜM 8\nŞİFRE",
+     "top": 980,
+     "size": 84,
+     "at": 1.0
+    },
+    {
+     "k": "small",
+     "text": "Banknotun yolculuğu kurgudur · Hikâye gerçektir",
+     "top": 1250,
+     "size": 24,
+     "color": "white",
+     "at": 1.8
+    }
+   ]
+  }
+ },
+ "sfx": [
+  [
+   "hook",
+   0,
+   "jet",
+   -24
+  ],
+  [
+   "hook",
+   0.3,
+   "boom",
+   -20
+  ],
+  [
+   "stage",
+   0.1,
+   "crowd",
+   -24
+  ],
+  [
+   "pitch",
+   0.8,
+   "boom",
+   -22
+  ],
+  [
+   "sell",
+   0.2,
+   "crowd",
+   -30
+  ],
+  [
+   "truth",
+   0.1,
+   "heartbeat",
+   -24
+  ],
+  [
+   "truth",
+   3.6,
+   "stamp",
+   -19
+  ],
+  [
+   "amount",
+   1.0,
+   "coins",
+   -26
+  ],
+  [
+   "flight",
+   0.2,
+   "jet",
+   -24
+  ],
+  [
+   "gone",
+   0.0,
+   "boom",
+   -18
+  ],
+  [
+   "fbi",
+   0.2,
+   "paper",
+   -23
+  ],
+  [
+   "fbi",
+   0.5,
+   "stamp",
+   -22
+  ],
+  [
+   "rumor",
+   0.2,
+   "whoosh",
+   -27
+  ],
+  [
+   "me",
+   0.2,
+   "paper",
+   -26
+  ],
+  [
+   "next",
+   0.2,
+   "riser",
+   -24
+  ],
+  [
+   "end",
+   0.2,
+   "boom",
+   -18
+  ]
+ ]
+}

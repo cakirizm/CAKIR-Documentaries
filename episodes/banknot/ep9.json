@@ -1,0 +1,547 @@
+{
+ "ep": 9,
+ "title": "Bir Hafta",
+ "music": [
+  [
+   "Rising.mp3",
+   "hook"
+  ],
+  [
+   "Dark_Times.mp3",
+   "leak"
+  ],
+  [
+   "Lasting_Hope.mp3",
+   "finale"
+  ]
+ ],
+ "lines": [
+  [
+   "hook",
+   "N",
+   "[whispers] Otuz yaşında, milyarder. [pause] Bir hafta sonra... her şey bitti.",
+   "30 yaşında, milyarder. Bir hafta sonra… her şey bitti.",
+   0.6
+  ],
+  [
+   "who",
+   "N",
+   "Sam Bankman-Fried. Kripto borsası FTX'in kurucusu. Dağınık saçlar, şort, tişört.",
+   "Sam Bankman-Fried. Kripto borsası FTX'in kurucusu. Dağınık saçlar, şort, tişört.",
+   0.3
+  ],
+  [
+   "peak",
+   "N",
+   "Ocak iki bin yirmi ikide şirketinin değeri otuz iki milyar dolar.",
+   "Ocak 2022'de şirketinin değeri 32 milyar dolar.",
+   0.4
+  ],
+  [
+   "leak",
+   "N",
+   "İki Kasım iki bin yirmi iki. Bir haber sitesi, FTX'in kardeş şirketi Alameda'nın bilançosunu yayınlıyor.",
+   "2 Kasım 2022. Bir haber sitesi, FTX'in kardeş şirketi Alameda'nın bilançosunu yayınlıyor.",
+   0.3
+  ],
+  [
+   "run",
+   "N",
+   "Müşteriler paniğe kapılıyor. Birkaç gün içinde milyarlarca dolar çekilmek isteniyor.",
+   "Müşteriler paniğe kapılıyor. Birkaç gün içinde milyarlarca dolar çekilmek isteniyor.",
+   0.3
+  ],
+  [
+   "fall",
+   "N",
+   "On bir Kasım. FTX iflas başvurusu yapıyor.",
+   "11 Kasım. FTX iflas başvurusu yapıyor.",
+   0.4
+  ],
+  [
+   "truth",
+   "N",
+   "[serious] Ortaya çıkan gerçek: Müşterilerin parası gizlice Alameda'ya aktarılmıştı. Mahkemeye göre müşterilerin kaybı: sekiz milyar dolar.",
+   "Ortaya çıkan gerçek: Müşterilerin parası gizlice Alameda'ya aktarılmıştı. Mahkemeye göre müşterilerin kaybı: 8 milyar dolar.",
+   0.4
+  ],
+  [
+   "verdict",
+   "N",
+   "Kasım iki bin yirmi üç. Jüri onu yedi suçlamanın hepsinden suçlu buluyor.",
+   "Kasım 2023. Jüri onu yedi suçlamanın hepsinden suçlu buluyor.",
+   0.3
+  ],
+  [
+   "sentence",
+   "A",
+   "[serious] Sam Bankman-Fried, yirmi beş yıl hapis cezasına çarptırıldı.",
+   "“Sam Bankman-Fried, 25 yıl hapis cezasına çarptırıldı.”",
+   0.6
+  ],
+  [
+   "finale",
+   "N",
+   "Bir banknot olarak çok şey gördüm. Piyango. İflas. Pizza. Hayalet. Çöplük. Soygun. Kaçış. Şifre.",
+   "Bir banknot olarak çok şey gördüm. Piyango. İflas. Pizza. Hayalet. Çöplük. Soygun. Kaçış. Şifre.",
+   0.4
+  ],
+  [
+   "lesson",
+   "N",
+   "Hepsinde aynı ders vardı: Para kaybolmaz. [pause] Sadece el değiştirir.",
+   "Hepsinde aynı ders vardı: Para kaybolmaz. Sadece el değiştirir.",
+   0.6
+  ],
+  [
+   "cta",
+   "N",
+   "[whispers] Şimdi ben senin cebindeyim. [pause] Peki senden sonra... kimin elinde olacağım?",
+   "Şimdi ben senin cebindeyim. Peki senden sonra… kimin elinde olacağım?",
+   0.8
+  ],
+  [
+   "end",
+   "N",
+   "Tek Bir Banknot. Birinci sezonun sonu.",
+   "",
+   2.2
+  ]
+ ],
+ "scenes": {
+  "hook": {
+   "bg": {
+    "type": "drawn",
+    "name": "penthouse",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT · BÖLÜM 9",
+     "top": 300,
+     "at": 0.4
+    },
+    {
+     "k": "kicker",
+     "text": "BİR HAFTA",
+     "top": 350,
+     "size": 120,
+     "color": "gold",
+     "at": 1.2
+    }
+   ]
+  },
+  "who": {
+   "bg": {
+    "type": "photo",
+    "src": "sbf.png",
+    "grade": "doc",
+    "zoom": [
+     1.05,
+     1.18
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ],
+    "pos": "50% 30%"
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "SAM\nBANKMAN-FRIED",
+     "top": 300,
+     "size": 76
+    }
+   ]
+  },
+  "peak": {
+   "bg": {
+    "type": "photo",
+    "src": "nassau.jpg",
+    "grade": "warm",
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 32000000000,
+     "top": 720,
+     "size": 92,
+     "at": 1.4,
+     "label": "ŞİRKET DEĞERİ"
+    },
+    {
+     "k": "small",
+     "text": "NASSAU · BAHAMALAR",
+     "top": 300,
+     "color": "white"
+    }
+   ]
+  },
+  "leak": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "headline",
+     "paper": "COINDESK · 2 KASIM 2022",
+     "text": "Alameda'nın bilançosu sızdı: varlıkların büyük kısmı FTX'in kendi tokenı",
+     "top": 560,
+     "size": 48,
+     "at": 3.0
+    }
+   ]
+  },
+  "run": {
+   "bg": {
+    "type": "drawn",
+    "name": "crash",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 6000000000,
+     "prefix": "−$",
+     "top": 330,
+     "size": 84,
+     "at": 2.0,
+     "dur": 2.6,
+     "color": "red",
+     "label": "ÇEKİLMEK İSTENEN (TAHMİNİ)"
+    }
+   ]
+  },
+  "fall": {
+   "bg": {
+    "type": "photo",
+    "src": "ftx_arena.jpg",
+    "grade": "cold",
+    "zoom": [
+     1.08,
+     1.22
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "FTX ARENA · MİAMİ · 11 KASIM 2022",
+     "top": 300,
+     "color": "white"
+    },
+    {
+     "k": "stamp",
+     "text": "İFLAS",
+     "top": 900,
+     "at": 1.6,
+     "size": 140
+    }
+   ]
+  },
+  "truth": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "chips",
+     "items": [
+      "MÜŞTERİ PARASI",
+      "→ ALAMEDA",
+      "GİZLİCE"
+     ],
+     "top": 380,
+     "step": 0.9,
+     "color": "red"
+    },
+    {
+     "k": "counter",
+     "from": 0,
+     "to": 8000000000,
+     "top": 1000,
+     "size": 100,
+     "at": 5.0,
+     "label": "MÜŞTERİ KAYBI"
+    }
+   ]
+  },
+  "verdict": {
+   "bg": {
+    "type": "drawn",
+    "name": "court",
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "layers": [
+    {
+     "k": "stamp",
+     "text": "7 / 7 SUÇLU",
+     "top": 330,
+     "at": 2.4,
+     "size": 90
+    }
+   ]
+  },
+  "sentence": {
+   "bg": {
+    "type": "photo",
+    "src": "courthouse.jpg",
+    "grade": "bw",
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "x": [
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0
+    ]
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "25 YIL",
+     "top": 760,
+     "size": 200,
+     "color": "gold",
+     "at": 1.8
+    },
+    {
+     "k": "small",
+     "text": "28 MART 2024 · NEW YORK",
+     "top": 300,
+     "color": "white"
+    }
+   ]
+  },
+  "finale": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "w": 600,
+     "y": -380
+    },
+    {
+     "k": "chips",
+     "items": [
+      "PİYANGO · İFLAS",
+      "PİZZA · HAYALET",
+      "ÇÖPLÜK · SOYGUN",
+      "KAÇIŞ · ŞİFRE"
+     ],
+     "top": 820,
+     "step": 0.9,
+     "size": 46
+    }
+   ]
+  },
+  "lesson": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "kicker",
+     "text": "PARA KAYBOLMAZ.",
+     "top": 700,
+     "size": 84,
+     "at": 1.4
+    },
+    {
+     "k": "kicker",
+     "text": "SADECE\nEL DEĞİŞTİRİR.",
+     "top": 860,
+     "size": 84,
+     "color": "gold",
+     "at": 3.0
+    }
+   ]
+  },
+  "cta": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "note",
+     "w": 720,
+     "y": -60
+    }
+   ]
+  },
+  "end": {
+   "bg": {
+    "type": "black"
+   },
+   "layers": [
+    {
+     "k": "small",
+     "text": "TEK BİR BANKNOT",
+     "top": 760,
+     "at": 0.2
+    },
+    {
+     "k": "kicker",
+     "text": "1. SEZON\nSONU",
+     "top": 820,
+     "size": 100,
+     "at": 1.0
+    },
+    {
+     "k": "small",
+     "text": "Banknotun yolculuğu kurgudur · Hikâyeler gerçektir",
+     "top": 1100,
+     "size": 24,
+     "color": "white",
+     "at": 1.8
+    }
+   ]
+  }
+ },
+ "sfx": [
+  [
+   "hook",
+   0,
+   "boom",
+   -20
+  ],
+  [
+   "who",
+   -0.3,
+   "whoosh",
+   -27
+  ],
+  [
+   "peak",
+   1.4,
+   "coins",
+   -26
+  ],
+  [
+   "leak",
+   0.2,
+   "typing",
+   -27
+  ],
+  [
+   "leak",
+   3.0,
+   "paper",
+   -22
+  ],
+  [
+   "run",
+   0.2,
+   "alarm",
+   -26
+  ],
+  [
+   "fall",
+   1.6,
+   "stamp",
+   -18
+  ],
+  [
+   "truth",
+   0.2,
+   "heartbeat",
+   -24
+  ],
+  [
+   "truth",
+   5.0,
+   "boom",
+   -20
+  ],
+  [
+   "verdict",
+   0.2,
+   "gavel",
+   -18
+  ],
+  [
+   "verdict",
+   2.4,
+   "stamp",
+   -20
+  ],
+  [
+   "sentence",
+   0.0,
+   "static",
+   -24
+  ],
+  [
+   "sentence",
+   1.8,
+   "boom",
+   -17
+  ],
+  [
+   "finale",
+   0.2,
+   "paper",
+   -24
+  ],
+  [
+   "lesson",
+   3.0,
+   "boom",
+   -21
+  ],
+  [
+   "cta",
+   0.2,
+   "riser",
+   -25
+  ],
+  [
+   "end",
+   0.2,
+   "boom",
+   -18
+  ]
+ ]
+}

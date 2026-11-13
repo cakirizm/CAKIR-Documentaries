@@ -1,0 +1,163 @@
+{
+ "durationSec": 93.824,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 7.236
+  },
+  {
+   "id": "setup",
+   "start": 7.236,
+   "end": 15.614
+  },
+  {
+   "id": "hack",
+   "start": 15.614,
+   "end": 23.106
+  },
+  {
+   "id": "num",
+   "start": 23.106,
+   "end": 28.313
+  },
+  {
+   "id": "printer",
+   "start": 28.313,
+   "end": 35.492
+  },
+  {
+   "id": "fed",
+   "start": 35.492,
+   "end": 43.024
+  },
+  {
+   "id": "typo",
+   "start": 43.024,
+   "end": 49.39
+  },
+  {
+   "id": "typo2",
+   "start": 49.39,
+   "end": 59.894
+  },
+  {
+   "id": "casino",
+   "start": 59.894,
+   "end": 66.103
+  },
+  {
+   "id": "who",
+   "start": 66.103,
+   "end": 72.22
+  },
+  {
+   "id": "me",
+   "start": 72.22,
+   "end": 80.699
+  },
+  {
+   "id": "next",
+   "start": 80.699,
+   "end": 87.689
+  },
+  {
+   "id": "end",
+   "start": 87.689,
+   "end": 93.824
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "role": "N",
+   "start": 0.6,
+   "end": 6.886,
+   "sub": "Neredeyse bir milyar dolarlık soygun… tek bir yazım hatası yüzünden durdu."
+  },
+  {
+   "scene": "setup",
+   "role": "N",
+   "start": 7.486,
+   "end": 15.564,
+   "sub": "Şubat 2016. Bangladeş Merkez Bankası. Bankanın dolar rezervleri New York'taki Federal Rezerv'de duruyor."
+  },
+  {
+   "scene": "hack",
+   "role": "N",
+   "start": 15.864,
+   "end": 23.056,
+   "sub": "Bilgisayar korsanları bankanın sistemine sızıyor. Uluslararası para transfer ağı üzerinden talimatlar gönderiyorlar."
+  },
+  {
+   "scene": "num",
+   "role": "N",
+   "start": 23.356,
+   "end": 28.163,
+   "sub": "35 ödeme talimatı. Toplamı yaklaşık 951 milyon dolar."
+  },
+  {
+   "scene": "printer",
+   "role": "N",
+   "start": 28.563,
+   "end": 35.342,
+   "sub": "O sabah bankanın, transferleri kâğıda döken yazıcısı çalışmıyordu. Kimse bir şey fark etmedi."
+  },
+  {
+   "scene": "fed",
+   "role": "N",
+   "start": 35.742,
+   "end": 42.874,
+   "sub": "New York'ta talimatların çoğu durduruluyor. Ama dördü geçiyor. 81 milyon dolar, Filipinler'e."
+  },
+  {
+   "scene": "typo",
+   "role": "N",
+   "start": 43.274,
+   "end": 49.34,
+   "sub": "Bir transfer de Sri Lanka'ya gidiyordu. 20 milyon dolar. Alıcının adı şöyle yazılmıştı:"
+  },
+  {
+   "scene": "typo2",
+   "role": "N",
+   "start": 49.64,
+   "end": 59.744,
+   "sub": "“Foundation” değil… “Fandation”. O yerine A. Bu hata bankanın dikkatini çekti. Transfer durduruldu."
+  },
+  {
+   "scene": "casino",
+   "role": "N",
+   "start": 60.144,
+   "end": 65.953,
+   "sub": "Filipinler'e giden paranın büyük kısmı kumarhanelerden geçirildi. Ve izi kayboldu."
+  },
+  {
+   "scene": "who",
+   "role": "N",
+   "start": 66.353,
+   "end": 72.07,
+   "sub": "2018'de ABD, saldırıyla Kuzey Kore bağlantılı bir hacker grubunu suçladı."
+  },
+  {
+   "scene": "me",
+   "role": "N",
+   "start": 72.47,
+   "end": 80.449,
+   "sub": "Ben mi? Manila'da bir kumarhane masasında el değiştirdim. Yeni sahibim, sahneye çıkmaya hazırlanan bir kadındı."
+  },
+  {
+   "scene": "next",
+   "role": "N",
+   "start": 80.949,
+   "end": 87.339,
+   "sub": "Binlerce insan onu alkışlayacaktı. Sonra… ortadan kaybolacaktı."
+  },
+  {
+   "scene": "end",
+   "role": "N",
+   "start": 87.939,
+   "end": 91.624,
+   "sub": ""
+  }
+ ]
+}

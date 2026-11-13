@@ -1,0 +1,182 @@
+{
+ "durationSec": 87.53,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 7.142
+  },
+  {
+   "id": "name",
+   "start": 7.142,
+   "end": 16.551
+  },
+  {
+   "id": "genesis",
+   "start": 16.551,
+   "end": 23.216
+  },
+  {
+   "id": "headline",
+   "start": 23.216,
+   "end": 27.846
+  },
+  {
+   "id": "meaning",
+   "start": 27.846,
+   "end": 31.255
+  },
+  {
+   "id": "coins",
+   "start": 31.255,
+   "end": 39.101
+  },
+  {
+   "id": "leave",
+   "start": 39.101,
+   "end": 47.73
+  },
+  {
+   "id": "gone",
+   "start": 47.73,
+   "end": 51.698
+  },
+  {
+   "id": "claims",
+   "start": 51.698,
+   "end": 57.205
+  },
+  {
+   "id": "ruling",
+   "start": 57.205,
+   "end": 63.222
+  },
+  {
+   "id": "statue",
+   "start": 63.222,
+   "end": 68.388
+  },
+  {
+   "id": "me",
+   "start": 68.388,
+   "end": 77.3
+  },
+  {
+   "id": "next",
+   "start": 77.3,
+   "end": 81.245
+  },
+  {
+   "id": "end",
+   "start": 81.245,
+   "end": 87.53
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "role": "N",
+   "start": 0.6,
+   "end": 6.792,
+   "sub": "Dünyanın en zengin insanlarından biri olabilir. Ama kimse yüzünü görmedi."
+  },
+  {
+   "scene": "name",
+   "role": "N",
+   "start": 7.392,
+   "end": 16.451,
+   "sub": "Satoshi Nakamoto. Bitcoin'in yaratıcısı. Gerçek isim mi, takma ad mı? Bir kişi mi, bir grup mu? Bilinmiyor."
+  },
+  {
+   "scene": "genesis",
+   "role": "N",
+   "start": 16.801,
+   "end": 23.166,
+   "sub": "3 Ocak 2009. Bitcoin'in ilk bloğu oluşturuluyor. İçine bir gazete manşeti gizlenmiş:"
+  },
+  {
+   "scene": "headline",
+   "role": "N",
+   "start": 23.466,
+   "end": 27.696,
+   "sub": "“Maliye Bakanı, bankalar için ikinci kurtarma paketinin eşiğinde.”"
+  },
+  {
+   "scene": "meaning",
+   "role": "N",
+   "start": 28.096,
+   "end": 31.155,
+   "sub": "Bir imza gibi. Bir mesaj gibi."
+  },
+  {
+   "scene": "coins",
+   "role": "N",
+   "start": 31.505,
+   "end": 38.951,
+   "sub": "Tahminlere göre ilk yıllarda yaklaşık 1 milyon bitcoin kazandı. Bilindiği kadarıyla… hiçbirini harcamadı."
+  },
+  {
+   "scene": "leave",
+   "role": "N",
+   "start": 39.351,
+   "end": 44.344,
+   "sub": "Nisan 2011. Bir geliştiriciye son mesajlarından birini yazıyor:"
+  },
+  {
+   "scene": "leave",
+   "role": "Q",
+   "start": 44.644,
+   "end": 47.48,
+   "sub": "“Başka işlere geçtim. Proje emin ellerde.”"
+  },
+  {
+   "scene": "gone",
+   "role": "N",
+   "start": 47.98,
+   "end": 51.548,
+   "sub": "Ve sonra… sessizlik. Bir daha ortaya çıkmadı."
+  },
+  {
+   "scene": "claims",
+   "role": "N",
+   "start": 51.948,
+   "end": 57.155,
+   "sub": "Yıllar içinde birçok kişi “Satoshi benim” dedi. Biri mahkemeye bile gitti."
+  },
+  {
+   "scene": "ruling",
+   "role": "N",
+   "start": 57.455,
+   "end": 63.072,
+   "sub": "2024'te Londra'da bir yargıç kararını verdi: Bu adam Satoshi değil."
+  },
+  {
+   "scene": "statue",
+   "role": "N",
+   "start": 63.472,
+   "end": 68.238,
+   "sub": "Bugün Budapeşte'de onun bir heykeli var. Yüzü… bir ayna."
+  },
+  {
+   "scene": "me",
+   "role": "N",
+   "start": 68.638,
+   "end": 77.05,
+   "sub": "Ben mi? Okyanusu geçtim. Galler'de bir adamın cüzdanına girdim. O adamın da bir sırrı vardı: eski bir sabit disk."
+  },
+  {
+   "scene": "next",
+   "role": "N",
+   "start": 77.55,
+   "end": 80.895,
+   "sub": "Ve o disk… çöpe gitmek üzereydi."
+  },
+  {
+   "scene": "end",
+   "role": "N",
+   "start": 81.495,
+   "end": 85.33,
+   "sub": ""
+  }
+ ]
+}

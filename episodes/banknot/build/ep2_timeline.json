@@ -1,0 +1,175 @@
+{
+ "durationSec": 96.117,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 8.125
+  },
+  {
+   "id": "history",
+   "start": 8.125,
+   "end": 13.725
+  },
+  {
+   "id": "survive",
+   "start": 13.725,
+   "end": 17.962
+  },
+  {
+   "id": "peak",
+   "start": 17.962,
+   "end": 24.582
+  },
+  {
+   "id": "bomb",
+   "start": 24.582,
+   "end": 32.255
+  },
+  {
+   "id": "weekend",
+   "start": 32.255,
+   "end": 39.894
+  },
+  {
+   "id": "news",
+   "start": 39.894,
+   "end": 48.655
+  },
+  {
+   "id": "number",
+   "start": 48.655,
+   "end": 52.632
+  },
+  {
+   "id": "boxes",
+   "start": 52.632,
+   "end": 58.068
+  },
+  {
+   "id": "world",
+   "start": 58.068,
+   "end": 63.703
+  },
+  {
+   "id": "me",
+   "start": 63.703,
+   "end": 71.534
+  },
+  {
+   "id": "twist",
+   "start": 71.534,
+   "end": 80.07
+  },
+  {
+   "id": "next",
+   "start": 80.07,
+   "end": 89.336
+  },
+  {
+   "id": "end",
+   "start": 89.336,
+   "end": 96.117
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "role": "N",
+   "start": 0.6,
+   "end": 7.775,
+   "sub": "158 yıl ayakta kalan bir banka… tek bir hafta sonunda çöktü. Ben oradaydım."
+  },
+  {
+   "scene": "history",
+   "role": "N",
+   "start": 8.375,
+   "end": 13.725,
+   "sub": "Lehman Brothers. 1850'de Alabama'da küçük bir dükkân olarak kuruldu."
+  },
+  {
+   "scene": "survive",
+   "role": "N",
+   "start": 13.975,
+   "end": 17.912,
+   "sub": "İç Savaş'ı, Büyük Buhran'ı, iki dünya savaşını atlattı."
+  },
+  {
+   "scene": "peak",
+   "role": "N",
+   "start": 18.212,
+   "end": 24.532,
+   "sub": "2008'de Amerika'nın en büyük yatırım bankalarından biriydi. Yaklaşık 25 bin çalışan."
+  },
+  {
+   "scene": "bomb",
+   "role": "N",
+   "start": 24.832,
+   "end": 32.105,
+   "sub": "Ama kasasında saatli bir bomba vardı: geri ödenemeyen konut kredilerine bağlı milyarlarca dolarlık yatırım."
+  },
+  {
+   "scene": "weekend",
+   "role": "N",
+   "start": 32.505,
+   "end": 39.794,
+   "sub": "Eylül 2008. Bütün hafta sonu kurtarma görüşmeleri. Alıcı yok. Devlet kurtarmayı reddediyor."
+  },
+  {
+   "scene": "news",
+   "role": "A",
+   "start": 40.144,
+   "end": 48.505,
+   "sub": "“Son dakika! Lehman Brothers iflas başvurusu yaptı. Amerikan tarihinin en büyük iflası!”"
+  },
+  {
+   "scene": "number",
+   "role": "N",
+   "start": 48.905,
+   "end": 52.532,
+   "sub": "600 milyar doları aşan varlıklar. Tek bir gecede."
+  },
+  {
+   "scene": "boxes",
+   "role": "N",
+   "start": 52.882,
+   "end": 58.018,
+   "sub": "O pazartesi sabahı çalışanlar masalarını karton kutulara doldurup binadan çıkıyordu."
+  },
+  {
+   "scene": "world",
+   "role": "N",
+   "start": 58.318,
+   "end": 63.553,
+   "sub": "Dünya borsaları çakıldı. Milyonlarca insan işini, evini kaybetti."
+  },
+  {
+   "scene": "me",
+   "role": "N",
+   "start": 63.953,
+   "end": 71.284,
+   "sub": "Beni taşıyan adam da o kutulardan birini taşıyordu. Cebinde ben… elinde koca bir kariyer."
+  },
+  {
+   "scene": "twist",
+   "role": "N",
+   "start": 71.784,
+   "end": 79.82,
+   "sub": "Birkaç hafta sonra, kimsenin tanımadığı biri 9 sayfalık bir yazı yayınladı. Konusu: bankasız para."
+  },
+  {
+   "scene": "next",
+   "role": "N",
+   "start": 80.32,
+   "end": 88.986,
+   "sub": "Benim gibi kâğıt paraların bir rakibi doğmuştu. Ve iki yıl sonra biri onunla ilk kez yemek alacaktı."
+  },
+  {
+   "scene": "end",
+   "role": "N",
+   "start": 89.586,
+   "end": 93.917,
+   "sub": ""
+  }
+ ]
+}

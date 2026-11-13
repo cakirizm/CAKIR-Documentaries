@@ -1,0 +1,163 @@
+{
+ "durationSec": 85.841,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 6.455
+  },
+  {
+   "id": "who",
+   "start": 6.455,
+   "end": 13.369
+  },
+  {
+   "id": "peak",
+   "start": 13.369,
+   "end": 17.82
+  },
+  {
+   "id": "leak",
+   "start": 17.82,
+   "end": 25.622
+  },
+  {
+   "id": "run",
+   "start": 25.622,
+   "end": 31.226
+  },
+  {
+   "id": "fall",
+   "start": 31.226,
+   "end": 35.01
+  },
+  {
+   "id": "truth",
+   "start": 35.01,
+   "end": 44.278
+  },
+  {
+   "id": "verdict",
+   "start": 44.278,
+   "end": 50.3
+  },
+  {
+   "id": "sentence",
+   "start": 50.3,
+   "end": 55.207
+  },
+  {
+   "id": "finale",
+   "start": 55.207,
+   "end": 64.606
+  },
+  {
+   "id": "lesson",
+   "start": 64.606,
+   "end": 71.766
+  },
+  {
+   "id": "cta",
+   "start": 71.766,
+   "end": 80.091
+  },
+  {
+   "id": "end",
+   "start": 80.091,
+   "end": 85.841
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "role": "N",
+   "start": 0.6,
+   "end": 6.105,
+   "sub": "30 yaşında, milyarder. Bir hafta sonra… her şey bitti."
+  },
+  {
+   "scene": "who",
+   "role": "N",
+   "start": 6.705,
+   "end": 13.319,
+   "sub": "Sam Bankman-Fried. Kripto borsası FTX'in kurucusu. Dağınık saçlar, şort, tişört."
+  },
+  {
+   "scene": "peak",
+   "role": "N",
+   "start": 13.619,
+   "end": 17.67,
+   "sub": "Ocak 2022'de şirketinin değeri 32 milyar dolar."
+  },
+  {
+   "scene": "leak",
+   "role": "N",
+   "start": 18.07,
+   "end": 25.572,
+   "sub": "2 Kasım 2022. Bir haber sitesi, FTX'in kardeş şirketi Alameda'nın bilançosunu yayınlıyor."
+  },
+  {
+   "scene": "run",
+   "role": "N",
+   "start": 25.872,
+   "end": 31.176,
+   "sub": "Müşteriler paniğe kapılıyor. Birkaç gün içinde milyarlarca dolar çekilmek isteniyor."
+  },
+  {
+   "scene": "fall",
+   "role": "N",
+   "start": 31.476,
+   "end": 34.86,
+   "sub": "11 Kasım. FTX iflas başvurusu yapıyor."
+  },
+  {
+   "scene": "truth",
+   "role": "N",
+   "start": 35.26,
+   "end": 44.128,
+   "sub": "Ortaya çıkan gerçek: Müşterilerin parası gizlice Alameda'ya aktarılmıştı. Mahkemeye göre müşterilerin kaybı: 8 milyar dolar."
+  },
+  {
+   "scene": "verdict",
+   "role": "N",
+   "start": 44.528,
+   "end": 50.25,
+   "sub": "Kasım 2023. Jüri onu yedi suçlamanın hepsinden suçlu buluyor."
+  },
+  {
+   "scene": "sentence",
+   "role": "A",
+   "start": 50.55,
+   "end": 54.857,
+   "sub": "“Sam Bankman-Fried, 25 yıl hapis cezasına çarptırıldı.”"
+  },
+  {
+   "scene": "finale",
+   "role": "N",
+   "start": 55.457,
+   "end": 64.456,
+   "sub": "Bir banknot olarak çok şey gördüm. Piyango. İflas. Pizza. Hayalet. Çöplük. Soygun. Kaçış. Şifre."
+  },
+  {
+   "scene": "lesson",
+   "role": "N",
+   "start": 64.856,
+   "end": 71.416,
+   "sub": "Hepsinde aynı ders vardı: Para kaybolmaz. Sadece el değiştirir."
+  },
+  {
+   "scene": "cta",
+   "role": "N",
+   "start": 72.016,
+   "end": 79.541,
+   "sub": "Şimdi ben senin cebindeyim. Peki senden sonra… kimin elinde olacağım?"
+  },
+  {
+   "scene": "end",
+   "role": "N",
+   "start": 80.341,
+   "end": 83.241,
+   "sub": ""
+  }
+ ]
+}
