@@ -27,9 +27,11 @@ const Night: S = ({f, D}) => {
 	const inside = t > 0.55;
 	const c = inside
 		? path((t - 0.55) / 0.45, [[0, [3.2, 2.4, -6.5], [0, 0.9, -12]], [1, [2.2, 1.7, -9.2], [0, 1.1, -12]]])
-		: path(t / 0.55, [[0, [0, 2.2, 24], [0, 3, 0]], [1, [0, 2.0, -3], [0, 2.4, -10]]]);
+		: path(t / 0.55, [[0, [0, 2.2, 24], [0, 3, 0]], [1, [0, 2.3, 4.5], [0, 2.6, -8]]]);
 	const sit = range(f, D * 0.68, D * 0.9);
+	const black = Math.max(range(f, D * 0.47, D * 0.55) * (t < 0.55 ? 1 : 0), t >= 0.55 ? 1 - range(f, D * 0.55, D * 0.62) : 0);
 	return (
+		<>
 		<Stage bg={PAL.night} fog={[16, 90]} sun={{pos: [-14, 22, -10], color: '#9fb4e0', intensity: 1.1}} fill={{color: '#4a5a80', intensity: 0.35}} ambient={0.12}>
 			<Cam pos={c.pos} target={c.target} fov={44} />
 			{inside ? (
@@ -47,6 +49,8 @@ const Night: S = ({f, D}) => {
 				</>
 			)}
 		</Stage>
+		<div style={{position: 'absolute', inset: 0, background: '#000', opacity: black}} />
+		</>
 	);
 };
 
