@@ -9,6 +9,7 @@ import {KamerReel} from '../framework/kamer/KamerReel';
 import kamerTimeline from '../episodes/kamer/build/timeline.json';
 import {Banknot1} from '../framework/banknot/Banknot1';
 import banknot1TL from '../episodes/banknot1/build/timeline.json';
+import {DrawnTest} from '../framework/banknot/DrawnTest';
 import {Thumbnail} from '../framework/components/Thumbnail';
 import {EPISODES} from './episodes';
 import {ANIM_QC, ANIM_SCENES, AnimTest, SEA_SCENES, SeaTest, DriftTest} from './AnimTest';
@@ -34,6 +35,7 @@ export const Root: React.FC = () => (
 		<Composition id="Yusuf-7Inek" component={YusufFilm as any} durationInFrames={Math.round((yusufTimeline as any).durationSec * 30)} fps={30} width={1080} height={1920} defaultProps={{timeline: yusufTimeline as any, audio: 'episodes/yusuf/audio/mix.wav'}} />
 		<Composition id="Kamer-Reels" component={KamerReel as any} durationInFrames={Math.round((kamerTimeline as any).durationSec * 30)} fps={30} width={1080} height={1920} defaultProps={{timeline: kamerTimeline as any, audio: 'episodes/kamer/audio/mix.wav'}} />
 		<Composition id="Banknot-B1" component={Banknot1 as any} durationInFrames={Math.round((banknot1TL as any).durationSec * 30)} fps={30} width={1080} height={1920} defaultProps={{timeline: banknot1TL as any, audio: 'episodes/banknot1/audio/mix.wav'}} />
+		<Composition id="DrawnTest" component={DrawnTest as any} durationInFrames={120} fps={30} width={1080} height={1920} defaultProps={{which: 'win'}} />
 		<Composition id="YusufTest" component={YusufTest} durationInFrames={360} fps={30} width={1080} height={1920} />
 		<Still id="CAKIR-Airport-Thumbnail" component={Thumbnail as any} width={1280} height={720} defaultProps={{headline: '18 YEARS', subline: 'IN AN AIRPORT', photo: null}} />
 		<Still id="CAKIR-438Days-Thumbnail" component={Thumbnail as any} width={1280} height={720} defaultProps={{headline: '438 DAYS', subline: 'LOST AT SEA', photo: 'episodes/alvarenga/media/alv_photo_2.jpg', focus: [0.58, 0.3]}} />
