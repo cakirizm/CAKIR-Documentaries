@@ -1,0 +1,321 @@
+{
+ "id": "yusuf",
+ "slug": "Yedi_Inegin_Sirri",
+ "title": "7 İnek Bir Ülkenin Geleceğini Nasıl Değiştirdi?",
+ "voice": {
+  "engine": "elevenlabs",
+  "voice": "J2FGlQG8Gd7x8uEDt2H8",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.5,
+  "similarity": 0.8,
+  "style": 0.2,
+  "format": "mp3_44100_128",
+  "speed": 0.95
+ },
+ "recitation": {
+  "reciter": "Mahmud Halil el-Husarî (murattal)",
+  "source": "everyayah.com — Husary_128kbps",
+  "rights": "Kanal sahibinin sorumluluğunda kullanılmıştır (izin doğrulanmadı)"
+ },
+ "mealSource": "Diyanet İşleri meali (Tanzil veri seti, tr.diyanet)",
+ "arabicSource": "Tanzil — Quran Simple (tanzil.net), quran.com imlaei ile karşılaştırıldı",
+ "blocks": [
+  {
+   "type": "narr",
+   "id": "s01",
+   "scene": "night",
+   "sentences": [
+    "Bir gece, Mısır'ın hükümdarı öyle garip bir rüya gördü ki, bu rüyanın anlamı yalnızca kendisinin değil, ülkesinin de geleceğiyle ilgiliydi."
+   ],
+   "mood": "mystery"
+  },
+  {
+   "type": "narr",
+   "id": "s02",
+   "scene": "fatcows",
+   "sentences": [
+    "Rüyasında önce yedi besili inek gördü.",
+    "Güçlüydüler, sağlıklıydılar. Yemyeşil bir arazide duruyorlardı.",
+    "Fakat ardından çok tuhaf bir şey oldu."
+   ],
+   "mood": "dream"
+  },
+  {
+   "type": "narr",
+   "id": "s03",
+   "scene": "thincows",
+   "sentences": [
+    "Bir anda yedi zayıf inek ortaya çıktı.",
+    "Ve inanılması güç olan gerçekleşti: Bu zayıf inekler, yedi besili ineği yiyordu."
+   ],
+   "mood": "dream"
+  },
+  {
+   "type": "narr",
+   "id": "s04",
+   "scene": "ears",
+   "sentences": [
+    "Rüya bununla bitmedi.",
+    "Kral, yedi yeşil başak ve yedi kuru başak daha gördü.",
+    "Bu sayıların ne anlama geldiğini kimse bilmiyordu."
+   ],
+   "mood": "dream"
+  },
+  {
+   "type": "ayah",
+   "id": "a43",
+   "ayah": 43,
+   "scene": "hall_dream",
+   "file": "public/episodes/yusuf/audio/tilavet/012043.mp3",
+   "arabic": "وَقَالَ الْمَلِكُ إِنِّي أَرَىٰ سَبْعَ بَقَرَاتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنْبُلَاتٍ خُضْرٍ وَأُخَرَ يَابِسَاتٍ ۖ يَا أَيُّهَا الْمَلَأُ أَفْتُونِي فِي رُؤْيَايَ إِنْ كُنْتُمْ لِلرُّؤْيَا تَعْبُرُونَ",
+   "meal": "Hükümdar: \"Ben, yedi semiz ineği yedi zayıf ineğin yediğini; yedi yeşil başak ve bir o kadar da kurumuş başak görüyorum. Ey ileri gelenler! Eğer rüya yormasını biliyorsanız rüyamı söyleyiniz.\" dedi.",
+   "mood": "tilavet",
+   "mealSegments": [
+    "Hükümdar: \"Ben, yedi semiz ineği yedi zayıf ineğin yediğini;",
+    " yedi yeşil başak ve bir o kadar da kurumuş başak görüyorum.",
+    " Ey ileri gelenler! Eğer rüya yormasını biliyorsanız rüyamı söyleyiniz.\" dedi."
+   ],
+   "chunks": [
+    {
+     "text": "وَقَالَ الْمَلِكُ إِنِّي أَرَىٰ",
+     "start": 1.44,
+     "meal": 0
+    },
+    {
+     "text": "سَبْعَ بَقَرَاتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ",
+     "start": 7.86,
+     "meal": 0
+    },
+    {
+     "text": "وَسَبْعَ سُنْبُلَاتٍ خُضْرٍ وَأُخَرَ يَابِسَاتٍ ۖ",
+     "start": 18.3,
+     "meal": 1
+    },
+    {
+     "text": "يَا أَيُّهَا الْمَلَأُ أَفْتُونِي فِي رُؤْيَايَ",
+     "start": 31.5,
+     "meal": 2
+    },
+    {
+     "text": "إِنْ كُنْتُمْ لِلرُّؤْيَا تَعْبُرُونَ",
+     "start": 40.04,
+     "meal": 2
+    }
+   ],
+   "recitationEnd": 48.36
+  },
+  {
+   "type": "narr",
+   "id": "s05",
+   "scene": "council",
+   "sentences": [
+    "Sabah olduğunda hükümdar, gördüklerini çevresindeki ileri gelenlere anlattı.",
+    "Ancak hiçbiri kesin bir açıklama yapamadı.",
+    "Rüyayı karmakarışık düşler olarak değerlendirdiler."
+   ],
+   "mood": "tension"
+  },
+  {
+   "type": "narr",
+   "id": "s06",
+   "scene": "remember",
+   "sentences": [
+    "Tam o sırada, zindandan kurtulmuş olan adam, uzun zaman sonra birini hatırladı.",
+    "Hapiste tanıştığı Yusuf, rüyaları yorumlamıştı.",
+    "Belki bu rüyanın cevabını da biliyordu."
+   ],
+   "mood": "tension"
+  },
+  {
+   "type": "narr",
+   "id": "s07",
+   "scene": "prison",
+   "sentences": [
+    "Adam, Yusuf'un yanına giderek kralın rüyasını anlattı.",
+    "Yedi güçlü inek, yedi zayıf inek, yedi yeşil başak ve yedi kuru başak…",
+    "Yusuf ise yalnızca rüyayı yorumlamadı. Gelecek yıllar için bir hazırlık planı da açıkladı."
+   ],
+   "mood": "hope"
+  },
+  {
+   "type": "ayah",
+   "id": "a47",
+   "ayah": 47,
+   "scene": "harvest7",
+   "file": "public/episodes/yusuf/audio/tilavet/012047.mp3",
+   "arabic": "قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًا فَمَا حَصَدْتُمْ فَذَرُوهُ فِي سُنْبُلِهِ إِلَّا قَلِيلًا مِمَّا تَأْكُلُونَ",
+   "meal": "Yusuf: \"Devamlı yedi sene ekin ekip, biçtiğiniz ekinin yediğinizden artanını başağında bırakın.\"",
+   "mood": "tilavet",
+   "mealSegments": [
+    "Yusuf: \"Devamlı yedi sene ekin ekip,",
+    " biçtiğiniz ekinin yediğinizden artanını başağında bırakın.\""
+   ],
+   "chunks": [
+    {
+     "text": "قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًا",
+     "start": 1.36,
+     "meal": 0
+    },
+    {
+     "text": "فَمَا حَصَدْتُمْ فَذَرُوهُ فِي سُنْبُلِهِ",
+     "start": 7.74,
+     "meal": 1
+    },
+    {
+     "text": "إِلَّا قَلِيلًا مِمَّا تَأْكُلُونَ",
+     "start": 16.18,
+     "meal": 1
+    }
+   ],
+   "recitationEnd": 24.51
+  },
+  {
+   "type": "narr",
+   "id": "s08",
+   "scene": "fields",
+   "sentences": [
+    "İlk yedi yıl boyunca insanlar ekip biçecekti.",
+    "Toprak ürün verecek, hasatlar yapılacaktı.",
+    "Fakat elde edilen ürünün tamamı tüketilmemeliydi."
+   ],
+   "mood": "hope"
+  },
+  {
+   "type": "narr",
+   "id": "s09",
+   "scene": "store",
+   "sentences": [
+    "Yusuf'un önerisi çok açıktı: Yiyecekleri kadarını ayıracak, kalan ürünü ise başağında saklayacaklardı.",
+    "Çünkü bolluk sonsuza kadar sürmeyecekti."
+   ],
+   "mood": "hope"
+  },
+  {
+   "type": "ayah",
+   "id": "a48",
+   "ayah": 48,
+   "scene": "drought7",
+   "file": "public/episodes/yusuf/audio/tilavet/012048.mp3",
+   "arabic": "ثُمَّ يَأْتِي مِنْ بَعْدِ ذَٰلِكَ سَبْعٌ شِدَادٌ يَأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ إِلَّا قَلِيلًا مِمَّا تُحْصِنُونَ",
+   "meal": "\"Sonra bunun ardından yedi kurak yıl gelir, bütün biriktirdiğinizi yer, yalnız az bir miktar saklarsınız.\"",
+   "mood": "tilavet",
+   "mealSegments": [
+    "\"Sonra bunun ardından yedi kurak yıl gelir,",
+    " bütün biriktirdiğinizi yer,",
+    " yalnız az bir miktar saklarsınız.\""
+   ],
+   "chunks": [
+    {
+     "text": "ثُمَّ يَأْتِي مِنْ بَعْدِ ذَٰلِكَ سَبْعٌ شِدَادٌ",
+     "start": 0.47,
+     "meal": 0
+    },
+    {
+     "text": "يَأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ",
+     "start": 9.14,
+     "meal": 1
+    },
+    {
+     "text": "إِلَّا قَلِيلًا مِمَّا تُحْصِنُونَ",
+     "start": 15.52,
+     "meal": 2
+    }
+   ],
+   "recitationEnd": 23.15
+  },
+  {
+   "type": "narr",
+   "id": "s10",
+   "scene": "drying",
+   "sentences": [
+    "Ve o yedi yılın ardından çok daha zor bir dönem gelecekti.",
+    "Peş peşe yaşanacak yedi kıtlık yılı, daha önce biriktirilmiş ürünleri tüketecekti."
+   ],
+   "mood": "heavy"
+  },
+  {
+   "type": "narr",
+   "id": "s11",
+   "scene": "silo",
+   "sentences": [
+    "İşte bolluk yıllarında saklanan yiyecekler, o zor zamanlar için gerekliydi.",
+    "İnsanlar birikimlerini kullanacak, ancak küçük bir miktarı korumaya devam edeceklerdi."
+   ],
+   "mood": "heavy"
+  },
+  {
+   "type": "narr",
+   "id": "s12",
+   "scene": "timeline14",
+   "sentences": [
+    "Demek ki rüya yalnızca garip hayvanlardan ve başaklardan ibaret değildi.",
+    "Yedi yıllık bolluğun ardından yedi yıllık sıkıntıyı haber veren bir uyarıydı."
+   ],
+   "mood": "heavy"
+  },
+  {
+   "type": "ayah",
+   "id": "a49",
+   "ayah": 49,
+   "scene": "rainfall",
+   "file": "public/episodes/yusuf/audio/tilavet/012049.mp3",
+   "arabic": "ثُمَّ يَأْتِي مِنْ بَعْدِ ذَٰلِكَ عَامٌ فِيهِ يُغَاثُ النَّاسُ وَفِيهِ يَعْصِرُونَ",
+   "meal": "\"Sonra, halkın yağmur göreceği bir yıl gelir, o zaman sıkıp sağarlar\" dedi.",
+   "mood": "tilavet",
+   "mealSegments": [
+    "\"Sonra, halkın yağmur göreceği bir yıl gelir,",
+    " o zaman sıkıp sağarlar\" dedi."
+   ],
+   "chunks": [
+    {
+     "text": "ثُمَّ يَأْتِي مِنْ بَعْدِ ذَٰلِكَ",
+     "start": 1.44,
+     "meal": 0
+    },
+    {
+     "text": "عَامٌ فِيهِ يُغَاثُ النَّاسُ",
+     "start": 7.46,
+     "meal": 0
+    },
+    {
+     "text": "وَفِيهِ يَعْصِرُونَ",
+     "start": 13.48,
+     "meal": 1
+    }
+   ],
+   "recitationEnd": 17.83
+  },
+  {
+   "type": "narr",
+   "id": "s13",
+   "scene": "raindrop",
+   "sentences": [
+    "Fakat Yusuf'un yorumunda bir müjde daha vardı.",
+    "Bu zorlu yılların ardından insanların yeniden yağmura kavuşacağı bir yıl gelecekti."
+   ],
+   "mood": "close"
+  },
+  {
+   "type": "narr",
+   "id": "s14",
+   "scene": "revival",
+   "sentences": [
+    "Yağmurla birlikte üretim yeniden başlayacak, insanlar ürünlerini sıkıp işleyeceklerdi.",
+    "Rüyanın sonu yalnızca kıtlık değil, yeniden gelen bereketti."
+   ],
+   "mood": "close"
+  },
+  {
+   "type": "narr",
+   "id": "s15",
+   "scene": "finale",
+   "sentences": [
+    "Yedi inek ve yedi başak…",
+    "Bir hükümdarın anlayamadığı rüya, gelecekteki büyük bir sınavın habercisiydi.",
+    "Hz. Yusuf'un anlattığı çözüm ise basitti: Bolluk zamanında, zor günlere hazırlanmak.",
+    "İşte bu kıssanın bugün de düşündüren yönü budur."
+   ],
+   "mood": "close"
+  }
+ ]
+}
