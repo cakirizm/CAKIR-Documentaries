@@ -1,0 +1,53 @@
+{
+ "durationSec": 44.977,
+ "scenes": [
+  {
+   "id": "page",
+   "start": 0.0,
+   "dur": 6.607,
+   "voiceStart": 0.5,
+   "voiceEnd": 6.007,
+   "text": "Kur'an'da bir ayet var... Aynı surede tam dört kez tekrar ediliyor. Peki neden?"
+  },
+  {
+   "id": "nuh",
+   "start": 6.607,
+   "dur": 7.0,
+   "voiceStart": 7.107,
+   "voiceEnd": 12.117,
+   "text": "Önce Nuh kavmi anlatılıyor. Uyarılar geldi... ama inanmadılar."
+  },
+  {
+   "id": "ad",
+   "start": 13.607,
+   "dur": 8.162,
+   "voiceStart": 14.107,
+   "voiceEnd": 21.169,
+   "text": "Sonra Âd kavmi... Güçlerine güvendiler. Sonunda yıkıcı rüzgârla karşılaştılar."
+  },
+  {
+   "id": "semud",
+   "start": 21.769,
+   "dur": 7.0,
+   "voiceStart": 22.269,
+   "voiceEnd": 27.267,
+   "text": "Ardından Semûd kavmi geliyor. Onlar da uyarıyı reddettiler."
+  },
+  {
+   "id": "lut",
+   "start": 28.769,
+   "dur": 7.0,
+   "voiceStart": 29.269,
+   "voiceEnd": 34.197,
+   "text": "Ve Lût kavmi... Hikâye değişti, ama sonuç yine ibret oldu."
+  },
+  {
+   "id": "final",
+   "start": 35.769,
+   "dur": 9.208,
+   "voiceStart": 36.269,
+   "voiceEnd": 42.377,
+   "text": "Dört farklı kavim... Dört farklı hikâye... Ama tek bir mesaj: Öğüt alan yok mu?"
+  }
+ ]
+}
