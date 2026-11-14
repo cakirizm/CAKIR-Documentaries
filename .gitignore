@@ -9,3 +9,5 @@ public/episodes/*/audio/
 _voicetest/*.wav
 __pycache__/
 public/episodes/*/music/
+public/episodes/*/sfx_src/
+public/episodes/*/cover/
