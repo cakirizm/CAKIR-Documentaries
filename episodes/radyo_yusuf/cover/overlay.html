@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:PF;font-weight:700;src:url(../../../node_modules/@fontsource/playfair-display/files/playfair-display-latin-ext-700-normal.woff2)}
+@font-face{font-family:PF;font-weight:700;src:url(../../../node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:AL;font-weight:500;src:url(../../../node_modules/@fontsource/alegreya/files/alegreya-latin-ext-500-normal.woff2)}
+@font-face{font-family:AL;font-weight:500;src:url(../../../node_modules/@fontsource/alegreya/files/alegreya-latin-500-normal.woff2);unicode-range:U+0000-00FF}
+html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hidden}
+.glow{position:absolute;left:1180px;top:255px;width:1100px;height:520px;transform:translate(-50%,-50%);background:radial-gradient(ellipse at center,rgba(8,10,20,.62) 0%,rgba(8,10,20,.38) 45%,rgba(8,10,20,0) 72%)}
+.t{position:absolute;left:1180px;transform:translateX(-50%);text-align:center;white-space:nowrap;color:#f3ead8;text-shadow:0 2px 14px rgba(0,0,0,.85),0 0 2px rgba(0,0,0,.9)}
+.brand{top:92px;font:500 30px AL;letter-spacing:12px;color:#d9b46a}
+.h1{top:132px;font:700 112px PF;letter-spacing:2px}
+.h2{top:268px;font:500 46px AL;letter-spacing:7px}
+.rule{position:absolute;left:1180px;top:345px;width:360px;height:2px;transform:translateX(-50%);background:linear-gradient(90deg,transparent,#d9b46a,transparent)}
+.rule::after{content:"";position:absolute;left:50%;top:-5px;width:10px;height:10px;background:#d9b46a;transform:translateX(-50%) rotate(45deg)}
+.ep{top:368px;font:500 30px AL;letter-spacing:10px;color:#d9b46a}
+.h3{top:408px;font:700 58px PF;letter-spacing:3px}
+.frame{position:absolute;inset:22px;border:2px solid rgba(217,180,106,.75)}
+.frame2{position:absolute;inset:32px;border:1px solid rgba(217,180,106,.45)}
+.c{position:absolute;width:26px;height:26px;border:2px solid #d9b46a;transform:rotate(45deg);background:rgba(20,12,4,.5)}
+.end{position:absolute;left:1180px;bottom:300px;transform:translateX(-50%);font:500 30px AL;letter-spacing:10px;color:#f3ead8;text-shadow:0 2px 12px #000;display:none}
+body.final .end{display:block}
+</style></head><body>
+<div class="glow"></div>
+<div class="t brand">ÇAKIR RADYO TİYATROSU</div>
+<div class="t h1">Hz. Yusuf</div>
+<div class="t h2">Bir Rüyanın İzinde</div>
+<div class="rule"></div>
+<div class="t ep" id="ep">1. BÖLÜM</div>
+<div class="t h3" id="title">On Bir Yıldız</div>
+<div class="frame"></div><div class="frame2"></div>
+<div class="c" style="left:14px;top:14px"></div><div class="c" style="right:14px;top:14px"></div><div class="c" style="left:14px;bottom:14px"></div><div class="c" style="right:14px;bottom:14px"></div>
+<div class="end">— BÖLÜM SONU —</div>
+<script>const q=new URLSearchParams(location.search);if(q.get('ep'))document.getElementById('ep').textContent=q.get('ep')+'. BÖLÜM';if(q.get('title'))document.getElementById('title').textContent=q.get('title');if(q.get('final'))document.body.classList.add('final');</script>
+</body></html>
