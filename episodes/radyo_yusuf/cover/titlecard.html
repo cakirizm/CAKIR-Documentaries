@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:GV;src:url(../../../node_modules/@fontsource/great-vibes/files/great-vibes-latin-ext-400-normal.woff2)}
+@font-face{font-family:GV;src:url(../../../node_modules/@fontsource/great-vibes/files/great-vibes-latin-400-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:OS;font-weight:700;src:url(../../../node_modules/@fontsource/oswald/files/oswald-latin-ext-700-normal.woff2)}
+@font-face{font-family:OS;font-weight:700;src:url(../../../node_modules/@fontsource/oswald/files/oswald-latin-700-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:IN;font-weight:600;src:url(../../../node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff2)}
+@font-face{font-family:IN;font-weight:600;src:url(../../../node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2);unicode-range:U+0000-00FF}
+html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hidden}
+.c{position:absolute;left:0;right:0;text-align:center;white-space:nowrap}
+.ghost{top:30px;font:700 92px OS;letter-spacing:22px;color:rgba(255,255,255,.055)}
+.tag{top:96px;font:600 26px IN;letter-spacing:9px;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.6)}
+.tag b{font-weight:600;color:#fff4e0}
+.logo{top:110px;font:400 250px GV;color:rgba(255,255,255,.93);text-shadow:0 0 30px rgba(255,220,240,.55),0 6px 24px rgba(40,10,40,.55);letter-spacing:2px}
+.rt{top:448px;font:700 34px OS;letter-spacing:5px;line-height:1.05;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.7)}
+.ep{bottom:150px;font:700 132px OS;letter-spacing:2px;color:#fff;text-shadow:0 4px 0 rgba(0,0,0,.35),0 8px 30px rgba(0,0,0,.75)}
+.title{bottom:96px;font:600 36px IN;letter-spacing:12px;color:#ffeedd;text-shadow:0 2px 14px rgba(0,0,0,.85)}
+</style></head><body>
+<div class="c ghost">BİR RÜYANIN İZİNDE</div>
+<div class="c tag">“ BİR RÜYANIN <b>İZİNDE</b>... ”</div>
+<div class="c logo">Hz. Yusuf</div>
+<div class="c rt">ÇAKIR<br>RADYO TİYATROSU</div>
+<div class="c ep" id="ep">1. BÖLÜM</div>
+<div class="c title" id="title">ON BİR YILDIZ</div>
+<script>const q=new URLSearchParams(location.search);if(q.get('ep'))document.getElementById('ep').textContent=q.get('ep')+'. BÖLÜM';if(q.get('title'))document.getElementById('title').textContent=q.get('title').toLocaleUpperCase('tr');if(q.get('final')){document.getElementById('ep').textContent='BÖLÜM SONU';document.getElementById('title').textContent=(q.get('next')?('GELECEK BÖLÜM: '+q.get('next').toLocaleUpperCase('tr')):'');}</script>
+</body></html>

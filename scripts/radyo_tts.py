@@ -16,7 +16,7 @@ VOICES = {
     "ANLATICI": {"id": "J2FGlQG8Gd7x8uEDt2H8", "stability": 0.5, "note": "Tok, sıcak, sade anlatıcı"},
     "YUSUF":    {"id": "TX3LPaxmHKxFdv7VOQHJ", "stability": 0.5, "note": "Genç, berrak, samimi"},
     "YAKUP":    {"id": "JBFqnCBsd6RMkjVDRZzb", "stability": 0.5, "note": "Olgun, derin, şefkatli"},
-    "BUNYAMIN": {"id": "SOYHLrjzK2X1ezoPC6cr", "stability": 0.5, "note": "Küçük kardeş, neşeli, ince"},
+    "BUNYAMIN": {"id": "FGY2WhTYpPnrIDTdsKH5", "stability": 0.5, "note": "Küçük kardeş (çocuk sesi, dublajdaki gibi kadın sanatçı), neşeli", "prefix": "[young boy, about ten years old] "},
     "KARDES_A": {"id": "iP95p4xoKVk53GoZ742B", "stability": 0.5, "note": "Sivri, alaycı"},
     "KARDES_B": {"id": "bIHbv24MWmeRgasZH58o", "stability": 0.5, "note": "Tereddütlü, yumuşak"},
     "KARDES_C": {"id": "nPczCjzI2devNBz1zQrb", "stability": 0.5, "note": "Otoriter, düşük ton"},
@@ -32,6 +32,7 @@ TAKES = json.loads(TAKES_FILE.read_text()) if TAKES_FILE.exists() else {}
 
 def tts(who, text, take=None):
     v = VOICES[who]
+    text = v.get("prefix", "") + text
     if take is None:
         take = TAKES.get(f"{who}|{text}", 1)
     k = [v["id"], v["stability"], MODEL, text] + ([take] if take > 1 else [])

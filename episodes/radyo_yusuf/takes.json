@@ -22,5 +22,7 @@
  "YUSUF|[curious, not serious] Rüyamı mı? Evet. Hâlâ gözümün önünde.": 4,
  "YUSUF|[confidently] Hatırlıyorum. Kimseye anlatmadım.": 1,
  "KARDES_B|[uncertain] Bizi buraya niye çağırdın?": 2,
- "YUSUF|[cheerful, a little out of breath] Geldim babacığım. Bünyamin ile biraz dolaştık.": 3
+ "YUSUF|[cheerful, a little out of breath] Geldim babacığım. Bünyamin ile biraz dolaştık.": 3,
+ "BUNYAMIN|[young boy, about ten years old] [calling from a distance, cheerful] Yusuf! Yusuf, buraya gel!": 2,
+ "BUNYAMIN|[young boy, about ten years old] [laughs] Çünkü sen de gör istedim!": 3
 }
