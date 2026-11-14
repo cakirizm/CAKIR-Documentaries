@@ -20,6 +20,8 @@ SCRIPT = [
     # ---------------------------------------------------------------- SAHNE 1
     ("SCENE", "s1", {"amb": ["night_wind", "crickets"], "room": "bedroom", "title": "Rüyadan Uyanış"}),
     ("P", 3.0),
+    ("L", "ANLATICI", "[calm, setting the scene] Gece... Yakup'un evinde herkes uyuyordu.", {}),
+    ("P", 0.8),
     ("FX", "fabric", -24, {"pan": -0.2}),
     ("FX", "breaths_wake", -26, {"pan": -0.2}),
     ("P", 2.2),
@@ -45,6 +47,8 @@ SCRIPT = [
     # ---------------------------------------------------------------- SAHNE 2
     ("SCENE", "s2", {"amb": ["night_wind_far", "fire_crackle"], "room": "house", "title": "Baba, Bir Rüya Gördüm"}),
     ("P", 1.0),
+    ("L", "ANLATICI", "[calm] Yusuf, babası Yakup'un odasının önündeydi.", {}),
+    ("P", 0.8),
     ("L", "YUSUF", "[whispering, trying not to wake anyone] Babacığım?", Y),
     ("P", 0.8),
     ("L", "YAKUP", "[just woken, warm] Yusuf... Oğlum, sen misin? [softly] Gel, içeri gel.", K),
@@ -103,6 +107,8 @@ SCRIPT = [
 
     # ---------------------------------------------------------------- SAHNE 3
     ("SCENE", "s3", {"amb": ["morning_birds", "sheep_goats"], "room": "outdoor", "title": "Güneşli Sabah"}),
+    ("L", "ANLATICI", "[warm] Ertesi sabah... Yusuf, küçük kardeşi Bünyamin ile kırlarda dolaşıyordu.", {}),
+    ("P", 0.8),
     ("FXW", "steps_dirt", -26, {"pan": -0.2}),
     ("L", "BUNYAMIN", "[calling from a distance, cheerful] Yusuf! Yusuf, buraya gel!", {"pan": 0.5, "dist": 0.6}),
     ("L", "YUSUF", "[smiling, calling back] Ne oldu Bünyamin?", Y),
@@ -131,6 +137,8 @@ SCRIPT = [
 
     # ---------------------------------------------------------------- SAHNE 4
     ("SCENE", "s4", {"amb": ["open_field", "sheep_far", "distant_kids"], "room": "outdoor", "title": "Gülüşlerin Öte Yanı"}),
+    ("L", "ANLATICI", "[calm] Biraz ötede, sürülerin yanında, ağabeyler bir araya gelmişti.", {}),
+    ("P", 0.8),
     ("FXW", "steps_heavy", -24, {"pan": 0.1}),
     ("L", "KARDES_A", "[mocking, half laugh] Onlar yine eğleniyor. Sabahın bu saatinde bile...", {"pan": -0.35}),
     ("L", "KARDES_B", "[tired, not angry yet] Bırak eğlensinler. İkisi de küçük.", {"pan": 0.3}),
@@ -166,6 +174,8 @@ SCRIPT = [
 
     # ---------------------------------------------------------------- SAHNE 5
     ("SCENE", "s5", {"amb": ["afternoon_house", "few_birds"], "room": "house", "title": "Verilen Söz"}),
+    ("L", "ANLATICI", "[warm] Öğleden sonra Yusuf, babasının yanına döndü.", {}),
+    ("P", 0.8),
     ("FX", "door_open", -23, {"pan": -0.35}),
     ("FXW", "steps_few", -26, {"pan": -0.2}),
     ("L", "YAKUP", "[cheerful] Yusuf, geldin mi?", K),
@@ -190,6 +200,8 @@ SCRIPT = [
 
     # ---------------------------------------------------------------- SAHNE 6
     ("SCENE", "s6", {"amb": ["evening_wind", "lone_bird"], "room": "outdoor", "title": "Kıskançlığın İlk Sözü"}),
+    ("L", "ANLATICI", "[low] Akşamüstü... Ağabeyler, kimsenin duymayacağı bir yerde yeniden toplandı.", {}),
+    ("P", 0.8),
     ("FXW", "steps_stone", -24, {"pan": 0.0}),
     ("L", "KARDES_B", "[uncertain] Bizi buraya niye çağırdın?", {"pan": 0.3}),
     ("L", "KARDES_C", "[measured, deep] Az önce söylediklerimi düşünmeden duramadım.", {"pan": 0.05}),

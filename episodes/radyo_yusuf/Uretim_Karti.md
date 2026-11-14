@@ -1,18 +1,18 @@
 # Hz. Yusuf – Bir Rüyanın İzinde · Üretim Kartı (Bölüm 01)
 
 ## Sabit karakter sesleri (bütün bölümlerde aynı kalır)
-Model: ElevenLabs eleven_v3, dil: tr, stability 0.5, tempo ×1.05.
+Model: ElevenLabs eleven_v3, dil: tr, stability 0.5, tempo ×1.0 (sesler kullanıcı tarafından seçildi).
 
 | Karakter | Ses ID | Not |
 |---|---|---|
-| ANLATICI | `J2FGlQG8Gd7x8uEDt2H8` | Tok, sıcak, sade anlatıcı |
-| YUSUF | `TX3LPaxmHKxFdv7VOQHJ` | Genç, berrak, samimi |
-| YAKUP | `JBFqnCBsd6RMkjVDRZzb` | Olgun, derin, şefkatli |
-| BUNYAMIN | `SOYHLrjzK2X1ezoPC6cr` | Küçük kardeş, neşeli, ince |
-| KARDES_A | `iP95p4xoKVk53GoZ742B` | Sivri, alaycı |
-| KARDES_B | `bIHbv24MWmeRgasZH58o` | Tereddütlü, yumuşak |
-| KARDES_C | `nPczCjzI2devNBz1zQrb` | Otoriter, düşük ton |
-| KARDES_D | `onwK4e9ZLuTAKqWW03F9` | Vicdanlı, sakin |
+| ANLATICI | `J17lijyP1BHYcM7ld0Rg` | Anlatıcı — tok, sıcak, sade |
+| YUSUF | `mEf7WY0hvNO6KqdAkUeA` | Genç, berrak, samimi |
+| YAKUP | `0nxHEcFWlOD9yyAU78O9` | Olgun, derin, şefkatli baba |
+| BUNYAMIN | `axYgLAL9ouyPaqAaCdhi` | Küçük kardeş, neşeli |
+| KARDES_A | `dVd0jss7LBpnOXAK1eqo` | Sivri, alaycı |
+| KARDES_B | `bKzPIaBn2Q715Nv8nEwW` | Tereddütlü, yumuşak |
+| KARDES_C | `nBnvrVUbHrIrA5DpT4vp` | En büyük ağabey — otoriter, düşük ton |
+| KARDES_D | `gsJ9nrlXYbPztJxC4fwc` | Vicdanlı, sakin |
 
 ## Arka plan fotoğrafları (gerçek fotoğraf, Wikimedia Commons)
 Fotoğraflar yalnızca atmosfer içindir; Hz. Yusuf döneminden değildir.
@@ -38,7 +38,7 @@ Diğer efektler (rüzgâr, ateş, kumaş, nefes, kapı vurma, taş) ve tüm müz
 Özgün tema, Hicaz makamı (ney, ud, yaylılar, bendir). Dosyalar: Jenerik_Giris_Muzik.wav, Jenerik_Kapanis_Muzik.wav, Gecis_Muzik.wav — sonraki bölümlerde aynen kullanılacak.
 
 ## Kapak
-Kullanıcının kapak görseli (çadır) ön plan katmanı olarak korunur; çadır açıklığına gerçek fotoğraflar yerleşir. Yazılar ayrı katmandır; yeni bölümde yalnızca bölüm numarası ve adı değişir.
+Asr-ı Saadet tarzı sabit kapak ekranı: önde logo + bölüm yazısı, arkada 4 gerçek fotoğraf hep aynı sırayla (çöl → kerpiç köy → kuyu → gün batımı), 4 sn geçiş, çok yavaş yakınlaşma. Yeni bölümde yalnızca bölüm numarası ve adı değişir.
 
 ## Yeni bölüm üretimi
 1. episodes/radyo_yusuf/ep02_script.py yaz (ep01 biçiminde).

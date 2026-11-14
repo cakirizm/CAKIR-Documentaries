@@ -13,17 +13,17 @@ SR = 48000
 
 # --- SERIES CASTING (sabit ses kimlikleri) ---------------------------------
 VOICES = {
-    "ANLATICI": {"id": "J2FGlQG8Gd7x8uEDt2H8", "stability": 0.5, "note": "Tok, sıcak, sade anlatıcı"},
-    "YUSUF":    {"id": "TX3LPaxmHKxFdv7VOQHJ", "stability": 0.5, "note": "Genç, berrak, samimi"},
-    "YAKUP":    {"id": "JBFqnCBsd6RMkjVDRZzb", "stability": 0.5, "note": "Olgun, derin, şefkatli"},
-    "BUNYAMIN": {"id": "FGY2WhTYpPnrIDTdsKH5", "stability": 0.5, "note": "Küçük kardeş (çocuk sesi, dublajdaki gibi kadın sanatçı), neşeli", "prefix": "[young boy, about ten years old] "},
-    "KARDES_A": {"id": "iP95p4xoKVk53GoZ742B", "stability": 0.5, "note": "Sivri, alaycı"},
-    "KARDES_B": {"id": "bIHbv24MWmeRgasZH58o", "stability": 0.5, "note": "Tereddütlü, yumuşak"},
-    "KARDES_C": {"id": "nPczCjzI2devNBz1zQrb", "stability": 0.5, "note": "Otoriter, düşük ton"},
-    "KARDES_D": {"id": "onwK4e9ZLuTAKqWW03F9", "stability": 0.5, "note": "Vicdanlı, sakin"},
+    "ANLATICI": {"id": "J17lijyP1BHYcM7ld0Rg", "stability": 0.5, "note": "Anlatıcı — tok, sıcak, sade"},
+    "YUSUF":    {"id": "mEf7WY0hvNO6KqdAkUeA", "stability": 0.5, "note": "Genç, berrak, samimi"},
+    "YAKUP":    {"id": "0nxHEcFWlOD9yyAU78O9", "stability": 0.5, "note": "Olgun, derin, şefkatli baba"},
+    "BUNYAMIN": {"id": "axYgLAL9ouyPaqAaCdhi", "stability": 0.5, "note": "Küçük kardeş, neşeli"},
+    "KARDES_A": {"id": "dVd0jss7LBpnOXAK1eqo", "stability": 0.5, "note": "Sivri, alaycı"},
+    "KARDES_B": {"id": "bKzPIaBn2Q715Nv8nEwW", "stability": 0.5, "note": "Tereddütlü, yumuşak"},
+    "KARDES_C": {"id": "nBnvrVUbHrIrA5DpT4vp", "stability": 0.5, "note": "En büyük ağabey — otoriter, düşük ton"},
+    "KARDES_D": {"id": "gsJ9nrlXYbPztJxC4fwc", "stability": 0.5, "note": "Vicdanlı, sakin"},
 }
 MODEL = "eleven_v3"
-TEMPO = 1.05   # gentle pace tightening (pitch preserved)
+TEMPO = 1.0   # gentle pace tightening (pitch preserved)
 
 
 TAKES_FILE = ROOT / "episodes/radyo_yusuf/takes.json"
