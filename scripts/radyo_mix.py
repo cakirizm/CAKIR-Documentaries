@@ -287,7 +287,7 @@ def main():
             if e[1] == "kids_laugh_far":
                 x = norm(np.r_[laughs[-1][: int(1.6 * SR)], np.zeros(int(0.3 * SR)), laughs[0][: int(1.4 * SR)]] if laughs else np.zeros(SR) + 1e-6, e[2])
             else:
-                x = norm_active(FX[e[1]](), e[2] - 4)
+                x = norm_active(FX[e[1]](), e[2] - 9)
             st = spatial(x, o.get("pan", 0), o.get("dist", 0), room)
             add(F, st, t)
             if k == "FXW": t += len(x) / SR * 0.85
@@ -328,7 +328,7 @@ def main():
             else:
                 fn, lvl = AMB[name]; bed = fn(d)
             if not np.any(bed): continue
-            bed = norm(bed, lvl + 3) * env(len(bed), 1.5, 1.5)
+            bed = norm(bed, lvl - 2) * env(len(bed), 1.5, 1.5)
             w = rng.uniform(-0.3, 0.3)
             st = np.stack([bed * np.cos((w + 1) * np.pi / 4), bed * np.sin((w + 1) * np.pi / 4)], 1) * np.sqrt(2)
             # gentle stereo width: delay right channel a little
@@ -338,7 +338,7 @@ def main():
     V, F, Mu = V[:n], F[:n], Mu[:n]
     # duck ambience + music under dialogue
     e = np.abs(V).mean(1); w = int(0.2 * SR); cs = np.cumsum(np.r_[0, e]); ev = (cs[w:] - cs[:-w]) / w; ev = np.r_[ev, np.zeros(n - len(ev))]
-    g = np.where(ev > 0.003, db(-4), 1.0); k2 = int(0.3 * SR); cs = np.cumsum(np.r_[0, g]); gs = (cs[k2:] - cs[:-k2]) / k2; g = np.r_[gs, np.full(n - len(gs), gs[-1])]
+    g = np.where(ev > 0.003, db(-7), 1.0); k2 = int(0.3 * SR); cs = np.cumsum(np.r_[0, g]); gs = (cs[k2:] - cs[:-k2]) / k2; g = np.r_[gs, np.full(n - len(gs), gs[-1])]
     gm = np.where(ev > 0.003, db(-9), 1.0); cs = np.cumsum(np.r_[0, gm]); gs = (cs[k2:] - cs[:-k2]) / k2; gm = np.r_[gs, np.full(n - len(gs), gs[-1])]
     A *= g[:, None]; Mu *= gm[:, None] * db(-3)
     mix = V + F + A + Mu

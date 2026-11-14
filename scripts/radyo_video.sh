@@ -29,6 +29,6 @@ N=$(python3 -c "import math;print(math.ceil(($DUR)/$O4)+1)")
 ENDT=$(python3 -c "print(max(0,$DUR-$ENDCARD))")
 ffmpeg -y -v error -f concat -safe 0 -i $W/list.txt -loop 1 -framerate $FPS -i $P/cover/style.png -loop 1 -framerate $FPS -i $P/cover/overlay.png -loop 1 -framerate $FPS -i $P/cover/overlay_end.png -i "$A" -filter_complex \
   "[0][1]overlay=shortest=1[b];[b][2]overlay=enable='lt(t,$ENDT)':shortest=1[c];[c][3]overlay=enable='gte(t,$ENDT)':shortest=1,fade=t=in:st=0:d=1.5,fade=t=out:st=$(python3 -c "print($DUR-2)"):d=2,format=yuv420p[v]" \
-  -map "[v]" -map 4:a -t $DUR -r $FPS -c:v libx264 -crf 23 -maxrate 2.5M -bufsize 5M -preset medium -tune stillimage -c:a aac -b:a 192k -ar 48000 -ac 2 -movflags +faststart "$OUT"
+  -map "[v]" -map 4:a -t $DUR -r $FPS -c:v libx264 -crf ${VCRF:-18} -maxrate ${VMAX:-8M} -bufsize 16M -preset slow -tune stillimage -profile:v high -c:a aac -b:a ${ABR:-320k} -ar 48000 -ac 2 -movflags +faststart "$OUT"
 rm -rf $W
 echo "video ok: $OUT"
