@@ -91,6 +91,7 @@ SCRIPT = [
     ("FX", "rope", -21, {"pan": 0.0}),
     ("P", 1.0),
     ("L", "SUCU", "[stunned, then shouting with joy] Müjde! [pause] Müjde! İşte bir oğlan!", S_),
+    ("BEAT",),
     ("P", 1.6),
     ("L", "ANLATICI", "[calm, explanatory] Müfessirler bu sözü iki şekilde anlamıştır: Kimine göre bu bir sevinç nidasıydı... [pause] kimine göre ise sucu, Büşrâ adındaki arkadaşına sesleniyordu.", {}),
     ("P", 1.5),
@@ -98,14 +99,14 @@ SCRIPT = [
     # ---------------------------------------------------------------- SAHNE 4 — Kuyudan çıkan çocuk
     ("SCENE", "s4", {"amb": ["open_field", "caravan"], "room": "outdoor", "title": "Kuyudan Çıkan Çocuk"}),
     ("FX", "fabric", -24, {"pan": -0.1}),
-    ("L", "YUSUF", "[weak, breathless, polite] Selam olsun size... [pause] Allah sizden razı olsun.", Y),
+    ("L", "YUSUF", "[weak, breathless, polite] Selamün aleyküm... [pause] Allah sizden razı olsun.", Y),
     ("P", 1.8),
     ("L", "BUSRA", "[in awe, quiet] Sen... sen insan mısın?", BU),
     ("L", "ANLATICI", "[gentle] Rivayetlere göre Yusuf'un yüzündeki güzellik, kuyunun karanlığından çıkınca güneş gibi parlamıştı. [pause] Peygamber Efendimiz de Miraç gecesi onu gördüğünde, güzelliğin yarısının ona verildiğini haber vermiştir.", {}),
     ("P", 1.4),
     ("L", "SUCU", "[kindly, quick] Al, iç biraz. Yavaş... yavaş iç. Kim bilir kaç gündür oradasın.", S_),
     ("FX", "breath_soft", -28, {"pan": -0.18}),
-    ("L", "YUSUF", "[after drinking, softly] Üç gün. [pause] Teşekkür ederim.", Y),
+    ("L", "YUSUF", "[after drinking, softly] Elhamdülillah. [pause] Üç gün. Allah razı olsun.", Y),
     ("FXW", "steps_heavy", -26, {"pan": 0.3}),
     ("L", "MALIK", "[arriving, curious, measuring] Ne oluyor burada? [pause] Sucu! Su yerine ne çıkardın?", M_),
     ("L", "SUCU", "[excited] Bir çocuk, efendim! Kuyunun dibindeymiş!", S_),
@@ -136,6 +137,7 @@ SCRIPT = [
     ("L", "MALIK", "[cold, ending it] Bu çölde herkes bir şeydir, sucu. [pause] Sen suyuna bak.", M_),
     ("P", 1.6),
     ("L", "ANLATICI", "[grave] Kur'an şöyle der: Onu bir ticaret malı olarak sakladılar. [pause] Oysa Allah, onların yaptıklarını çok iyi biliyordu.", {}),
+    ("BEAT",),
     ("P", 1.8),
 
     # ---------------------------------------------------------------- SAHNE 6 — Kuyunun yanında gece

@@ -75,6 +75,7 @@ SCRIPT = [
     ("L", "KARDES_C", "[cold] Etmiyoruz.", SEMUN),
     ("P", 1.4),
     ("L", "ANLATICI", "[grave] Kur'an şöyle der: Onu düşük bir fiyata, sayılı birkaç dirheme sattılar. Zaten ona değer vermiyorlardı.", {}),
+    ("BEAT",),
     ("P", 1.0),
     ("L", "ANLATICI", "[calm] Rivayetlere göre bu bedel yirmi dirhem kadardı.", {}),
     ("FX", "coins", -26, {"pan": 0.2}),
@@ -93,6 +94,7 @@ SCRIPT = [
     ("P", 1.4),
     ("L", "KARDES_A", "[nervous, harsh] Ne var?", LAVI),
     ("L", "YUSUF", "[gentle, steady] Siz beni korumadınız. [pause] Ama Allah sizi korusun.", Y),
+    ("BEAT",),
     ("P", 2.4),
     ("L", "KARDES_D", "[barely audible] Yusuf...", YAHUDA),
     ("L", "YUSUF", "[soft] Babama... [pause] sabretmesini söyleyin. Bir gün döneceğim.", Y),
@@ -135,5 +137,6 @@ SCRIPT = [
     ("L", "MALIK", "[laughs low] Göreceğiz, sucu. [pause] Göreceğiz.", M_),
     ("P", 2.0),
     ("L", "ANLATICI", "[low] Kimse bilmiyordu: Birkaç dirheme satılan bu çocuk, bir gün koca bir ülkenin hazinelerini yönetecekti.", {}),
+    ("BEAT",),
     ("P", 2.0),
 ]

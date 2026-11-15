@@ -148,7 +148,14 @@ def footstep(var=0, surface="dirt"):
     return st * db(rng.uniform(-3, 0))
 
 
+CUR_ROOM = {"room": "outdoor"}
+
+
 def steps(count, interval, surface="dirt", accel=1.0, fade=None):
+    rm = CUR_ROOM["room"]
+    if rm in ("house", "bedroom"): surface = "floor"
+    elif rm == "well": surface = "stone"
+    elif surface == "floor": surface = "dirt"
     total = count * interval + 0.6
     x = np.zeros(int(total * SR)); t = 0.05
     for i in range(count):
@@ -293,8 +300,8 @@ def make_ir(decay, pre=0.004, density_lp=6000):
     return out
 
 
-ROOMS = {"bedroom": (make_ir(0.45, 0.003, 5000), 0.16), "house": (make_ir(0.6, 0.005, 5500), 0.18),
-         "outdoor": (make_ir(0.35, 0.012, 3500), 0.06), "well": (make_ir(1.4, 0.018, 2500), 0.38), "none": (None, 0.0)}
+ROOMS = {"bedroom": (make_ir(0.35, 0.003, 5000), 0.06), "house": (make_ir(0.45, 0.005, 5500), 0.07),
+         "outdoor": (make_ir(0.3, 0.012, 3500), 0.025), "well": (make_ir(1.3, 0.018, 2500), 0.28), "none": (None, 0.0)}
 
 
 def spatial(mono, pan=0.0, dist=0.0, room="none"):
@@ -305,7 +312,7 @@ def spatial(mono, pan=0.0, dist=0.0, room="none"):
     st = np.stack([x * l, x * r], 1) * np.sqrt(2)
     ir, wet = ROOMS.get(room, (None, 0))
     if ir is not None:
-        wet = wet + 0.25 * dist
+        wet = wet + 0.12 * dist
         rv = np.stack([ss.fftconvolve(x, ir[0])[: len(x) + int(0.6 * SR)], ss.fftconvolve(x, ir[1])[: len(x) + int(0.6 * SR)]], 1)
         st = np.r_[st, np.zeros((len(rv) - len(st), 2))] * (1 - wet * 0.5) + rv * wet
     return st
@@ -356,7 +363,7 @@ def main():
     for e in E.SCRIPT:
         k = e[0]
         if k == "SCENE":
-            room = e[2]["room"]; scenes.append({"id": e[1], "start": t, "amb": e[2]["amb"], "title": e[2]["title"]}); prev_who = None
+            room = e[2]["room"]; CUR_ROOM["room"] = room; scenes.append({"id": e[1], "start": t, "amb": e[2]["amb"], "title": e[2]["title"], "room": room}); prev_who = None
         elif k == "P":
             t += e[1]
         elif k in ("FX", "FXW"):
@@ -368,6 +375,9 @@ def main():
             st = spatial(x, o.get("pan", 0), o.get("dist", 0), room)
             add(F, st, t)
             if k == "FXW": t += len(x) / SR * 0.85
+        elif k == "BEAT":
+            br = trans[: int(3.2 * SR)].copy(); fl = int(1.2 * SR); br[-fl:] *= np.linspace(1, 0, fl)[:, None]; br[: int(0.3 * SR)] *= np.linspace(0, 1, int(0.3 * SR))[:, None]
+            add(Mu, br * db(-11), t + 0.15); t += 1.6
         elif k == "MUS":
             m = {"sting": sting, "transition": trans}[e[1]]
             add(Mu, m * db(-6), t); t += len(m) / SR - 1.2
@@ -406,6 +416,8 @@ def main():
             else:
                 fn, lvl = AMB[name]; bed = fn(d)
             if not np.any(bed): continue
+            if s.get("room") in ("house", "bedroom") and name not in ("fire_crackle", "afternoon_house"):
+                bed = ss.sosfilt(sos("low", 900), bed); lvl -= 3       # outside, heard through walls
             bed = norm(bed, lvl + 2) * env(len(bed), 1.5, 1.5) * (0.8 + 0.2 * np.sin(2 * np.pi * np.arange(len(bed)) / SR / rng.uniform(14, 30) + rng.uniform(0, 6)))
             w = rng.uniform(-0.3, 0.3)
             st = np.stack([bed * np.cos((w + 1) * np.pi / 4), bed * np.sin((w + 1) * np.pi / 4)], 1) * np.sqrt(2)
