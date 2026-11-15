@@ -1,0 +1,224 @@
+[
+ {
+  "id": "s1",
+  "title": "ON BİR YILDIZ",
+  "hook": "Bir çocuk, bir rüya... ve babasının sessizliği",
+  "dur": 62.9,
+  "audio": "episodes/radyo_yusuf/shorts/s1.wav",
+  "cues": [
+   {
+    "start": 1.37,
+    "end": 9.86,
+    "who": "Yusuf",
+    "text": "Önce gökyüzünü gördüm. Çok aydınlıktı. Sonra yıldızları... Bir, iki... Tam on bir yıldız vardı, babacığım!"
+   },
+   {
+    "start": 10.34,
+    "end": 12.12,
+    "who": "Yakup",
+    "text": "On bir yıldız mı?"
+   },
+   {
+    "start": 12.7,
+    "end": 20.1,
+    "who": "Yusuf",
+    "text": "Evet! Hepsini saydım. Sonra güneşle ay da oradaydı. Ama anlatacağım asıl şey bu değil."
+   },
+   {
+    "start": 20.58,
+    "end": 22.36,
+    "who": "Yakup",
+    "text": "Hiçbirini unutmadın demek."
+   },
+   {
+    "start": 22.84,
+    "end": 29.34,
+    "who": "Yusuf",
+    "text": "Unutmadım. Sayıları bile aklımda. Öyle canlıydı ki, uyandığımda bir an hâlâ rüyanın içindeyim sandım."
+   },
+   {
+    "start": 29.82,
+    "end": 31.52,
+    "who": "Yakup",
+    "text": "Nedir peki, yavrum?"
+   },
+   {
+    "start": 32.1,
+    "end": 38.43,
+    "who": "Yusuf",
+    "text": "Yıldızlar... Güneş ve ay... Hepsinin bana secde ettiğini gördüm."
+   },
+   {
+    "start": 41.95,
+    "end": 43.68,
+    "who": "Yusuf",
+    "text": "Babacığım? Neden sustun?"
+   },
+   {
+    "start": 44.26,
+    "end": 48.25,
+    "who": "Yakup",
+    "text": "Seni dinliyorum oğlum. Gördüğün rüya sıradan değil."
+   },
+   {
+    "start": 48.73,
+    "end": 49.77,
+    "who": "Yusuf",
+    "text": "Korkmam mı gerek?"
+   },
+   {
+    "start": 50.35,
+    "end": 55.32,
+    "who": "Yakup",
+    "text": "Hayır, Yusuf. Korkma. Yalnızca söylediğim bir şeyi dikkatle dinle."
+   },
+   {
+    "start": 55.8,
+    "end": 57.18,
+    "who": "Yusuf",
+    "text": "Dinliyorum."
+   }
+  ],
+  "bg": "bg1_desert.jpg"
+ },
+ {
+  "id": "s2",
+  "title": "BU RÜYAYI ANLATMA",
+  "hook": "Bir babanın oğluna en zor uyarısı",
+  "dur": 51.3,
+  "audio": "episodes/radyo_yusuf/shorts/s2.wav",
+  "cues": [
+   {
+    "start": 0.36,
+    "end": 3.03,
+    "who": "Yakup",
+    "text": "Bu rüyayı kardeşlerine anlatma, yavrum."
+   },
+   {
+    "start": 3.51,
+    "end": 5.83,
+    "who": "Yusuf",
+    "text": "Kardeşlerime mi? Ama neden?"
+   },
+   {
+    "start": 6.41,
+    "end": 17.51,
+    "who": "Yakup",
+    "text": "Bazen insan, başkasına verilen güzelliği kıskanabilir. Kıskançlık da insanı istemediği yanlışlara götürür. Sana karşı bir tuzak kurmalarından endişelenirim."
+   },
+   {
+    "start": 17.99,
+    "end": 21.36,
+    "who": "Yusuf",
+    "text": "Kardeşlerim bana neden kötülük yapsın ki? Ben onları seviyorum."
+   },
+   {
+    "start": 21.68,
+    "end": 26.65,
+    "who": "Yusuf",
+    "text": "Birlikte büyüyoruz. Aynı sofraya oturuyoruz. Ben onlara bir şey anlatınca niye üzülsünler?"
+   },
+   {
+    "start": 27.23,
+    "end": 36.42,
+    "who": "Yakup",
+    "text": "İnsan bazen elindekini unutup başkasının sahip olduğuna bakar. O zaman sevdiği kişiye bile haksızlık edebilir. Ben bunu istemiyorum."
+   },
+   {
+    "start": 36.74,
+    "end": 47.4,
+    "who": "Yakup",
+    "text": "Biliyorum oğlum. Senin kalbin temiz. Ama herkesin kalbinden geçenleri biz bilemeyiz. Şeytan, insanın açık düşmanıdır."
+   }
+  ],
+  "bg": "bg2_ksar.jpg"
+ },
+ {
+  "id": "s3",
+  "title": "KISKANÇLIĞIN İLK KIVILCIMI",
+  "hook": "Ağabeyler fısıldaşmaya başladı...",
+  "dur": 66.0,
+  "audio": "episodes/radyo_yusuf/shorts/s3.wav",
+  "cues": [
+   {
+    "start": 0.53,
+    "end": 3.82,
+    "who": "Lavi",
+    "text": "Onlar yine eğleniyor. Sabahın bu saatinde bile..."
+   },
+   {
+    "start": 4.3,
+    "end": 6.96,
+    "who": "Rubil",
+    "text": "Bırak eğlensinler. İkisi de küçük."
+   },
+   {
+    "start": 7.44,
+    "end": 11.77,
+    "who": "Lavi",
+    "text": "Küçükler, evet. Ama babamızın gözünde hep bizden büyük bir yerleri var."
+   },
+   {
+    "start": 14.63,
+    "end": 16.1,
+    "who": "Şem'un",
+    "text": "Yine mi aynı konu?"
+   },
+   {
+    "start": 16.68,
+    "end": 22.13,
+    "who": "Lavi",
+    "text": "Yanlış mı söylüyorum? Babamız, Yusuf'la Bünyamin'i bizden daha çok seviyor."
+   },
+   {
+    "start": 22.61,
+    "end": 24.16,
+    "who": "Rubil",
+    "text": "Bunu nereden biliyorsun?"
+   },
+   {
+    "start": 24.74,
+    "end": 32.83,
+    "who": "Lavi",
+    "text": "Onlarla konuşurken sesine dikkat et. Yüzünün nasıl değiştiğine bak. Biz geldiğimizde aynı sevinci görüyor musun?"
+   },
+   {
+    "start": 35.61,
+    "end": 39.14,
+    "who": "Rubil",
+    "text": "Bazen... Bazen haklı olabileceğini düşünüyorum."
+   },
+   {
+    "start": 39.62,
+    "end": 45.39,
+    "who": "Şem'un",
+    "text": "Biz kalabalık ve güçlü bir kardeş topluluğuyuz. Babamızın yükünü birlikte taşıyoruz."
+   },
+   {
+    "start": 48.25,
+    "end": 50.34,
+    "who": "Yahuda",
+    "text": "Neden sesleriniz yükseliyor?"
+   },
+   {
+    "start": 50.92,
+    "end": 53.79,
+    "who": "Lavi",
+    "text": "Babamızın Yusuf'a gösterdiği ilgiyi konuşuyoruz."
+   },
+   {
+    "start": 54.27,
+    "end": 58.52,
+    "who": "Yahuda",
+    "text": "Babamız Yusuf'u seviyor diye, bizi sevmediğini mi düşünüyorsunuz?"
+   },
+   {
+    "start": 59.1,
+    "end": 63.14,
+    "who": "Lavi",
+    "text": "Sadece seviyor değil. Sanki her şey onun etrafında dönüyor."
+   }
+  ],
+  "bg": "bg4_sunset.jpg"
+ }
+]

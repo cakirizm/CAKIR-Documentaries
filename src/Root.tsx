@@ -27,6 +27,8 @@ import bnT8 from '../episodes/banknot/build/ep8_timeline.json';
 import bnS8 from '../episodes/banknot/ep8.json';
 import bnT9 from '../episodes/banknot/build/ep9_timeline.json';
 import bnS9 from '../episodes/banknot/ep9.json';
+import {RadyoShort} from '../framework/radyo/RadyoShort';
+import radyoShorts01 from '../episodes/radyo_yusuf/shorts/ep01_shorts.json';
 import {Thumbnail} from '../framework/components/Thumbnail';
 import {EPISODES} from './episodes';
 import {ANIM_QC, ANIM_SCENES, AnimTest, SEA_SCENES, SeaTest, DriftTest} from './AnimTest';
@@ -61,6 +63,7 @@ export const Root: React.FC = () => (
 		<Composition id="Banknot-B7" component={BanknotEpisode as any} durationInFrames={Math.round((bnT7 as any).durationSec * 30)} fps={30} width={1080} height={1920} defaultProps={{timeline: bnT7 as any, scenes: (bnS7 as any).scenes, audio: 'episodes/banknot/audio/ep7/mix.wav', ep: 7, title: (bnS7 as any).title}} />
 		<Composition id="Banknot-B8" component={BanknotEpisode as any} durationInFrames={Math.round((bnT8 as any).durationSec * 30)} fps={30} width={1080} height={1920} defaultProps={{timeline: bnT8 as any, scenes: (bnS8 as any).scenes, audio: 'episodes/banknot/audio/ep8/mix.wav', ep: 8, title: (bnS8 as any).title}} />
 		<Composition id="Banknot-B9" component={BanknotEpisode as any} durationInFrames={Math.round((bnT9 as any).durationSec * 30)} fps={30} width={1080} height={1920} defaultProps={{timeline: bnT9 as any, scenes: (bnS9 as any).scenes, audio: 'episodes/banknot/audio/ep9/mix.wav', ep: 9, title: (bnS9 as any).title}} />
+		{(radyoShorts01 as any[]).map((sp) => <Composition key={sp.id} id={`Radyo-E01-${sp.id}`} component={RadyoShort as any} durationInFrames={Math.round(sp.dur * 30)} fps={30} width={1080} height={1920} defaultProps={{spec: {...sp, ep: 1, epTitle: "On Bir Yıldız"}}} />)}
 		<Composition id="YusufTest" component={YusufTest} durationInFrames={360} fps={30} width={1080} height={1920} />
 		<Still id="CAKIR-Airport-Thumbnail" component={Thumbnail as any} width={1280} height={720} defaultProps={{headline: '18 YEARS', subline: 'IN AN AIRPORT', photo: null}} />
 		<Still id="CAKIR-438Days-Thumbnail" component={Thumbnail as any} width={1280} height={720} defaultProps={{headline: '438 DAYS', subline: 'LOST AT SEA', photo: 'episodes/alvarenga/media/alv_photo_2.jpg', focus: [0.58, 0.3]}} />
