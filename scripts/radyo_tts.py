@@ -17,10 +17,10 @@ VOICES = {
     "YUSUF":    {"id": "mEf7WY0hvNO6KqdAkUeA", "stability": 0.5, "note": "Genç, berrak, samimi"},
     "YAKUP":    {"id": "0nxHEcFWlOD9yyAU78O9", "stability": 0.5, "note": "Olgun, derin, şefkatli baba"},
     "BUNYAMIN": {"id": "axYgLAL9ouyPaqAaCdhi", "stability": 0.5, "note": "Küçük kardeş, neşeli"},
-    "KARDES_A": {"id": "dVd0jss7LBpnOXAK1eqo", "stability": 0.5, "note": "Sivri, alaycı"},
-    "KARDES_B": {"id": "bKzPIaBn2Q715Nv8nEwW", "stability": 0.5, "note": "Tereddütlü, yumuşak"},
-    "KARDES_C": {"id": "nBnvrVUbHrIrA5DpT4vp", "stability": 0.5, "note": "En büyük ağabey — otoriter, düşük ton"},
-    "KARDES_D": {"id": "gsJ9nrlXYbPztJxC4fwc", "stability": 0.5, "note": "Vicdanlı, sakin"},
+    "KARDES_A": {"id": "dVd0jss7LBpnOXAK1eqo", "stability": 0.5, "note": "Lavi (rivayet) — sivri, alaycı"},
+    "KARDES_B": {"id": "bKzPIaBn2Q715Nv8nEwW", "stability": 0.5, "note": "Rubil (rivayet), en büyük — tereddütlü, yumuşak"},
+    "KARDES_C": {"id": "nBnvrVUbHrIrA5DpT4vp", "stability": 0.5, "note": "Şem'un (rivayet) — sert, otoriter, düşük ton"},
+    "KARDES_D": {"id": "gsJ9nrlXYbPztJxC4fwc", "stability": 0.5, "note": "Yahuda (rivayet) — vicdanlı, sakin"},
 }
 MODEL = "eleven_v3"
 TEMPO = 1.0   # gentle pace tightening (pitch preserved)

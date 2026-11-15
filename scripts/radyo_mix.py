@@ -216,6 +216,20 @@ def drips(d):
     return x
 
 
+def camel_bells(d=6.0):
+    n = int(d * SR); x = np.zeros(n); t = 0.2
+    while t < d - 1.4:
+        L = int(1.2 * SR); a = int(t * SR); tt = np.arange(L) / SR; f = rng.choice([620, 740, 830])
+        x[a:a + L] += (np.sin(2 * np.pi * f * tt) + 0.5 * np.sin(2 * np.pi * f * 2.76 * tt)) * np.exp(-tt * 4) * rng.uniform(0.5, 1)
+        t += rng.uniform(0.45, 0.8)
+    return x * env(n, 1.5, 2.0)
+
+
+def goat_single():
+    c = chunks(src("goats"), 1, (0.8, 1.3))
+    return c[0]
+
+
 FX = {
     "fabric": lambda: fabric(0.9), "sit_fabric": lambda: np.r_[fabric(0.7), fabric(0.5) * 0.6],
     "breaths_wake": lambda: np.r_[breath(0.5, 400, 2200), np.zeros(int(0.15 * SR)), breath(0.6, 400, 2200), np.zeros(int(0.1 * SR)), breath(0.5, 400, 2200)],
@@ -227,7 +241,7 @@ FX = {
     "steps_stone": lambda: steps(5, 0.6, "stone"),
     "run_two": lambda: (steps(14, 0.22, "dirt", fade="out") + np.r_[np.zeros(int(0.11 * SR)), steps(14, 0.23, "dirt", fade="out")][: int((14 * 0.22 + 0.6) * SR)]),
     "door_open": lambda: door("open"), "door_close": lambda: door("close"), "door_far": lambda: door("close"),
-    "knock": knock, "gust": gust, "stone_click": stone_click, "rope": rope, "splash_small": splash,
+    "knock": knock, "gust": gust, "stone_click": stone_click, "rope": rope, "splash_small": splash, "camel_bells": camel_bells, "goat_single": goat_single,
 }
 
 
