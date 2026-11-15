@@ -192,6 +192,30 @@ def stone_click():
 def gust(d=3.0): return wind(d, 1.0, 1400) * np.sin(np.linspace(0, np.pi, int(d * SR))) ** 2
 
 
+def rope():
+    x = np.zeros(int(1.8 * SR)); t = 0.0
+    while t < 1.6:
+        L = int(rng.uniform(0.08, 0.2) * SR); a = int(t * SR); tt = np.arange(L) / SR
+        f = rng.uniform(220, 420)
+        x[a:a + L] += np.sin(2 * np.pi * f * tt + 3 * np.sin(2 * np.pi * 40 * tt)) * bp(noise(L), 200, 2500) * np.sin(np.linspace(0, np.pi, L)) * 0.8
+        t += rng.uniform(0.15, 0.35)
+    return x + 0.3 * fabric(1.8)[: len(x)]
+
+
+def splash():
+    L = int(0.9 * SR); t = np.arange(L) / SR
+    return bp(noise(L), 400, 6000) * np.exp(-t * 7) + 0.4 * np.sin(2 * np.pi * (300 + 600 * np.exp(-t * 20)) * t) * np.exp(-t * 12)
+
+
+def drips(d):
+    n = int(d * SR); x = np.zeros(n); t = rng.uniform(0.3, 1.5)
+    while t < d:
+        L = int(0.12 * SR); a = int(t * SR); tt = np.arange(L) / SR; f = rng.uniform(900, 1600)
+        if a + L < n: x[a:a + L] += np.sin(2 * np.pi * f * (1 + 0.6 * tt) * tt) * np.exp(-tt * 45)
+        t += rng.uniform(1.2, 3.5)
+    return x
+
+
 FX = {
     "fabric": lambda: fabric(0.9), "sit_fabric": lambda: np.r_[fabric(0.7), fabric(0.5) * 0.6],
     "breaths_wake": lambda: np.r_[breath(0.5, 400, 2200), np.zeros(int(0.15 * SR)), breath(0.6, 400, 2200), np.zeros(int(0.1 * SR)), breath(0.5, 400, 2200)],
@@ -203,7 +227,7 @@ FX = {
     "steps_stone": lambda: steps(5, 0.6, "stone"),
     "run_two": lambda: (steps(14, 0.22, "dirt", fade="out") + np.r_[np.zeros(int(0.11 * SR)), steps(14, 0.23, "dirt", fade="out")][: int((14 * 0.22 + 0.6) * SR)]),
     "door_open": lambda: door("open"), "door_close": lambda: door("close"), "door_far": lambda: door("close"),
-    "knock": knock, "gust": gust, "stone_click": stone_click,
+    "knock": knock, "gust": gust, "stone_click": stone_click, "rope": rope, "splash_small": splash,
 }
 
 
@@ -220,7 +244,7 @@ def make_ir(decay, pre=0.004, density_lp=6000):
 
 
 ROOMS = {"bedroom": (make_ir(0.45, 0.003, 5000), 0.16), "house": (make_ir(0.6, 0.005, 5500), 0.18),
-         "outdoor": (make_ir(0.35, 0.012, 3500), 0.06), "none": (None, 0.0)}
+         "outdoor": (make_ir(0.35, 0.012, 3500), 0.06), "well": (make_ir(1.4, 0.018, 2500), 0.38), "none": (None, 0.0)}
 
 
 def spatial(mono, pan=0.0, dist=0.0, room="none"):
@@ -248,6 +272,7 @@ AMB = {
     "afternoon_house": (lambda d: ss.sosfilt(sos("low", 600), noise(int(d * SR))), -52),
     "few_birds": (lambda d: ss.sosfilt(sos("low", 3500), sporadic(chunks(next((s for s in (src("birds"), src("birds2")) if s is not None), None), 6, (0.8, 2.0)), d, (4, 9))), -44),
     "evening_wind": (lambda d: wind(d, 1.0, 900), -39),
+    "well_drip": (drips, -40), "well_wind": (lambda d: ss.sosfilt(sos("low", 350), wind(d, 1.0, 600)), -44),
     "lone_bird": (lambda d: sporadic(chunks(next((s for s in (src("birds2"), src("birds")) if s is not None), None), 3, (0.6, 1.2)), d, (8, 15)), -46),
 }
 
