@@ -1,0 +1,641 @@
+[
+ {
+  "id": "xyqF3vGMQlPk3e7yA4DI",
+  "name": "Ahu",
+  "gender": "F",
+  "f0": 213,
+  "clarity": 1.0,
+  "lp": -0.34,
+  "dur": 5.7
+ },
+ {
+  "id": "1dZlYtnYGmIIA3kV1FuX",
+  "name": "Aysel",
+  "gender": "F",
+  "f0": 279,
+  "clarity": 1.0,
+  "lp": -0.27,
+  "dur": 6.2
+ },
+ {
+  "id": "6GYyziau4Hk8qdg7od5c",
+  "name": "Betul Tuna",
+  "gender": "F",
+  "f0": 254,
+  "clarity": 1.0,
+  "lp": -0.31,
+  "dur": 5.4
+ },
+ {
+  "id": "NNn9dv8zq2kUo7d3JSGG",
+  "name": "Derya",
+  "gender": "F",
+  "f0": 239,
+  "clarity": 0.87,
+  "lp": -0.26,
+  "dur": 5.9
+ },
+ {
+  "id": "MzfWWOj9g3sIKex1YFMV",
+  "name": "Duygu Eris",
+  "gender": "F",
+  "f0": 255,
+  "clarity": 0.92,
+  "lp": -0.28,
+  "dur": 4.6
+ },
+ {
+  "id": "AzDtLFQ0galizFNFE2xQ",
+  "name": "Emine Sumer",
+  "gender": "F",
+  "f0": 198,
+  "clarity": 1.0,
+  "lp": -0.28,
+  "dur": 5.4
+ },
+ {
+  "id": "xsGHrtxT5AdDzYXTQT0d",
+  "name": "Gonul Filiz",
+  "gender": "F",
+  "f0": 231,
+  "clarity": 1.0,
+  "lp": -0.25,
+  "dur": 6.2
+ },
+ {
+  "id": "58oUR7g9xaf9pbxNCyws",
+  "name": "Gunnur",
+  "gender": "F",
+  "f0": 198,
+  "clarity": 0.87,
+  "lp": -0.24,
+  "dur": 5.0
+ },
+ {
+  "id": "TASY7VCrU29rEMoYFTGG",
+  "name": "Hurrem",
+  "gender": "F",
+  "f0": 179,
+  "clarity": 1.0,
+  "lp": -0.29,
+  "dur": 5.4
+ },
+ {
+  "id": "IgiCa6883ksPGir0tfNK",
+  "name": "Nergis",
+  "gender": "F",
+  "f0": 266,
+  "clarity": 0.88,
+  "lp": -0.28,
+  "dur": 5.2
+ },
+ {
+  "id": "xbDrc2x8CZgoKHbSCuRg",
+  "name": "Nursel",
+  "gender": "F",
+  "f0": 240,
+  "clarity": 1.0,
+  "lp": -0.19,
+  "dur": 5.5
+ },
+ {
+  "id": "H9xk2HncwpOKhhzbyWsd",
+  "name": "Sevim",
+  "gender": "F",
+  "f0": 254,
+  "clarity": 0.87,
+  "lp": -0.31,
+  "dur": 5.3
+ },
+ {
+  "id": "AtCqglsS9sXaXLbu0Zco",
+  "name": "Sultan",
+  "gender": "F",
+  "f0": 176,
+  "clarity": 0.87,
+  "lp": -0.23,
+  "dur": 4.6
+ },
+ {
+  "id": "bqaNYmxFgK1TN7CL95PZ",
+  "name": "Tomris",
+  "gender": "F",
+  "f0": 271,
+  "clarity": 0.92,
+  "lp": -0.3,
+  "dur": 5.4
+ },
+ {
+  "id": "FDs1ZX5J4e4f2c2erxtW",
+  "name": "Warm Turkish Female",
+  "gender": "F",
+  "f0": 205,
+  "clarity": 0.87,
+  "lp": -0.29,
+  "dur": 4.5
+ },
+ {
+  "id": "ywzrmJ3AgYiLqAeZAGrq",
+  "name": "Yasemin",
+  "gender": "F",
+  "f0": 142,
+  "clarity": 1.0,
+  "lp": -0.32,
+  "dur": 6.3
+ },
+ {
+  "id": "4FGncSQuErxZLM0p4qHJ",
+  "name": "1970s Gentleman",
+  "gender": "M",
+  "f0": 227,
+  "clarity": 0.92,
+  "lp": -0.33,
+  "dur": 5.1
+ },
+ {
+  "id": "pGMp7Agf4sG0hyhiiGiw",
+  "name": "Abdulkadir K",
+  "gender": "M",
+  "f0": 96,
+  "clarity": 1.0,
+  "lp": -0.24,
+  "dur": 4.9
+ },
+ {
+  "id": "BhB3UfxCoE9Ti9W4DD4g",
+  "name": "Ahmet Evlice",
+  "gender": "M",
+  "f0": 109,
+  "clarity": 1.0,
+  "lp": -0.21,
+  "dur": 5.4
+ },
+ {
+  "id": "IpRTxq9hXbwzS8cO2t83",
+  "name": "Ali Dagli",
+  "gender": "M",
+  "f0": 129,
+  "clarity": 1.0,
+  "lp": -0.27,
+  "dur": 5.4
+ },
+ {
+  "id": "qUGjOGoUuQBTUqwY8n0e",
+  "name": "Arman Yilmazkurt",
+  "gender": "M",
+  "f0": 149,
+  "clarity": 1.0,
+  "lp": -0.24,
+  "dur": 4.7
+ },
+ {
+  "id": "1ffz238R96Rj4P86qeOa",
+  "name": "Aydin Aslan",
+  "gender": "M",
+  "f0": 179,
+  "clarity": 1.0,
+  "lp": -0.24,
+  "dur": 5.2
+ },
+ {
+  "id": "VtLFdkOJSt8TuXqwEzD8",
+  "name": "Aykut Akkasoglu",
+  "gender": "M",
+  "f0": 84,
+  "clarity": 1.0,
+  "lp": -0.28,
+  "dur": 5.0
+ },
+ {
+  "id": "tXRnby5LTnvbvDWMCJWO",
+  "name": "Aytug Akincilar",
+  "gender": "M",
+  "f0": 156,
+  "clarity": 1.0,
+  "lp": -0.31,
+  "dur": 5.4
+ },
+ {
+  "id": "6H6FG7kAHiOf7LXnwus7",
+  "name": "Cahit",
+  "gender": "M",
+  "f0": 67,
+  "clarity": 1.0,
+  "lp": -0.27,
+  "dur": 5.5
+ },
+ {
+  "id": "Y2T2O1csKPgWgyuKcU0a",
+  "name": "Cavit Pancar",
+  "gender": "M",
+  "f0": 121,
+  "clarity": 1.0,
+  "lp": -0.2,
+  "dur": 5.4
+ },
+ {
+  "id": "Zpbxhg6LG47cY8y5BJrf",
+  "name": "Celil",
+  "gender": "M",
+  "f0": 155,
+  "clarity": 1.0,
+  "lp": -0.32,
+  "dur": 6.5
+ },
+ {
+  "id": "D1xRw7f8ZHedI7xJgfvz",
+  "name": "Cem",
+  "gender": "M",
+  "f0": 178,
+  "clarity": 0.92,
+  "lp": -0.26,
+  "dur": 4.8
+ },
+ {
+  "id": "j9K9HnBcmgA6xNWqjlX0",
+  "name": "Emin",
+  "gender": "M",
+  "f0": 88,
+  "clarity": 1.0,
+  "lp": -0.29,
+  "dur": 6.2
+ },
+ {
+  "id": "UKn8d228qbbMa2f9ezXL",
+  "name": "Emre Kurtul",
+  "gender": "M",
+  "f0": 178,
+  "clarity": 0.87,
+  "lp": -0.23,
+  "dur": 4.7
+ },
+ {
+  "id": "DpEiQMnL9WxMsymCsjPY",
+  "name": "Emrullah Uzun",
+  "gender": "M",
+  "f0": 106,
+  "clarity": 0.8,
+  "lp": -0.42,
+  "dur": 4.9
+ },
+ {
+  "id": "ZuSBYwJvg6VObnEdTzuA",
+  "name": "Ercan Celik",
+  "gender": "M",
+  "f0": 107,
+  "clarity": 1.0,
+  "lp": -0.17,
+  "dur": 4.8
+ },
+ {
+  "id": "0DihkedLJYKoWg7H1u4d",
+  "name": "Ergun Kalbak",
+  "gender": "M",
+  "f0": 88,
+  "clarity": 1.0,
+  "lp": -0.23,
+  "dur": 5.7
+ },
+ {
+  "id": "A2nJYsJQbhz9yDiDndcv",
+  "name": "Ersen Tahsin",
+  "gender": "M",
+  "f0": 86,
+  "clarity": 1.0,
+  "lp": -0.25,
+  "dur": 4.6
+ },
+ {
+  "id": "sqN4QwtcnanCCWx6TTYj",
+  "name": "Eyyup Okan",
+  "gender": "M",
+  "f0": 154,
+  "clarity": 1.0,
+  "lp": -0.29,
+  "dur": 5.3
+ },
+ {
+  "id": "DM4ogDUNaqwcuIIRkVZK",
+  "name": "Fatih Cetinkaya",
+  "gender": "M",
+  "f0": 108,
+  "clarity": 1.0,
+  "lp": -0.3,
+  "dur": 5.5
+ },
+ {
+  "id": "7VqWGAWwo2HMrylfKrcm",
+  "name": "Fatih Yildirim",
+  "gender": "M",
+  "f0": 109,
+  "clarity": 1.0,
+  "lp": -0.24,
+  "dur": 5.4
+ },
+ {
+  "id": "lSX8MEhRyl5ZEeI3jfgm",
+  "name": "Firat Meric",
+  "gender": "M",
+  "f0": 115,
+  "clarity": 0.92,
+  "lp": -0.28,
+  "dur": 4.4
+ },
+ {
+  "id": "zZssm093yLGZF9E0ueS4",
+  "name": "Gokhan Gursoy",
+  "gender": "M",
+  "f0": 129,
+  "clarity": 0.92,
+  "lp": -0.25,
+  "dur": 4.7
+ },
+ {
+  "id": "23juXLe6iBUtKIH1h9iH",
+  "name": "Hakan Yayla",
+  "gender": "M",
+  "f0": 73,
+  "clarity": 1.0,
+  "lp": -0.29,
+  "dur": 6.0
+ },
+ {
+  "id": "6U25IshsKGd7nVhRbPOT",
+  "name": "Halil Aykut",
+  "gender": "M",
+  "f0": 90,
+  "clarity": 1.0,
+  "lp": -0.21,
+  "dur": 5.2
+ },
+ {
+  "id": "16oUZgJmfjLsqIpTPCoN",
+  "name": "Harun",
+  "gender": "M",
+  "f0": 128,
+  "clarity": 1.0,
+  "lp": -0.25,
+  "dur": 5.2
+ },
+ {
+  "id": "CAZHppP7aQYRe3yvqrC2",
+  "name": "Husnu Ay",
+  "gender": "M",
+  "f0": 87,
+  "clarity": 1.0,
+  "lp": -0.26,
+  "dur": 5.6
+ },
+ {
+  "id": "7lcNJZEExyxZUNKIfjAh",
+  "name": "Ibrahim Halil",
+  "gender": "M",
+  "f0": 134,
+  "clarity": 1.0,
+  "lp": -0.27,
+  "dur": 5.2
+ },
+ {
+  "id": "YsN6GJCMgACs4GeBE5No",
+  "name": "Ismail Ergenler",
+  "gender": "M",
+  "f0": 102,
+  "clarity": 1.0,
+  "lp": -0.26,
+  "dur": 6.7
+ },
+ {
+  "id": "j82ax9yhzfYwq9lDvRWL",
+  "name": "Kadir Kayisci",
+  "gender": "M",
+  "f0": 88,
+  "clarity": 1.0,
+  "lp": -0.26,
+  "dur": 5.1
+ },
+ {
+  "id": "LCHGt3rsPMP50Vs28amI",
+  "name": "Mehmet Derindag",
+  "gender": "M",
+  "f0": 82,
+  "clarity": 1.0,
+  "lp": -0.26,
+  "dur": 5.3
+ },
+ {
+  "id": "QcRYIBt2DzVngdAzo2wY",
+  "name": "Mikail",
+  "gender": "M",
+  "f0": 113,
+  "clarity": 1.0,
+  "lp": -0.25,
+  "dur": 5.9
+ },
+ {
+  "id": "HGokgaAG6y586a3fAmcA",
+  "name": "Muhammed Bilal",
+  "gender": "M",
+  "f0": 122,
+  "clarity": 1.0,
+  "lp": -0.29,
+  "dur": 5.3
+ },
+ {
+  "id": "GLHtjkeLJ9Rxcv9JhLmh",
+  "name": "Muhammer Arabaci",
+  "gender": "M",
+  "f0": 160,
+  "clarity": 1.0,
+  "lp": -0.25,
+  "dur": 4.7
+ },
+ {
+  "id": "krLzmW3By9JzaVy294Ux",
+  "name": "Murat Albayrak",
+  "gender": "M",
+  "f0": 91,
+  "clarity": 1.0,
+  "lp": -0.24,
+  "dur": 6.5
+ },
+ {
+  "id": "Vbx8qgYYdsXg0blBt1S8",
+  "name": "Mustafa Erkek",
+  "gender": "M",
+  "f0": 113,
+  "clarity": 1.0,
+  "lp": -0.27,
+  "dur": 5.2
+ },
+ {
+  "id": "fg8pljYEn5ahwjyOQaro",
+  "name": "Mustafa Silici",
+  "gender": "M",
+  "f0": 93,
+  "clarity": 1.0,
+  "lp": -0.22,
+  "dur": 5.0
+ },
+ {
+  "id": "0mW2NzhwPkJ7cWxShgXf",
+  "name": "Muzaffer",
+  "gender": "M",
+  "f0": 93,
+  "clarity": 1.0,
+  "lp": -0.28,
+  "dur": 5.3
+ },
+ {
+  "id": "UN16fLgKHD2zj2AAtSQB",
+  "name": "Oguzhan",
+  "gender": "M",
+  "f0": 157,
+  "clarity": 0.87,
+  "lp": -0.24,
+  "dur": 4.4
+ },
+ {
+  "id": "c9eIhSvMHBxtYhLX4oBt",
+  "name": "Orcun Togan",
+  "gender": "M",
+  "f0": 160,
+  "clarity": 0.87,
+  "lp": -0.2,
+  "dur": 4.5
+ },
+ {
+  "id": "5nr6ATQepuidiLb6OT3B",
+  "name": "Ozan Karaca",
+  "gender": "M",
+  "f0": 97,
+  "clarity": 1.0,
+  "lp": -0.21,
+  "dur": 5.1
+ },
+ {
+  "id": "lV90UmdRoVFQHzkxUPeu",
+  "name": "Polat",
+  "gender": "M",
+  "f0": 118,
+  "clarity": 0.87,
+  "lp": -0.22,
+  "dur": 4.8
+ },
+ {
+  "id": "jekJtkUc0EDZEIglVy7B",
+  "name": "Ramazan",
+  "gender": "M",
+  "f0": 180,
+  "clarity": 0.87,
+  "lp": -0.28,
+  "dur": 4.2
+ },
+ {
+  "id": "qn7FTtcMCdv0ZUc1re2n",
+  "name": "Recep Arkis",
+  "gender": "M",
+  "f0": 121,
+  "clarity": 0.92,
+  "lp": -0.3,
+  "dur": 5.3
+ },
+ {
+  "id": "QAABwpMjK3YR9pYW5FDO",
+  "name": "Recep Saglik",
+  "gender": "M",
+  "f0": 108,
+  "clarity": 0.87,
+  "lp": -0.23,
+  "dur": 5.2
+ },
+ {
+  "id": "dLAxUPEUCZ9cz4KHisnL",
+  "name": "Sercan Esen",
+  "gender": "M",
+  "f0": 131,
+  "clarity": 1.0,
+  "lp": -0.25,
+  "dur": 6.1
+ },
+ {
+  "id": "f4D8xroRt4ZvAzDe9FGL",
+  "name": "Serkan Demirci",
+  "gender": "M",
+  "f0": 89,
+  "clarity": 1.0,
+  "lp": -0.25,
+  "dur": 5.2
+ },
+ {
+  "id": "mF7tIc9VLrznhGooGjaT",
+  "name": "Seyfullah Kartal",
+  "gender": "M",
+  "f0": 95,
+  "clarity": 1.0,
+  "lp": -0.26,
+  "dur": 5.7
+ },
+ {
+  "id": "LToDY4cXEoKGCUVBdZcd",
+  "name": "Suleyman",
+  "gender": "M",
+  "f0": 114,
+  "clarity": 0.92,
+  "lp": -0.23,
+  "dur": 5.2
+ },
+ {
+  "id": "qHjcDL87pelA6RkUz0Ij",
+  "name": "The Kid",
+  "gender": "M",
+  "f0": 91,
+  "clarity": 1.0,
+  "lp": -0.17,
+  "dur": 4.9
+ },
+ {
+  "id": "pa0LgEk5MjYFGCuG6I3V",
+  "name": "Toprak",
+  "gender": "M",
+  "f0": 121,
+  "clarity": 1.0,
+  "lp": -0.3,
+  "dur": 5.2
+ },
+ {
+  "id": "dDcfsSsiSzmphdMGCECb",
+  "name": "Umit Dogan",
+  "gender": "M",
+  "f0": 94,
+  "clarity": 1.0,
+  "lp": -0.26,
+  "dur": 5.1
+ },
+ {
+  "id": "OaQfGOEvUip9NEh44CYG",
+  "name": "Yavuz Selim",
+  "gender": "M",
+  "f0": 93,
+  "clarity": 1.0,
+  "lp": -0.24,
+  "dur": 5.0
+ },
+ {
+  "id": "jaicbKf2LuAoprMLZ5Gd",
+  "name": "Yesilcam",
+  "gender": "M",
+  "f0": 106,
+  "clarity": 1.0,
+  "lp": -0.24,
+  "dur": 5.4
+ },
+ {
+  "id": "Q5n6GDIjpN0pLOlycRFT",
+  "name": "Yunus",
+  "gender": "M",
+  "f0": 89,
+  "clarity": 0.92,
+  "lp": -0.23,
+  "dur": 4.9
+ }
+]

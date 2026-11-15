@@ -22,6 +22,31 @@ VOICES = {
     "KARDES_C": {"id": "nBnvrVUbHrIrA5DpT4vp", "stability": 0.5, "note": "Şem'un (rivayet) — sert, otoriter, düşük ton"},
     "KARDES_D": {"id": "gsJ9nrlXYbPztJxC4fwc", "stability": 0.5, "note": "Yahuda (rivayet) — vicdanlı, sakin"},
 }
+CAST_FILE = ROOT / "episodes/radyo_yusuf/cast.json"
+POOL_FILE = ROOT / "episodes/radyo_yusuf/voice_pool.json"
+if CAST_FILE.exists():
+    VOICES.update(json.loads(CAST_FILE.read_text()))
+AGE_F0 = {"M": {"child": (150, 240), "young": (135, 185), "adult": (100, 135), "old": (60, 100)},
+          "F": {"girl": (240, 300), "young": (225, 290), "adult": (190, 260), "old": (140, 200)}}
+
+
+def cast(role, gender, age, note=""):
+    """Give a new character a fixed, unused Turkish voice from the audited pool (persisted in cast.json)."""
+    if role in VOICES:
+        return VOICES[role]
+    pool = json.loads(POOL_FILE.read_text())
+    used = {v["id"] for v in VOICES.values()}
+    lo, hi = AGE_F0[gender][age]
+    cands = [v for v in pool if v["gender"] == gender and v["id"] not in used and v["clarity"] >= 0.9]
+    mid = (lo + hi) / 2
+    cands.sort(key=lambda v: (0 if lo <= v["f0"] <= hi else 1, abs(v["f0"] - mid), v["lp"] * -1))
+    v = cands[0]
+    VOICES[role] = {"id": v["id"], "stability": 0.5, "note": f"{note} — havuzdan otomatik: {v['name']} (f0 {v['f0']} Hz)"}
+    data = json.loads(CAST_FILE.read_text()) if CAST_FILE.exists() else {}
+    data[role] = VOICES[role]; CAST_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=1))
+    return VOICES[role]
+
+
 MODEL = "eleven_v3"
 TEMPO = 1.0   # gentle pace tightening (pitch preserved)
 
@@ -49,10 +74,12 @@ def tts(who, text, take=None):
     x, _ = sf.read(p, dtype="float32")
     if TEMPO != 1.0:
         x = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "pipe:0", "-af", f"atempo={TEMPO}", "-f", "f32le", "-"], input=x.astype(np.float32).tobytes(), capture_output=True).stdout, np.float32).copy()
-    thr = 10 ** (-48 / 20)
+    thr = 10 ** (-56 / 20)
     idx = np.where(np.abs(x) > thr)[0]
     if len(idx):
-        x = x[max(0, idx[0] - int(0.03 * SR)): idx[-1] + int(0.12 * SR)]
+        x = x[max(0, idx[0] - int(0.06 * SR)): idx[-1] + int(0.35 * SR)].copy()
+        fi, fo = int(0.012 * SR), int(0.08 * SR)
+        x[:fi] *= np.linspace(0, 1, fi); x[-fo:] *= np.linspace(1, 0, fo)
     return x
 
 
@@ -60,6 +87,8 @@ if __name__ == "__main__":
     sys.path.insert(0, str(ROOT / "episodes/radyo_yusuf"))
     import importlib
     m = importlib.import_module(sys.argv[1] if len(sys.argv) > 1 else "ep01_script")
+    for role, (g, age, note) in getattr(m, "NEW_ROLES", {}).items():
+        print("cast", role, cast(role, g, age, note)["note"])
     lines = [e for e in m.INTRO + m.SCRIPT + m.OUTRO if e[0] == "L"]
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(3) as ex:

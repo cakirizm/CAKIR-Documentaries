@@ -189,6 +189,14 @@ def stone_click():
     return x
 
 
+def owl():
+    L = int(1.4 * SR); t = np.arange(L) / SR; x = np.zeros(L)
+    for st, du in ((0.0, 0.35), (0.55, 0.6)):
+        a, b = int(st * SR), int((st + du) * SR); tt = np.arange(b - a) / SR
+        x[a:b] += np.sin(2 * np.pi * (390 - 30 * tt / du) * tt) * np.sin(np.linspace(0, np.pi, b - a)) ** 2
+    return ss.sosfilt(sos("low", 1200), x) * 0.6
+
+
 def gust(d=3.0): return wind(d, 1.0, 1400) * np.sin(np.linspace(0, np.pi, int(d * SR))) ** 2
 
 
@@ -225,6 +233,34 @@ def camel_bells(d=6.0):
     return x * env(n, 1.5, 2.0)
 
 
+def camel_groan():
+    L = int(1.3 * SR); t = np.arange(L) / SR
+    f = 90 + 40 * np.sin(np.pi * t / 1.3)
+    x = np.sign(np.sin(2 * np.pi * np.cumsum(f) / SR)) * bp(noise(L), 80, 900) * 0.4 + 0.3 * bp(noise(L), 100, 600)
+    return ss.sosfilt(sos("low", 700), x) * np.sin(np.linspace(0, np.pi, L)) ** 1.5
+
+
+def fit(x, n):
+    return x[:n] if len(x) >= n else np.r_[x, np.zeros(n - len(x))]
+
+
+def caravan_bed(d):
+    n = int(d * SR)
+    return fit(camel_bells(d), n) * 0.6 + fit(ss.sosfilt(sos("low", 900), sporadic([camel_groan() for _ in range(3)], d, (6, 12))), n) + fit(steps(max(1, int(d / 0.9)), 0.9, "dirt"), n) * 0.25
+
+
+def fire_pop():
+    return np.r_[fire(1.5)]
+
+
+def coins():
+    x = np.zeros(int(1.6 * SR))
+    for _ in range(18):
+        a = int(rng.uniform(0, 1.3) * SR); L = int(0.12 * SR); t = np.arange(L) / SR; f = rng.uniform(2500, 6000)
+        x[a:a + L] += np.sin(2 * np.pi * f * t) * np.exp(-t * 40) * rng.uniform(0.3, 1)
+    return x
+
+
 def goat_single():
     c = chunks(src("goats"), 1, (0.8, 1.3))
     return c[0]
@@ -241,7 +277,7 @@ FX = {
     "steps_stone": lambda: steps(5, 0.6, "stone"),
     "run_two": lambda: (steps(14, 0.22, "dirt", fade="out") + np.r_[np.zeros(int(0.11 * SR)), steps(14, 0.23, "dirt", fade="out")][: int((14 * 0.22 + 0.6) * SR)]),
     "door_open": lambda: door("open"), "door_close": lambda: door("close"), "door_far": lambda: door("close"),
-    "knock": knock, "gust": gust, "stone_click": stone_click, "rope": rope, "splash_small": splash, "camel_bells": camel_bells, "goat_single": goat_single,
+    "knock": knock, "gust": gust, "stone_click": stone_click, "rope": rope, "splash_small": splash, "camel_bells": camel_bells, "goat_single": goat_single, "fire_pop": fire_pop, "coins": coins,
 }
 
 
@@ -286,7 +322,9 @@ AMB = {
     "afternoon_house": (lambda d: ss.sosfilt(sos("low", 600), noise(int(d * SR))), -52),
     "few_birds": (lambda d: ss.sosfilt(sos("low", 3500), sporadic(chunks(next((s for s in (src("birds"), src("birds2")) if s is not None), None), 6, (0.8, 2.0)), d, (4, 9))), -44),
     "evening_wind": (lambda d: wind(d, 1.0, 900), -39),
-    "well_drip": (drips, -40), "well_wind": (lambda d: ss.sosfilt(sos("low", 350), wind(d, 1.0, 600)), -44),
+    "well_drip": (drips, -40),
+    "caravan": (lambda d: caravan_bed(d), -40),
+    "caravan_night": (lambda d: ss.sosfilt(sos("low", 2500), sporadic([camel_bells(2.0) for _ in range(2)] + [camel_groan()], d, (8, 16))), -44), "well_wind": (lambda d: ss.sosfilt(sos("low", 350), wind(d, 1.0, 600)), -44),
     "lone_bird": (lambda d: sporadic(chunks(next((s for s in (src("birds2"), src("birds")) if s is not None), None), 3, (0.6, 1.2)), d, (8, 15)), -46),
 }
 
@@ -337,7 +375,8 @@ def main():
             who, txt, o = e[1], e[2], e[3]
             x = R.tts(who, txt)
             x = norm(x, -19 if who == "ANLATICI" else -20)
-            gap = 0.0 if prev_who is None else (0.22 if who == prev_who else 0.32)
+            gap = 0.0 if prev_who is None else (0.32 if who == prev_who else 0.48)
+            if who == "ANLATICI" and prev_who not in (None, "ANLATICI"): gap += 0.3
             if prev_who and prev_who != who and cues and cues[-1][3].rstrip().endswith("?"): gap += 0.1
             t += gap
             st = spatial(x, o.get("pan", 0), o.get("dist", 0), "none" if who == "ANLATICI" else room)
@@ -367,17 +406,34 @@ def main():
             else:
                 fn, lvl = AMB[name]; bed = fn(d)
             if not np.any(bed): continue
-            bed = norm(bed, lvl - 2) * env(len(bed), 1.5, 1.5)
+            bed = norm(bed, lvl + 2) * env(len(bed), 1.5, 1.5) * (0.8 + 0.2 * np.sin(2 * np.pi * np.arange(len(bed)) / SR / rng.uniform(14, 30) + rng.uniform(0, 6)))
             w = rng.uniform(-0.3, 0.3)
             st = np.stack([bed * np.cos((w + 1) * np.pi / 4), bed * np.sin((w + 1) * np.pi / 4)], 1) * np.sqrt(2)
             # gentle stereo width: delay right channel a little
             st[:, 1] = np.r_[np.zeros(int(0.012 * SR)), st[:-int(0.012 * SR), 1]]
             aa = int(max(0, a) * SR); m = min(len(st), n - aa); A[aa:aa + m] += st[:m]
 
+    # DETAIL layer: sparse, varied background events so scenes never sound the same
+    for i, s_ in enumerate(scenes):
+        a = s_["start"] - 0.5; b = scenes[i + 1]["start"] + 0.5 if i + 1 < len(scenes) else end_story + 1.0
+        d = b - a; amb = s_["amb"]; pool = []
+        if any(x in amb for x in ("morning_birds", "few_birds", "lone_bird")): pool += chunks(src("birds2"), 6, (0.5, 1.5))
+        if any(x in amb for x in ("sheep_goats", "sheep_far", "open_field")): pool += [ss.sosfilt(sos("low", 2200), c) for c in chunks(src("goats"), 4) + chunks(src("sheep1"), 3)]
+        if any(x in amb for x in ("night_wind", "crickets", "night_wind_far", "evening_wind")): pool += [gust(rng.uniform(2, 4)) * 0.6 for _ in range(3)] + [owl() for _ in range(2)]
+        if "fire_crackle" in amb or "afternoon_house" in amb: pool += [fabric(rng.uniform(0.4, 0.8)) * 0.5 for _ in range(3)] + [ss.sosfilt(sos("low", 1800), c) for c in chunks(src("birds2"), 2, (0.5, 1.0))]
+        if "well_drip" in amb: pool += [drips(1.5) for _ in range(3)] + [ss.sosfilt(sos("low", 400), gust(3.0)) for _ in range(2)]
+        if not pool: continue
+        ev_ = sporadic([norm_active(c, -38) if np.any(c) else c for c in pool], d, (4, 9), 6)
+        for k_ in range(0, len(ev_), int(3 * SR)):
+            pass
+        pan = rng.uniform(-0.6, 0.6)
+        st = np.stack([ev_ * np.cos((pan + 1) * np.pi / 4), ev_ * np.sin((pan + 1) * np.pi / 4)], 1) * np.sqrt(2)
+        aa = int(max(0, a) * SR); m = min(len(st), n - aa); A[aa:aa + m] += st[:m]
+
     V, F, Mu = V[:n], F[:n], Mu[:n]
     # duck ambience + music under dialogue
     e = np.abs(V).mean(1); w = int(0.2 * SR); cs = np.cumsum(np.r_[0, e]); ev = (cs[w:] - cs[:-w]) / w; ev = np.r_[ev, np.zeros(n - len(ev))]
-    g = np.where(ev > 0.003, db(-7), 1.0); k2 = int(0.3 * SR); cs = np.cumsum(np.r_[0, g]); gs = (cs[k2:] - cs[:-k2]) / k2; g = np.r_[gs, np.full(n - len(gs), gs[-1])]
+    g = np.where(ev > 0.003, db(-6), 1.0); k2 = int(0.3 * SR); cs = np.cumsum(np.r_[0, g]); gs = (cs[k2:] - cs[:-k2]) / k2; g = np.r_[gs, np.full(n - len(gs), gs[-1])]
     gm = np.where(ev > 0.003, db(-9), 1.0); cs = np.cumsum(np.r_[0, gm]); gs = (cs[k2:] - cs[:-k2]) / k2; gm = np.r_[gs, np.full(n - len(gs), gs[-1])]
     A *= g[:, None]; Mu *= gm[:, None] * db(-3)
     mix = V + F + A + Mu
@@ -401,7 +457,9 @@ def main():
     sf.write(out / "mix.wav", mix.astype(np.float32), SR, subtype="PCM_16")
     meta = {"durationSec": round(total, 2), "outroStart": round(to, 2), "scenes": [{"id": s["id"], "start": round(s["start"], 2), "title": s["title"]} for s in scenes]}
     (out / "timeline.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
-    names = {"ANLATICI": "Anlatıcı", "YUSUF": "Yusuf", "YAKUP": "Yakup", "BUNYAMIN": "Bünyamin", "KARDES_A": "Kardeş A", "KARDES_B": "Kardeş B", "KARDES_C": "Kardeş C", "KARDES_D": "Kardeş D"}
+    names = {"ANLATICI": "Anlatıcı", "YUSUF": "Yusuf", "YAKUP": "Yakup", "BUNYAMIN": "Bünyamin", "KARDES_A": "Lavi", "KARDES_B": "Rubil", "KARDES_C": "Şem'un", "KARDES_D": "Yahuda",
+             "MALIK": "Mâlik", "SUCU": "Sucu", "BUSRA": "Büşrâ"}
+    names = {k: names.get(k, k.replace("_", " ").title()) for k in R.VOICES} | names
     def ts(x):
         ms = int(x * 1000); h, ms = divmod(ms, 3600000); m, ms = divmod(ms, 60000); s, ms = divmod(ms, 1000); return f"{h:02}:{m:02}:{s:02},{ms:03}"
     clean = lambda x: re.sub(r"\s+", " ", re.sub(r"\[[^\]]*\]", "", x)).strip()

@@ -6,7 +6,7 @@ set -e
 cd "$(dirname "$0")/.."
 A=$1; ENDCARD=${2:-15}; OUT=$3
 P=public/episodes/radyo_yusuf
-W=.cache/radyo_video; rm -rf $W; mkdir -p $W
+W=.cache/radyo_video_$$; rm -rf $W; mkdir -p $W
 FPS=25; SEG=28; XF=4
 DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$A")
 GRADE="gblur=sigma=3,eq=saturation=0.62:contrast=0.92:brightness=-0.02,colorbalance=rs=0.10:bs=0.14:rm=0.06:bm=0.05:rh=0.06:gh=-0.02:bh=0.02"

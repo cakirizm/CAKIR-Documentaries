@@ -1,0 +1,17 @@
+{
+ "MALIK": {
+  "id": "lSX8MEhRyl5ZEeI3jfgm",
+  "stability": 0.5,
+  "note": "Kervan başı Mâlik bin Du'r (rivayet) — orta yaşlı, kurnaz, ölçülü tüccar — havuzdan otomatik: Firat Meric (f0 115 Hz)"
+ },
+ "SUCU": {
+  "id": "GLHtjkeLJ9Rxcv9JhLmh",
+  "stability": 0.5,
+  "note": "Kervanın sucusu — canlı, iyi kalpli — havuzdan otomatik: Muhammer Arabaci (f0 160 Hz)"
+ },
+ "BUSRA": {
+  "id": "tXRnby5LTnvbvDWMCJWO",
+  "stability": 0.5,
+  "note": "Sucunun arkadaşı Büşrâ (rivayet) — genç kervancı — havuzdan otomatik: Aytug Akincilar (f0 156 Hz)"
+ }
+}
